@@ -1,21 +1,31 @@
 import { ColorKey, SectionType } from './types'
 
 export const COLORS: Record<ColorKey, { bg: string; text: string; muted: string }> = {
-  yellow: { bg: '#FFE600', text: '#0D0D0D', muted: '#D4C000' },
-  pink:   { bg: '#FF2D78', text: '#FFFFFF', muted: '#CC1F5E' },
-  lime:   { bg: '#C8FF00', text: '#0D0D0D', muted: '#A3CC00' },
-  violet: { bg: '#6B2FFF', text: '#FFFFFF', muted: '#5520CC' },
-  orange: { bg: '#FF6B2B', text: '#0D0D0D', muted: '#CC5520' },
-  cyan:   { bg: '#00E5F5', text: '#0D0D0D', muted: '#00B8C8' },
+  yellow:  { bg: '#FFE600', text: '#0D0D0D', muted: '#D4C000' },
+  pink:    { bg: '#FF2D78', text: '#FFFFFF', muted: '#CC1F5E' },
+  lime:    { bg: '#C8FF00', text: '#0D0D0D', muted: '#A3CC00' },
+  violet:  { bg: '#6B2FFF', text: '#FFFFFF', muted: '#5520CC' },
+  orange:  { bg: '#FF6B2B', text: '#0D0D0D', muted: '#CC5520' },
+  cyan:    { bg: '#00E5F5', text: '#0D0D0D', muted: '#00B8C8' },
+  red:     { bg: '#FF3333', text: '#FFFFFF', muted: '#CC2020' },
+  teal:    { bg: '#00C896', text: '#0D0D0D', muted: '#00A07A' },
+  magenta: { bg: '#FF00CC', text: '#FFFFFF', muted: '#CC00A3' },
 }
 
 export const SECTION_COLORS: Record<SectionType, ColorKey> = {
-  podcast: 'yellow',
-  video:   'pink',
-  article: 'lime',
-  concept: 'violet',
-  thought: 'orange',
+  podcast:  'yellow',
+  video:    'pink',
+  article:  'lime',
+  concept:  'violet',
+  thought:  'orange',
+  trending: 'cyan',
+  tool:     'red',
+  stat:     'teal',
+  tip:      'magenta',
 }
+
+// Used exclusively for day numbers in cards
+export const DATE_COLOR = '#0D0D0D'
 
 const COLOR_CYCLE: ColorKey[] = ['lime', 'pink', 'yellow', 'cyan', 'violet', 'orange']
 

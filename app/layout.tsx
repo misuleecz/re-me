@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
-import { Syne, DM_Sans } from 'next/font/google'
+import { Unbounded, DM_Sans } from 'next/font/google'
 import './globals.css'
 
-const syne = Syne({
+const unbounded = Unbounded({
   subsets: ['latin'],
   variable: '--font-syne',
-  weight: ['400', '500', '600', '700', '800'],
+  weight: ['400', '500', '600', '700', '800', '900'],
 })
 
 const dmSans = DM_Sans({
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={`${syne.variable} ${dmSans.variable}`}>{children}</body>
+      <body className={`${unbounded.variable} ${dmSans.variable}`}>{children}</body>
     </html>
   )
 }

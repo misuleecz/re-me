@@ -1,9 +1,9 @@
-import Link from 'next/link'
 import { getAllBriefings } from '@/lib/content'
-import { COLORS, getDayColor } from '@/lib/colors'
+import { COLORS, SECTION_COLORS } from '@/lib/colors'
 import { DayBriefing } from '@/lib/types'
 import Header from '@/components/Header'
 import DayCard from '@/components/DayCard'
+import Link from 'next/link'
 
 function getTodayStr() {
   const now = new Date()
@@ -13,180 +13,192 @@ function getTodayStr() {
   return `${y}-${m}-${d}`
 }
 
-function getMonthDays(year: number, month: number) {
-  const daysInMonth = new Date(year, month + 1, 0).getDate()
-  return Array.from({ length: daysInMonth }, (_, i) => i + 1)
+function getMonthLabel(dateStr: string) {
+  const [y, m] = dateStr.split('-').map(Number)
+  return new Date(y, m - 1, 1).toLocaleDateString('en-GB', {
+    month: 'long',
+    year: 'numeric',
+  }).toUpperCase()
 }
 
-function toDateStr(y: number, m: number, d: number) {
-  return `${y}-${String(m + 1).padStart(2, '0')}-${String(d).padStart(2, '0')}`
+function groupByMonth(briefings: DayBriefing[]): { label: string; entries: DayBriefing[] }[] {
+  const map: Record<string, DayBriefing[]> = {}
+  for (const b of briefings) {
+    const key = b.date.slice(0, 7)
+    if (!map[key]) map[key] = []
+    map[key].push(b)
+  }
+  return Object.entries(map)
+    .sort(([a], [b]) => b.localeCompare(a))
+    .map(([, entries]) => ({
+      label: getMonthLabel(entries[0].date),
+      entries: entries.sort((a, b) => b.date.localeCompare(a.date)),
+    }))
+}
+
+const GREETINGS = [
+  { text: "Good morning, sunshine", emoji: "☀️" },
+  { text: "Hey you, the future called", emoji: "📞" },
+  { text: "Rise and shine, future-builder", emoji: "🚀" },
+  { text: "Morning! The AI world didn't sleep", emoji: "⚡" },
+  { text: "Hello, beautiful brain", emoji: "🌸" },
+  { text: "Good morning! Today's a good day to learn", emoji: "🔮" },
+  { text: "Hey! New day, new knowledge", emoji: "🧠" },
+  { text: "Morning vibes, let's go", emoji: "🌊" },
+  { text: "Good morning, world-changer", emoji: "🌍" },
+  { text: "Hello! Something good is waiting for you", emoji: "✨" },
+  { text: "Hey! You're going to love today's digest", emoji: "💌" },
+  { text: "Good morning, let's get smarter", emoji: "🎯" },
+  { text: "Hey superstar, fresh ideas incoming", emoji: "🌟" },
+  { text: "Morning! Grab a coffee and let's go", emoji: "☕" },
+]
+
+function getGreeting(dateStr: string) {
+  const day = parseInt(dateStr.replace(/-/g, ''), 10)
+  return GREETINGS[day % GREETINGS.length]
 }
 
 export default function HomePage() {
   const briefings = getAllBriefings()
-  const byDate: Record<string, DayBriefing> = {}
-  for (const b of briefings) byDate[b.date] = b
-
   const todayStr = getTodayStr()
-  const todayBriefing = byDate[todayStr]
-  const latestBriefing = briefings[0]
-  const featured = todayBriefing || latestBriefing
-
-  const now = new Date()
-  const year = now.getFullYear()
-  const month = now.getMonth()
-  const days = getMonthDays(year, month)
-
-  const monthName = now.toLocaleDateString('en-GB', { month: 'long', year: 'numeric' }).toUpperCase()
+  const todayBriefing = briefings.find((b) => b.date === todayStr)
+  const featured = todayBriefing || briefings[0]
+  const months = groupByMonth(briefings)
+  const greeting = featured ? getGreeting(featured.date) : GREETINGS[0]
 
   return (
     <>
-      <Header />
+      <Header bgColor="#0D1117" textColor="#FFFFFF" />
 
       <main className="min-h-screen">
 
-        {/* ── HERO — Today's featured entry ── */}
+        {/* ── HERO ── */}
         {featured && (() => {
           const color = COLORS[featured.color]
-          const isToday = featured.date === todayStr
           return (
-            <Link href={`/${featured.date}`} className="block group">
-              <div
-                className="px-5 md:px-10 py-12 md:py-20 border-b-2 border-ink
-                  hover:brightness-95 transition-all duration-200 cursor-pointer relative overflow-hidden"
-                style={{ backgroundColor: color.bg, color: color.text }}
+            <div
+              className="px-5 md:px-10 pt-10 pb-14 md:pb-20 relative"
+              style={{ backgroundColor: '#0D1117', color: '#FFFFFF' }}
+            >
+              {/* Decorative big number */}
+              <span
+                className="absolute right-4 bottom-0 font-display font-black select-none pointer-events-none hidden md:block"
+                style={{ fontSize: 'clamp(120px, 20vw, 280px)', opacity: 0.07, color: '#FFFFFF', lineHeight: 0.85 }}
               >
-                {/* Decorative big number */}
-                <span
-                  className="absolute right-6 bottom-0 font-display font-black leading-none select-none pointer-events-none hidden md:block"
-                  style={{
-                    fontSize: 'clamp(120px, 20vw, 280px)',
-                    opacity: 0.07,
-                    color: color.text,
-                    lineHeight: 0.85,
-                  }}
-                >
-                  {new Date(featured.date + 'T00:00:00').getDate()}
-                </span>
+                {new Date(featured.date + 'T00:00:00').getDate()}
+              </span>
 
-                {/* Top meta */}
-                <div className="flex items-center gap-4 mb-8">
-                  <span
-                    className="font-display font-bold text-xs uppercase tracking-[0.25em] border px-3 py-1"
-                    style={{ borderColor: color.text, color: color.text, opacity: 0.6 }}
-                  >
-                    {isToday ? '✦ Today' : 'Latest'}
-                  </span>
-                  <span
-                    className="font-body text-xs tracking-widest opacity-40"
-                    style={{ color: color.text }}
-                  >
-                    {new Date(featured.date + 'T00:00:00').toLocaleDateString('en-GB', {
-                      weekday: 'long', day: 'numeric', month: 'long', year: 'numeric',
-                    }).toUpperCase()}
-                  </span>
-                </div>
+              {/* Centered inner container */}
+              <div className="mx-auto" style={{ maxWidth: '1075px' }}>
 
-                {/* Emoji */}
-                <div className="text-4xl mb-4">{featured.emoji}</div>
+              {/* Greeting stripe */}
+              <div className="inline-flex items-center gap-2 px-4 py-2 mb-10 bg-white/10">
+                <p className="font-body font-bold opacity-90" style={{ color: '#FFFFFF', fontSize: '1.2rem' }}>
+                  {greeting.text} {greeting.emoji}
+                </p>
+              </div>
 
-                {/* Headline */}
+              {/* Headline — centered */}
+              <Link href={`/${featured.date}`} className="group block mb-5">
                 <h1
-                  className="font-display font-black leading-[0.9] tracking-tight relative z-10"
+                  className="font-display font-black leading-[0.95] tracking-tight hover:opacity-80 transition-opacity inline-block"
                   style={{
-                    fontSize: 'clamp(42px, 8vw, 120px)',
-                    color: color.text,
-                    maxWidth: '80%',
+                    fontSize: 'clamp(38px, 7vw, 110px)',
+                    paddingTop: '0.1em',
+                    paddingBottom: '0.15em',
+                    background: 'linear-gradient(135deg, #FFE680 0%, #FF99BE 35%, #B099FF 65%, #80F5FF 100%)',
+                    WebkitBackgroundClip: 'text',
+                    WebkitTextFillColor: 'transparent',
+                    backgroundClip: 'text',
                   }}
                 >
                   {featured.headline}
                 </h1>
+              </Link>
 
-                {/* Subheadline */}
-                <p
-                  className="font-body text-base md:text-xl mt-5 opacity-70 max-w-2xl leading-relaxed relative z-10"
-                  style={{ color: color.text }}
-                >
-                  {featured.subheadline}
-                </p>
+              {/* Subheadline — left */}
+              <p
+                className="font-body text-base md:text-xl leading-relaxed mb-12 opacity-70"
+                style={{ color: '#FFFFFF' }}
+              >
+                {featured.subheadline}
+              </p>
 
-                {/* Bottom bar */}
-                <div className="flex items-center justify-between mt-10 relative z-10">
-                  <div className="flex items-center gap-3">
-                    {featured.sections.map((s) => (
+              {/* 4-column takeaways */}
+              <div className="grid grid-cols-2 md:grid-cols-5 gap-x-6 gap-y-6 relative z-10 mb-10">
+                {featured.sections.slice(0, 5).map((s) => {
+                  const bubbleColor = COLORS[SECTION_COLORS[s.type]]
+                  const item = (
+                    <div className="group/item flex flex-col gap-2 cursor-pointer">
                       <span
-                        key={s.type}
-                        className="text-xl opacity-80"
-                        title={s.label}
+                        className="text-[10px] font-display font-bold uppercase tracking-widest px-2.5 py-1 rounded-full self-start"
+                        style={{ backgroundColor: bubbleColor.bg, color: bubbleColor.text }}
                       >
-                        {s.emoji}
+                        {s.emoji} {s.label}
                       </span>
-                    ))}
-                    <span
-                      className="font-body text-xs opacity-40 ml-2"
-                      style={{ color: color.text }}
-                    >
-                      {featured.sections.length} sections
-                    </span>
-                  </div>
-                  <span
-                    className="font-display font-bold text-sm uppercase tracking-widest border-2 px-5 py-2.5
-                      group-hover:opacity-70 transition-opacity"
-                    style={{ borderColor: color.text, color: color.text }}
-                  >
-                    Read →
-                  </span>
-                </div>
+                      <p
+                        className="font-body text-sm leading-relaxed opacity-70 group-hover/item:opacity-100 transition-opacity"
+                        style={{ color: '#FFFFFF' }}
+                      >
+                        {s.description.split('.')[0]}.
+                      </p>
+                    </div>
+                  )
+                  return s.link
+                    ? <a key={s.type} href={s.link} target="_blank" rel="noopener noreferrer">{item}</a>
+                    : <div key={s.type}>{item}</div>
+                })}
               </div>
-            </Link>
+
+              {/* CTA */}
+              <Link
+                href={`/${featured.date}`}
+                className="inline-flex items-center gap-2 font-display font-bold text-sm uppercase tracking-widest border-2 border-white/40 px-6 py-3 text-white hover:border-white hover:bg-white/10 transition-all"
+              >
+                See what today brings →
+              </Link>
+
+              </div>
+            </div>
           )
         })()}
 
-        {/* ── No content yet ── */}
+        {/* Gradient divider */}
+        <div className="h-1.5" style={{ background: 'linear-gradient(to right, #FFE600, #FF2D78, #C8FF00, #6B2FFF, #FF6B2B, #00E5F5)' }} />
+
+        {/* ── ARCHIVE by month ── */}
+        {months.map(({ label, entries }) => (
+          <section key={label} className="px-5 md:px-10 py-10 border-b border-ink/10">
+            <div className="flex items-center gap-4 mb-6">
+              <h2 className="font-display font-black text-xs uppercase tracking-[0.3em] text-ink">
+                {label}
+              </h2>
+              <div className="flex-1 h-px bg-ink/15" />
+              <span className="font-body text-xs text-ink/30">
+                {entries.length} {entries.length === 1 ? 'entry' : 'entries'}
+              </span>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-4">
+              {entries.map((b) => (
+                <DayCard
+                  key={b.date}
+                  dateStr={b.date}
+                  briefing={b}
+                  isToday={b.date === todayStr}
+                />
+              ))}
+            </div>
+          </section>
+        ))}
+
         {!featured && (
-          <div className="px-5 md:px-10 py-20 border-b-2 border-ink text-center">
-            <p className="font-display font-black text-4xl md:text-6xl opacity-10">
-              First entry coming soon ✦
-            </p>
+          <div className="px-5 md:px-10 py-20 text-center">
+            <p className="font-display font-black text-4xl opacity-10">First entry coming soon ✦</p>
           </div>
         )}
 
-        {/* ── Calendar / Archive ── */}
-        <div className="px-5 md:px-10 py-10">
-
-          {/* Section header */}
-          <div className="flex items-center gap-4 mb-8">
-            <h2 className="font-display font-black text-xs uppercase tracking-[0.3em] text-ink">
-              {monthName}
-            </h2>
-            <div className="flex-1 h-px bg-ink/15" />
-            <span className="font-body text-xs text-ink/40">
-              {briefings.length} {briefings.length === 1 ? 'entry' : 'entries'}
-            </span>
-          </div>
-
-          {/* Calendar grid */}
-          <div className="grid grid-cols-4 md:grid-cols-7 gap-2 md:gap-3">
-            {days.map((day) => {
-              const dateStr = toDateStr(year, month, day)
-              const isToday = dateStr === todayStr
-              const isFuture = dateStr > todayStr
-              return (
-                <DayCard
-                  key={day}
-                  day={day}
-                  dateStr={dateStr}
-                  briefing={byDate[dateStr]}
-                  isToday={isToday}
-                  isFuture={isFuture}
-                />
-              )
-            })}
-          </div>
-        </div>
-
-        {/* ── Footer ── */}
-        <footer className="px-5 md:px-10 py-8 border-t-2 border-ink/10 flex items-center justify-between">
+        <footer className="px-5 md:px-10 py-8 flex items-center justify-between">
           <span className="font-display font-black text-lg opacity-20">Re:Me</span>
           <span className="font-body text-xs text-ink/30 tracking-wide">
             A personal AI + design digest ✦ Updated daily

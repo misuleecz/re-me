@@ -1,6 +1,6 @@
-export type ColorKey = 'yellow' | 'pink' | 'lime' | 'violet' | 'orange' | 'cyan'
+export type ColorKey = 'yellow' | 'pink' | 'lime' | 'violet' | 'orange' | 'cyan' | 'red' | 'teal' | 'magenta'
 
-export type SectionType = 'podcast' | 'video' | 'article' | 'concept' | 'thought'
+export type SectionType = 'podcast' | 'video' | 'article' | 'concept' | 'thought' | 'trending' | 'tool' | 'stat' | 'tip'
 
 export interface Section {
   type: SectionType
