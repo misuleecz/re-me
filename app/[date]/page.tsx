@@ -96,10 +96,13 @@ export default async function DayPage({ params }: PageProps) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {briefing.sections.map((s, i) => {
             const bubbleColor = COLORS[SECTION_COLORS[s.type]]
+            const CardWrapper = ({ children }: { children: React.ReactNode }) => s.link
+              ? <a href={s.link} target="_blank" rel="noopener noreferrer" className="block group">{children}</a>
+              : <div className="block">{children}</div>
             return (
+              <CardWrapper key={s.type}>
               <div
-                key={s.type}
-                className="border-2 border-ink p-7 md:p-10"
+                className="border-2 border-ink p-7 md:p-10 h-full transition-transform duration-200 group-hover:-translate-y-1 group-hover:shadow-[4px_4px_0px_#0D0D0D]"
                 style={{ backgroundColor: bubbleColor.bg, color: bubbleColor.text }}
               >
                 {/* Header */}
@@ -145,34 +148,28 @@ export default async function DayPage({ params }: PageProps) {
                   {s.description}
                 </p>
 
-                {/* Tags + link */}
-                <div className="flex items-center justify-between mt-8 flex-wrap gap-4">
-                  {s.tags && s.tags.length > 0 && (
-                    <div className="flex flex-wrap gap-2">
-                      {s.tags.map((tag) => (
-                        <span
-                          key={tag}
-                          className="font-body text-[10px] px-2 py-1 border"
-                          style={{ borderColor: bubbleColor.text, color: bubbleColor.text, opacity: 0.5 }}
-                        >
-                          #{tag}
-                        </span>
-                      ))}
-                    </div>
-                  )}
-                  {s.link && (
-                    <a
-                      href={s.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="font-display font-bold text-sm uppercase tracking-widest border-2 px-5 py-2.5 hover:opacity-70 transition-opacity ml-auto"
-                      style={{ borderColor: bubbleColor.text, color: bubbleColor.text }}
-                    >
-                      Open →
-                    </a>
-                  )}
-                </div>
+                {/* Tags */}
+                {s.tags && s.tags.length > 0 && (
+                  <div className="flex flex-wrap gap-2 mt-8">
+                    {s.tags.map((tag) => (
+                      <span
+                        key={tag}
+                        className="font-body text-[10px] px-2 py-1 border"
+                        style={{ borderColor: bubbleColor.text, color: bubbleColor.text, opacity: 0.5 }}
+                      >
+                        #{tag}
+                      </span>
+                    ))}
+                  </div>
+                )}
+
+                {s.link && (
+                  <p className="font-display font-bold text-xs uppercase tracking-widest mt-6 opacity-40 group-hover:opacity-100 transition-opacity" style={{ color: bubbleColor.text }}>
+                    Open →
+                  </p>
+                )}
               </div>
+              </CardWrapper>
             )
           })}
 
