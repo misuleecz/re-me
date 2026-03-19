@@ -1,64 +1,137 @@
 {
   "date": "2026-03-19",
-  "headline": "AI is redesigning the designer",
-  "subheadline": "How artificial intelligence is shifting what it means to be a product designer — and why that's actually exciting news for you.",
-  "emoji": "🌱",
-  "color": "lime",
+  "headline": "Your Figma MCP Stack Levels Up",
+  "subheadline": "Big moves in the Figma-to-Claude pipeline you're actively building, plus a reality check on design leadership in the AI era that's worth sitting with.",
+  "emoji": "⚡",
+  "color": "violet",
   "sections": [
     {
-      "type": "podcast",
-      "emoji": "🎧",
-      "label": "Listen",
-      "title": "The AI Designer Paradox",
-      "source": "Design Better Podcast",
-      "description": "Sam and Eli dig into how the role of the designer is evolving as AI takes over execution tasks. The episode makes a strong case: designers who survive the shift won't be the best pixel-pushers, but the best systems thinkers. Ideal for your stroller walk — no screen needed.",
-      "link": "https://www.designbetter.co/podcast",
-      "duration": "~24 min",
-      "tags": ["career", "ai tools", "design systems"]
-    },
-    {
-      "type": "video",
-      "emoji": "📺",
-      "label": "Watch",
-      "title": "Vibe Coding: Building a Real App with Zero Code",
-      "source": "YouTube",
-      "description": "Someone builds a fully functional product using only AI prompts — no manual coding. Takes ~18 minutes. As a designer, this matters because your clients and future colleagues are building this way RIGHT NOW. Understanding it is not optional.",
-      "link": "https://youtube.com",
-      "duration": "~18 min",
-      "tags": ["vibe coding", "ai tools", "prototyping"]
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Guide to the Figma MCP Server",
+      "source": "Figma Help Center",
+      "description": "This is Figma's official MCP server documentation — the canonical reference for exactly what you're building at work. It covers the tools within the MCP server, how they bring Figma context into coding workflows, and how to ensure generated code matches both your design system and your designs. Essential bookmark for your white-label sport apps integration.",
+      "link": "https://help.figma.com/hc/en-us/articles/32132100833559-Guide-to-the-Figma-MCP-server",
+      "duration": "~8 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "design-systems",
+        "reference"
+      ]
     },
     {
       "type": "article",
       "emoji": "📖",
       "label": "Read",
-      "title": "What Figma AI Can Actually Do in 2026",
-      "source": "UX Collective",
-      "description": "A no-BS breakdown of Figma's current AI features: what's genuinely useful, what's still hype, and 3 things you can start using today. Written by a working designer, not a tech blogger. Short and practical.",
-      "link": "https://uxdesign.cc",
-      "duration": "~5 min",
-      "tags": ["figma", "ai tools", "workflow"]
+      "title": "How to Connect Claude Code with Figma MCP Fast in 2026",
+      "source": "Medium / Design Bootcamp",
+      "description": "Written specifically for designers, not developers — which is refreshing. Walks through the Claude Code ↔ Figma MCP setup step by step. Given you're deep in this exact integration, it's worth scanning for any shortcuts or gotchas you might not have hit yet.",
+      "link": "https://medium.com/design-bootcamp/how-to-connect-claude-code-with-figma-mcp-d7f543b49f76",
+      "duration": "~6 min read",
+      "tags": [
+        "claude",
+        "figma-MCP",
+        "tutorial",
+        "vibe-coding"
+      ]
     },
     {
-      "type": "concept",
-      "emoji": "🧠",
-      "label": "Concept of the day",
-      "title": "What is Vibe Coding?",
-      "source": null,
-      "description": "Vibe coding = describing what you want to an AI in plain language, and the AI writes the code. You iterate by chatting, not coding. Coined by Andrej Karpathy in early 2025. Why it matters for you: you can now build fully functional prototypes — not just mockups. That's a completely different value proposition as a freelance designer.",
-      "link": null,
-      "duration": null,
-      "tags": ["vibe coding", "no-code", "AI"]
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma March 2026: Code to Figma + AI Design Development MCP",
+      "source": "Releasebot / Figma Release Notes",
+      "description": "Figma just dropped a two-way UI-to-code MCP workflow that works with Cursor, Warp, and others. Plus new AI admin tools for credit management. The two-way sync is huge — this could fundamentally change your handoff story for the white-label system. The Cursor integration alone is directly relevant to your daily stack.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": "~3 min read",
+      "tags": [
+        "figma",
+        "release",
+        "cursor",
+        "MCP"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Automating Design Systems with AI: 2026 Workflow Guide",
+      "source": "Parallel HQ",
+      "description": "Directly addresses your world: using MCP to let Figma send structured design system data to AI tools, automating the repetitive parts so humans focus on decisions. This is the strategic playbook for what you're building — less 'how to set it up' and more 'how to think about the automation layer on top of your token/component architecture.'",
+      "link": "https://www.parallelhq.com/blog/automating-design-systems-with-ai",
+      "duration": "~10 min read",
+      "tags": [
+        "design-systems",
+        "automation",
+        "MCP",
+        "strategy"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "How I Use (and Don't Use) AI to Design Better in 2026",
+      "source": "YouTube / TD Sunshine",
+      "description": "A designer walking through which Figma AI features actually help at each stage of the Double Diamond process — and which ones they skip. Honest and practical. Good for calibrating your own AI-in-design workflow and spotting features you might be underusing or over-hyping.",
+      "link": "https://www.youtube.com/watch?v=2u6bH17NIQk",
+      "duration": "~15 min",
+      "tags": [
+        "figma-AI",
+        "workflow",
+        "practical",
+        "design-process"
+      ]
+    },
+    {
+      "type": "podcast",
+      "emoji": "🎧",
+      "label": "Listen",
+      "title": "My Guide to Using Lovable + Cursor (The Best Workflow)",
+      "source": "YouTube (audio-friendly)",
+      "description": "A walkthrough of syncing code changes both ways between Lovable and Cursor using GitHub as the bridge. You're already using both tools — this could tighten your loop significantly. It's a screen-share video but the narration carries well enough for a stroller walk to get the mental model, then revisit the specifics later.",
+      "link": "https://www.youtube.com/-v4dw8-MmvU",
+      "duration": "~20 min",
+      "tags": [
+        "lovable",
+        "cursor",
+        "vibe-coding",
+        "workflow"
+      ]
     },
     {
       "type": "thought",
       "emoji": "💭",
       "label": "Think about this",
-      "title": "What would you build if code wasn't the blocker?",
+      "title": "Design Leaders Are Framing AI as Pressure, Not Opportunity",
+      "source": "3Search Group",
+      "description": "A piece on how product design leaders in 2026 are increasingly experiencing AI as a source of uncertainty and pressure inside their teams — not the exciting capability the industry keeps selling. As someone who's been a Group Head of Design and is now evolving toward product leadership, this is worth sitting with: when you return, your team will likely need you to hold both the optimism and the anxiety. What's your stance?",
+      "link": "https://www.3searchgroup.com/resources/blog/product-design-leadership-in-2026/",
+      "duration": "~7 min read",
+      "tags": [
+        "leadership",
+        "AI-anxiety",
+        "career",
+        "team-culture"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Two-Way MCP: Design ↔ Code as a Living Loop",
       "source": null,
-      "description": "With AI coding tools, that question is now real. Think of one product idea you've had — for yourself, a client, or just for fun — that never happened because it needed a developer. Could you prototype it in a weekend using AI tools? What would that change about your work?",
-      "link": null,
+      "description": "The old world was one-directional: design → handoff → code. Figma's new AI Design Development MCP enables genuine two-way sync — code changes can flow back into editable Figma layers, and design changes push to code. This isn't just a feature; it's a paradigm shift for design systems. Your white-label architecture could become a living system where the source of truth is the *relationship* between Figma and code, not either one alone.",
+      "link": "https://www.builder.io/blog/claude-code-to-figma",
       "duration": null,
-      "tags": ["career", "product thinking", "motivation"]
+      "tags": [
+        "MCP",
+        "design-systems",
+        "paradigm-shift",
+        "architecture"
+      ]
     }
   ]
 }

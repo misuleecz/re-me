@@ -1,22 +1,80 @@
 import Anthropic from '@anthropic-ai/sdk'
+import { tavily } from '@tavily/core'
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
-const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
+const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY })
+const tavilyClient = tavily({ apiKey: process.env.TAVILY_API_KEY })
 
-// Today's date in YYYY-MM-DD
 const today = new Date().toISOString().split('T')[0]
 const outputPath = path.join(__dirname, '..', 'content', 'briefings', `${today}.json`)
 
-// Don't overwrite existing briefing
 if (fs.existsSync(outputPath)) {
   console.log(`Briefing for ${today} already exists. Skipping.`)
   process.exit(0)
 }
 
-const SYSTEM_PROMPT = `You are a personal AI curator for Michaela, a senior product designer on maternity leave.
+// ── Step 1: Ask Claude what to search for today ──────────────────────────────
+
+console.log('Step 1: Deciding what to search for...')
+
+const topicsResponse = await anthropic.messages.create({
+  model: 'claude-sonnet-4-6',
+  max_tokens: 1000,
+  system: `You are curating a daily digest for Michaela — a senior product designer, ex-Group Head of Design, on maternity leave. She's building Figma MCP + Claude integrations, vibe-coding with Cursor/Lovable, very early on AI agents. She has limited time — only suggest things genuinely worth reading/listening/watching.
+
+Respond ONLY with a JSON array of search queries (5-8 queries). Each query should find specific, recent, high-quality content. Focus on: AI × design, Figma AI / MCP, vibe coding, design systems + AI, AI agents for designers, product leadership.
+
+Example format: ["figma ai new features 2025", "vibe coding design workflow tutorial", ...]`,
+  messages: [{
+    role: 'user',
+    content: `Today is ${today}. What are the best search queries to find fresh, relevant content for Michaela today? Return only the JSON array.`
+  }]
+})
+
+const queriesRaw = topicsResponse.content[0].text.trim().replace(/^```json\n?/, '').replace(/\n?```$/, '').trim()
+const queries = JSON.parse(queriesRaw)
+console.log(`  Queries: ${queries.join(', ')}`)
+
+// ── Step 2: Search for real content ──────────────────────────────────────────
+
+console.log('Step 2: Searching for real content...')
+
+const searchResults = await Promise.all(
+  queries.map(async (query) => {
+    try {
+      const result = await tavilyClient.search(query, {
+        searchDepth: 'basic',
+        maxResults: 3,
+        includeAnswer: false,
+      })
+      return { query, results: result.results }
+    } catch (e) {
+      console.warn(`  Search failed for "${query}": ${e.message}`)
+      return { query, results: [] }
+    }
+  })
+)
+
+// Format results for Claude
+const searchContext = searchResults
+  .flatMap(({ query, results }) =>
+    results.map(r => `QUERY: ${query}\nTITLE: ${r.title}\nURL: ${r.url}\nSNIPPET: ${r.content?.slice(0, 300) || ''}`)
+  )
+  .join('\n\n---\n\n')
+
+console.log(`  Found ${searchResults.reduce((n, r) => n + r.results.length, 0)} results`)
+
+// ── Step 3: Generate the briefing using real search results ──────────────────
+
+console.log('Step 3: Generating briefing...')
+
+const briefingResponse = await anthropic.messages.create({
+  model: 'claude-opus-4-6',
+  max_tokens: 4000,
+  system: `You are a personal AI curator for Michaela, a senior product designer on maternity leave.
 
 WHO SHE IS:
 - 15+ years in design, 6+ years in Figma at expert/lead level
@@ -25,104 +83,72 @@ WHO SHE IS:
 - Designed across: sport & event apps, CRM, B2B tools, price comparison, consumer apps
 - Actively vibe-coding with Cursor, Lovable, Claude — has shipped real things
 - Building a Figma MCP + Claude integration for her company's white-label sport apps design system
-- Zero experience with n8n, Make, or other automation tools
+- Zero experience with n8n, Make, or automation tools — treat as curious beginner
 - Very early on AI agents but very curious
-- Interested in evolving from designer toward product builder / product leadership
-- Czech/Slovak speaker, English fine too
-
-WHAT SHE NEEDS:
-- Short, high-signal content she can consume in stolen moments during maternity leave
-- Audio-friendly content flagged clearly (stroller walks with AirPods)
-- Practical experiments she can actually try, not just read about
-- Agent and automation ideas for work
-- Career and product thinking at senior/leadership level
-- Skip design basics — she knows more than most designers alive
-- Only include something if it's genuinely worth her limited time
+- Interested in evolving toward product builder / product leadership
 
 CONTENT PHILOSOPHY:
 - Quality over quantity. 4 exceptional items beats 9 mediocre ones.
-- Include between 4 and 9 sections — never more unless every single one is exceptional
-- If you can't find something truly great for a category, skip it entirely
-- No filler. If a podcast episode isn't genuinely relevant to her, don't include it
+- Include between 4 and 9 sections — only what's genuinely worth her time
+- No filler. Skip anything that's not directly relevant to her.
+- Descriptions: warm, direct, like a smart friend briefing her — not a blog post
+- Flag audio-friendly content (she listens on stroller walks with AirPods)
 
 AVAILABLE SECTION TYPES:
-- podcast (🎧) — audio, great for stroller walks, flag duration
-- video (📺) — needs screen, keep under 20min ideally
-- article (📖) — short reads, 5-10min max preferred
-- concept (🧠) — explain one AI/tech/product concept she should understand
-- thought (💭) — one career or product question to sit with
-- trending (🔥) — something blowing up right now worth knowing about
-- tool (🛠️) — a specific AI tool she could actually try this week
-- stat (📊) — one surprising number or data point
-- tip (💡) — one immediately actionable workflow or career tip
+- podcast (🎧 / label: "Listen") — audio, great for stroller walks, flag duration
+- video (📺 / label: "Watch") — needs screen, keep under 20min
+- article (📖 / label: "Read") — short reads preferred
+- concept (🧠 / label: "Concept of the day") — one AI/tech/product concept to understand
+- thought (💭 / label: "Think about this") — one career or product question to sit with
+- trending (🔥 / label: "Trending") — something blowing up worth knowing about
+- tool (🛠️ / label: "Try this tool") — a specific AI tool she could try this week
+- stat (📊 / label: "Did you know") — one surprising number or data point
+- tip (💡 / label: "Quick tip") — one immediately actionable tip
 
-TONE:
-- Warm, direct, no fluff
-- Treat her as the smart senior professional she is
-- Descriptions should feel like a smart friend briefing her, not a blog post
+CRITICAL: Use ONLY URLs from the search results provided. Never invent or guess URLs.
 
-OUTPUT FORMAT — respond ONLY with valid JSON, no markdown, no explanation:
-
+Respond ONLY with valid JSON:
 {
   "date": "YYYY-MM-DD",
-  "headline": "short punchy headline for the day's theme (max 6 words, can be incomplete sentence)",
-  "subheadline": "1-2 sentence summary of why today's digest matters for her specifically",
-  "emoji": "one emoji that captures the day's vibe",
+  "headline": "short punchy headline for the day theme (max 6 words)",
+  "subheadline": "1-2 sentences why today's digest matters for her specifically",
+  "emoji": "one emoji",
   "color": "one of: yellow, pink, lime, violet, orange, cyan, red, teal, magenta",
   "sections": [
     {
-      "type": "one of the section types above",
-      "emoji": "matching emoji",
-      "label": "short human label (e.g. Listen, Watch, Read, Concept of the day, Think about this, Trending, Try this tool, Did you know, Quick tip)",
-      "title": "title of the content or concept",
-      "source": "publication, podcast name, YouTube channel, or null",
-      "description": "2-4 sentences. What it is, why it matters for Michaela specifically. Written like a smart friend explaining it.",
-      "link": "real URL to the actual source (use homepage/channel URLs if specific episode URL unknown), or null",
+      "type": "section type",
+      "emoji": "emoji",
+      "label": "human label",
+      "title": "title of the content",
+      "source": "publication or podcast name, or null",
+      "description": "2-4 sentences. What it is + why it matters for Michaela specifically.",
+      "link": "URL from search results, or null",
       "duration": "e.g. ~18 min, ~5 min read, or null",
-      "tags": ["2-4 relevant tags"]
+      "tags": ["2-4 tags"]
     }
   ]
-}`
-
-const USER_PROMPT = `Today is ${today}. Generate a daily briefing for Michaela.
-
-Pick a theme that's relevant right now in AI, design, or product. Make every section genuinely worth her time.
-Remember: she's a new mom with limited time — be ruthlessly selective.
-Prioritize: AI × design intersection, Figma AI / MCP updates, vibe coding tips, agent ideas, product thinking, career at senior level.
-For links: use real, well-known sources. Use homepage or channel URLs if you're unsure of the specific page URL.
-Respond only with the JSON object.`
-
-console.log(`Generating briefing for ${today}...`)
-
-const message = await client.messages.create({
-  model: 'claude-opus-4-6',
-  max_tokens: 4000,
-  messages: [
-    { role: 'user', content: USER_PROMPT }
-  ],
-  system: SYSTEM_PROMPT,
+}`,
+  messages: [{
+    role: 'user',
+    content: `Today is ${today}. Here are the real search results from today:\n\n${searchContext}\n\nUsing ONLY content and URLs from these search results, generate Michaela's daily briefing. Be ruthlessly selective — only include things genuinely worth her limited time. Use the exact URLs from the search results. Respond only with the JSON object.`
+  }]
 })
 
-const raw = message.content[0].text.trim()
-
-// Strip markdown code blocks if present
-const json = raw.replace(/^```json\n?/, '').replace(/\n?```$/, '').trim()
+const raw = briefingResponse.content[0].text.trim().replace(/^```json\n?/, '').replace(/\n?```$/, '').trim()
 
 let briefing
 try {
-  briefing = JSON.parse(json)
+  briefing = JSON.parse(raw)
 } catch (e) {
-  console.error('Failed to parse JSON response:', json)
+  console.error('Failed to parse JSON:', raw)
   process.exit(1)
 }
 
-// Ensure correct date
 briefing.date = today
 
-// Write file
 fs.mkdirSync(path.dirname(outputPath), { recursive: true })
 fs.writeFileSync(outputPath, JSON.stringify(briefing, null, 2))
 
-console.log(`✓ Briefing saved to ${outputPath}`)
-console.log(`  Headline: ${briefing.headline}`)
+console.log(`\n✓ Briefing saved: ${briefing.headline}`)
 console.log(`  Sections: ${briefing.sections.length}`)
+briefing.sections.forEach(s => console.log(`  ${s.emoji} ${s.label}: ${s.title}`))

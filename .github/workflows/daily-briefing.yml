@@ -21,12 +21,13 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install Anthropic SDK
-        run: npm install @anthropic-ai/sdk
+      - name: Install dependencies
+        run: npm install @anthropic-ai/sdk @tavily/core
 
       - name: Generate briefing
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
         run: node scripts/generate-briefing.mjs
 
       - name: Commit and push
