@@ -1,0 +1,37 @@
+name: Daily Briefing
+
+on:
+  schedule:
+    - cron: '0 5 * * *'  # 6am CET (UTC+1) / adjust to 0 4 in summer
+  workflow_dispatch:       # allows manual trigger from GitHub UI
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Anthropic SDK
+        run: npm install @anthropic-ai/sdk
+
+      - name: Generate briefing
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/generate-briefing.mjs
+
+      - name: Commit and push
+        run: |
+          git config user.name "Re:Me Bot"
+          git config user.email "bot@re-me.app"
+          git add content/briefings/
+          git diff --staged --quiet || (git commit -m "Daily briefing: $(date +%Y-%m-%d)" && git push)
