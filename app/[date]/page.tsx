@@ -164,7 +164,7 @@ export default async function DayPage({ params }: PageProps) {
                 )}
 
                 {s.link && (
-                  <p className="font-display font-bold text-xs uppercase tracking-widest mt-6 opacity-40 group-hover:opacity-100 transition-opacity" style={{ color: bubbleColor.text }}>
+                  <p className="font-display font-bold text-[10px] uppercase tracking-widest mt-6 opacity-0 group-hover:opacity-60 transition-opacity" style={{ color: bubbleColor.text }}>
                     Open →
                   </p>
                 )}
