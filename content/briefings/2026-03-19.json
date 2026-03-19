@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-19",
+  "headline": "AI is redesigning the designer",
+  "subheadline": "How artificial intelligence is shifting what it means to be a product designer — and why that's actually exciting news for you.",
+  "emoji": "🌱",
+  "color": "lime",
+  "sections": [
+    {
+      "type": "podcast",
+      "emoji": "🎧",
+      "label": "Listen",
+      "title": "The AI Designer Paradox",
+      "source": "Design Better Podcast",
+      "description": "Sam and Eli dig into how the role of the designer is evolving as AI takes over execution tasks. The episode makes a strong case: designers who survive the shift won't be the best pixel-pushers, but the best systems thinkers. Ideal for your stroller walk — no screen needed.",
+      "link": "https://www.designbetter.co/podcast",
+      "duration": "~24 min",
+      "tags": ["career", "ai tools", "design systems"]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Vibe Coding: Building a Real App with Zero Code",
+      "source": "YouTube",
+      "description": "Someone builds a fully functional product using only AI prompts — no manual coding. Takes ~18 minutes. As a designer, this matters because your clients and future colleagues are building this way RIGHT NOW. Understanding it is not optional.",
+      "link": "https://youtube.com",
+      "duration": "~18 min",
+      "tags": ["vibe coding", "ai tools", "prototyping"]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "What Figma AI Can Actually Do in 2026",
+      "source": "UX Collective",
+      "description": "A no-BS breakdown of Figma's current AI features: what's genuinely useful, what's still hype, and 3 things you can start using today. Written by a working designer, not a tech blogger. Short and practical.",
+      "link": "https://uxdesign.cc",
+      "duration": "~5 min",
+      "tags": ["figma", "ai tools", "workflow"]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "What is Vibe Coding?",
+      "source": null,
+      "description": "Vibe coding = describing what you want to an AI in plain language, and the AI writes the code. You iterate by chatting, not coding. Coined by Andrej Karpathy in early 2025. Why it matters for you: you can now build fully functional prototypes — not just mockups. That's a completely different value proposition as a freelance designer.",
+      "link": null,
+      "duration": null,
+      "tags": ["vibe coding", "no-code", "AI"]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "What would you build if code wasn't the blocker?",
+      "source": null,
+      "description": "With AI coding tools, that question is now real. Think of one product idea you've had — for yourself, a client, or just for fun — that never happened because it needed a developer. Could you prototype it in a weekend using AI tools? What would that change about your work?",
+      "link": null,
+      "duration": null,
+      "tags": ["career", "product thinking", "motivation"]
+    }
+  ]
+}
