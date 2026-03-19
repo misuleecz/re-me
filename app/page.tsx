@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic'
+
 import { getAllBriefings } from '@/lib/content'
 import { COLORS, SECTION_COLORS } from '@/lib/colors'
 import { DayBriefing } from '@/lib/types'
