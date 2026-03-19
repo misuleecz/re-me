@@ -25,9 +25,11 @@ const topicsResponse = await anthropic.messages.create({
   max_tokens: 1000,
   system: `You are curating a daily digest for Michaela — a senior product designer, ex-Group Head of Design, on maternity leave. She's building Figma MCP + Claude integrations, vibe-coding with Cursor/Lovable, very early on AI agents. She has limited time — only suggest things genuinely worth reading/listening/watching.
 
-Respond ONLY with a JSON array of search queries (5-8 queries). Each query should find specific, recent, high-quality content. Focus on: AI × design, Figma AI / MCP, vibe coding, design systems + AI, AI agents for designers, product leadership.
+Respond ONLY with a JSON array of search queries (5-8 queries). Each query should find NEWS, UPDATES, and RELEASES — not tutorials or how-to guides. Focus on: what just shipped, what changed, what's new in AI × design, Figma AI updates, new AI tools for designers, design systems AI news, product leadership AI trends.
 
-Example format: ["figma ai new features 2025", "vibe coding design workflow tutorial", ...]`,
+Use terms like: "new", "update", "release", "just launched", "2026" — NOT "tutorial", "how to", "guide", "workflow".
+
+Example format: ["figma ai new features march 2026", "new AI design tools released 2026", ...]`,
   messages: [{
     role: 'user',
     content: `Today is ${today}. What are the best search queries to find fresh, relevant content for Michaela today? Return only the JSON array.`
