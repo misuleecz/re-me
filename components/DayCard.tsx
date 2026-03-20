@@ -54,7 +54,7 @@ export default function DayCard({ dateStr, briefing, isToday }: DayCardProps) {
       </Link>
 
       {/* Section bubbles — each links to its source */}
-      <div className="px-4 py-4 grid grid-cols-1 gap-2">
+      <div className="px-4 py-4 grid grid-cols-1 md:grid-cols-2 gap-2">
         {briefing.sections.map((s) => {
           const bubbleColor = COLORS[SECTION_COLORS[s.type]]
           const inner = (
