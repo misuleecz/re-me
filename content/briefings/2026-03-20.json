@@ -1,0 +1,134 @@
+{
+  "date": "2026-03-20",
+  "headline": "Figma's MCP Just Got Real",
+  "subheadline": "Figma's new AI Design Development MCP is exactly what you've been building toward — plus the AI Design Systems Conference wrapped yesterday with things you'll want to know.",
+  "emoji": "🔗",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma launches AI Design Development MCP — two-way UI-to-code across Cursor, Warp & more",
+      "source": "Releasebot",
+      "description": "This is huge for your MCP work. Figma officially launched their AI Design Development MCP enabling two-way UI-to-code workflows, and Cursor is one of the supported tools. They're also enforcing AI credit limits starting this month, with options for additional credit subscriptions. Worth understanding how this overlaps with or complements the custom MCP integration you're building for your company's white-label sport apps.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": "~5 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "cursor",
+        "design-to-code"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma's AI Design Tokens hit General Availability — suggests tokens from existing codebases",
+      "source": "Medium",
+      "description": "Figma's AI now suggests color, spacing, and typography tokens based on existing codebases and writes them for you. Given your deep expertise in design tokens and variables, this could either accelerate your workflow significantly or conflict with how you've structured your system. Either way, you need to know about it before your team starts asking questions.",
+      "link": "https://medium.com/@Rythmuxdesigner/figmas-2026-updates-quietly-redefine-design-dev-handoff-and-not-everyone-s-ready-98307f2ea2a8",
+      "duration": "~7 min read",
+      "tags": [
+        "figma",
+        "design-tokens",
+        "AI",
+        "design-systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI in 2026: Five Product Shifts We'll Have to Design For",
+      "source": "CASES",
+      "description": "This piece argues that AI's bottleneck isn't model capability anymore — it's product design. Unclear decision logic, fragile trust, poor workflow integration. As someone evolving toward product leadership, this is the strategic framing that matters: the next wave of design leaders will be the ones who can design *for* AI, not just *with* it.",
+      "link": "https://cases.media/article/ai-in-2026-five-product-shifts-well-have-to-design-for?srsltid=AfmBOorKgzznJJL5_RfC2Tzf_E2X-QwtJ8Xqw_RL6onYRdKHJiK0q2IP",
+      "duration": "~10 min read",
+      "tags": [
+        "product-design",
+        "AI-strategy",
+        "leadership"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Is your design system ready for Agentic AI? 2026 trends from Supernova",
+      "source": "Supernova",
+      "description": "Supernova's take on where enterprise design systems are heading: 2026 is about AI agents orchestrating the design-to-code pipeline, not just assisting designers. High-performing teams are using agents across the full system. Directly relevant to the architecture decisions you're making with your MCP + Claude integration.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~8 min read",
+      "tags": [
+        "design-systems",
+        "agentic-AI",
+        "enterprise"
+      ]
+    },
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Cursor ships security automation agents + new MCP architecture",
+      "source": "Releasebot",
+      "description": "Cursor dropped four security automation templates that use agents and an MCP to automate vulnerability detection across PRs. The interesting bit isn't the security angle — it's the architecture pattern. Cursor is showing how MCP + specialized agents can be composed for different workflows. Mental model worth having as you think about your own agent setups.",
+      "link": "https://releasebot.io/updates/cursor",
+      "duration": "~5 min read",
+      "tags": [
+        "cursor",
+        "MCP",
+        "agents",
+        "automation"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Claude's persistent agent threads — now on mobile too",
+      "source": "Releasebot / Anthropic",
+      "description": "Claude released persistent agent threads for Pro and Max plans via Cowork — accessible from desktop and mobile. You can now assign tasks to Claude that persist across sessions. Think of it as giving Claude a running to-do list instead of starting fresh every conversation. Could be handy for managing your MCP project tasks on the go.",
+      "link": "https://releasebot.io/updates/anthropic/claude",
+      "duration": null,
+      "tags": [
+        "claude",
+        "agents",
+        "productivity"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "MCP as the new design system API layer",
+      "source": null,
+      "description": "Model Context Protocol is quietly becoming the standard bridge between design tools, code editors, and AI agents. Figma's official MCP, Cursor's MCP-based automations, and the Codex-Figma integration all point to the same thing: MCP is becoming the API layer that lets AI agents read and write to your design system. You're already building this — you're ahead of the curve.",
+      "link": "https://www.parallelhq.com/blog/automating-design-systems-with-ai",
+      "duration": "~6 min read",
+      "tags": [
+        "MCP",
+        "design-systems",
+        "architecture",
+        "AI-agents"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "With Figma shipping their own MCP, what's the unique value of yours?",
+      "source": null,
+      "description": "Figma's official MCP enables generic two-way design-to-code workflows. But your custom MCP is built specifically for your company's white-label sport app design system — with domain-specific tokens, components, and constraints baked in. The question worth sitting with: how do you position your integration as complementary to Figma's official one, not competing with it?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "strategy",
+        "MCP",
+        "design-systems",
+        "career"
+      ]
+    }
+  ]
+}
