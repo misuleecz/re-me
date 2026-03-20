@@ -7,9 +7,10 @@ interface RatingButtonsProps {
   sectionType: string
   initialRating: string | null
   initialNote: string | null
+  textColor?: string
 }
 
-export default function RatingButtons({ date, sectionType, initialRating, initialNote }: RatingButtonsProps) {
+export default function RatingButtons({ date, sectionType, initialRating, initialNote, textColor }: RatingButtonsProps) {
   const [rating, setRating] = useState<string | null>(initialRating)
   const [note, setNote] = useState(initialNote || '')
   const [showNote, setShowNote] = useState(false)
@@ -28,14 +29,18 @@ export default function RatingButtons({ date, sectionType, initialRating, initia
     }
   }
 
-  async function handleUp() {
+  async function handleUp(e: React.MouseEvent) {
+    e.preventDefault()
+    e.stopPropagation()
     const newRating = rating === 'up' ? null : 'up'
     setRating(newRating)
     setShowNote(false)
     await saveRating(newRating)
   }
 
-  async function handleDown() {
+  async function handleDown(e: React.MouseEvent) {
+    e.preventDefault()
+    e.stopPropagation()
     if (rating === 'down') {
       setRating(null)
       setShowNote(false)
@@ -48,12 +53,13 @@ export default function RatingButtons({ date, sectionType, initialRating, initia
 
   async function submitNote(e: React.FormEvent) {
     e.preventDefault()
+    e.stopPropagation()
     await saveRating('down', note)
     setShowNote(false)
   }
 
   return (
-    <div className="mt-4">
+    <div className="mt-4" onClick={e => e.preventDefault()} style={{ color: textColor }}>
       <div className="flex items-center gap-2">
         <button
           onClick={handleUp}
@@ -75,7 +81,7 @@ export default function RatingButtons({ date, sectionType, initialRating, initia
         </button>
         {rating === 'down' && !showNote && note && (
           <button
-            onClick={() => setShowNote(true)}
+            onClick={e => { e.preventDefault(); e.stopPropagation(); setShowNote(true) }}
             className="font-body text-[10px] opacity-40 hover:opacity-70 transition-opacity"
           >
             edit note

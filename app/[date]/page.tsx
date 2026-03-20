@@ -190,14 +190,13 @@ export default async function DayPage({ params }: PageProps) {
                 )}
 
                 {authed && (
-                  <div onClick={e => e.preventDefault()} style={{ color: bubbleColor.text }}>
-                    <RatingButtons
-                      date={date}
-                      sectionType={s.type}
-                      initialRating={ratings[s.type]?.rating ?? null}
-                      initialNote={ratings[s.type]?.note ?? null}
-                    />
-                  </div>
+                  <RatingButtons
+                    date={date}
+                    sectionType={s.type}
+                    initialRating={ratings[s.type]?.rating ?? null}
+                    initialNote={ratings[s.type]?.note ?? null}
+                    textColor={bubbleColor.text}
+                  />
                 )}
 
                 {s.link && (
