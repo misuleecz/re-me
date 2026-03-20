@@ -2,16 +2,16 @@ import { NextRequest, NextResponse } from 'next/server'
 import { redis } from '@/lib/redis'
 import { isAuthedFromRequest } from '@/lib/auth'
 
-// POST /api/read — toggle read status for a date
+// POST /api/read — toggle read status for a date+section
 export async function POST(request: NextRequest) {
   if (!isAuthedFromRequest(request)) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 
-  const { date } = await request.json()
-  if (!date) return NextResponse.json({ error: 'Missing date' }, { status: 400 })
+  const { date, sectionType } = await request.json()
+  if (!date || !sectionType) return NextResponse.json({ error: 'Missing date or sectionType' }, { status: 400 })
 
-  const key = `read:${date}`
+  const key = `card_read:${date}:${sectionType}`
   const existing = await redis.get(key)
 
   if (existing) {
@@ -23,13 +23,16 @@ export async function POST(request: NextRequest) {
   }
 }
 
-// GET /api/read — get all read dates
+// GET /api/read?date=YYYY-MM-DD — get all read sections for a date
 export async function GET(request: NextRequest) {
   if (!isAuthedFromRequest(request)) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
   }
 
-  const keys = await redis.keys('read:*')
-  const dates = keys.map((k: string) => k.replace('read:', ''))
-  return NextResponse.json({ dates })
+  const date = request.nextUrl.searchParams.get('date')
+  if (!date) return NextResponse.json({ error: 'Missing date' }, { status: 400 })
+
+  const keys = await redis.keys(`card_read:${date}:*`)
+  const sections = keys.map((k: string) => k.replace(`card_read:${date}:`, ''))
+  return NextResponse.json({ sections })
 }

@@ -7,8 +7,7 @@ import { COLORS, SECTION_COLORS } from '@/lib/colors'
 import Header from '@/components/Header'
 import { isAuthed } from '@/lib/auth'
 import { redis } from '@/lib/redis'
-import ReadButton from '@/components/ReadButton'
-import RatingButtons from '@/components/RatingButtons'
+import SectionCard from '@/components/SectionCard'
 
 interface PageProps {
   params: Promise<{ date: string }>
@@ -20,25 +19,27 @@ export default async function DayPage({ params }: PageProps) {
 
   if (!briefing) notFound()
 
-  const color = COLORS[briefing.color]
   const displayDate = formatDisplayDate(date)
   const issueNumber = getIssueNumber(date)
 
   // Personal features — only for authed user
   const authed = await isAuthed()
-  let isRead = false
+  const sectionReads: Record<string, boolean> = {}
   const ratings: Record<string, { rating: string; note: string | null }> = {}
+
   if (authed) {
     try {
-      isRead = !!(await redis.get(`read:${date}`))
+      const readKeys = await redis.keys(`card_read:${date}:*`)
+      for (const k of readKeys) {
+        sectionReads[k.replace(`card_read:${date}:`, '')] = true
+      }
       const ratingKeys = await redis.keys(`rate:${date}:*`)
       for (const k of ratingKeys) {
-        const sectionType = k.replace(`rate:${date}:`, '')
         const val = await redis.get(k)
-        if (val) ratings[sectionType] = typeof val === 'string' ? JSON.parse(val) : val
+        if (val) ratings[k.replace(`rate:${date}:`, '')] = typeof val === 'string' ? JSON.parse(val) : val
       }
     } catch (e) {
-      console.error('Redis error (detail):', e)
+      console.error('Redis error:', e)
     }
   }
 
@@ -83,13 +84,6 @@ export default async function DayPage({ params }: PageProps) {
               {briefing.subheadline}
             </p>
 
-            {/* Read button */}
-            {authed && (
-              <div className="mb-8">
-                <ReadButton date={date} initialRead={isRead} />
-              </div>
-            )}
-
             {/* Takeaways — 4 cols, linked to source, max 16 */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-6">
               {briefing.sections.slice(0, 16).map((s) => {
@@ -115,100 +109,26 @@ export default async function DayPage({ params }: PageProps) {
           </div>
         </div>
 
-        {/* ── Centered content ── */}
+        {/* ── Section cards ── */}
         <div className="mx-auto px-5 py-6 md:py-8 flex flex-col gap-6" style={{ maxWidth: '1075px' }}>
-
-          {/* Section cards — 2 col grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {briefing.sections.map((s, i) => {
-            const bubbleColor = COLORS[SECTION_COLORS[s.type]]
-            const CardWrapper = ({ children }: { children: React.ReactNode }) => s.link
-              ? <a href={s.link} target="_blank" rel="noopener noreferrer" className="block group">{children}</a>
-              : <div className="block">{children}</div>
-            return (
-              <CardWrapper key={s.type}>
-              <div
-                className="border-2 border-ink p-7 md:p-10 h-full transition-transform duration-200 group-hover:-translate-y-1 group-hover:shadow-[4px_4px_0px_#0D0D0D]"
-                style={{ backgroundColor: bubbleColor.bg, color: bubbleColor.text }}
-              >
-                {/* Header */}
-                <div className="flex items-center justify-between mb-6">
-                  <div className="flex items-center gap-2">
-                    <span className="text-2xl">{s.emoji}</span>
-                    <span
-                      className="font-display font-bold text-[10px] uppercase tracking-[0.25em] opacity-60"
-                      style={{ color: bubbleColor.text }}
-                    >
-                      {s.label}
-                    </span>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    {s.duration && (
-                      <span className="font-body text-xs opacity-50" style={{ color: bubbleColor.text }}>
-                        {s.duration}
-                      </span>
-                    )}
-                    <span className="font-display font-black text-xs opacity-20" style={{ color: bubbleColor.text }}>
-                      {String(i + 1).padStart(2, '0')}
-                    </span>
-                  </div>
-                </div>
-
-                {s.source && (
-                  <p className="font-body text-xs uppercase tracking-widest opacity-50 mb-2" style={{ color: bubbleColor.text }}>
-                    — {s.source}
-                  </p>
-                )}
-
-                <h2
-                  className="font-display font-black text-2xl md:text-3xl leading-tight mb-4"
-                  style={{ color: bubbleColor.text }}
-                >
-                  {s.title}
-                </h2>
-
-                <p
-                  className="font-body text-base leading-relaxed opacity-80"
-                  style={{ color: bubbleColor.text }}
-                >
-                  {s.description}
-                </p>
-
-                {/* Tags */}
-                {s.tags && s.tags.length > 0 && (
-                  <div className="flex flex-wrap gap-2 mt-8">
-                    {s.tags.map((tag) => (
-                      <span
-                        key={tag}
-                        className="font-body text-[10px] px-2 py-1 border"
-                        style={{ borderColor: bubbleColor.text, color: bubbleColor.text, opacity: 0.5 }}
-                      >
-                        #{tag}
-                      </span>
-                    ))}
-                  </div>
-                )}
-
-                {authed && (
-                  <RatingButtons
-                    date={date}
-                    sectionType={s.type}
-                    initialRating={ratings[s.type]?.rating ?? null}
-                    initialNote={ratings[s.type]?.note ?? null}
-                    textColor={bubbleColor.text}
-                  />
-                )}
-
-                {s.link && (
-                  <p className="font-display font-bold text-[10px] uppercase tracking-widest mt-6 opacity-0 group-hover:opacity-60 transition-opacity" style={{ color: bubbleColor.text }}>
-                    Open →
-                  </p>
-                )}
-              </div>
-              </CardWrapper>
-            )
-          })}
-
+            {briefing.sections.map((s, i) => {
+              const bubbleColor = COLORS[SECTION_COLORS[s.type]]
+              return (
+                <SectionCard
+                  key={s.type}
+                  date={date}
+                  section={s}
+                  cardIndex={i}
+                  bgColor={bubbleColor.bg}
+                  textColor={bubbleColor.text}
+                  authed={authed}
+                  initialRead={sectionReads[s.type] ?? false}
+                  initialRating={ratings[s.type]?.rating ?? null}
+                  initialNote={ratings[s.type]?.note ?? null}
+                />
+              )
+            })}
           </div>
 
           {/* Back */}

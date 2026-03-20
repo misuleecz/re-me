@@ -8,14 +8,13 @@ interface DayCardProps {
   dateStr: string
   briefing: DayBriefing
   isToday: boolean
-  isRead?: boolean
 }
 
 function getWeekday(dateStr: string) {
   return new Date(dateStr + 'T00:00:00').toLocaleDateString('en-GB', { weekday: 'short' }).toUpperCase()
 }
 
-export default function DayCard({ dateStr, briefing, isToday, isRead }: DayCardProps) {
+export default function DayCard({ dateStr, briefing, isToday }: DayCardProps) {
   const accentColor = COLORS[briefing.color]
   const day = new Date(dateStr + 'T00:00:00').getDate()
   const weekday = getWeekday(dateStr)
@@ -42,18 +41,11 @@ export default function DayCard({ dateStr, briefing, isToday, isRead }: DayCardP
               </span>
               <span className="font-body text-xs text-ink/40 tracking-widest uppercase">{weekday}</span>
             </div>
-            <div className="flex items-center gap-2">
-              {isToday && (
-                <span className="font-display font-bold text-[9px] uppercase tracking-widest px-2 py-1 border border-ink text-ink">
-                  Today
-                </span>
-              )}
-              {isRead && (
-                <span className="font-display font-bold text-[9px] uppercase tracking-widest px-2 py-1 bg-ink text-cream">
-                  ✓ Read
-                </span>
-              )}
-            </div>
+            {isToday && (
+              <span className="font-display font-bold text-[9px] uppercase tracking-widest px-2 py-1 border border-ink text-ink">
+                Today
+              </span>
+            )}
           </div>
           <h3 className="font-display font-black text-base leading-tight mt-2 text-ink">
             {briefing.headline}
