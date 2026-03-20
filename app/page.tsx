@@ -6,6 +6,8 @@ import { DayBriefing } from '@/lib/types'
 import Header from '@/components/Header'
 import DayCard from '@/components/DayCard'
 import Link from 'next/link'
+import { isAuthed } from '@/lib/auth'
+import { redis } from '@/lib/redis'
 
 function getTodayStr() {
   const now = new Date()
@@ -60,13 +62,21 @@ function getGreeting(dateStr: string) {
   return GREETINGS[day % GREETINGS.length]
 }
 
-export default function HomePage() {
+export default async function HomePage() {
   const briefings = getAllBriefings()
   const todayStr = getTodayStr()
   const todayBriefing = briefings.find((b) => b.date === todayStr)
   const featured = todayBriefing || briefings[0]
   const months = groupByMonth(briefings)
   const greeting = featured ? getGreeting(featured.date) : GREETINGS[0]
+
+  // Personal features
+  const authed = await isAuthed()
+  let readDates: Set<string> = new Set()
+  if (authed) {
+    const keys = await redis.keys('read:*')
+    readDates = new Set(keys.map((k: string) => k.replace('read:', '')))
+  }
 
   return (
     <>
@@ -188,6 +198,7 @@ export default function HomePage() {
                   dateStr={b.date}
                   briefing={b}
                   isToday={b.date === todayStr}
+                  isRead={readDates.has(b.date)}
                 />
               ))}
             </div>

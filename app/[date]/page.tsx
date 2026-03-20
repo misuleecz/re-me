@@ -1,13 +1,14 @@
+export const dynamic = 'force-dynamic'
+
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import { getBriefingByDate, getAllDates, formatDisplayDate, getIssueNumber } from '@/lib/content'
+import { getBriefingByDate, formatDisplayDate, getIssueNumber } from '@/lib/content'
 import { COLORS, SECTION_COLORS } from '@/lib/colors'
 import Header from '@/components/Header'
-
-export async function generateStaticParams() {
-  const dates = getAllDates()
-  return dates.map((date) => ({ date }))
-}
+import { isAuthed } from '@/lib/auth'
+import { redis } from '@/lib/redis'
+import ReadButton from '@/components/ReadButton'
+import RatingButtons from '@/components/RatingButtons'
 
 interface PageProps {
   params: Promise<{ date: string }>
@@ -22,6 +23,17 @@ export default async function DayPage({ params }: PageProps) {
   const color = COLORS[briefing.color]
   const displayDate = formatDisplayDate(date)
   const issueNumber = getIssueNumber(date)
+
+  // Personal features — only for authed user
+  const authed = await isAuthed()
+  const isRead = authed ? !!(await redis.get(`read:${date}`)) : false
+  const ratingKeys = authed ? await redis.keys(`rate:${date}:*`) : []
+  const ratings: Record<string, { rating: string; note: string | null }> = {}
+  for (const k of ratingKeys) {
+    const sectionType = k.replace(`rate:${date}:`, '')
+    const val = await redis.get(k)
+    if (val) ratings[sectionType] = typeof val === 'string' ? JSON.parse(val) : val
+  }
 
   return (
     <>
@@ -63,6 +75,13 @@ export default async function DayPage({ params }: PageProps) {
             <p className="font-body text-base md:text-lg leading-relaxed text-ink/60 mb-10 max-w-2xl">
               {briefing.subheadline}
             </p>
+
+            {/* Read button */}
+            {authed && (
+              <div className="mb-8">
+                <ReadButton date={date} initialRead={isRead} />
+              </div>
+            )}
 
             {/* Takeaways — 4 cols, linked to source, max 16 */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-6">
@@ -160,6 +179,17 @@ export default async function DayPage({ params }: PageProps) {
                         #{tag}
                       </span>
                     ))}
+                  </div>
+                )}
+
+                {authed && (
+                  <div onClick={e => e.preventDefault()} style={{ color: bubbleColor.text }}>
+                    <RatingButtons
+                      date={date}
+                      sectionType={s.type}
+                      initialRating={ratings[s.type]?.rating ?? null}
+                      initialNote={ratings[s.type]?.note ?? null}
+                    />
                   </div>
                 )}
 
