@@ -78,7 +78,7 @@ export default async function DayPage({ params }: PageProps) {
 
             {/* Letter-style summary */}
             {briefing.summary && (
-              <div className="mb-10 max-w-3xl columns-2 gap-8">
+              <div className="mb-10 max-w-3xl md:columns-2 gap-8">
                 {briefing.summary.split('\n\n').map((para, i) => (
                   <p key={i} className="font-body text-sm leading-relaxed text-ink/65 mb-4 break-inside-avoid">
                     {para.split(/(\*\*[^*]+\*\*)/).map((chunk, j) =>

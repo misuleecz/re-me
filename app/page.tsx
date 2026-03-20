@@ -127,7 +127,7 @@ export default function HomePage() {
               </p>
 
               {/* 4-column takeaways */}
-              <div className="grid grid-cols-2 md:grid-cols-5 gap-x-6 gap-y-6 relative z-10 mb-10">
+              <div className="grid grid-cols-1 md:grid-cols-5 gap-x-6 gap-y-6 relative z-10 mb-10">
                 {featured.sections.slice(0, 5).map((s) => {
                   const bubbleColor = COLORS[SECTION_COLORS[s.type]]
                   const item = (
