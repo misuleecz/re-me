@@ -74,8 +74,12 @@ export default async function HomePage() {
   const authed = await isAuthed()
   let readDates: Set<string> = new Set()
   if (authed) {
-    const keys = await redis.keys('read:*')
-    readDates = new Set(keys.map((k: string) => k.replace('read:', '')))
+    try {
+      const keys = await redis.keys('read:*')
+      readDates = new Set(keys.map((k: string) => k.replace('read:', '')))
+    } catch (e) {
+      console.error('Redis error (homepage):', e)
+    }
   }
 
   return (

@@ -26,13 +26,20 @@ export default async function DayPage({ params }: PageProps) {
 
   // Personal features — only for authed user
   const authed = await isAuthed()
-  const isRead = authed ? !!(await redis.get(`read:${date}`)) : false
-  const ratingKeys = authed ? await redis.keys(`rate:${date}:*`) : []
+  let isRead = false
   const ratings: Record<string, { rating: string; note: string | null }> = {}
-  for (const k of ratingKeys) {
-    const sectionType = k.replace(`rate:${date}:`, '')
-    const val = await redis.get(k)
-    if (val) ratings[sectionType] = typeof val === 'string' ? JSON.parse(val) : val
+  if (authed) {
+    try {
+      isRead = !!(await redis.get(`read:${date}`))
+      const ratingKeys = await redis.keys(`rate:${date}:*`)
+      for (const k of ratingKeys) {
+        const sectionType = k.replace(`rate:${date}:`, '')
+        const val = await redis.get(k)
+        if (val) ratings[sectionType] = typeof val === 'string' ? JSON.parse(val) : val
+      }
+    } catch (e) {
+      console.error('Redis error (detail):', e)
+    }
   }
 
   return (
