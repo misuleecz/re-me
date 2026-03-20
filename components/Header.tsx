@@ -1,19 +1,17 @@
 import Link from 'next/link'
+import { getTodayInfo } from '@/lib/namedays'
 
 interface HeaderProps {
   bgColor?: string
   textColor?: string
-  issueNumber?: number
-  dateLabel?: string
 }
 
 export default function Header({
   bgColor = '#F5F3EC',
   textColor = '#0D0D0D',
-  issueNumber,
-  dateLabel,
 }: HeaderProps) {
   const borderColor = textColor === '#FFFFFF' ? 'rgba(255,255,255,0.2)' : 'rgba(13,13,13,0.15)'
+  const { dayName, dateStr, nameday } = getTodayInfo()
 
   return (
     <header
@@ -40,39 +38,22 @@ export default function Header({
           </span>
         </Link>
 
-        {/* Center — tagline */}
-        <p
-          className="hidden md:block font-body text-xs tracking-[0.2em] uppercase opacity-50 absolute left-1/2 -translate-x-1/2"
-          style={{ color: textColor }}
-        >
-          your daily AI + design digest
-        </p>
-
-        {/* Right — issue + date */}
-        <div className="flex items-center gap-4">
-          {issueNumber && (
-            <span
-              className="font-display font-bold text-xs tracking-widest uppercase opacity-60"
-              style={{ color: textColor }}
-            >
-              #{String(issueNumber).padStart(3, '0')}
-            </span>
-          )}
-          {dateLabel && (
-            <span
-              className="font-body text-xs tracking-wide opacity-50 hidden sm:block"
-              style={{ color: textColor }}
-            >
-              {dateLabel}
-            </span>
-          )}
-          <Link
-            href="/"
-            className="font-display font-bold text-xs uppercase tracking-widest border px-3 py-1.5 hover:opacity-70 transition-opacity"
-            style={{ color: textColor, borderColor: textColor }}
+        {/* Right — day, date, nameday */}
+        <div className="hidden md:flex flex-col items-end gap-0.5">
+          <p
+            className="font-display font-bold text-xs uppercase tracking-[0.2em]"
+            style={{ color: textColor, opacity: 0.7 }}
           >
-            Archive
-          </Link>
+            {dayName} · {dateStr}
+          </p>
+          {nameday && (
+            <p
+              className="font-body text-[10px] tracking-wide"
+              style={{ color: textColor, opacity: 0.4 }}
+            >
+              {nameday}
+            </p>
+          )}
         </div>
       </div>
     </header>

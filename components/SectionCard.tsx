@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import type { Section } from '@/lib/types'
 
 interface Props {
@@ -13,18 +13,28 @@ interface Props {
   initialRead: boolean
   initialRating: string | null
   initialNote: string | null
+  onSkipped?: (isSkipped: boolean, note?: string) => void
+  isInSkipped?: boolean
+  displayNote?: string
 }
 
 export default function SectionCard({
   date, section: s, cardIndex,
   bgColor, textColor,
   authed, initialRead, initialRating, initialNote,
+  onSkipped, isInSkipped, displayNote,
 }: Props) {
   const [isRead, setIsRead] = useState(initialRead)
   const [rating, setRating] = useState<string | null>(initialRating)
   const [note, setNote] = useState(initialNote || '')
   const [showNote, setShowNote] = useState(false)
   const [saving, setSaving] = useState(false)
+  const [isExiting, setIsExiting] = useState(false)
+
+  // Reset animation state when card moves between sections
+  useEffect(() => {
+    setIsExiting(false)
+  }, [isInSkipped])
 
   async function toggleRead(e: React.MouseEvent) {
     e.preventDefault()
@@ -33,7 +43,7 @@ export default function SectionCard({
     await fetch('/api/read', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ date, sectionType: s.type }),
+      body: JSON.stringify({ date, sectionIndex: cardIndex }),
     })
   }
 
@@ -43,7 +53,7 @@ export default function SectionCard({
       await fetch('/api/rate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ date, sectionType: s.type, rating: r, note: n ?? note }),
+        body: JSON.stringify({ date, sectionIndex: cardIndex, rating: r, note: n ?? note }),
       })
     } finally {
       setSaving(false)
@@ -54,18 +64,40 @@ export default function SectionCard({
     e.preventDefault()
     e.stopPropagation()
     if (rating === r) {
+      // Toggle off active rating
       setRating(null)
       setShowNote(false)
+      if (isInSkipped) {
+        setIsExiting(true)
+        setTimeout(() => onSkipped?.(false), 380)
+      }
       await saveRating(null)
     } else {
       setRating(r)
       if (r === 'down') {
+        // Show note form — card only moves after "Move ↓"
         setShowNote(true)
+        await saveRating(r)
       } else {
+        // Useful clicked — if in skipped section, animate out and return
         setShowNote(false)
+        if (isInSkipped) {
+          setIsExiting(true)
+          setTimeout(() => onSkipped?.(false), 380)
+        }
         await saveRating(r)
       }
     }
+  }
+
+  async function submitAndSkip(e: React.FormEvent) {
+    e.preventDefault()
+    e.stopPropagation()
+    await saveRating('down', note)
+    setShowNote(false)
+    // Animate out then notify parent (pass note so parent can persist it)
+    setIsExiting(true)
+    setTimeout(() => onSkipped?.(true, note), 380)
   }
 
   const upActive = rating === 'up'
@@ -73,12 +105,15 @@ export default function SectionCard({
 
   const inner = (
     <div
-      className="border-2 border-ink p-7 md:p-8 h-full transition-all duration-200 group-hover:-translate-y-1 group-hover:shadow-[4px_4px_0px_#0D0D0D]"
+      className="border-2 border-ink p-7 md:p-8 h-full group-hover:-translate-y-1 group-hover:shadow-[4px_4px_0px_#0D0D0D]"
       style={{
         backgroundColor: bgColor,
         color: textColor,
-        opacity: isRead ? 0.75 : 1,
-        transition: 'opacity 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease',
+        opacity: isExiting ? 0 : isRead ? 0.75 : 1,
+        transform: isExiting ? 'scale(0.97) translateY(6px)' : undefined,
+        transition: isExiting
+          ? 'opacity 0.35s ease, transform 0.35s ease'
+          : 'opacity 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease',
       }}
     >
       {/* Header */}
@@ -168,6 +203,8 @@ export default function SectionCard({
               color: upActive ? bgColor : textColor,
               opacity: downActive ? 0.25 : upActive ? 1 : 0.5,
             }}
+            onMouseEnter={e => { if (!upActive) (e.currentTarget as HTMLButtonElement).style.backgroundColor = `color-mix(in srgb, ${textColor} 15%, transparent)` }}
+            onMouseLeave={e => { if (!upActive) (e.currentTarget as HTMLButtonElement).style.backgroundColor = 'transparent' }}
           >
             👍 Useful
           </button>
@@ -181,37 +218,49 @@ export default function SectionCard({
               color: downActive ? bgColor : textColor,
               opacity: upActive ? 0.25 : downActive ? 1 : 0.5,
             }}
+            onMouseEnter={e => { if (!downActive) (e.currentTarget as HTMLButtonElement).style.backgroundColor = `color-mix(in srgb, ${textColor} 15%, transparent)` }}
+            onMouseLeave={e => { if (!downActive) (e.currentTarget as HTMLButtonElement).style.backgroundColor = 'transparent' }}
           >
             👎 Skip
           </button>
         </div>
       )}
 
+      {isInSkipped && displayNote && !showNote && (
+        <div
+          className="mt-4 border-t pt-3 flex items-start gap-2"
+          style={{ borderColor: `${textColor}25` }}
+        >
+          <span className="font-display font-bold text-[9px] uppercase tracking-widest opacity-40 mt-0.5 flex-shrink-0" style={{ color: textColor }}>
+            Why
+          </span>
+          <p className="font-body text-xs leading-relaxed opacity-60 italic" style={{ color: textColor }}>
+            {displayNote}
+          </p>
+        </div>
+      )}
+
       {showNote && (
         <form
-          onSubmit={async e => {
-            e.preventDefault()
-            e.stopPropagation()
-            await saveRating('down', note)
-            setShowNote(false)
-          }}
+          onSubmit={submitAndSkip}
           onClick={e => e.stopPropagation()}
-          className="mt-3 flex gap-2"
+          className="mt-3 flex gap-2 items-center"
         >
           <input
             autoFocus
             value={note}
             onChange={e => setNote(e.target.value)}
-            placeholder="Why wasn't it useful? (optional)"
+            onClick={e => { e.preventDefault(); e.stopPropagation() }}
+            placeholder="Why wasn't this useful? (optional)"
             className="font-body text-xs bg-transparent border-b opacity-60 focus:opacity-100 outline-none flex-1 py-1"
             style={{ color: textColor, borderColor: textColor }}
           />
           <button
             type="submit"
-            className="font-display font-bold text-[9px] uppercase tracking-widest opacity-60 hover:opacity-100 transition-opacity cursor-pointer"
-            style={{ color: textColor }}
+            className="font-display font-bold text-[9px] uppercase tracking-widest border-2 px-3 py-1.5 cursor-pointer transition-opacity hover:opacity-80 flex-shrink-0"
+            style={{ borderColor: textColor, color: textColor }}
           >
-            Save
+            Move ↓
           </button>
         </form>
       )}

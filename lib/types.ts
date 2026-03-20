@@ -18,6 +18,7 @@ export interface DayBriefing {
   date: string // YYYY-MM-DD
   headline: string
   subheadline: string
+  summary?: string
   emoji: string
   color: ColorKey
   sections: Section[]

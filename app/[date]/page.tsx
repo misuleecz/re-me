@@ -7,7 +7,7 @@ import { COLORS, SECTION_COLORS } from '@/lib/colors'
 import Header from '@/components/Header'
 import { isAuthed } from '@/lib/auth'
 import { redis } from '@/lib/redis'
-import SectionCard from '@/components/SectionCard'
+import SectionCardGrid from '@/components/SectionCardGrid'
 
 interface PageProps {
   params: Promise<{ date: string }>
@@ -24,19 +24,17 @@ export default async function DayPage({ params }: PageProps) {
 
   // Personal features — only for authed user
   const authed = await isAuthed()
-  const sectionReads: Record<string, boolean> = {}
-  const ratings: Record<string, { rating: string; note: string | null }> = {}
+  const sectionReads: Record<number, boolean> = {}
+  const ratings: Record<number, { rating: string; note: string | null }> = {}
 
   if (authed) {
     try {
-      const readKeys = await redis.keys(`card_read:${date}:*`)
-      for (const k of readKeys) {
-        sectionReads[k.replace(`card_read:${date}:`, '')] = true
-      }
-      const ratingKeys = await redis.keys(`rate:${date}:*`)
-      for (const k of ratingKeys) {
-        const val = await redis.get(k)
-        if (val) ratings[k.replace(`rate:${date}:`, '')] = typeof val === 'string' ? JSON.parse(val) : val
+      // Keys are indexed by position (0, 1, 2...) to avoid duplicate section.type collisions
+      for (let i = 0; i < briefing.sections.length; i++) {
+        const readVal = await redis.get(`card_read:${date}:${i}`)
+        if (readVal) sectionReads[i] = true
+        const rateVal = await redis.get(`rate:${date}:${i}`)
+        if (rateVal) ratings[i] = typeof rateVal === 'string' ? JSON.parse(rateVal) : rateVal
       }
     } catch (e) {
       console.error('Redis error:', e)
@@ -53,14 +51,8 @@ export default async function DayPage({ params }: PageProps) {
         <div className="bg-cream">
           <div className="mx-auto px-5 py-6 md:py-8" style={{ maxWidth: '1075px' }}>
 
-            {/* Back + Issue row */}
-            <div className="flex items-center justify-between mb-10">
-              <Link
-                href="/"
-                className="font-display font-bold text-xs uppercase tracking-widest text-ink/40 hover:text-ink transition-colors"
-              >
-                ← Back
-              </Link>
+            {/* Issue row */}
+            <div className="flex items-center justify-end mb-10">
               <div className="flex items-center gap-3">
                 <span className="font-display font-bold text-xs uppercase tracking-[0.25em] text-ink/30">
                   {displayDate}
@@ -80,67 +72,46 @@ export default async function DayPage({ params }: PageProps) {
             </h1>
 
             {/* Subheadline */}
-            <p className="font-body text-base md:text-lg leading-relaxed text-ink/60 mb-10 max-w-2xl">
+            <p className="font-body text-base leading-relaxed text-ink/50 mb-6 max-w-2xl">
               {briefing.subheadline}
             </p>
 
-            {/* Takeaways — 4 cols, linked to source, max 16 */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-6">
-              {briefing.sections.slice(0, 16).map((s) => {
-                const bubbleColor = COLORS[SECTION_COLORS[s.type]]
-                const inner = (
-                  <div className="group/item flex flex-col gap-2">
-                    <span
-                      className="text-[10px] font-display font-bold uppercase tracking-widest px-2.5 py-1 rounded-full self-start"
-                      style={{ backgroundColor: bubbleColor.bg, color: bubbleColor.text }}
-                    >
-                      {s.emoji} {s.label}
-                    </span>
-                    <p className="font-body text-sm leading-relaxed text-ink/55 group-hover/item:text-ink transition-colors">
-                      {s.description.split('.')[0]}.
-                    </p>
-                  </div>
-                )
-                return s.link
-                  ? <a key={s.type} href={s.link} target="_blank" rel="noopener noreferrer">{inner}</a>
-                  : <div key={s.type}>{inner}</div>
-              })}
-            </div>
+            {/* Letter-style summary */}
+            {briefing.summary && (
+              <div className="mb-10 max-w-3xl columns-2 gap-8">
+                {briefing.summary.split('\n\n').map((para, i) => (
+                  <p key={i} className="font-body text-sm leading-relaxed text-ink/65 mb-4 break-inside-avoid">
+                    {para.split(/(\*\*[^*]+\*\*)/).map((chunk, j) =>
+                      chunk.startsWith('**') && chunk.endsWith('**')
+                        ? <strong key={j} className="font-bold text-ink/90">{chunk.slice(2, -2)}</strong>
+                        : chunk
+                    )}
+                  </p>
+                ))}
+              </div>
+            )}
           </div>
         </div>
 
         {/* ── Section cards ── */}
         <div className="mx-auto px-5 py-6 md:py-8 flex flex-col gap-6" style={{ maxWidth: '1075px' }}>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {briefing.sections.map((s, i) => {
+          <SectionCardGrid
+            date={date}
+            authed={authed}
+            sections={briefing.sections.map((s, i) => {
               const bubbleColor = COLORS[SECTION_COLORS[s.type]]
-              return (
-                <SectionCard
-                  key={s.type}
-                  date={date}
-                  section={s}
-                  cardIndex={i}
-                  bgColor={bubbleColor.bg}
-                  textColor={bubbleColor.text}
-                  authed={authed}
-                  initialRead={sectionReads[s.type] ?? false}
-                  initialRating={ratings[s.type]?.rating ?? null}
-                  initialNote={ratings[s.type]?.note ?? null}
-                />
-              )
+              return {
+                section: s,
+                originalIndex: i,
+                bgColor: bubbleColor.bg,
+                textColor: bubbleColor.text,
+                initialRead: sectionReads[i] ?? false,
+                initialRating: ratings[i]?.rating ?? null,
+                initialNote: ratings[i]?.note ?? null,
+              }
             })}
-          </div>
+          />
 
-          {/* Back */}
-          <div className="flex items-center justify-between pt-4">
-            <Link
-              href="/"
-              className="font-display font-bold text-sm uppercase tracking-widest border-2 border-ink px-5 py-2.5 hover:opacity-60 transition-opacity text-ink"
-            >
-              ← Back to archive
-            </Link>
-            <span className="font-display font-black text-lg opacity-15 text-ink">Re:Me</span>
-          </div>
         </div>
       </main>
     </>
