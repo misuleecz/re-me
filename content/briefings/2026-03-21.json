@@ -1,0 +1,121 @@
+{
+  "date": "2026-03-21",
+  "headline": "Figma MCP Goes Multi-IDE",
+  "subheadline": "Figma just expanded its MCP server to support two-way workflows with Cursor and more coding tools — directly relevant to the Figma MCP + Claude integration you're building. Plus: AI design tokens hit GA, and a fresh conference just wrapped on AI-powered design systems.",
+  "emoji": "🔗",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma MCP now supports two-way workflows with Cursor, Warp, and more",
+      "source": "Figma",
+      "description": "This is big for you specifically. Figma's MCP server now enables push-and-pull workflows across Cursor, Warp, Factory, Firebender, and Augment — not just one-way reads. You can push rendered UI to the canvas as editable frames, compare flows with your team, then pull design context back into code. Given you're already building a Figma MCP + Claude integration for white-label sport apps, this expanded ecosystem could change your architecture choices.",
+      "link": "https://www.figma.com/release-notes/",
+      "duration": null,
+      "tags": [
+        "figma",
+        "MCP",
+        "cursor",
+        "design-to-code"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma's 2026 updates quietly redefine design-dev handoff",
+      "source": "Medium",
+      "description": "AI Design Tokens just hit General Availability — Figma's AI now suggests color, spacing, and typography tokens based on existing codebases and writes them out. For your white-label design system work, this could massively accelerate token generation across sport app variants instead of manual mapping. Worth a quick scan to see how it handles codebase-informed suggestions.",
+      "link": "https://medium.com/@Rythmuxdesigner/figmas-2026-updates-quietly-redefine-design-dev-handoff-and-not-everyone-s-ready-98307f2ea2a8",
+      "duration": "~6 min read",
+      "tags": [
+        "figma",
+        "design-tokens",
+        "AI",
+        "design-systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Cursor rolls out a new agentic coding system",
+      "source": "TechCrunch",
+      "description": "Cursor 2.0 shipped Background Agents, Hooks, and a proper Plan Mode that makes AI coding feel less like vibes and more like a structured workflow. Since you're vibe-coding with Cursor daily, the Background Agents feature — where tasks keep running while you context-switch — could genuinely change how productive your sessions are, especially on limited time during maternity leave.",
+      "link": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/",
+      "duration": "~5 min read",
+      "tags": [
+        "cursor",
+        "agentic-coding",
+        "AI",
+        "developer-tools"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agentic design systems: AI orchestrating the design-to-code pipeline",
+      "source": "Supernova",
+      "description": "2026's shift isn't AI assisting designers — it's AI agents orchestrating the full design-to-code pipeline autonomously. High-performing teams are using MCP to let agents read structured design data, generate code, and validate consistency without human handoff at every step. This is the trajectory your Figma MCP + Claude project is already on — this piece frames the bigger strategic picture well.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~8 min read",
+      "tags": [
+        "agentic-AI",
+        "design-systems",
+        "MCP",
+        "product-strategy"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Into Design Systems: AI Design Systems Conference 2026 (just wrapped)",
+      "source": "Into Design Systems",
+      "description": "This two-day online conference on AI-powered design systems happened March 19-20 — literally yesterday. 1,000+ design system professionals attended. Recordings should be going up soon. Given your deep expertise in design systems and your current MCP project, the sessions on AI-driven token management and agentic workflows could be goldmine content for stroller walks if they release audio.",
+      "link": "https://www.intodesignsystems.com/",
+      "duration": null,
+      "tags": [
+        "conference",
+        "design-systems",
+        "AI",
+        "networking"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI in 2026: Five product shifts redefining digital UX",
+      "source": "The Gradient",
+      "description": "A thoughtful piece on what's actually slowing AI down in product UX today — and five emerging design patterns that address it. As someone evolving toward product builder / product leadership, this frames the strategic design decisions you'll be making in your next role. Less tactical, more \"how should we think about designing AI-native products.\"",
+      "link": "https://thegradient.com/thinking/ai-in-2026-five-product-shifts-well-have-to-design-for",
+      "duration": "~10 min read",
+      "tags": [
+        "product-design",
+        "AI-UX",
+        "strategy",
+        "leadership"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI agents can orchestrate design-to-code, what's the senior designer's new superpower?",
+      "source": null,
+      "description": "With Figma MCP enabling two-way flows, AI tokens auto-generating from codebases, and agentic tools running background tasks — the manual craft layer is thinning fast. Your deep systems thinking and white-label architecture expertise become rarer, not less valuable. But the role description changes. Worth sitting with: when you return, do you want to lead a design team or lead a product that happens to need design?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "leadership",
+        "AI-shift",
+        "product-thinking"
+      ]
+    }
+  ]
+}
