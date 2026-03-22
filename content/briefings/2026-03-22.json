@@ -1,0 +1,137 @@
+{
+  "date": "2026-03-22",
+  "headline": "Figma's AI Tokens Are Live",
+  "subheadline": "Figma's AI design tokens hit general availability — huge for your white-label design system work. Plus Cursor's security agents, Claude Opus 4.6, and the shift from chatbots to agentic AI in design systems.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma AI Design Tokens hit General Availability",
+      "source": "Medium",
+      "description": "This is directly in your wheelhouse. Figma's AI now suggests color, spacing, and typography tokens based on existing codebases — and writes them. For your white-label sport apps design system with MCP + Claude, this could dramatically accelerate how you generate and maintain tokens across brand variants. Worth digging into how this plays with your existing variables setup.",
+      "link": "https://medium.com/@Rythmuxdesigner/figmas-2026-updates-quietly-redefine-design-dev-handoff-and-not-everyone-s-ready-98307f2ea2a8",
+      "duration": "~7 min read",
+      "tags": [
+        "figma",
+        "design-tokens",
+        "AI",
+        "design-systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma's AI Design Development MCP — two-way UI to code workflows",
+      "source": "Releasebot",
+      "description": "Figma just dropped MCP support enabling two-way design-to-code workflows across Cursor, Warp, Factory, and others. You're already running Figma MCP with Claude — this expands the bridge significantly. The admin AI credits system and AI collaboration features are also new. Check the release notes for what's changed since your last setup.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": "~5 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "cursor",
+        "design-to-code"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Cursor's March update: security automation agents and MCP",
+      "source": "Releasebot",
+      "description": "Cursor released four security automation templates — agentic security review, vulnerability hunting, and automated PR repair across projects. If you're vibe-coding and shipping real things, having automated security checks baked into your workflow is the kind of guardrail that matters as your projects get more complex.",
+      "link": "https://releasebot.io/updates/cursor",
+      "duration": "~4 min read",
+      "tags": [
+        "cursor",
+        "security",
+        "AI-agents",
+        "automation"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agentic AI in Design Systems — beyond chatbots",
+      "source": "Supernova",
+      "description": "The biggest shift in enterprise design systems this year: moving from 'ask AI to generate something' to AI agents that autonomously maintain, audit, and evolve your system. Think agents that detect token drift, flag inconsistencies across white-label themes, or propose component updates. This is the trajectory your Figma MCP + Claude project is already on.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~8 min read",
+      "tags": [
+        "agentic-AI",
+        "design-systems",
+        "enterprise",
+        "automation"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Opus 4.6 and Claude Cowork: what's new from Anthropic",
+      "source": "Fazal @ Medium",
+      "description": "Opus 4.6 brings stronger coding, better planning and debugging — all directly relevant to your Claude Code workflow. Claude Cowork (the desktop agent that reads, creates, and manages files locally) is now being customized for enterprise. If your company starts exploring Claude beyond your personal setup, this is the path it'll take.",
+      "link": "https://fazal-sec.medium.com/anthropics-explosive-start-to-2026-everything-claude-has-launched-and-why-it-s-shaking-up-the-668788c2c9de",
+      "duration": "~10 min read",
+      "tags": [
+        "claude",
+        "anthropic",
+        "AI-agents",
+        "coding"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Claude Code is all you need in 2026",
+      "source": "Brian Casel / YouTube",
+      "description": "A practical look at building with Claude Code as the single tool — no elaborate frameworks or custom setups. With 91k views and a clear thesis that the toolchain is simplifying, this validates the direction you're heading. Good for seeing how others structure their MCP servers and hooks in practice.",
+      "link": "https://www.youtube.com/watch?v=0hdFJA-ho3c",
+      "duration": "~18 min",
+      "tags": [
+        "claude-code",
+        "vibe-coding",
+        "workflow",
+        "MCP"
+      ]
+    },
+    {
+      "type": "tip",
+      "emoji": "💡",
+      "label": "Quick tip",
+      "title": "Define MCP servers in .mcp.json for persistent Claude Code setups",
+      "source": "okhlopkov.com",
+      "description": "If you haven't already, check out this dev's Claude Code setup — he runs it 24/7 on a VPS with MCP servers defined in `.mcp.json`, plus hooks and skills files. For your Figma MCP integration, structuring your servers this way means Claude can pick up context automatically without you re-explaining your design system every session.",
+      "link": "https://okhlopkov.com/claude-code-setup-mcp-hooks-skills-2026/",
+      "duration": "~6 min read",
+      "tags": [
+        "MCP",
+        "claude-code",
+        "setup",
+        "workflow"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI agents can maintain design systems, what does a Head of Design actually lead?",
+      "source": null,
+      "description": "With AI tokens auto-suggesting, agents auditing consistency, and MCP bridging design-to-code — the tactical work of design systems is being automated fast. As someone who's been Group Head of Design, the interesting question becomes: does this free design leaders to focus on product strategy and brand vision, or does it collapse the role entirely? Worth sitting with as you think about your next career move.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "design-leadership",
+        "AI-strategy",
+        "future-of-design"
+      ]
+    }
+  ]
+}
