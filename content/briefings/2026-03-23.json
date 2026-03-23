@@ -1,0 +1,136 @@
+{
+  "date": "2026-03-23",
+  "headline": "Figma's MCP ecosystem just exploded",
+  "subheadline": "Figma's new MCP integrations with Cursor, Claude Code, and VS Code are directly relevant to what you're building. Plus: Cursor's new Automations feature and a sharp article on designing for AI products.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma launches AI Design Development MCP — two-way design↔code with Cursor, Warp & more",
+      "source": "Releasebot",
+      "description": "This is huge for your MCP project. Figma now officially supports two-way UI-to-code workflows via MCP across Cursor, Warp, Factory, Firebender, and Augment. Combined with the Claude Code and Codex partnerships from February, the MCP ecosystem around Figma is now the real deal. Your white-label sport apps design system integration is suddenly riding the same wave as Figma's own strategy.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": null,
+      "tags": [
+        "figma",
+        "MCP",
+        "design-to-code",
+        "cursor"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma's 2026 updates quietly redefine design-dev handoff",
+      "source": "Medium",
+      "description": "Figma AI now suggests color, spacing, and typography tokens based on existing codebases and writes them to tokens.json or Style Dictionary. For someone building a design system with token architecture, this is a meaningful shift — the tool is starting to close the gap between your Figma tokens and what lives in code, automatically. Worth a careful read.",
+      "link": "https://medium.com/@Rythmuxdesigner/figmas-2026-updates-quietly-redefine-design-dev-handoff-and-not-everyone-s-ready-98307f2ea2a8",
+      "duration": "~7 min read",
+      "tags": [
+        "figma",
+        "design-tokens",
+        "handoff",
+        "AI"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma MCP server now generates design layers from VS Code",
+      "source": "GitHub Blog",
+      "description": "GitHub Copilot users can now connect to Figma's MCP server to pull design context into code AND push rendered UI back to Figma as editable frames. Two-way sync. This is exactly the pattern you're building with Claude — seeing how GitHub/Figma implemented it officially could sharpen your own MCP architecture.",
+      "link": "https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/",
+      "duration": "~3 min read",
+      "tags": [
+        "figma-MCP",
+        "VS Code",
+        "two-way-sync",
+        "design-systems"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Cursor Automations: run dozens of coding agents at once",
+      "source": "TechCrunch",
+      "description": "Cursor launched 'Automations' — a system where a single engineer can oversee dozens of coding agents simultaneously, launching and guiding different processes as needed. If you're vibe-coding with Cursor already, this could dramatically speed up your workflow. Imagine spinning up agents for different components of your design system simultaneously.",
+      "link": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/",
+      "duration": "~5 min read",
+      "tags": [
+        "cursor",
+        "agentic-coding",
+        "automation",
+        "vibe-coding"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI in 2026: Five product shifts we'll have to design for",
+      "source": "CASES",
+      "description": "This is a product-thinking piece, not a tools piece. The argument: what's slowing AI down isn't model capability — it's product design. Unclear decision logic, fragile trust, poor integration into workflows. As someone moving toward product leadership, this frames exactly the strategic conversations you'll want to lead when you're back. 🎧 Could work as a read-aloud too.",
+      "link": "https://cases.media/article/ai-in-2026-five-product-shifts-well-have-to-design-for?srsltid=AfmBOorCJCGyXJikGS4-WAeAdO7K1pBn0pjpuJwX6uBMdWMvgzz-XzKW",
+      "duration": "~8 min read",
+      "tags": [
+        "product-design",
+        "AI-strategy",
+        "leadership",
+        "trust"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "MCP as design system infrastructure",
+      "source": "Parallel HQ",
+      "description": "Model Context Protocol is becoming the connective tissue of design systems — letting Figma send structured data (tokens, components, constraints) to AI tools that can read and act on it. This article frames MCP not as a dev tool but as design system infrastructure. It validates the exact thesis behind your Figma MCP + Claude project: the design system becomes the API.",
+      "link": "https://www.parallelhq.com/blog/automating-design-systems-with-ai",
+      "duration": "~10 min read",
+      "tags": [
+        "MCP",
+        "design-systems",
+        "automation",
+        "infrastructure"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "Lovable just hit $400M ARR",
+      "source": "Bloomberg",
+      "description": "The vibe-coding platform you're already using hit $400 million in annual recurring revenue. That's staggering growth for a tool category that barely existed two years ago. It signals that designer-as-builder isn't a niche anymore — it's a massive market. Your instinct to ship real things with these tools is exactly where the industry is heading.",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-12/vibe-coding-startup-lovable-hits-400-million-recurring-revenue",
+      "duration": null,
+      "tags": [
+        "lovable",
+        "vibe-coding",
+        "market-signal"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "With Figma's official MCP integrations expanding fast, where does your custom MCP add unique value?",
+      "source": null,
+      "description": "Figma now has official MCP connections to Cursor, VS Code, Claude Code, and Codex. Your white-label sport apps design system MCP was ahead of this curve. The question now: does the official ecosystem make your work easier (you can build on top of it) or does it commoditize parts of it? Worth mapping out what's now handled by Figma vs. what's uniquely yours.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "strategy",
+        "MCP",
+        "design-systems",
+        "positioning"
+      ]
+    }
+  ]
+}
