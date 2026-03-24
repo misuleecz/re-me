@@ -1,0 +1,116 @@
+{
+  "date": "2026-03-24",
+  "headline": "Agents Are Eating the Pipeline",
+  "subheadline": "Figma's MCP is expanding fast, Cursor's new model sparks controversy, and design systems are becoming agent-orchestrated. Big week for your stack.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma MCP now generates design layers from VS Code — two-way design ↔ code is real",
+      "source": "GitHub Blog",
+      "description": "Figma's MCP server now lets GitHub Copilot users pull design context into code AND push rendered UI back to Figma as editable frames. This is directly relevant to what you're building — your company's MCP + Claude integration for the white-label sport apps design system is riding the exact same wave. Worth studying how they're structuring the two-way flow.",
+      "link": "https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/",
+      "duration": "~3 min read",
+      "tags": [
+        "figma-mcp",
+        "design-to-code",
+        "your-project"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Automating Design Systems with AI: MCP as the connective tissue",
+      "source": "Parallel HQ",
+      "description": "This piece breaks down how MCP lets tools like Figma send structured data to AI agents — essentially the architecture pattern behind what you're building. It's a practical workflow guide, not theory. Useful for validating your approach and maybe stealing a few patterns for your sport apps design system pipeline.",
+      "link": "https://www.parallelhq.com/blog/automating-design-systems-with-ai",
+      "duration": "~8 min read",
+      "tags": [
+        "design-systems",
+        "MCP",
+        "automation",
+        "your-project"
+      ]
+    },
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Cursor's Composer 2 is built on Moonshot AI's Kimi — transparency drama unfolds",
+      "source": "TechCrunch",
+      "description": "Cursor launched Composer 2 this week as \"frontier-level coding intelligence\" — then got caught: it's built on Moonshot AI's open-source Kimi 2.5. The transparency debate is heating up. Since you're vibe-coding in Cursor daily, worth knowing what's actually under the hood now and whether the model switch affects your workflow quality.",
+      "link": "https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi/",
+      "duration": "~5 min read",
+      "tags": [
+        "cursor",
+        "vibe-coding",
+        "AI-models",
+        "transparency"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI agents are now orchestrating the design-to-code pipeline, not just assisting",
+      "source": "Supernova",
+      "description": "Supernova's take on 2026 enterprise design systems argues the shift is from 'AI assists designers' to 'AI agents orchestrate the full pipeline.' High-performing teams are using agents across the design system lifecycle. As someone building exactly this kind of bridge, this frames where your MCP project sits in the bigger industry narrative.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~7 min read",
+      "tags": [
+        "design-systems",
+        "AI-agents",
+        "strategy"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Persistent agent threads — Claude's new always-on coworker mode",
+      "source": "Releasebot / Anthropic",
+      "description": "Claude now offers persistent agent threads on Pro and Max plans via a feature called Cowork — you can assign tasks from mobile or desktop and the agent keeps working across sessions. Think of it as going from 'chat with Claude' to 'delegate to Claude.' For your maternity leave workflow — hand Claude a design system audit task from your phone, check results later.",
+      "link": "https://releasebot.io/updates/anthropic/claude",
+      "duration": null,
+      "tags": [
+        "claude",
+        "AI-agents",
+        "workflow"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Five product shifts designers have to design for in the AI era",
+      "source": "CASES",
+      "description": "This one's less about tools and more about your product leadership brain. The argument: what slows AI down isn't capability — it's product design. Unclear decision logic, fragile trust, poor integration. As you think about evolving toward product builder / product leadership, this frames the design challenges that actually matter now. 🎧 Good stroller-walk thinking material even if you just skim it first.",
+      "link": "https://cases.media/article/ai-in-2026-five-product-shifts-well-have-to-design-for?srsltid=AfmBOorRQkF-p8eu0X_lHJXo6X6d5WuIdLWECCShJoRQkGAxQ_1WXTSa",
+      "duration": "~10 min read",
+      "tags": [
+        "product-design",
+        "AI-strategy",
+        "leadership"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If agents can orchestrate design-to-code, what does a design system lead actually do?",
+      "source": null,
+      "description": "With MCP enabling two-way Figma ↔ code flows, persistent Claude agents running tasks asynchronously, and AI generating UI from prompts — the role of a design system lead is shifting from 'build and maintain components' to 'define the rules agents follow.' Your MCP project is already putting you at this frontier. What does your job title look like in 18 months?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "design-leadership",
+        "AI-agents"
+      ]
+    }
+  ]
+}
