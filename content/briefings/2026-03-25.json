@@ -1,0 +1,119 @@
+{
+  "date": "2026-03-25",
+  "headline": "Your MCP world just expanded",
+  "subheadline": "Figma's MCP now works two-way with VS Code, Cursor shipped multi-agent orchestration, and AI is starting to auto-generate design tokens from codebases. Big week for the exact stack you're building on.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma MCP now generates editable design layers from VS Code & Copilot",
+      "source": "GitHub Blog",
+      "description": "This is directly relevant to your MCP work. Figma's MCP server now supports two-way flow — pull design context into code AND push rendered UI back to Figma as editable frames. This sets a precedent for the kind of bidirectional Figma↔Claude integration you're building for the white-label sport apps system. Worth studying how they structured the protocol.",
+      "link": "https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/",
+      "duration": "~3 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "design-to-code",
+        "your-stack"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma's 2026 updates quietly redefine design-dev handoff",
+      "source": "Medium",
+      "description": "The headline buried in here: Figma's AI now suggests color, spacing, and typography tokens based on existing codebases — and writes them to tokens.json or Style Dictionary. For someone building a design system with token architecture, this could automate a massive chunk of your token sync workflow. The handoff implications are real.",
+      "link": "https://medium.com/@Rythmuxdesigner/figmas-2026-updates-quietly-redefine-design-dev-handoff-and-not-everyone-s-ready-98307f2ea2a8",
+      "duration": "~6 min read",
+      "tags": [
+        "figma",
+        "design-tokens",
+        "design-systems",
+        "handoff"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Cursor ships Automations: orchestrate dozens of coding agents at once",
+      "source": "TechCrunch",
+      "description": "Cursor's new 'Automations' feature lets a single engineer oversee dozens of coding agents simultaneously — launching and guiding different processes in parallel. If you're vibe-coding with Cursor, this changes the scale of what's possible. Think: spinning up agents to scaffold multiple white-label app variants at once. Early days but worth tracking.",
+      "link": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/",
+      "duration": "~4 min read",
+      "tags": [
+        "cursor",
+        "AI-agents",
+        "vibe-coding",
+        "automation"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Self-maintaining design systems",
+      "source": "Design Systems Collective",
+      "description": "The idea that design systems evolve from static component libraries into living systems that auto-update code libraries when a new component is created in design. MCP is the connective tissue making this possible. This is essentially the future state of what you're building — where your sport app design system doesn't just document components but actively maintains parity across Figma and code.",
+      "link": "https://www.designsystemscollective.com/the-rise-of-self-maintaining-design-systems-through-ai-powered-automation-cbacbfd4aa22",
+      "duration": "~8 min read",
+      "tags": [
+        "design-systems",
+        "MCP",
+        "automation",
+        "architecture"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Code's biggest week: three releases that expose internal state",
+      "source": "Medium",
+      "description": "Claude Code versions 2.1.69–71 dropped a dozen additions that expose internal state previously invisible to developers. If you're building with Claude Code, this means better debugging, more transparency into what the model is actually doing, and more control over agent behavior. Practical stuff for your Cursor + Claude workflow.",
+      "link": "https://medium.com/@AdithyaGiridharan/claude-codes-biggest-week-yet-what-changed-in-the-march-2026-releases-20432abae2b1",
+      "duration": "~7 min read",
+      "tags": [
+        "claude-code",
+        "anthropic",
+        "developer-tools"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "The future of enterprise design systems: 2026 trends — agentic AI edition",
+      "source": "Supernova",
+      "description": "Supernova's take on the shift from 'AI assists designers' to 'AI agents orchestrate the design-to-code pipeline.' High-performing teams are using agents across the full system lifecycle. Good strategic framing if you're thinking about how to position your design system work as a leadership story when you return from leave.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~10 min read",
+      "tags": [
+        "design-systems",
+        "AI-agents",
+        "strategy",
+        "leadership"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If your design system can self-maintain, what does the design systems team actually do?",
+      "source": null,
+      "description": "With MCP enabling two-way sync, AI generating tokens from code, and agents orchestrating design-to-code pipelines — the manual maintenance layer of design systems work is evaporating. The value shifts to governance, quality, and strategic decisions about what gets built. As an ex-Head of Design thinking about your next role: the job isn't maintaining the system anymore. It's deciding what the system should be.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "design-leadership",
+        "strategy"
+      ]
+    }
+  ]
+}
