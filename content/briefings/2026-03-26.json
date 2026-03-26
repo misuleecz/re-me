@@ -1,0 +1,117 @@
+{
+  "date": "2026-03-26",
+  "headline": "Figma MCP Gets Seriously Powerful",
+  "subheadline": "The Figma MCP integration you're building just got major upgrades — Claude Code can now design directly in Figma, and the design-dev handoff is being rewritten in real time.",
+  "emoji": "🔗",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma MCP now lets Claude Code design directly on the canvas",
+      "source": "X / @felixleezd",
+      "description": "This is directly in your lane. Figma's MCP update now lets Claude Code create and manipulate design layers — not just read them. People are calling it one of the strongest Claude Code integrations out there. Given you're literally building a Figma MCP + Claude integration for your company's white-label sport apps, this changes what's possible for you right now.",
+      "link": "https://x.com/felixleezd/status/2036502780903563574",
+      "duration": null,
+      "tags": [
+        "figma-mcp",
+        "claude-code",
+        "design-systems",
+        "your-project"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma MCP server generates editable design layers from VS Code",
+      "source": "GitHub Blog",
+      "description": "GitHub Copilot users can now connect to the Figma MCP server to pull design context into code AND push rendered UI back to Figma as editable frames. This two-way flow is exactly the design-to-code loop you've been working toward. Worth reading to see how the VS Code side compares to what you're doing with Claude.",
+      "link": "https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/",
+      "duration": "~3 min read",
+      "tags": [
+        "figma-mcp",
+        "github-copilot",
+        "design-to-code"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma's AI now suggests tokens from existing codebases",
+      "source": "Medium",
+      "description": "Figma's AI can now analyze an existing codebase and suggest color, spacing, and typography tokens — then write them to tokens.json or Style Dictionary. For someone maintaining a design system across white-label sport apps, this could dramatically speed up token alignment between design and code. This is the kind of automation that makes your design system work less manual.",
+      "link": "https://medium.com/@Rythmuxdesigner/figmas-2026-updates-quietly-redefine-design-dev-handoff-and-not-everyone-s-ready-98307f2ea2a8",
+      "duration": "~6 min read",
+      "tags": [
+        "design-tokens",
+        "figma-ai",
+        "design-systems",
+        "handoff"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Agents meet the Figma Canvas — full MCP capabilities walkthrough",
+      "source": "YouTube",
+      "description": "A walkthrough of Figma's expanded MCP capabilities, specifically the 'Agents meet the Figma Canvas' extension. Since you're deep in Figma MCP already, this is less about learning and more about seeing what new endpoints and interactions are available that you can wire into your own setup.",
+      "link": "https://m.youtube.com/watch?v=mAUXxpRx9Zw&pp=ugUEEgJlbg%3D%3D",
+      "duration": "~15 min",
+      "tags": [
+        "figma-mcp",
+        "agents",
+        "walkthrough"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agent UX: trust, transparency, and oversight",
+      "source": "LinkedIn",
+      "description": "As AI agents move from demos to real products, the UX challenge shifts from designing interfaces to designing trust. How do users understand what an agent did, why, and how to override it? This is becoming a core product design discipline — and with your leadership background, you're well-positioned to own this kind of thinking at your company.",
+      "link": "https://www.linkedin.com/pulse/ai-agents-why-2026-may-finally-year-matter-aaron-usiskin-yq0oe",
+      "duration": "~7 min read",
+      "tags": [
+        "agent-ux",
+        "product-leadership",
+        "trust-design"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude gets computer use capabilities in preview",
+      "source": "SiliconAngle",
+      "description": "Anthropic just previewed Claude's ability to actually use your computer — looking at what integrations are available (Calendar, Slack, etc.) and executing tasks across them. This is the next evolution beyond MCP: Claude not just reading/writing to tools, but autonomously orchestrating workflows across them. Early but worth tracking.",
+      "link": "https://siliconangle.com/2026/03/23/anthropics-claude-gets-computer-use-capabilities-preview/",
+      "duration": "~4 min read",
+      "tags": [
+        "anthropic",
+        "claude",
+        "computer-use",
+        "agents"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI can generate tokens from code and design from prompts — what becomes the designer's actual job?",
+      "source": null,
+      "description": "Figma AI writes tokens from codebases. Claude Code designs on canvas. Cursor builds from specs. The tools you're stitching together are automating the production layer of design. The question worth sitting with on your next walk: as a design leader coming back from leave, do you return to lead the craft — or the system that orchestrates the craft?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "design-leadership",
+        "ai-strategy"
+      ]
+    }
+  ]
+}
