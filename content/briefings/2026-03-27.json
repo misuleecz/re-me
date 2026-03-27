@@ -1,0 +1,134 @@
+{
+  "date": "2026-03-27",
+  "headline": "Figma MCP Goes Two-Way",
+  "subheadline": "Figma's MCP server now pushes design layers from VS Code, Cursor gets agent automations, and AI is starting to orchestrate the design-to-code pipeline you're literally building.",
+  "emoji": "🔗",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma MCP server now generates design layers from VS Code",
+      "source": "GitHub Blog",
+      "description": "This is huge for what you're building. Figma's MCP server now goes both ways — Copilot users can pull design context into code AND push rendered UI back to Figma as editable frames. This two-way canvas-to-code loop is exactly the architecture you're exploring with your white-label sport apps system. Worth reading the changelog closely to see how it maps to your own MCP setup.",
+      "link": "https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/",
+      "duration": "~3 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "design-to-code",
+        "design systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma's 2026 Updates Quietly Redefine Design-Dev Handoff",
+      "source": "Medium",
+      "description": "The key detail here: Figma's AI now suggests color, spacing, and typography tokens based on existing codebases and writes them to tokens.json or Style Dictionary. For someone deep in design tokens and variables architecture like you, this could either complement or conflict with your current token workflow. Worth understanding where the overlap is before your team adopts it.",
+      "link": "https://medium.com/@Rythmuxdesigner/figmas-2026-updates-quietly-redefine-design-dev-handoff-and-not-everyone-s-ready-98307f2ea2a8",
+      "duration": "~6 min read",
+      "tags": [
+        "figma",
+        "design tokens",
+        "handoff",
+        "AI"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Cursor's new Automations: agents that trigger themselves",
+      "source": "TechCrunch",
+      "description": "Cursor just shipped 'Automations' — agents that auto-launch when triggered by new code, a Slack message, or a timer. Think of it as background agents that review, refactor, or scaffold without you asking. Since you're already vibe-coding in Cursor, this could change how you prototype. Imagine pushing a component and having an agent automatically check it against your design system specs.",
+      "link": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/",
+      "duration": "~4 min read",
+      "tags": [
+        "cursor",
+        "AI agents",
+        "vibe-coding",
+        "automation"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI agents are orchestrating the design-to-code pipeline in 2026",
+      "source": "Supernova",
+      "description": "Supernova's take on where enterprise design systems are heading: 2026 is the year AI agents stop assisting and start orchestrating the full design-to-code pipeline. They frame MCP as the connective tissue. This validates the direction of your Figma MCP + Claude project and might give you language for pitching it internally when you're back.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~8 min read",
+      "tags": [
+        "design systems",
+        "AI agents",
+        "MCP",
+        "enterprise"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Outcome-driven products vs. interaction-driven products",
+      "source": "CASES",
+      "description": "AI agents are shifting product design from 'interaction-driven' (user clicks through flows) to 'outcome-driven' (user states a goal, agent handles the rest). This reframes what a product designer even designs — less screens, more system logic and guardrails. As you think about evolving toward product leadership, this is a foundational mental model shift worth internalizing.",
+      "link": "https://cases.media/article/ai-in-2026-five-product-shifts-well-have-to-design-for?srsltid=AfmBOooWUkHVx08JlvFfiMZSfVQQR9g-FW7zSGPjrZk_QKWV1rUyPZXl",
+      "duration": "~7 min read",
+      "tags": [
+        "AI agents",
+        "product design",
+        "UX strategy",
+        "career"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "AI + Design Systems in 2026: The Workflow I Actually Use",
+      "source": "YouTube",
+      "description": "A practitioner walkthrough of using AI to support a real design system — not hypothetical, not replacing designers. Could be interesting to compare their workflow against yours, especially around how they handle the MCP integration and token management. Save for a nap-time session.",
+      "link": "https://www.youtube.com/watch?v=XfezMs8B-O8",
+      "duration": "~15 min",
+      "tags": [
+        "design systems",
+        "AI workflow",
+        "practical"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "Lovable is now valued at $6.6B",
+      "source": "MEXC News",
+      "description": "The vibe-coding platform you're already using just hit a $6.6B valuation and is actively acquiring companies to expand its platform. That's serious momentum behind the idea that non-engineers shipping real products is a permanent shift, not a trend. Your instinct to build with these tools is well-timed.",
+      "link": "https://www.mexc.com/news/975596",
+      "duration": null,
+      "tags": [
+        "lovable",
+        "vibe-coding",
+        "market"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI agents orchestrate design-to-code, what does a design lead actually lead?",
+      "source": null,
+      "description": "With MCP connecting Figma to code agents, and AI suggesting tokens from codebases, the mechanical parts of design systems work are getting automated fast. The strategic questions — what to build, what to standardize, where to allow flexibility — become the whole job. When you return, your role might be less about the system and more about the decisions the system encodes.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "design leadership",
+        "AI strategy"
+      ]
+    }
+  ]
+}
