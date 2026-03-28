@@ -1,0 +1,129 @@
+{
+  "date": "2026-03-28",
+  "headline": "Agents Are Eating Design Systems",
+  "subheadline": "Big moves this month in the Figma MCP ecosystem, Claude Code gaining computer use, and Cursor building its own model. Your MCP project is riding a wave — here's what you need to know.",
+  "emoji": "🌊",
+  "color": "cyan",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma's MCP Server Now Generates Design Layers from VS Code",
+      "source": "GitHub Blog",
+      "description": "Figma's MCP server can now both pull design context into code AND push rendered UI back to Figma as editable frames — a proper two-way bridge. This is directly relevant to the MCP integration you're building for your company's white-label sport apps. The fact that GitHub Copilot is already connected means the ecosystem around Figma MCP is expanding fast — worth tracking how this shapes the standard.",
+      "link": "https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/",
+      "duration": "~3 min read",
+      "tags": [
+        "figma-mcp",
+        "design-to-code",
+        "agentic-workflows"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Every Claude Code Update From March 2026, Explained",
+      "source": "Builder.io",
+      "description": "Claude Code now has computer use — it can open files, run dev tools, point-and-click, and navigate your screen with zero setup. Plus there's a new mobile check-in feature so you can monitor long-running sessions from your phone. As someone who's deep in Claude Code with Cursor, these are meaningful workflow upgrades, especially the ability to let Claude autonomously interact with your actual dev environment.",
+      "link": "https://www.builder.io/blog/claude-code-updates",
+      "duration": "~8 min read",
+      "tags": [
+        "claude-code",
+        "computer-use",
+        "agentic-coding"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Cursor Plans Its Own AI Model to Rival Anthropic and OpenAI",
+      "source": "Bloomberg",
+      "description": "Cursor is building its own coding model — not just wrapping someone else's. This is a major strategic bet: if Cursor's model is optimized specifically for code generation, it could outperform general-purpose models for the vibe-coding workflows you rely on. Worth watching how this affects the Cursor + Claude pairing you currently use.",
+      "link": "https://www.bloomberg.com/news/articles/2026-03-19/ai-coding-startup-cursor-plans-new-model-to-rival-anthropic-openai",
+      "duration": "~4 min read",
+      "tags": [
+        "cursor",
+        "ai-models",
+        "vibe-coding"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Agentic AI Is Orchestrating the Design-to-Code Pipeline in 2026",
+      "source": "Supernova.io",
+      "description": "This piece frames the shift well: 2025 was AI assisting designers, 2026 is AI agents orchestrating design-to-code pipelines. High-performing teams are using agents to manage the entire handoff. For someone building a Figma MCP + Claude integration for a white-label design system, this is the strategic context that validates the direction you're heading.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~7 min read",
+      "tags": [
+        "design-systems",
+        "agentic-ai",
+        "product-strategy"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Two-Way MCP: Design ↔ Code as a Living Loop",
+      "source": null,
+      "description": "The original Figma MCP was mostly one-way: pull design tokens into code. What's emerging now — with GitHub, Cursor, and others connecting — is a genuine two-way loop where code changes can push back into design files as editable layers. This turns your design system from a static source of truth into a living, bidirectional contract. It fundamentally changes what 'maintaining a design system' means.",
+      "link": "https://finance.yahoo.com/news/figma-agentic-coding-why-mcp-175800978.html",
+      "duration": "~5 min read",
+      "tags": [
+        "mcp",
+        "design-systems",
+        "mental-model"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "47% of design systems now include component-level accessibility",
+      "source": "Adrenalin / Design Systems Survey",
+      "description": "Nearly half of design systems now embed accessibility guidelines at the component level — a big jump from prior years. If you're architecting a white-label design system, baking a11y into your component architecture (not as a separate layer) is becoming the baseline expectation, not a nice-to-have.",
+      "link": "https://www.adrenalin.co/insights/why-design-systems-are-now-a-strategic-imperative-for-2026",
+      "duration": null,
+      "tags": [
+        "accessibility",
+        "design-systems",
+        "standards"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If agents can orchestrate design-to-code, what's a design lead's job?",
+      "source": null,
+      "description": "With AI agents handling token sync, component generation, and even accessibility checks — the value of a design systems lead shifts from execution to governance, intent-setting, and quality judgment. As you think about your next role (product builder? product leader?), consider: the people who define what agents should optimize for will be more valuable than the people who do the optimizing.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "leadership",
+        "ai-strategy"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Lovable's Acquisition Push — Platform Growing Fast",
+      "source": "AI Insider",
+      "description": "Lovable is actively acquiring companies to expand beyond basic app building. You already use it, but this signals it's becoming a broader platform — not just a prototyping toy. Worth keeping an eye on what capabilities they add, especially if they start integrating design system imports or MCP connections.",
+      "link": "https://theaiinsider.tech/2026/03/24/lovable-accelerates-ai-platform-expansion-with-strategic-acquisition-push/",
+      "duration": "~3 min read",
+      "tags": [
+        "lovable",
+        "platform",
+        "vibe-coding"
+      ]
+    }
+  ]
+}
