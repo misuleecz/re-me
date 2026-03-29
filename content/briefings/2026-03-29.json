@@ -1,0 +1,133 @@
+{
+  "date": "2026-03-29",
+  "headline": "Figma MCP Gets Seriously Powerful",
+  "subheadline": "Big week for your Figma MCP + Claude setup — the integration just leveled up with canvas-level agent access. Plus, AI is now suggesting design tokens from codebases, which is basically what you've been building toward.",
+  "emoji": "🔗",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma MCP Now Lets Claude Code Design Directly on Canvas",
+      "source": "Felix Lee on X",
+      "description": "The Figma MCP update you've been waiting for — Claude Code can now design directly in Figma, not just read from it. Felix Lee calls it one of the strongest integrations with Claude Code he's seen. Given you're literally building a Figma MCP + Claude integration for your company's white-label sport apps design system, this could either accelerate your work or change your architecture entirely. Worth investigating immediately.",
+      "link": "https://x.com/felixleezd/status/2036502780903563574",
+      "duration": null,
+      "tags": [
+        "figma-mcp",
+        "claude-code",
+        "design-systems",
+        "your-project"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Agents Meet the Figma Canvas — Full MCP Capabilities Walkthrough",
+      "source": "YouTube",
+      "description": "Deep dive into Figma's new 'Agents meet the Figma Canvas' extension to their MCP capabilities. This goes beyond what you've been working with — two-way UI-to-code workflows now work across Cursor, Warp, Factory, and more. Since you're using both Figma MCP and Cursor daily, seeing how these connect at the agent level could reshape your vibe-coding workflow.",
+      "link": "https://www.youtube.com/watch?v=mAUXxpRx9Zw",
+      "duration": null,
+      "tags": [
+        "figma-mcp",
+        "agentic-coding",
+        "cursor",
+        "workflow"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma's AI Now Suggests Tokens from Existing Codebases",
+      "source": "Medium",
+      "description": "Figma's AI can now suggest color, spacing, and typography tokens based on existing codebases and write them directly to tokens.json or Style Dictionary. For someone building a design system with token architecture for white-label sport apps, this is directly in your lane. The article also covers how the 2026 updates are redefining design-dev handoff — not everyone's ready for it, but you definitely are.",
+      "link": "https://medium.com/@Rythmuxdesigner/figmas-2026-updates-quietly-redefine-design-dev-handoff-and-not-everyone-s-ready-98307f2ea2a8",
+      "duration": "~7 min read",
+      "tags": [
+        "design-tokens",
+        "figma-ai",
+        "handoff",
+        "design-systems"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "AI + Design Systems in 2026: A Real Practitioner's Workflow",
+      "source": "YouTube",
+      "description": "Not a hype video — someone walking through how they actually use AI to support a real design system in 2026. Explicitly says 'this is not about AI replacing design work.' Given your strategic design systems background and the MCP project you're building, this could validate or challenge your current approach with practical examples.",
+      "link": "https://www.youtube.com/watch?v=XfezMs8B-O8",
+      "duration": null,
+      "tags": [
+        "design-systems",
+        "ai-workflow",
+        "practical"
+      ]
+    },
+    {
+      "type": "podcast",
+      "emoji": "🎧",
+      "label": "Listen",
+      "title": "Claude Code's Biggest Updates You Missed — March 2026 Edition",
+      "source": "YouTube (audio-friendly)",
+      "description": "A roundup of Claude Code updates from this month. Good stroller walk material — you can listen without watching. Since you're actively shipping things with Claude Code and building integrations, catching the updates you might have missed while heads-down on your project is worth 20 minutes of walk time.",
+      "link": "https://www.youtube.com/watch?v=3vrn03I5Tss",
+      "duration": "~20 min",
+      "tags": [
+        "claude-code",
+        "updates",
+        "stroller-friendly"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agent Client Protocol (ACP) — The New Handshake Between AI Agents",
+      "source": "JetBrains Blog",
+      "description": "Cursor just joined the ACP (Agent Client Protocol) registry, making it available as an AI agent inside JetBrains IDEs. ACP is emerging as the standard way AI agents communicate with each other and with dev tools — think of it as MCP's cousin but for agent-to-agent coordination. As you get deeper into AI agents, understanding ACP vs MCP will matter for how your tools talk to each other.",
+      "link": "https://blog.jetbrains.com/ai/2026/03/cursor-joined-the-acp-registry-and-is-now-live-in-your-jetbrains-ide/",
+      "duration": "~4 min read",
+      "tags": [
+        "ai-agents",
+        "ACP",
+        "cursor",
+        "protocol"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "Lovable Is Now 71% Better at Complex Tasks",
+      "source": "Instagram / Lovable",
+      "description": "Lovable just announced a 71% improvement in solving complex tasks with less hand-holding. If you've hit walls with Lovable on more ambitious builds, it might be worth revisiting. The gap between 'quick prototype' and 'actually useful app' is closing faster than expected.",
+      "link": "https://www.instagram.com/popular/lovabledev-current-capabilities-march-2026/",
+      "duration": null,
+      "tags": [
+        "lovable",
+        "vibe-coding",
+        "improvement"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI Can Now Design in Figma and Code from Tokens — What's Your Unique Value?",
+      "source": null,
+      "description": "With Figma MCP letting Claude design on canvas, AI suggesting tokens from codebases, and Lovable getting dramatically better — the tactical work you've mastered is being automated in real time. But your 15 years of design judgment, system thinking, and leadership instinct? That's what makes the AI output actually good. The question isn't whether to use these tools — it's whether to position yourself as the person who architects how teams use them.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "product-leadership",
+        "strategy"
+      ]
+    }
+  ]
+}
