@@ -1,0 +1,130 @@
+{
+  "date": "2026-03-30",
+  "headline": "Your MCP Stack Just Got Supercharged",
+  "subheadline": "Big Figma MCP updates, Claude Code's biggest month yet, and design systems are officially becoming AI-orchestrated ecosystems. This is your week.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma MCP Now Lets AI Agents Write Directly to Your Canvas",
+      "source": "Releasebot",
+      "description": "This is the big one for you. Figma's MCP server now supports full agent write access — agents can create and modify real design assets using your existing components, variables, and tokens. This is exactly the integration you're building for the white-label sport apps design system. Your timing couldn't be better.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": "~3 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "design-systems",
+        "AI-agents"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Agents Meet the Figma Canvas — Figma MCP Deep Dive",
+      "source": "YouTube",
+      "description": "Walks through the new Figma MCP capabilities with Claude Code specifically. Given you're already wiring up Figma MCP + Claude for your company's design system, this is a direct look at what's now possible. Worth watching to see if there are new capabilities you can fold into your integration.",
+      "link": "https://www.youtube.com/watch?v=mAUXxpRx9Zw",
+      "duration": "~15 min",
+      "tags": [
+        "figma-MCP",
+        "claude-code",
+        "design-systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Every Claude Code Update From March 2026, Explained",
+      "source": "Builder.io",
+      "description": "March was apparently Claude Code's biggest month of updates. Since you're using Claude Code daily with Cursor and Figma MCP, this roundup will catch you up on anything you might have missed — new agent behaviors, performance improvements, and integration changes all in one place.",
+      "link": "https://www.builder.io/blog/claude-code-updates",
+      "duration": "~8 min read",
+      "tags": [
+        "claude-code",
+        "vibe-coding",
+        "tools"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma AI Now Suggests Tokens from Existing Codebases",
+      "source": "Medium",
+      "description": "Figma's AI can now analyze existing codebases and suggest color, spacing, and typography tokens — then write them to tokens.json or Style Dictionary. For someone managing a white-label design system with variables and tokens at scale, this could dramatically speed up the bridge between your codebase and Figma's token structure.",
+      "link": "https://medium.com/@Rythmuxdesigner/figmas-2026-updates-quietly-redefine-design-dev-handoff-and-not-everyone-s-ready-98307f2ea2a8",
+      "duration": "~6 min read",
+      "tags": [
+        "design-tokens",
+        "figma-AI",
+        "design-dev-handoff"
+      ]
+    },
+    {
+      "type": "podcast",
+      "emoji": "🎧",
+      "label": "Listen",
+      "title": "AI + Design Systems in 2026: The Workflow I Actually Use",
+      "source": "YouTube (audio-friendly)",
+      "description": "A practitioner walkthrough of using AI to support a real, production design system — not hype, actual workflow. Good stroller content. The creator is explicit that this isn't about AI replacing design work, which aligns with how you're approaching the Figma MCP build: AI as a power tool, not a replacement.",
+      "link": "https://www.youtube.com/watch?v=XfezMs8B-O8",
+      "duration": "~20 min",
+      "tags": [
+        "design-systems",
+        "AI-workflow",
+        "stroller-friendly"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "AI-Orchestrated Design Systems",
+      "source": null,
+      "description": "Design systems are shifting from static component libraries to AI-orchestrated ecosystems where agents programmatically consume and modify design data. The driver? AI agents need structured, standards-compliant design tokens to operate — which ironically is forcing organizations to finally invest in proper design system governance. Your MCP work is exactly this pattern.",
+      "link": "http://tianpan.co/forum/t/design-systems-became-ai-orchestrated-ecosystems-in-2026-whos-actually-benefiting-from-this-automation/1406",
+      "duration": "~4 min read",
+      "tags": [
+        "design-systems",
+        "AI-agents",
+        "strategy"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "OpenAI Codex + Figma Integration",
+      "source": "Gend.co",
+      "description": "A new integration connecting OpenAI's Codex to Figma through the MCP server, creating a code-to-design loop. Worth knowing about even though you're in the Claude ecosystem — it shows the MCP server is becoming the universal connector. Could be useful context for positioning your Figma MCP + Claude build internally.",
+      "link": "https://www.gend.co/blog/openai-codex-figma-integration",
+      "duration": "~5 min read",
+      "tags": [
+        "figma-MCP",
+        "openai",
+        "competitive-landscape"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "You're building the thing everyone's talking about",
+      "source": null,
+      "description": "This month, Figma shipped agent canvas access, Claude Code had its biggest update cycle, and the industry is buzzing about AI-orchestrated design systems. You're already building a Figma MCP + Claude integration for a real design system at a real company. When you come back from leave, you won't just be a senior designer who knows AI — you'll be the person who shipped the infrastructure. What does that role look like?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "product-leadership",
+        "positioning"
+      ]
+    }
+  ]
+}
