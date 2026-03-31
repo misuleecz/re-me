@@ -1,0 +1,118 @@
+{
+  "date": "2026-03-31",
+  "headline": "Figma MCP Goes Open Beta",
+  "subheadline": "The Figma MCP server you've been building with just went open beta — plus Claude Code 2.5 dropped with multi-repo context that could change how you work across your white-label apps.",
+  "emoji": "🚀",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma MCP Server Open Beta — AI Agents Can Now Edit Canvas Directly",
+      "source": "MLQ.ai",
+      "description": "As of March 24, Figma's MCP server is in open beta. AI agents can now directly edit the canvas while respecting your design system — components, variables, auto layout, the works. Nine community-built skills launched alongside it, including /figma-generate-design. This is exactly the territory you're building in. Worth studying what the community skills look like and how they compare to what you're doing for your white-label sport apps.",
+      "link": "https://mlq.ai/news/figma-launches-beta-for-ai-agents-to-edit-canvas-directly-using-design-systems/",
+      "duration": "~5 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "design systems",
+        "AI agents"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Code 2.5: Multi-Repository Context Across 10 Codebases",
+      "source": "SkillsLLM",
+      "description": "Anthropic dropped Claude Code 2.5 with native multi-repo awareness — it can now understand dependencies across up to 10 linked codebases simultaneously. If you're working across multiple white-label app repos with shared design system code, this could be a serious workflow upgrade for your Cursor + Claude Code setup.",
+      "link": "https://skillsllm.com/news/ai-news-2026-03-27",
+      "duration": "~4 min read",
+      "tags": [
+        "Claude Code",
+        "multi-repo",
+        "vibe-coding"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma and Agentic Coding: Why MCP Integrations Matter",
+      "source": "Yahoo Finance",
+      "description": "A strategic angle on why Figma's MCP play matters for the broader product ecosystem. Notably: Figma plans to start enforcing AI credit limits, with options for additional credit subscriptions or pay-as-you-go. Worth knowing as you plan your MCP integration — there may be cost implications for how heavily agents interact with files.",
+      "link": "https://finance.yahoo.com/news/figma-agentic-coding-why-mcp-175800978.html",
+      "duration": "~6 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "business model",
+        "AI credits"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "AI + Design Systems in 2026: The Workflow I Actually Use",
+      "source": "YouTube",
+      "description": "A practitioner walkthrough of how someone uses AI to support a real, shipping design system — not theoretical, not hype. Could be interesting to compare notes against your own Figma MCP + Claude workflow and see if there are patterns you haven't considered for the white-label system.",
+      "link": "https://www.youtube.com/watch?v=XfezMs8B-O8",
+      "duration": "~15 min",
+      "tags": [
+        "design systems",
+        "AI workflow",
+        "practical"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "AI-Orchestrated Design Systems",
+      "source": null,
+      "description": "Design systems are shifting from static component libraries to AI-orchestrated ecosystems — where agents consume design tokens and components programmatically, not just humans. The interesting insight: organizations only started caring about proper standards once AI agents needed to read the data. Your obsession with clean tokens and variables? It's becoming the competitive moat.",
+      "link": "http://tianpan.co/forum/t/design-systems-became-ai-orchestrated-ecosystems-in-2026-whos-actually-benefiting-from-this-automation/1406",
+      "duration": "~5 min read",
+      "tags": [
+        "design systems",
+        "AI agents",
+        "tokens",
+        "architecture"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Anthropic's March 2026 Roundup — What to Watch in April",
+      "source": "Claude Lab",
+      "description": "A clean summary of everything Anthropic shipped in March — from Opus 4.6 to Claude Code 2.5 to dozens of smaller updates. Useful as a single catch-up page so you know what's changed in your primary AI stack. Also previews what's coming in April, which could affect your MCP integration plans.",
+      "link": "https://claudelab.net/en/blog/march-2026-monthly-roundup",
+      "duration": "~7 min read",
+      "tags": [
+        "Anthropic",
+        "Claude",
+        "updates"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "You're building the thing the industry just validated",
+      "source": null,
+      "description": "Figma just launched open beta for the exact capability you've been building — MCP-powered AI agents that respect design systems. You're not catching up; you're already here. The question worth sitting with on today's walk: does this open beta make your internal tool more valuable (because it's customized to your white-label needs), or does it change what you should be building?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "strategy",
+        "MCP",
+        "product thinking"
+      ]
+    }
+  ]
+}
