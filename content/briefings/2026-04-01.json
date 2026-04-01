@@ -1,0 +1,134 @@
+{
+  "date": "2026-04-01",
+  "headline": "AI Agents Are Writing to Figma",
+  "subheadline": "Figma's MCP server now lets AI agents create real design assets with your components, variables, and tokens. Plus: agentic design systems are becoming the new standard, and Cursor just shipped something big.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma's MCP Server Now Lets AI Agents Write Directly to Your Files",
+      "source": "Releasebot / Figma Release Notes",
+      "description": "This is huge for what you're building. Figma's March 2026 update added full AI agent support through the MCP server — agents can now write directly to Figma files and create or modify real design assets using existing components, variables, and tokens. This isn't experimental anymore; it's the official pipeline. Your Figma MCP + Claude integration work just got a massive tailwind.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": "~3 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "AI agents",
+        "design systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma's 2026 Updates Quietly Redefine Design-Dev Handoff",
+      "source": "Medium",
+      "description": "Figma's AI now suggests color, spacing, and typography tokens based on existing codebases — and writes them to tokens.json or Style Dictionary format. For someone building a white-label sport apps design system, this is the missing bridge between your Figma tokens and production code. Worth reading for the token sync details specifically.",
+      "link": "https://medium.com/@Rythmuxdesigner/figmas-2026-updates-quietly-redefine-design-dev-handoff-and-not-everyone-s-ready-98307f2ea2a8",
+      "duration": "~6 min read",
+      "tags": [
+        "figma",
+        "design tokens",
+        "handoff",
+        "AI"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "Figma's MCP Server Is Now Driving Measurable Company Growth",
+      "source": "Yahoo Finance",
+      "description": "Figma (now public as FIG) is seeing the MCP server become a key growth driver, fueling partnerships with leading AI companies. This isn't just a feature — it's becoming Figma's strategic bet. Validation that the MCP-first workflow you're building is exactly where the industry is heading, not a side experiment.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/figma-rides-strong-mcp-server-151200699.html",
+      "duration": "~4 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "industry trends"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Agentic AI Is Orchestrating the Design-to-Code Pipeline in 2026",
+      "source": "Supernova",
+      "description": "Supernova's take on where enterprise design systems are heading: AI agents now take multi-step actions across Figma, Jira, and GitHub. The framing shift from 'AI assisting designers' to 'AI agents orchestrating the pipeline' is exactly the mental model for what you're building. Good strategic context for positioning your work internally.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~8 min read",
+      "tags": [
+        "design systems",
+        "AI agents",
+        "strategy",
+        "enterprise"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "AI + Design Systems in 2026: The Workflow I Actually Use",
+      "source": "YouTube",
+      "description": "A practitioner walking through their real AI-augmented design system workflow — not theory, actual daily use. Worth watching to compare approaches with your own MCP + Claude setup. Might surface patterns or gaps you haven't considered for the white-label system.",
+      "link": "https://www.youtube.com/watch?v=XfezMs8B-O8",
+      "duration": "~15 min",
+      "tags": [
+        "design systems",
+        "AI workflow",
+        "practical"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Cursor Ships a New Agentic Coding System",
+      "source": "TechCrunch",
+      "description": "Cursor just rolled out a fundamentally new approach to agentic coding — not just autocomplete, but multi-step autonomous coding workflows. Since you're already vibe-coding with Cursor daily, this could meaningfully change how you build. Worth checking what's new in the agent mode specifically.",
+      "link": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/",
+      "duration": "~5 min read",
+      "tags": [
+        "cursor",
+        "agentic coding",
+        "vibe coding"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agent UX: Trust, Transparency, and Oversight",
+      "source": "LinkedIn — Aaron Usiskin",
+      "description": "As AI agents start doing real work in our tools, the UX challenge flips: it's no longer about interface design, it's about designing for trust, transparency, and human oversight. This is a fascinating product leadership angle — the designers who understand agentic UX will define the next wave of products. Your design systems background is actually perfect preparation for this.",
+      "link": "https://www.linkedin.com/pulse/ai-agents-why-2026-may-finally-year-matter-aaron-usiskin-yq0oe",
+      "duration": "~6 min read",
+      "tags": [
+        "AI agents",
+        "UX design",
+        "product leadership",
+        "trust"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI agents can now write to Figma files using your design system's tokens and components — what's the new role of the design system lead?",
+      "source": null,
+      "description": "You're not just maintaining components and tokens anymore. You're essentially defining the rules and constraints that AI agents follow when they design. The design system becomes the AI's design taste. That's a fundamentally different job — and a much more strategic one. Worth sitting with on today's walk.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "design systems",
+        "AI agents",
+        "leadership"
+      ]
+    }
+  ]
+}
