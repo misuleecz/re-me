@@ -1,0 +1,137 @@
+{
+  "date": "2026-04-02",
+  "headline": "Agents Are Writing to Your Canvas",
+  "subheadline": "Figma MCP is officially in beta with write access, Brad Frost is rethinking design systems for agents, and Cursor's agentic coding just leveled up. Big week for everything you're building toward.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma MCP now lets AI agents write directly to your files — beta is live",
+      "source": "Figma",
+      "description": "This is the big one for you. Figma's MCP server now supports AI agents writing to the canvas — creating and modifying real design assets using your components, variables, and tokens. Since you're already building your company's Figma MCP + Claude integration, this beta essentially validates your entire roadmap. Worth checking the release notes for any new API surfaces or token-handling changes.",
+      "link": "https://www.figma.com/release-notes/",
+      "duration": "~5 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "design-systems",
+        "AI-agents"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Agentic Design Systems in 2026 with Brad Frost",
+      "source": "YouTube",
+      "description": "Brad Frost digs into a question that's at the heart of your MCP work: what happens when autonomous agents — not just human designers — are assembling UIs from your component library? He explores how design systems need to evolve when the consumer of your tokens and components is an AI. This is genuinely strategic territory for someone building what you're building.",
+      "link": "https://www.youtube.com/watch?v=Vg78K3t9KYc",
+      "duration": null,
+      "tags": [
+        "design-systems",
+        "AI-agents",
+        "component-architecture",
+        "Brad-Frost"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma's 2026 updates quietly redefine design-dev handoff",
+      "source": "Medium",
+      "description": "Covers three shifts: Git-connected Figma files, Live Code Sync (beta), and AI Design Tokens hitting general availability. The design tokens GA is directly relevant to your white-label sport apps system — if token generation is now AI-assisted at the platform level, it could change how you structure your token architecture with Claude.",
+      "link": "https://medium.com/@Rythmuxdesigner/figmas-2026-updates-quietly-redefine-design-dev-handoff-and-not-everyone-s-ready-98307f2ea2a8",
+      "duration": "~7 min read",
+      "tags": [
+        "figma",
+        "design-tokens",
+        "dev-handoff",
+        "git-integration"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI in 2026: Five product shifts we'll have to design for",
+      "source": "CASES",
+      "description": "This is less about tools and more about your product leadership brain. The argument: AI's bottleneck isn't capability anymore, it's product design — unclear decision logic, fragile trust, poor workflow integration. As someone eyeing a shift toward product builder/leadership, this frames exactly the kind of thinking that separates designers who use AI from product people who shape AI products.",
+      "link": "https://cases.media/article/ai-in-2026-five-product-shifts-well-have-to-design-for?srsltid=AfmBOopS-Kd-8xh0hBsI0MwRHTykK7LKjHElROGqDAo_qJ99HT4_7dAb",
+      "duration": "~8 min read",
+      "tags": [
+        "product-design",
+        "AI-strategy",
+        "product-leadership",
+        "trust"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Cursor is rolling out a new kind of agentic coding tool",
+      "source": "TechCrunch",
+      "description": "Cursor just shipped a new agentic system — subagents that handle discrete parts of tasks in parallel. If you're vibe-coding with Cursor already, this means your Lovable/Cursor workflow could get significantly faster. The parallel subagent approach is worth understanding for how you structure prompts for bigger builds.",
+      "link": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/",
+      "duration": "~5 min read",
+      "tags": [
+        "cursor",
+        "agentic-coding",
+        "vibe-coding",
+        "productivity"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If agents are now consumers of your design system, who are you really designing for?",
+      "source": null,
+      "description": "Your white-label design system has always been optimized for human designers picking components and applying tokens. But with Figma MCP write access live, AI agents are now first-class consumers too. Do your component names, token hierarchies, and documentation make sense to a machine reader? This might be the most important design system question of 2026.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "design-systems",
+        "MCP",
+        "AI-agents",
+        "strategic-thinking"
+      ]
+    },
+    {
+      "type": "podcast",
+      "emoji": "🎧",
+      "label": "Listen",
+      "title": "The State of AI in UX & Product Design 2026 — live panel",
+      "source": "YouTube (Designlab)",
+      "description": "A panel unpacking Designlab's latest industry survey on AI adoption in UX and product design. Good stroller-walk material — it's a discussion format so it works as audio. Useful for calibrating where you sit relative to the industry, especially as you think about your next role being more product-leadership oriented.",
+      "link": "https://www.youtube.com/watch?v=xu_mWjuXUfw",
+      "duration": null,
+      "tags": [
+        "AI-in-design",
+        "industry-trends",
+        "product-leadership",
+        "audio-friendly"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "Figma MCP server demand is now a key growth driver for Figma as a public company",
+      "source": "Yahoo Finance",
+      "description": "Figma is publicly citing MCP server demand as a major growth signal to investors. This means the MCP ecosystem isn't a side experiment — it's core strategy. Your bet on building around Figma MCP + Claude is aligned with where the platform is going long-term, not just where the community is tinkering.",
+      "link": "https://au.finance.yahoo.com/news/figma-rides-strong-mcp-server-151200699.html",
+      "duration": "~3 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "business-strategy",
+        "platform-bet"
+      ]
+    }
+  ]
+}
