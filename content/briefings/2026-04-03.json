@@ -1,0 +1,136 @@
+{
+  "date": "2026-04-03",
+  "headline": "Figma MCP beta is live",
+  "subheadline": "The Figma MCP server hit open beta 10 days ago and it's already reshaping how AI agents interact with design systems. Directly relevant to what you're building.",
+  "emoji": "🔌",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma's MCP Server Open Beta: AI Agents Can Now Edit Your Canvas Using Design Systems",
+      "source": "MLQ.ai",
+      "description": "Figma launched the open beta of its MCP server on March 24 — AI agents can now directly edit the Figma canvas while respecting your components, variables, and auto layout. Nine community-built skills shipped at launch, including /figma-generate-design. This is basically the infrastructure layer you've been building toward with your white-label sport apps system. Worth studying what's officially supported vs. what you've been rolling custom.",
+      "link": "https://mlq.ai/news/figma-launches-beta-for-ai-agents-to-edit-canvas-directly-using-design-systems/",
+      "duration": "~5 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "design systems",
+        "AI agents"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma's 2026 Updates Quietly Redefine Design-Dev Handoff",
+      "source": "Medium",
+      "description": "Designers can now branch, commit, and merge Figma files directly to GitHub/GitLab repos with version history linked to commit hashes. For your white-label setup where design tokens flow between Figma and code, this native git integration could eliminate a whole layer of manual syncing. The 'quietly' in the title is accurate — this flew under the radar but it's a big deal for design system maintainers.",
+      "link": "https://medium.com/@Rythmuxdesigner/figmas-2026-updates-quietly-redefine-design-dev-handoff-and-not-everyone-s-ready-98307f2ea2a8",
+      "duration": "~7 min read",
+      "tags": [
+        "figma",
+        "dev handoff",
+        "git integration",
+        "design systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma Rides Strong MCP Server Demand — What It Signals",
+      "source": "Yahoo Finance",
+      "description": "Interesting angle: Figma's MCP server isn't just a feature, it's becoming a growth driver for the company. MCP is fueling partnerships with leading AI tool providers. This validates the bet you're making — MCP as the connective tissue between design systems and AI is going mainstream, not staying niche. Good context if you ever need to make the business case internally.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/figma-rides-strong-mcp-server-151200699.html",
+      "duration": "~4 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "business strategy",
+        "market signal"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Code Updates: Named Subagents, Hook Events, MCP Fixes",
+      "source": "Releasebot",
+      "description": "Claude Code just got faster resume flows, named subagents you can @ mention, new hook events, and a bunch of MCP stability fixes. The named subagents bit is interesting for your workflow — you could have a dedicated 'design-system-agent' that other agents reference by name. The MCP reliability fixes alone are worth knowing about if you've hit flaky sessions.",
+      "link": "https://releasebot.io/updates/anthropic",
+      "duration": "~5 min read",
+      "tags": [
+        "claude code",
+        "MCP",
+        "AI agents",
+        "developer tools"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "AI + Design Systems in 2026: The Workflow I Actually Use",
+      "source": "YouTube",
+      "description": "Someone walking through their real AI-assisted design system workflow in 2026 — not theoretical, not 'AI will replace designers.' Given where you are with your Figma MCP + Claude integration, this could be useful for comparing approaches and spotting things you haven't tried yet. Might also spark ideas for how to document your own workflow for your team.",
+      "link": "https://www.youtube.com/watch?v=XfezMs8B-O8",
+      "duration": null,
+      "tags": [
+        "design systems",
+        "AI workflow",
+        "practical"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "OpenAI Codex + Figma: Code-to-Design via MCP Server",
+      "source": "Gend.co",
+      "description": "OpenAI's Codex can now use Figma context through the MCP server for design-informed code generation. Worth a skim — not because you'd switch from Claude, but because it shows the MCP server becoming a universal interface. If multiple AI tools can talk to your Figma design system through the same protocol, your architecture choices are future-proof.",
+      "link": "https://www.gend.co/blog/openai-codex-figma-integration",
+      "duration": "~5 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "OpenAI",
+        "interoperability"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Named Subagents: Giving AI Agents Specific Roles",
+      "source": null,
+      "description": "Claude Code now supports named subagents — instead of one big AI doing everything, you define specialized agents (like a 'token-validator' or 'component-generator') that other agents can call by name with @mentions. Think of it like your design system having specialist roles: one agent knows your color tokens, another knows your component API. This is the shift from 'AI assistant' to 'AI team' — and it maps beautifully to how design systems are actually structured.",
+      "link": "https://releasebot.io/updates/anthropic",
+      "duration": null,
+      "tags": [
+        "AI agents",
+        "claude code",
+        "architecture",
+        "mental model"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If Figma's MCP becomes the standard interface, what's your unique value?",
+      "source": null,
+      "description": "With Figma's MCP server going mainstream and tools like Codex and Claude both plugging in, the 'how to connect AI to Figma' problem is getting commoditized fast. Your edge isn't the connection — it's the design system knowledge, the white-label architecture, the opinionated component structure. How do you package that expertise so it's the layer that matters on top of the protocol?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "strategy",
+        "design systems",
+        "positioning"
+      ]
+    }
+  ]
+}
