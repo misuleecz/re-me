@@ -1,0 +1,132 @@
+{
+  "date": "2026-04-04",
+  "headline": "Figma MCP Goes Open Beta",
+  "subheadline": "Figma's MCP server hit open beta and demand is surging — directly relevant to the integration you're building. Plus, a sharp piece on the product design shifts AI is forcing.",
+  "emoji": "🚀",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma's MCP Server Open Beta Is Live — and Demand Is Huge",
+      "source": "MLQ.ai / Quartz",
+      "description": "Figma opened the beta of its MCP server on March 24, letting AI agents design, create, and edit directly on the canvas using components, variables, and auto layout. Quartz reports demand is surging and boosting Figma's AI partnerships. This is the exact infrastructure you're building on for the white-label sport apps design system — worth tracking how the open beta evolves and what new capabilities land.",
+      "link": "https://mlq.ai/news/figma-launches-beta-for-ai-agents-to-edit-canvas-directly-using-design-systems/",
+      "duration": "~4 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "AI agents",
+        "design systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI in 2026: Five Product Shifts We'll Have to Design For",
+      "source": "CASES",
+      "description": "This nails something you probably feel intuitively: what slows AI down isn't capability, it's product design — unclear decision logic, fragile trust, bad integration into real workflows. The five shifts are framed for someone thinking at the strategic/leadership level, not just pixel-pushing. Really good thinking fuel for where you want to take your career next.",
+      "link": "https://cases.media/article/ai-in-2026-five-product-shifts-well-have-to-design-for?srsltid=AfmBOor90A1o-flkSuGqGm2y6TmWPcA5_vdJLJi3gsRjR80mfJ6An6NJ",
+      "duration": "~8 min read",
+      "tags": [
+        "product design",
+        "AI strategy",
+        "UX leadership"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "State of the Designer 2026: Designers Are Leaning Into the Shift",
+      "source": "Figma Blog",
+      "description": "Figma's annual industry report just dropped. Given your background as Group Head of Design, this is the kind of data that shapes how you talk about the profession — useful for positioning yourself as you think about your next move, and for understanding where the industry's head is at while you're on leave.",
+      "link": "https://www.figma.com/blog/state-of-the-designer-2026/",
+      "duration": "~10 min read",
+      "tags": [
+        "design industry",
+        "figma",
+        "career"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "AI + Design Systems in 2026: The Workflow I Actually Use",
+      "source": "YouTube",
+      "description": "Someone walking through their real AI-assisted design system workflow — not the hype version. Could be interesting to compare against your own Figma MCP + Claude setup and see if there are patterns or tools you haven't considered. Skimmable.",
+      "link": "https://www.youtube.com/watch?v=XfezMs8B-O8",
+      "duration": "~15 min",
+      "tags": [
+        "design systems",
+        "AI workflow",
+        "practical"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "The Future of Enterprise Design Systems: Agentic AI in the Pipeline",
+      "source": "Supernova",
+      "description": "Supernova's take on where enterprise design systems are headed: AI agents orchestrating multi-step actions across Figma, Jira, and GitHub. Directly relevant to your design system architecture thinking — especially the question of how much of the design-to-code pipeline can be agent-driven for your white-label apps.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~7 min read",
+      "tags": [
+        "design systems",
+        "AI agents",
+        "enterprise",
+        "design-to-code"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Codex + Figma: OpenAI's Design-to-Code Bridge via MCP",
+      "source": "Gend.co",
+      "description": "OpenAI's Codex now integrates with Figma through the MCP server, letting developers use Figma context for design-informed code generation. Worth knowing about as a complementary (or competing) approach to your Claude + Figma MCP setup. Could be useful to compare how Codex handles your design system tokens vs. Claude.",
+      "link": "https://www.gend.co/blog/openai-codex-figma-integration",
+      "duration": "~5 min read",
+      "tags": [
+        "codex",
+        "figma MCP",
+        "design-to-code"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "Lovable is now 71% better at solving complex tasks",
+      "source": "Lovable / Instagram",
+      "description": "Lovable just posted that their latest model upgrade (Claude Sonnet 3.7 under the hood) improved complex task completion by 71%. You're already using Lovable to ship things — this is a meaningful jump that might make your next prototype session noticeably smoother.",
+      "link": "https://www.instagram.com/reel/DUD5-oSjDVZ/",
+      "duration": null,
+      "tags": [
+        "lovable",
+        "vibe coding",
+        "performance"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI agents can edit your Figma canvas directly — what's the designer's new job?",
+      "source": null,
+      "description": "With Figma MCP in open beta and agents that can manipulate components, variables, and auto layout directly — the hands-on-canvas part of design is getting automated fast. Your unique edge is system thinking, brand strategy, and knowing what *should* be built. How do you position that as a product leader, not just a design leader?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "AI agents",
+        "leadership",
+        "product thinking"
+      ]
+    }
+  ]
+}
