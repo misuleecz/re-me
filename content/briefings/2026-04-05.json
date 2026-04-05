@@ -1,0 +1,137 @@
+{
+  "date": "2026-04-05",
+  "headline": "Your Design System Stack Levels Up",
+  "subheadline": "Figma's MCP server is driving serious industry momentum, Cursor 3 just shipped parallel agents, and there's a sharp take on how AI is reshaping multi-brand design systems — all directly relevant to what you're building.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma's MCP Server Demand Is Driving Real Growth",
+      "source": "Yahoo Finance / Quartz",
+      "description": "Figma's MCP server has become a key growth driver, fueling partnerships with AI companies and new workflow integrations. This validates exactly the direction you're heading with your Figma MCP + Claude integration for the white-label sport apps design system. The ecosystem around this is expanding fast — your timing is excellent.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/figma-rides-strong-mcp-server-151200699.html",
+      "duration": "~4 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "design systems",
+        "AI integration"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Design Systems in 2026: AI-Enforced Consistency & Multi-Brand Orchestration",
+      "source": "Design Systems Collective",
+      "description": "This piece argues 2026 is the year of AI-enforced consistency and multi-brand orchestration — moving past 'AI-assisted' into AI that actively prevents design drift across segments. Given you're building for white-label sport apps (inherently multi-brand), the framing around operational clarity and automated governance is directly applicable to your architecture decisions.",
+      "link": "https://www.designsystemscollective.com/design-systems-in-2026-predictions-pitfalls-and-power-moves-f401317f7563",
+      "duration": "~7 min read",
+      "tags": [
+        "design systems",
+        "multi-brand",
+        "AI governance",
+        "strategy"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Cursor 3: Parallel Agents Window",
+      "source": "Cursor",
+      "description": "Cursor 3 just shipped a new Agents Window that lets you run multiple agents in parallel — across local, cloud, worktree, and remote SSH. If you're vibe-coding across multiple components or repos for your design system, this could meaningfully speed up your workflow. Worth exploring next time you open Cursor.",
+      "link": "https://releasebot.io/updates/cursor",
+      "duration": null,
+      "tags": [
+        "cursor",
+        "AI agents",
+        "vibe-coding",
+        "dev tools"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Automating Design Systems with AI: MCP as the Connective Tissue",
+      "source": "Parallel HQ",
+      "description": "A practical breakdown of how MCP lets tools like Figma send structured data to AI agents for design system automation — handling the repetitive stuff so you can focus on the hard problems. Directly relevant to your Figma MCP + Claude setup. Good for validating your architecture and maybe catching patterns you haven't considered.",
+      "link": "https://www.parallelhq.com/blog/automating-design-systems-with-ai",
+      "duration": "~6 min read",
+      "tags": [
+        "MCP",
+        "design systems",
+        "automation",
+        "figma"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma's 2026 Updates Quietly Redefine Design-Dev Handoff",
+      "source": "Medium",
+      "description": "A thoughtful take on how Figma's recent updates (Make kits, variables-to-code pipelines) are reshaping the handoff between design and engineering. As someone who's lived at this intersection for years and is now bridging it with AI tooling, this is worth a scan to see how others are framing the shift.",
+      "link": "https://medium.com/@Rythmuxdesigner/figmas-2026-updates-quietly-redefine-design-dev-handoff-and-not-everyone-s-ready-98307f2ea2a8",
+      "duration": "~5 min read",
+      "tags": [
+        "figma",
+        "handoff",
+        "design-dev",
+        "workflow"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agentic AI vs. Generative AI in Design Systems",
+      "source": "Supernova",
+      "description": "The biggest technical shift in 2026 enterprise design systems is moving from generative chatbots to Agentic AI — agents that don't just generate assets but autonomously maintain, audit, and enforce system rules. This is the leap from 'AI that helps you make things' to 'AI that keeps your system healthy.' Relevant framing for how you think about what your MCP integration should actually *do*.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~8 min read",
+      "tags": [
+        "agentic AI",
+        "design systems",
+        "enterprise",
+        "concept"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "Claude shipped 40+ product releases in just 52 days",
+      "source": "The AI Corner",
+      "description": "Between February 1 and March 24, Anthropic released Opus 4.6, Sonnet 4.6, Cowork, Agent Teams, Scheduled Tasks, Plugins, and over 40 other features. That's almost a release per day. If you haven't checked what's new in your Claude setup recently, there may be capabilities you're not using yet — especially Agent Teams and Cowork for your design system workflows.",
+      "link": "https://www.the-ai-corner.com/p/everything-claude-shipped-2026-complete-guide",
+      "duration": "~10 min read",
+      "tags": [
+        "claude",
+        "anthropic",
+        "AI updates",
+        "agents"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "Are you building a design system tool or a design system agent?",
+      "source": null,
+      "description": "With the shift from generative to agentic AI, and MCP enabling structured communication between Figma and Claude — your integration could either be a tool designers invoke, or an agent that proactively maintains consistency across your white-label apps. These are very different products. Which one does your team actually need?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "product thinking",
+        "strategy",
+        "design systems",
+        "AI agents"
+      ]
+    }
+  ]
+}
