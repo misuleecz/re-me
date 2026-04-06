@@ -1,0 +1,115 @@
+{
+  "date": "2026-04-06",
+  "headline": "Design Systems Are Living Organisms Now",
+  "subheadline": "The Figma MCP + Claude Code integration just got seriously powerful, design systems are becoming AI-orchestrated, and there's a sharp take on what product shifts designers actually need to design for.",
+  "emoji": "🧬",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma MCP + Claude Code integration is now one of the strongest AI-to-design bridges",
+      "source": "Felix Lee via X",
+      "description": "The Figma MCP update now lets you use Claude Code to design directly in Figma — not just read from it but write back editable layers. This is exactly the pipeline you're building for your white-label sport apps design system. Worth digging into what's changed and whether it unlocks new flows for your token/variable architecture.",
+      "link": "https://x.com/felixleezd/status/2036502780903563574",
+      "duration": null,
+      "tags": [
+        "figma-mcp",
+        "claude-code",
+        "design-systems",
+        "your-project"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma Didn't Release an AI Feature. It Declared the End of Old-School Design.",
+      "source": "Medium — Olena Ivlieva",
+      "description": "Published yesterday. A sharp, opinionated take on how Figma's AI direction isn't a feature drop — it's a philosophical shift in what designers do. At 6 min, it's a quick read that'll give you language for the 'where does design leadership go from here' conversation you're clearly already having.",
+      "link": "https://medium.com/@ilv.ivleva/figma-didnt-release-an-ai-feature-it-declared-the-end-of-old-school-design-40016bdf5092",
+      "duration": "~6 min read",
+      "tags": [
+        "figma-ai",
+        "design-leadership",
+        "industry-shift"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI in 2026: Five Product Shifts We'll Have to Design For",
+      "source": "CASES",
+      "description": "This one's gold for your product leadership trajectory. It argues the bottleneck isn't AI capability anymore — it's product design: unclear decision logic, fragile trust, poor workflow integration. Exactly the strategic thinking a former Group Head of Design turned product builder should be sharpening.",
+      "link": "https://cases.media/article/ai-in-2026-five-product-shifts-well-have-to-design-for?srsltid=AfmBOoosTDgFITG2DxzJAk26EhIxEsP8qrUfC9qsnx8qiKyBfd57PRS5",
+      "duration": "~8 min read",
+      "tags": [
+        "product-design",
+        "ai-strategy",
+        "product-leadership"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "AI + Design Systems in 2026: The Workflow I Actually Use",
+      "source": "YouTube",
+      "description": "A practitioner walkthrough of using AI to support a real design system — not replace the work, but automate the tedious parts. Relevant because it likely touches on MCP integrations and token management workflows similar to what you're building. Good to see how others are structuring this.",
+      "link": "https://www.youtube.com/watch?v=XfezMs8B-O8",
+      "duration": null,
+      "tags": [
+        "design-systems",
+        "ai-workflow",
+        "practical"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "AI-Orchestrated Design Systems",
+      "source": null,
+      "description": "The idea that design systems in 2026 aren't just component libraries — they're living ecosystems where AI handles generation, validation, and deployment of components across platforms. MCP is the connective tissue. But there's a catch surfacing in practice: teams are adding engineering code review for AI-generated components, which somewhat defeats the automation promise. The real design challenge is deciding what guardrails to build in vs. what to trust.",
+      "link": "http://tianpan.co/forum/t/design-systems-became-ai-orchestrated-ecosystems-in-2026-whos-actually-benefiting-from-this-automation/1406",
+      "duration": "~4 min read",
+      "tags": [
+        "design-systems",
+        "ai-orchestration",
+        "governance"
+      ]
+    },
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Claude Opus 4.6 drops — major upgrade for AI-powered workflows",
+      "source": "Medium — KASATA",
+      "description": "New Claude model release that's getting buzz for meaningfully improving complex, multi-step work. If you're using Claude Code for your Figma MCP integration, this could affect output quality and reasoning on design system tasks. Worth knowing it exists even if you don't switch immediately.",
+      "link": "https://kasata.medium.com/claude-opus-4-6-is-here-and-it-changes-everything-about-ai-powered-work-in-2026-29b38f22dccf",
+      "duration": "~7 min read",
+      "tags": [
+        "claude",
+        "ai-models",
+        "vibe-coding"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If your design process ends at Figma, 2026 is going to hurt",
+      "source": "LinkedIn — shashux",
+      "description": "A provocative framing: the leverage isn't in frames anymore — it's in MCPs, IDEs, GitHub, Terminal. You're already living this with your Cursor + Claude + Figma MCP setup. The question to sit with: as you think about returning to work and your next role, how do you position yourself as someone who designs *across the full stack*, not just in the canvas?",
+      "link": "https://www.linkedin.com/posts/shashux_if-your-design-process-ends-at-figma-2026-activity-7434097912181309440-qrd3",
+      "duration": null,
+      "tags": [
+        "career",
+        "design-leadership",
+        "product-builder"
+      ]
+    }
+  ]
+}
