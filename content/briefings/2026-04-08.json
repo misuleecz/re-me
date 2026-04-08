@@ -1,0 +1,137 @@
+{
+  "date": "2026-04-08",
+  "headline": "AI Is Reshaping Your Design Stack",
+  "subheadline": "Figma's MCP server demand is surging, Claude Opus 4.6 just dropped, and Cursor shipped self-hosted agents. Plus: a must-read on designing for AI product shifts — right in your wheelhouse.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma MCP Server Demand Is Surging — Wall Street Notices",
+      "source": "Yahoo Finance",
+      "description": "Figma's MCP server is generating serious market buzz. Since the February announcement letting users generate Figma Design files from Codex via MCP, demand has been strong enough to move financial analysts. This directly validates what you're building with your Figma MCP + Claude integration for the white-label sport apps design system. The ecosystem is coming to you.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/figma-rides-strong-mcp-server-151200699.html",
+      "duration": "~4 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "design-to-code",
+        "ecosystem"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI in 2026: Five Product Shifts We'll Have to Design For",
+      "source": "CASES",
+      "description": "This nails something you've probably been feeling: AI capability isn't the bottleneck anymore — product design is. The piece covers unclear decision logic, fragile trust, and interfaces built for tools rather than outcomes. As someone thinking about evolving toward product leadership, this frames exactly the strategic design thinking that will matter most.",
+      "link": "https://cases.media/article/ai-in-2026-five-product-shifts-well-have-to-design-for?srsltid=AfmBOoo_G3QTbfLjxQ2nhQQKHGyTj1b3B57r_XhVqWiNXVfZw7OmRxht",
+      "duration": "~8 min read",
+      "tags": [
+        "product-design",
+        "AI-strategy",
+        "leadership",
+        "UX"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Opus 4.6 Is Here — And It Changes Everything About AI-Powered Work",
+      "source": "Medium",
+      "description": "New Claude model drop. Given you're building on Claude daily — both in Claude Code and through the MCP integration — it's worth understanding what Opus 4.6 brings. Even incremental model improvements can meaningfully change what's possible in your vibe-coding workflow and agent capabilities.",
+      "link": "https://kasata.medium.com/claude-opus-4-6-is-here-and-it-changes-everything-about-ai-powered-work-in-2026-29b38f22dccf",
+      "duration": "~6 min read",
+      "tags": [
+        "claude",
+        "AI-models",
+        "anthropic",
+        "vibe-coding"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Design Systems in 2026: AI-Enforced Consistency & Multi-Brand Orchestration",
+      "source": "Design Systems Collective",
+      "description": "This is squarely your territory. The piece argues 2026 is the year of AI-enforced consistency and multi-brand orchestration — exactly what you're tackling with white-label sport apps. If AI can prevent design system drift across multiple brands, that changes how you architect tokens and components. Worth reading with your system in mind.",
+      "link": "https://www.designsystemscollective.com/design-systems-in-2026-predictions-pitfalls-and-power-moves-f401317f7563",
+      "duration": "~7 min read",
+      "tags": [
+        "design-systems",
+        "multi-brand",
+        "AI-consistency",
+        "tokens"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Cursor Now Has Self-Hosted Cloud Agents",
+      "source": "Cursor Changelog",
+      "description": "Cursor just shipped self-hosted cloud agents — code agents that run in your own network while Cursor handles orchestration and model access. If your company has security constraints around code staying on-prem, this could unlock using Cursor agents for the sport apps codebase without IT pushback.",
+      "link": "https://releasebot.io/updates/cursor",
+      "duration": null,
+      "tags": [
+        "cursor",
+        "AI-agents",
+        "self-hosted",
+        "dev-tools"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "AI + Design Systems in 2026: The Workflow I Actually Use",
+      "source": "YouTube",
+      "description": "A practitioner walkthrough of using AI with design systems — not theory, actual workflow. Given you're literally building this exact integration right now, it might surface patterns or gotchas you haven't hit yet. Good one for nap time screen time.",
+      "link": "https://www.youtube.com/watch?v=XfezMs8B-O8",
+      "duration": "~15 min",
+      "tags": [
+        "design-systems",
+        "AI-workflow",
+        "practical",
+        "video"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "AI-Enforced Consistency vs. AI-Assisted Design",
+      "source": null,
+      "description": "There's a meaningful shift happening: moving from AI that *suggests* design improvements to AI that *enforces* system rules — flagging token violations, catching component misuse, maintaining brand consistency across white-label products automatically. For your MCP project, this is the difference between building a helpful tool and building guardrails that scale across every sport app variant without you reviewing each one.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "design-systems",
+        "AI-enforcement",
+        "scalability",
+        "mental-model"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI enforces your design system, what does the design lead actually do?",
+      "source": null,
+      "description": "As AI takes over consistency enforcement and drift detection, the design leader's role shifts from quality control to system architecture and product strategy. You're already moving in this direction. What would your role description look like if 80% of review work was automated?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "leadership",
+        "product-thinking",
+        "future-role"
+      ]
+    }
+  ]
+}
