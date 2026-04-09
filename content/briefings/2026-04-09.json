@@ -1,0 +1,130 @@
+{
+  "date": "2026-04-09",
+  "headline": "AI Agents Meet Design Systems",
+  "subheadline": "Your MCP setup is exactly where the industry is heading. Today's picks cover Figma MCP generating design layers, AI-enforced design system consistency, and why enterprises are struggling with agent orchestration — all directly relevant to what you're building.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma MCP Server Now Generates Design Layers from VS Code",
+      "source": "GitHub Changelog",
+      "description": "This is huge for your MCP work — Figma's MCP server now supports bidirectional flow: pull design context into code AND push rendered UI back to Figma as editable frames. This means Copilot users can go from code to design layers without leaving their editor. If you're building MCP integrations with Claude for your white-label system, this sets the pattern for what developers on your team will expect.",
+      "link": "https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/",
+      "duration": "~3 min read",
+      "tags": [
+        "figma-mcp",
+        "design-to-code",
+        "workflow"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Design Systems in 2026: From AI-Assisted to AI-Enforced Consistency",
+      "source": "Design Systems Collective",
+      "description": "This one's written for people exactly like you. The thesis: 2026 is the year design systems shift from AI helping designers to AI actively enforcing consistency across multi-brand systems and preventing drift. For your white-label sport apps, this is the playbook — how AI can orchestrate tokens and components across brands without things going sideways.",
+      "link": "https://www.designsystemscollective.com/design-systems-in-2026-predictions-pitfalls-and-power-moves-f401317f7563",
+      "duration": "~8 min read",
+      "tags": [
+        "design-systems",
+        "multi-brand",
+        "AI-enforcement",
+        "tokens"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "Enterprises Run 12 AI Agents on Average — But Half Work Alone",
+      "source": "Belitsoft / Barchart",
+      "description": "A new report found companies are deploying an average of 12 AI agents, but most operate in silos with zero orchestration between them. This is the exact problem you'll face scaling your Figma MCP + Claude setup — and it's why thinking about agent coordination early (even just two agents talking to each other) puts you ahead of most enterprises.",
+      "link": "https://www.barchart.com/story/news/1163379/belitsoft-report-2026-ai-agent-trends-enterprises-run-12-ai-agents-on-average-but-half-work-alone",
+      "duration": "~5 min read",
+      "tags": [
+        "AI-agents",
+        "enterprise",
+        "orchestration"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Agentic AI Is Replacing Chatbots in Enterprise Design Systems",
+      "source": "Supernova.io",
+      "description": "Supernova's take on the biggest technical shift of 2026: moving from generative chatbots to agentic AI that can autonomously manage design system operations. Think automated token updates, drift detection, component governance. This is where your Figma MCP + Claude integration could evolve — from a tool you prompt to an agent that maintains your system.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~7 min read",
+      "tags": [
+        "design-systems",
+        "agentic-AI",
+        "supernova"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "AI-Enforced Consistency vs. AI-Assisted Design",
+      "source": null,
+      "description": "There's a meaningful shift happening: AI is moving from suggestion mode (\"here's a component you could use\") to enforcement mode (\"this component violates your system, here's the fix, applied\"). For multi-brand systems like yours, this means AI that doesn't just help designers — it actively prevents drift across your white-label variants. The difference between a copilot and a guardrail.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "design-systems",
+        "AI-governance",
+        "mental-model"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Lovable 2.0 — Chat Mode for Vibe-Coding Complex Apps",
+      "source": "AI Tool Analysis",
+      "description": "Lovable shipped 2.0 with a new Chat Mode that lets you talk through complex features before burning credits on generation. Given you already vibe-code with Lovable, this could save you real time and credits — plan the architecture conversationally, then generate. Worth exploring for your next prototype sprint.",
+      "link": "https://aitoolanalysis.com/lovable-review/",
+      "duration": "~6 min read",
+      "tags": [
+        "lovable",
+        "vibe-coding",
+        "update"
+      ]
+    },
+    {
+      "type": "tip",
+      "emoji": "💡",
+      "label": "Quick tip",
+      "title": "Cursor Now Supports Self-Hosted Cloud Agents",
+      "source": "Releasebot",
+      "description": "Cursor's latest release adds self-hosted cloud agents — code execution stays in your own network. If your company has data sensitivity concerns about AI touching design system code or tokens, this is the answer. Worth flagging to your engineering team even while you're on leave.",
+      "link": "https://releasebot.io/updates/cursor",
+      "duration": null,
+      "tags": [
+        "cursor",
+        "security",
+        "agents"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "When You Return, Will Your Role Be 'Design Lead' or 'Design System Operator'?",
+      "source": null,
+      "description": "With AI enforcing consistency, generating layers from MCP, and agents managing tokens autonomously — the design leadership role is shifting from craft oversight to system orchestration. You're already building the infrastructure. When you come back, the question isn't whether to lead designers — it's whether to lead the system that augments them.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "leadership",
+        "product-thinking"
+      ]
+    }
+  ]
+}
