@@ -1,0 +1,135 @@
+{
+  "date": "2026-04-10",
+  "headline": "Figma Make just dropped",
+  "subheadline": "Figma's new prompt-to-app feature is the big story today. Plus: Claude Code's latest batch of updates, Cursor's new agentic automations, and a smart talk on designing for AI agents.",
+  "emoji": "✨",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma Make: prompt-to-app, right on the canvas",
+      "source": "Figma Blog",
+      "description": "Figma just shipped 'Figma Make' — a prompt-to-app capability that lets you generate, iterate, and refine designs directly in the canvas. Given your white-label sport apps system, this could be wild for rapid variant exploration. The interesting question: how does it play with existing design system components and variables? Worth poking at immediately.",
+      "link": "https://www.figma.com/blog/april-fun-day-2026-figcade/",
+      "duration": "~5 min read",
+      "tags": [
+        "figma",
+        "AI generation",
+        "design tools",
+        "new launch"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Figma Make Tutorial & Best Practices",
+      "source": "YouTube",
+      "description": "A walkthrough of Figma Make covering prompting best practices and real output examples. Since you'll want to test how this interacts with your token-based design system, this is the fastest way to see what it can and can't do before you spend credits experimenting.",
+      "link": "https://www.youtube.com/watch?v=L3prVyrBDmQ",
+      "duration": "~15 min",
+      "tags": [
+        "figma make",
+        "tutorial",
+        "AI design"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma MCP is now one of the strongest Claude integrations",
+      "source": "Felix Lee on X",
+      "description": "Felix Lee calls Figma MCP + Claude the 'highest leverage' workflow for designers in 2026. Given you're actively building a Figma MCP + Claude integration for your company's design system, this thread might surface patterns or edge cases you haven't hit yet. Quick scan to see if there's anything new beyond your current setup.",
+      "link": "https://x.com/felixleezd/status/2036502780903563574",
+      "duration": "~3 min read",
+      "tags": [
+        "figma MCP",
+        "claude",
+        "integration",
+        "design systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Code 270: new monitor tooling, tracing, and safety upgrades",
+      "source": "Releasebot",
+      "description": "Claude Code shipped a broad release — Vertex AI setup wizard, new Monitor tooling for watching what your agents do, improved tracing and LSP support, plus sandbox safety improvements. The Monitor tooling is especially relevant if you're running Claude Code for design-to-code pipelines and want more visibility into what's happening.",
+      "link": "https://releasebot.io/updates/anthropic",
+      "duration": "~5 min read",
+      "tags": [
+        "claude code",
+        "release notes",
+        "developer tools"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Cursor Automations: agents that trigger themselves",
+      "source": "TechCrunch",
+      "description": "Cursor shipped 'Automations' — agents that auto-launch based on triggers like new code additions, Slack messages, or timers. Think of it as n8n-style automation but native to your coding environment. For your vibe-coding workflow, this means you could set up agents that automatically review or refactor code you push, without you initiating anything.",
+      "link": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/",
+      "duration": "~4 min read",
+      "tags": [
+        "cursor",
+        "AI agents",
+        "automation",
+        "coding"
+      ]
+    },
+    {
+      "type": "podcast",
+      "emoji": "🎧",
+      "label": "Listen",
+      "title": "Designing Products That Serve Both Human Users and AI Agents",
+      "source": "YouTube (Hannah Parker talk)",
+      "description": "This is a meaty talk about dual-audience product design — building for humans AND AI agents simultaneously. As you think about evolving toward product leadership, this framing is going to be table stakes. How do sport app interfaces need to change when AI agents are also 'using' them? Great stroller walk material. 🍼",
+      "link": "https://www.youtube.com/watch?v=mtYMyVl1aQI",
+      "duration": "~25 min",
+      "tags": [
+        "product design",
+        "AI agents",
+        "UX strategy",
+        "leadership"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Lovable 2.0: now does docs, data analysis, and video too",
+      "source": "Till Freitag / AI Tool Analysis",
+      "description": "Lovable shipped 2.0 with a Chat Mode and expanded way beyond app building — now handles documents, data analysis, and video generation from the same workspace. If you've been using Lovable for quick app prototyping, Chat Mode alone might change how you iterate. Worth testing with a low-stakes project this week.",
+      "link": "https://aitoolanalysis.com/lovable-review/",
+      "duration": "~8 min read",
+      "tags": [
+        "lovable",
+        "AI builder",
+        "prototyping",
+        "new version"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "47% of design systems now include comprehensive accessibility guidelines at component level",
+      "source": "Adrenalin / Design Systems Survey",
+      "description": "Up significantly from prior years. The new frontier cited: AI-augmented design systems that auto-enforce accessibility. If your white-label sport apps system doesn't bake a11y into the component architecture yet, this is the year. And AI can now help audit and enforce it automatically.",
+      "link": "https://www.adrenalin.co/insights/why-design-systems-are-now-a-strategic-imperative-for-2026",
+      "duration": "~6 min read",
+      "tags": [
+        "design systems",
+        "accessibility",
+        "AI",
+        "strategy"
+      ]
+    }
+  ]
+}
