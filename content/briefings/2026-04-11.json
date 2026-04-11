@@ -1,0 +1,120 @@
+{
+  "date": "2026-04-11",
+  "headline": "Agents Are Designing On Canvas",
+  "subheadline": "Figma just shipped AI agents that work directly on the canvas using your design system. Plus Brad Frost on agentic design systems — both deeply relevant to the MCP integration you're building.",
+  "emoji": "🎨",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma's AI agents now design directly on the canvas using your design system",
+      "source": "Dev.to",
+      "description": "This is the big one. Figma introduced AI agents that can create and modify design elements directly on the canvas, pulling from your existing design system — components, tokens, the works. For your white-label sport apps system + MCP integration, this changes the game. AI agents can now be first-class consumers of the system you're building, not just human designers.",
+      "link": "https://dev.to/spookuspookus/figma-made-a-huge-step-forward-in-ai-design-april-2026-1cin",
+      "duration": "~5 min read",
+      "tags": [
+        "figma",
+        "AI agents",
+        "design systems",
+        "canvas"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Agentic Design Systems in 2026 with Brad Frost",
+      "source": "YouTube",
+      "description": "Brad Frost on how autonomous agents are now assembling UIs using your design system components — the same ones built for human designers. This is exactly the future your Figma MCP + Claude project is pointed at. Brad's thinking on what design systems need to look like when agents are primary consumers is worth your time.",
+      "link": "https://www.youtube.com/watch?v=Vg78K3t9KYc",
+      "duration": "~30 min",
+      "tags": [
+        "design systems",
+        "AI agents",
+        "Brad Frost",
+        "architecture"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI agents are using design systems — but who's actually benefiting?",
+      "source": "tianpan.co",
+      "description": "A candid forum discussion about the real-world friction of AI-orchestrated design systems in 2026. One team reports needing engineering code review for AI-generated components, 'which somewhat defeats the purpose of the automation.' Useful reality check as you architect your own system for agent consumption — the governance layer matters as much as the components.",
+      "link": "http://tianpan.co/forum/t/design-systems-became-ai-orchestrated-ecosystems-in-2026-whos-actually-benefiting-from-this-automation/1406",
+      "duration": "~4 min read",
+      "tags": [
+        "design systems",
+        "AI automation",
+        "governance"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Agent UX is about trust, not interface",
+      "source": "LinkedIn",
+      "description": "Aaron Usiskin argues 2026 is the year AI agents finally matter — and the design challenge shifts from interface design to trust, transparency, and oversight. As someone moving toward product leadership, this reframe is worth sitting with: the next generation of product design might be less about screens and more about designing agent behavior and user trust.",
+      "link": "https://www.linkedin.com/pulse/ai-agents-why-2026-may-finally-year-matter-aaron-usiskin-yq0oe",
+      "duration": "~6 min read",
+      "tags": [
+        "AI agents",
+        "UX",
+        "product leadership",
+        "trust"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Cursor now supports self-hosted cloud agents",
+      "source": "Releasebot",
+      "description": "New Cursor update: self-hosted cloud agents that keep code and tool execution entirely in your own network. If your company has data sensitivity concerns around the sport apps codebase, this could unblock using Cursor's agent mode in a more enterprise-friendly way.",
+      "link": "https://releasebot.io/updates/cursor",
+      "duration": null,
+      "tags": [
+        "Cursor",
+        "agents",
+        "self-hosted",
+        "security"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Ephemeral UI — interfaces that exist only for the moment",
+      "source": "Medium",
+      "description": "A concept gaining traction: AI agents generating UI on the fly that's disposable by design — not persistent screens but momentary interfaces shaped by context. For white-label sport apps where every client needs variations, this is a fascinating direction. What if agent-generated screens aren't templates to maintain but disposable outputs from your token/component system?",
+      "link": "https://medium.com/@codeai/agents-will-kill-your-ui-by-2026-unless-you-build-this-instead-088a2f2bbe4d",
+      "duration": "~7 min read",
+      "tags": [
+        "generative UI",
+        "ephemeral UI",
+        "agents",
+        "design systems"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If agents are the primary users of your design system, what changes?",
+      "source": null,
+      "description": "Between Figma's canvas agents, Brad Frost's talk, and the governance debates — a pattern is emerging. Design systems built for humans assume visual browsing, documentation, and Figma inspection. Agent-first systems need machine-readable contracts, semantic naming that AI can reason about, and guardrails. Your MCP project might be ahead of the curve. What would you change about your token architecture if you designed it agent-first?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "design systems",
+        "AI agents",
+        "MCP",
+        "strategy"
+      ]
+    }
+  ]
+}
