@@ -1,0 +1,135 @@
+{
+  "date": "2026-04-12",
+  "headline": "Figma's AI agents hit the canvas",
+  "subheadline": "Figma just shipped AI agents that design directly on your canvas using your design system — which has massive implications for the white-label sport apps system you're building. Plus: Brad Frost on agentic design systems and the real costs of MCP roundtripping.",
+  "emoji": "🎨",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma AI agents can now design directly on the canvas using your design system",
+      "source": "Dev.to",
+      "description": "This is the big one. Figma's new capability lets AI agents create and modify design elements directly on the canvas, pulling from your existing design system — components, tokens, variables, all of it. For your white-label sport apps system with Figma MCP + Claude, this could fundamentally change how variants get explored and screens get scaffolded. Worth reading closely to understand the boundaries of what agents can and can't do on canvas today.",
+      "link": "https://dev.to/spookuspookus/figma-made-a-huge-step-forward-in-ai-design-april-2026-1cin",
+      "duration": "~6 min read",
+      "tags": [
+        "figma",
+        "AI agents",
+        "design systems",
+        "canvas"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma Make kits: bring your tokens, variables, and styles into Make",
+      "source": "Releasebot",
+      "description": "Figma's April release notes include Make kits — a way to bring your code, styles, variables, and tokens into Figma Make so AI-generated prototypes actually use your design system accurately. Also new: Make attachments let you add existing files to prompts for richer context. This is exactly the pipeline you'd want for white-label apps where brand consistency across clients is non-negotiable.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": "~4 min read",
+      "tags": [
+        "figma",
+        "design tokens",
+        "Make",
+        "white-label"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "The hidden cost of Figma MCP roundtripping — and a sustainable alternative",
+      "source": "Design Systems Collective",
+      "description": "Since Figma expanded its MCP server capabilities in March, the community has been going wild with roundtripping between Claude and Figma. This piece argues there are real hidden costs — performance, token waste, fragile workflows. Since you're actively building a Figma MCP + Claude integration, this is required reading. Better to design the sustainable architecture now than refactor later.",
+      "link": "https://www.designsystemscollective.com/the-hidden-cost-of-figma-mcp-roundtripping-and-the-sustainable-model-i-use-instead-142d8e782a51",
+      "duration": "~8 min read",
+      "tags": [
+        "figma MCP",
+        "Claude",
+        "architecture",
+        "design systems"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Agentic Design Systems in 2026 with Brad Frost",
+      "source": "YouTube",
+      "description": "Brad Frost talking about how AI agents are now assembling UIs using the same components your human designers use. This is the strategic framing for where your role evolves — from designing every screen to designing the system that agents consume. If you watch one thing this week while the baby naps, make it this.",
+      "link": "https://www.youtube.com/watch?v=Vg78K3t9KYc",
+      "duration": "~20 min",
+      "tags": [
+        "design systems",
+        "AI agents",
+        "Brad Frost",
+        "strategy"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Code April update: team onboarding, better MCP handling, smarter modes",
+      "source": "Releasebot",
+      "description": "Claude Code got a big update — better MCP handling and plugin support, smarter brief and focus modes, stronger remote-session setup, plus memory and reliability improvements. The MCP handling improvements directly affect your Figma integration workflow. The team onboarding guides could also be useful if you're thinking about rolling this out to your design team.",
+      "link": "https://releasebot.io/updates/anthropic",
+      "duration": "~3 min read",
+      "tags": [
+        "Claude Code",
+        "MCP",
+        "update",
+        "tooling"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Cursor now supports self-hosted cloud agents",
+      "source": "Releasebot",
+      "description": "Cursor shipped self-hosted cloud agents — code and tool execution stays entirely in your own network. If your company has any data sensitivity around their sport app clients (likely), this could unblock using Cursor's agent capabilities in a way IT would actually approve. Worth flagging to your team even if you're not setting it up yourself right now.",
+      "link": "https://releasebot.io/updates/cursor",
+      "duration": null,
+      "tags": [
+        "Cursor",
+        "self-hosted",
+        "security",
+        "vibe-coding"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agentic design systems: your components are now an API for AI",
+      "source": null,
+      "description": "The shift happening right now is that design systems aren't just consumed by human designers anymore — they're consumed by AI agents. Your tokens, components, and variants become an API that agents call to assemble interfaces. This reframes your entire role: the quality of your design system directly determines the quality of AI-generated output. Component naming, variant logic, token structure — it all becomes even more critical when agents are your primary 'user.'",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "agentic AI",
+        "design systems",
+        "product thinking"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If agents can scaffold screens from your system, what does your team actually design?",
+      "source": null,
+      "description": "With AI agents now able to generate screens directly on the Figma canvas using your design system, the value of a designer shifts dramatically. Your team's job might move from 'design the screens' to 'design the system so well that agents produce great screens, then curate and refine.' As you think about your return and what leadership looks like — this is the strategic conversation to bring to the table.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "leadership",
+        "design strategy"
+      ]
+    }
+  ]
+}
