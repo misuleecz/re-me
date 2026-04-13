@@ -1,0 +1,137 @@
+{
+  "date": "2026-04-13",
+  "headline": "Figma's AI agents write your files",
+  "subheadline": "Figma just opened up AI agent access directly inside design files — a big deal for your MCP + white-label design system work. Plus: Claude Code gets a meaty April update and a must-watch talk on designing for AI agents.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma now lets AI agents write directly in design files",
+      "source": "Instagram / Figma",
+      "description": "This is the one to pay attention to. Figma has introduced a new capability allowing AI agents to write directly into design files — not just read or export, but actually modify. For your MCP + Claude integration on the white-label sport apps design system, this could be transformative. It essentially turns your Figma files into a live surface that AI agents can operate on, which changes the game for token and component management at scale.",
+      "link": "https://www.instagram.com/p/DWeZEdrjPEP/",
+      "duration": "~2 min read",
+      "tags": [
+        "figma",
+        "AI agents",
+        "design systems",
+        "MCP"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "How Figma used Figma Make to build playful canvas experiences",
+      "source": "Figma Blog",
+      "description": "Figma's own team used Figma Make (the AI generation tool) to prototype a mini-arcade game directly on the canvas for April Fun Day. It's a lighter read but shows how far Make has come for rapid creative prototyping — the spinning disc music player example is a nice peek at what's possible when you point AI at interactive design, not just static layouts.",
+      "link": "https://www.figma.com/blog/april-fun-day-2026-figcade/",
+      "duration": "~5 min read",
+      "tags": [
+        "figma",
+        "figma make",
+        "prototyping",
+        "AI"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Code to Figma: How 'Code to Canvas' actually works",
+      "source": "Muzli Blog",
+      "description": "A solid breakdown of the Code to Canvas integration between Claude Code and Figma. You already know the basics since you've been building with this stack, but this piece maps out the frame-selection workflow in the desktop app and edge cases with editable output. Worth scanning for anything you might leverage in your white-label system pipeline.",
+      "link": "https://muz.li/blog/claude-code-to-figma-how-the-new-code-to-canvas-integration-works/",
+      "duration": "~7 min read",
+      "tags": [
+        "claude code",
+        "figma",
+        "code to canvas",
+        "workflow"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Designing products that serve both human users and AI agents",
+      "source": "YouTube — Hannah Parker",
+      "description": "This is the talk to watch this week. Hannah Parker digs into how product design changes when your users aren't just humans but also AI agents interacting with your interfaces. As you think about your next career move toward product leadership, this framing — designing surfaces that both humans and machines consume — is exactly the kind of strategic thinking that sets apart the next generation of product leaders.",
+      "link": "https://www.youtube.com/watch?v=mtYMyVl1aQI",
+      "duration": "~30 min",
+      "tags": [
+        "AI agents",
+        "product design",
+        "UX strategy",
+        "leadership"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Cursor now supports self-hosted cloud agents",
+      "source": "Releasebot",
+      "description": "Cursor shipped self-hosted cloud agents — meaning your code and tool execution can stay entirely within your own network. If you're ever building something with sensitive client data (like white-label sport apps), this could matter. Your Cursor workflow stays the same, but now agents can run persistently in the cloud rather than just locally.",
+      "link": "https://releasebot.io/updates/cursor",
+      "duration": null,
+      "tags": [
+        "cursor",
+        "AI agents",
+        "cloud",
+        "vibe coding"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "AI-native design systems",
+      "source": "Supernova.io Blog",
+      "description": "Supernova published a piece on where enterprise design systems are heading in 2026 — the key shift is toward systems that are designed to be consumed and modified by AI, not just documented for humans. Think: tokens and components structured so that AI agents can reason about them, query them, and apply them correctly. This is exactly what you're building with your Figma MCP + Claude setup. You're ahead of the curve.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~8 min read",
+      "tags": [
+        "design systems",
+        "AI",
+        "tokens",
+        "enterprise"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "Claude Code's April update is one of its biggest yet",
+      "source": "Releasebot",
+      "description": "Claude Code just shipped a broad April update: smarter focus and brief modes, better MCP handling, team onboarding guides, and major reliability fixes for resume/auth/settings workflows. The MCP handling improvements could directly affect how your Figma integration behaves — worth checking the release notes for anything that changes your setup.",
+      "link": "https://releasebot.io/updates/anthropic",
+      "duration": "~3 min read",
+      "tags": [
+        "claude code",
+        "MCP",
+        "release notes",
+        "anthropic"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI agents can now write into Figma files — who owns the design system?",
+      "source": null,
+      "description": "With Figma opening up write access to AI agents, the role of 'design system maintainer' shifts from gatekeeper to orchestrator. Your white-label system could have Claude proposing token changes, auto-generating component variants, or flagging inconsistencies — but someone still needs to set the rules. That someone is a product-minded design leader. Sound familiar?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "design leadership",
+        "AI agents",
+        "design systems",
+        "career"
+      ]
+    }
+  ]
+}
