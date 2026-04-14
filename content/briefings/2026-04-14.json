@@ -1,0 +1,131 @@
+{
+  "date": "2026-04-14",
+  "headline": "Agents Meet Your Figma Canvas",
+  "subheadline": "Big moves this week: Figma's AI agents now design on canvas, Claude Code hit an insane 30+ iterations in April, and your MCP integration just got way more interesting.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma launches AI agents that design directly on the canvas",
+      "source": "Figma Blog",
+      "description": "This is the big one. Figma announced at Schema that AI agents can now work directly on the Figma canvas — designing, not just assisting. For someone building a Figma MCP + Claude integration for a white-label design system, this changes the game. It means the platform is officially moving toward agent-driven workflows, which validates exactly the direction you're heading.",
+      "link": "https://www.figma.com/blog/product-updates/",
+      "duration": null,
+      "tags": [
+        "figma",
+        "AI agents",
+        "design systems",
+        "canvas"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Why Figma's MCP update is a bigger deal than any AI demo",
+      "source": "Medium",
+      "description": "This piece digs into the March 2026 MCP release sequence and why Cursor built a new interface from scratch to work with it. It also covers the developer backlash — useful context as you bridge the design-dev gap with your own MCP work. Written just 6 days ago so it's fresh.",
+      "link": "https://medium.com/@sebuzdugan/why-figmas-mcp-update-is-a-bigger-deal-than-any-ai-demo-60ca89bd3b82",
+      "duration": "~8 min read",
+      "tags": [
+        "figma MCP",
+        "cursor",
+        "developer workflow"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Code April 2026 changelog: 30+ versions from Opus 4.6 to 1M context",
+      "source": "Apiyi.com",
+      "description": "Claude Code has been on a tear — 30+ version iterations in March-April alone. The highlights that matter for you: Opus 4.6 with a 1M context window (imagine feeding your entire design system), NO_FLICKER rendering, and /powerup interactive tutorials for team onboarding. This directly impacts what's possible with your Claude + Figma MCP setup.",
+      "link": "https://help.apiyi.com/en/claude-code-changelog-2026-april-updates-en.html",
+      "duration": "~10 min read",
+      "tags": [
+        "claude code",
+        "anthropic",
+        "1M context",
+        "tooling"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma's 2026 updates quietly redefine design-dev handoff",
+      "source": "Medium",
+      "description": "Designers can now branch, commit, and merge Figma files directly to GitHub/GitLab — with version history linked to commit hashes. This is a fundamental shift in how design systems get maintained. For your white-label sport apps, this could mean tighter version control across client variants without leaving Figma.",
+      "link": "https://medium.com/@Rythmuxdesigner/figmas-2026-updates-quietly-redefine-design-dev-handoff-and-not-everyone-s-ready-98307f2ea2a8",
+      "duration": "~7 min read",
+      "tags": [
+        "figma",
+        "git integration",
+        "design-dev handoff"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Design systems as dynamic infrastructure, not static libraries",
+      "source": null,
+      "description": "The mental model is shifting: leading companies now treat design systems as data-driven infrastructure that feeds both human interfaces AND AI agents. This means your design tokens and component architecture aren't just for designers and devs anymore — they're the instruction set for AI agents that generate UI. Your MCP project is already positioned at this intersection.",
+      "link": "https://wearepresta.com/design-systems-for-scale-2026/",
+      "duration": "~12 min read",
+      "tags": [
+        "design systems",
+        "AI infrastructure",
+        "architecture"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Lovable 2.0 — now with Chat Mode for conversational app building",
+      "source": "AI Tool Analysis",
+      "description": "Lovable just launched 2.0 with a Chat Mode that lets you talk through complex features before building. Given you're already vibe-coding with Lovable, this could save you serious credits by planning outside the builder first. They also launched 'Lovable Shipped' — a 6-week program with $3M in perks to go from idea to product.",
+      "link": "https://aitoolanalysis.com/lovable-review/",
+      "duration": "~10 min read",
+      "tags": [
+        "lovable",
+        "vibe coding",
+        "app builder"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "47% of design systems now include comprehensive accessibility guidelines at the component level",
+      "source": "Adrenalin",
+      "description": "Up significantly from prior years. The new frontier is AI-augmented design systems that enforce accessibility automatically. If you're architecting a white-label system, baking a11y into tokens and components now means AI agents can inherit those rules by default — no manual audits per client.",
+      "link": "https://www.adrenalin.co/insights/why-design-systems-are-now-a-strategic-imperative-for-2026",
+      "duration": "~6 min read",
+      "tags": [
+        "accessibility",
+        "design systems",
+        "automation"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI agents can now design on the Figma canvas, what's the designer's new leverage?",
+      "source": null,
+      "description": "With agents handling layout and component assembly, the premium moves to system architecture, brand judgment, and orchestrating the right constraints for AI to work within. Your design system expertise isn't being automated — it's becoming the control layer. Worth sitting with as you think about your next role: product builder who designs the rules, not the screens.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "AI agents",
+        "product leadership"
+      ]
+    }
+  ]
+}
