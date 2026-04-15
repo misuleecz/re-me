@@ -1,0 +1,135 @@
+{
+  "date": "2026-04-15",
+  "headline": "Agents Meet the Design Canvas",
+  "subheadline": "Figma's MCP server demand is surging, Cursor shipped self-improving agents, and the industry is rethinking what design systems even are when AI agents consume them too.",
+  "emoji": "🤖",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma Rides Strong MCP Server Demand",
+      "source": "Yahoo Finance",
+      "description": "Figma's MCP server adoption is accelerating fast — Yahoo Finance is covering it as a business story now, not just a dev tool story. Since you're actively building a Figma MCP + Claude integration for your company's white-label sport apps design system, this validates the direction you're heading. The market is moving your way.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/figma-rides-strong-mcp-server-151200699.html",
+      "duration": "~3 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "design-systems",
+        "your-project"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma's 2026 Updates Quietly Redefine Design-Dev Handoff",
+      "source": "Medium",
+      "description": "Designers can now branch, commit, and merge Figma files directly to GitHub/GitLab — with version history linked to commit hashes. This is a fundamental shift in how design-dev handoff works and has real implications for your MCP integration architecture. If Figma files can live in Git, your design system tokens could have a single source of truth across both canvases.",
+      "link": "https://medium.com/@Rythmuxdesigner/figmas-2026-updates-quietly-redefine-design-dev-handoff-and-not-everyone-s-ready-98307f2ea2a8",
+      "duration": "~6 min read",
+      "tags": [
+        "figma",
+        "dev-handoff",
+        "git",
+        "design-systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI in 2026: Five Product Shifts We'll Have to Design For",
+      "source": "The Gradient",
+      "description": "Olena Zanichkovska nails something important: what's slowing AI isn't capability — it's product design. Unclear decision logic, fragile trust, poor workflow integration. This is a sharp, strategic read for someone thinking about evolving toward product leadership. The framing of 'interfaces built for tools rather than outcomes' is the kind of lens that separates senior designers from product leaders.",
+      "link": "https://thegradient.com/thinking/ai-in-2026-five-product-shifts-well-have-to-design-for",
+      "duration": "~8 min read",
+      "tags": [
+        "AI-product-design",
+        "UX-strategy",
+        "product-leadership"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Cursor's Bugbot Now Self-Improves with Learned Rules",
+      "source": "Cursor Blog",
+      "description": "Dropped April 8 — Cursor's Bugbot can now learn rules from its own debugging patterns and apply them going forward. Plus they shipped a multi-agent system that sped up GPU kernels by 38%. The self-improving Bugbot is worth trying in your next Cursor session — it essentially gets better at catching your project's specific patterns over time.",
+      "link": "https://cursor.com/blog",
+      "duration": null,
+      "tags": [
+        "cursor",
+        "AI-agents",
+        "vibe-coding"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Design Systems 2026: From Static Libraries to AI-Agent Infrastructure",
+      "source": "Presta",
+      "description": "This reframes design systems as 'dynamic, data-driven infrastructure that feeds both human interfaces and AI agents.' That's exactly the shift your white-label sport apps system needs to account for — your components aren't just for designers anymore, they're consumed by Claude and Codex too. The Airbnb and Uber case studies show how this scales.",
+      "link": "https://wearepresta.com/design-systems-for-scale-2026/",
+      "duration": "~7 min read",
+      "tags": [
+        "design-systems",
+        "AI-agents",
+        "scale",
+        "architecture"
+      ]
+    },
+    {
+      "type": "podcast",
+      "emoji": "🎧",
+      "label": "Listen",
+      "title": "The Complete Guide to Every Claude Update in Q1 2026",
+      "source": "AI Maker (Substack)",
+      "description": "Two builders tested every Claude update from Q1 and broke down what actually matters. Covers Claude Cowork scheduled tasks — basically automated daily agents you can set and forget. Since you're building on Claude's API for your MCP integration, knowing what shipped (and what's stable) saves you from chasing features that aren't ready. 🎧 Great stroller content if they have an audio version.",
+      "link": "https://aimaker.substack.com/p/anthropic-claude-updates-q1-2026-guide",
+      "duration": "~12 min read",
+      "tags": [
+        "claude",
+        "API",
+        "AI-agents",
+        "your-project"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agent UX: Trust, Transparency, and Oversight",
+      "source": "LinkedIn",
+      "description": "Aaron Usiskin argues that agentic system design is less about interface and more about trust architecture. When AI agents act on behalf of users, the design challenge shifts from 'make it usable' to 'make it trustworthy and auditable.' This is the product leadership lens for your next chapter — whoever designs the oversight layer for AI agents in enterprise tools will define the next era of UX.",
+      "link": "https://www.linkedin.com/pulse/ai-agents-why-2026-may-finally-year-matter-aaron-usiskin-yq0oe",
+      "duration": "~5 min read",
+      "tags": [
+        "AI-agents",
+        "UX-design",
+        "trust",
+        "product-thinking"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If your design system serves AI agents too, who's the primary user?",
+      "source": null,
+      "description": "Your white-label sport apps design system will increasingly be consumed by Claude, Codex, and future AI tools — not just designers in Figma. The tokens, naming conventions, and component logic you're building right now are becoming an API for machines. How does that change what 'good documentation' means?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "design-systems",
+        "MCP",
+        "AI-first-design",
+        "career"
+      ]
+    }
+  ]
+}
