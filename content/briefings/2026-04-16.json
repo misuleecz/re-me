@@ -1,0 +1,137 @@
+{
+  "date": "2026-04-16",
+  "headline": "Agents Are Eating Design Systems",
+  "subheadline": "Brad Frost is talking about agentic design systems, Figma's MCP ecosystem keeps maturing, and Claude Code just shipped a meaty update — all directly relevant to what you're building.",
+  "emoji": "🤖",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Agentic Design Systems in 2026 with Brad Frost",
+      "source": "YouTube",
+      "description": "Brad Frost explores how AI agents are now consuming design systems — assembling UIs from your components autonomously. This is exactly the trajectory your white-label sport apps system is on. His framing of design systems as APIs for agents could reshape how you architect tokens and components for both human designers AND AI consumers.",
+      "link": "https://www.youtube.com/watch?v=Vg78K3t9KYc",
+      "duration": null,
+      "tags": [
+        "design systems",
+        "AI agents",
+        "component architecture",
+        "Brad Frost"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI in 2026: Five Product Shifts We'll Have to Design For",
+      "source": "The Gradient",
+      "description": "Olena Zanichkovska argues that what slows AI down isn't capability but product design — unclear decision logic, fragile trust, poor workflow integration. As someone moving toward product leadership, this is the strategic lens you want. It reframes AI limitations as design problems, which is exactly your superpower.",
+      "link": "https://thegradient.com/thinking/ai-in-2026-five-product-shifts-well-have-to-design-for",
+      "duration": "~8 min read",
+      "tags": [
+        "product strategy",
+        "AI UX",
+        "trust design",
+        "leadership"
+      ]
+    },
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma's 2026 Updates Redefine Design-Dev Handoff",
+      "source": "Medium",
+      "description": "Designers can now branch, commit, and merge Figma files directly to GitHub/GitLab — version history links to commit hashes. This is a big deal for your Figma MCP + Claude integration work. If your design system files can be versioned alongside code, the handoff story for your white-label apps gets dramatically tighter.",
+      "link": "https://medium.com/@Rythmuxdesigner/figmas-2026-updates-quietly-redefine-design-dev-handoff-and-not-everyone-s-ready-98307f2ea2a8",
+      "duration": "~6 min read",
+      "tags": [
+        "Figma",
+        "git integration",
+        "design-dev handoff",
+        "design systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Code: Week 15 Release Notes (April 6–10)",
+      "source": "Claude Code Docs",
+      "description": "Fresh Claude Code update: worktree switching, PreCompact hook blocking, background plugin monitors, and improved MCP handling. The MCP reliability fixes matter directly for your Figma MCP integration — better stream and network handling means fewer dropped connections when Claude is reading your design system context.",
+      "link": "https://code.claude.com/docs/en/whats-new/2026-w15",
+      "duration": "~3 min read",
+      "tags": [
+        "Claude Code",
+        "MCP",
+        "release notes",
+        "vibe-coding"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI in Design Systems: What's Changing in 2026",
+      "source": "Zeroheight",
+      "description": "Zeroheight maps the current state of AI + design systems — from token management with AI to automated documentation and GitHub PR workflows. Good validation of the direction you're already heading with your MCP project, and might surface patterns you haven't considered for token syncing.",
+      "link": "https://zeroheight.com/blog/ai-in-design-systems-whats-changing-in-2026/",
+      "duration": "~7 min read",
+      "tags": [
+        "design systems",
+        "tokens",
+        "AI automation",
+        "documentation"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "OpenAI Codex + Figma Integration via MCP",
+      "source": "Gend.co",
+      "description": "OpenAI's Codex now connects to Figma through MCP servers, letting developers use Figma context for design-informed code generation. Worth knowing about as a competitive reference — see how they've structured the Figma-to-code pipeline compared to your Claude-based approach. Could reveal architectural ideas worth borrowing.",
+      "link": "https://www.gend.co/blog/openai-codex-figma-integration",
+      "duration": "~5 min read",
+      "tags": [
+        "Figma MCP",
+        "Codex",
+        "code generation",
+        "competitive intel"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Design systems as execution layers for AI agents",
+      "source": null,
+      "description": "The emerging mental model: your design system isn't just a library for humans — it's an API that AI agents call to assemble interfaces. This means token naming, component contracts, and documentation quality directly affect how well an agent can build with your system. The teams treating design systems as machine-readable contracts are pulling ahead.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "design systems",
+        "AI agents",
+        "mental model",
+        "architecture"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If agents consume your design system, what needs to change?",
+      "source": null,
+      "description": "Your white-label sport apps design system was built for human designers. If AI agents are now assembling UIs from those same components — are your token names semantic enough? Are component props self-documenting? Is there metadata an agent needs that a human never did? Stroller walk thought material. 🎧",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "design systems",
+        "AI agents",
+        "career",
+        "product thinking"
+      ]
+    }
+  ]
+}
