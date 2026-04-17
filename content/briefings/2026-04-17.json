@@ -1,0 +1,131 @@
+{
+  "date": "2026-04-17",
+  "headline": "Agents are reshaping your canvas",
+  "subheadline": "Figma's agent integration is maturing, Cursor just went all-in on AI agents, and there's a sharp piece on what product designers actually need to design for in the age of agentic UX.",
+  "emoji": "🤖",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma blog: \"Agents, meet the Figma canvas\"",
+      "source": "Figma Blog",
+      "description": "Figma is leaning hard into agents on the canvas — this is their latest thinking on how AI agents interact with design files natively. Given you're building a Figma MCP + Claude integration for white-label sport apps, this is essential context. It signals where Figma is heading and what agent capabilities they're officially supporting.",
+      "link": "https://www.figma.com/blog/ai/",
+      "duration": "~5 min read",
+      "tags": [
+        "figma",
+        "AI agents",
+        "design tools"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma's 2026 updates quietly redefine design-dev handoff",
+      "source": "Medium",
+      "description": "Designers can now branch, commit, and merge Figma files directly to GitHub/GitLab — version history linked to commit hashes. This is a massive shift for design systems work. If your white-label sport apps ever involve dev handoff (they do), this changes how your team could work. Worth understanding the implications for your component architecture.",
+      "link": "https://medium.com/@Rythmuxdesigner/figmas-2026-updates-quietly-redefine-design-dev-handoff-and-not-everyone-s-ready-98307f2ea2a8",
+      "duration": "~7 min read",
+      "tags": [
+        "figma",
+        "design-dev handoff",
+        "git integration",
+        "design systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI in 2026: Five product shifts we'll have to design for",
+      "source": "The Gradient",
+      "description": "This is the kind of strategic thinking piece that fits your evolving product leadership ambitions. The core argument: what slows AI down isn't capability — it's product design. Covers unclear decision logic, fragile trust, and interfaces built for tools rather than outcomes. Directly relevant to how you think about designing sport app experiences where AI agents do things on behalf of users.",
+      "link": "https://thegradient.com/thinking/ai-in-2026-five-product-shifts-well-have-to-design-for",
+      "duration": "~10 min read",
+      "tags": [
+        "product design",
+        "AI UX",
+        "strategy",
+        "leadership"
+      ]
+    },
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Cursor refreshes its platform with focus on AI agents",
+      "source": "SiliconAngle",
+      "description": "Cursor just shipped a significant update: multiple AI agents working together to complete tasks, plus new desktop agents. Since you're actively vibe-coding with Cursor, this changes your workflow — the new chatbot interface orchestrates agents rather than just autocompleting code. Desktop agents are reportedly slower but more autonomous.",
+      "link": "https://siliconangle.com/2026/04/02/cursor-refreshes-vibe-coding-platform-focus-ai-agents/",
+      "duration": "~4 min read",
+      "tags": [
+        "cursor",
+        "AI agents",
+        "vibe coding"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Codex + Figma: code-to-design with MCP context",
+      "source": "Gend.co",
+      "description": "OpenAI's Codex now integrates with Figma via MCP server — letting developers use Codex with full Figma context for design-informed implementation. Since you're already building a Figma MCP + Claude pipeline, this is worth studying as a parallel approach. Could inform how you architect your own integration, or become a complementary tool for your dev team.",
+      "link": "https://www.gend.co/blog/openai-codex-figma-integration",
+      "duration": "~6 min read",
+      "tags": [
+        "figma MCP",
+        "OpenAI Codex",
+        "design-to-code"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Lovable 2.0 launched — Chat Mode for conversational app building",
+      "source": "AI Tool Analysis",
+      "description": "Lovable just dropped 2.0 with a new Chat Mode that lets you talk through features conversationally before building. At $6.6B valuation, they're serious. You already use Lovable — the review recommends planning complex features outside Lovable first to save credits. Chat Mode might change that calculus for your prototyping workflow.",
+      "link": "https://aitoolanalysis.com/lovable-review/",
+      "duration": "~8 min read",
+      "tags": [
+        "lovable",
+        "vibe coding",
+        "app building"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Design systems as AI-orchestrated ecosystems",
+      "source": "tianpan.co",
+      "description": "The framing here is provocative: design systems in 2026 aren't libraries anymore — they're AI-orchestrated ecosystems. The discussion raises real questions about what still needs human judgment (accessibility beyond automated checks, precedent-setting patterns, core user flow changes). For someone building a design system that Claude agents interact with, this is the philosophical ground you're standing on.",
+      "link": "http://tianpan.co/forum/t/design-systems-became-ai-orchestrated-ecosystems-in-2026-whos-actually-benefiting-from-this-automation/1406",
+      "duration": "~5 min read",
+      "tags": [
+        "design systems",
+        "AI automation",
+        "component architecture"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If agents can branch, commit, and merge your Figma files — what's left for a design lead to own?",
+      "source": null,
+      "description": "With Figma's git integration and agents operating on the canvas, the mechanics of design leadership are shifting fast. The answer probably isn't \"pixel control\" anymore. It might be system logic, decision frameworks, and trust architecture. Worth sitting with on today's walk — especially as you think about what your next role looks like.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "leadership",
+        "design strategy"
+      ]
+    }
+  ]
+}
