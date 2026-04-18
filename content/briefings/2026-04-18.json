@@ -1,0 +1,136 @@
+{
+  "date": "2026-04-18",
+  "headline": "Anthropic Is Coming for Figma",
+  "subheadline": "Anthropic launched a design tool that rattled Figma's stock, AI agents are reshaping design systems, and Cursor just dropped self-hosted agents. A lot to unpack for someone building at the intersection of all three.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Anthropic launches an AI design tool — Figma shares plunge",
+      "source": "Evrim Ağacı / The Economic Times",
+      "description": "This is the big one. Anthropic — the company behind Claude, your daily driver — just debuted a design tool that spooked Wall Street enough to tank Figma's stock. Details are still emerging, but the signal is clear: the AI companies aren't just building copilots, they're building the canvas itself. Given you're literally building a Figma MCP + Claude integration, this could reshape what you're building toward or validate it entirely.",
+      "link": "https://evrimagaci.org/gpt/figma-shares-plunge-as-anthropic-launches-ai-design-tool-538470?srsltid=AfmBOoqhxyIcmmCvwFbLHI8Ap4jTuXKxsnrKrQfFYAYQG7XZWLPUmPLq",
+      "duration": "~5 min read",
+      "tags": [
+        "anthropic",
+        "figma",
+        "AI design",
+        "industry shift"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI in 2026: Five product shifts we'll have to design for",
+      "source": "The Gradient",
+      "description": "This is a sharp piece arguing that what slows AI down isn't capability — it's product design. Unclear decision logic, fragile trust, poor workflow integration. It frames five shifts designers need to own. This reads like a roadmap for where your career is heading: the designer who understands AI infrastructure becomes the product leader.",
+      "link": "https://thegradient.com/thinking/ai-in-2026-five-product-shifts-well-have-to-design-for",
+      "duration": "~10 min read",
+      "tags": [
+        "product design",
+        "AI UX",
+        "career growth",
+        "leadership"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Design systems in the era of agentic AI: agents orchestrating the design-to-code pipeline",
+      "source": "Supernova.io",
+      "description": "Supernova's take on where enterprise design systems are headed: AI agents taking multi-step actions across Figma, Jira, and GitHub. Not theoretical — they're describing teams already doing this. Directly relevant to your white-label sports app design system work. The MCP integration you're building is exactly the connective tissue this article describes.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~8 min read",
+      "tags": [
+        "design systems",
+        "AI agents",
+        "agentic workflows",
+        "MCP"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "OpenAI Codex + Figma: design-informed code generation via MCP",
+      "source": "Gend.co",
+      "description": "OpenAI's Codex now connects to Figma through the MCP server, letting developers generate code with full design context from the canvas. This is a parallel path to what you're building with Claude + Figma MCP. Worth understanding the architecture — and whether your company's devs might want to use Codex alongside your Claude integration.",
+      "link": "https://www.gend.co/blog/openai-codex-figma-integration",
+      "duration": "~5 min read",
+      "tags": [
+        "Figma MCP",
+        "Codex",
+        "code generation",
+        "design-to-dev"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Cursor now supports self-hosted cloud agents",
+      "source": "Releasebot",
+      "description": "Cursor's April update adds self-hosted cloud agents — your code and tool execution stays entirely within your own network. If your company has data sensitivity around client sport apps, this is meaningful. It means you could run Cursor's agentic coding without anything leaving your infrastructure.",
+      "link": "https://releasebot.io/updates/cursor",
+      "duration": "~3 min read",
+      "tags": [
+        "Cursor",
+        "agentic coding",
+        "self-hosted",
+        "security"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Dynamic design systems vs. static component libraries",
+      "source": null,
+      "description": "The old model: a design system is a Figma library of components with documentation. The 2026 model: design systems are data-driven infrastructure that feeds both human interfaces AND AI agents. Components carry semantic meaning that agents can read and act on. Your token and variable expertise is suddenly the most valuable layer — it's what makes a design system machine-readable. This is the shift from design system maintainer to design system architect.",
+      "link": "https://wearepresta.com/design-systems-for-scale-2026/",
+      "duration": "~7 min read",
+      "tags": [
+        "design systems",
+        "tokens",
+        "AI-ready architecture",
+        "mental model"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "69% of global executives predict AI agents will reshape their business in 2026",
+      "source": "DeepL Research via PR Newswire",
+      "description": "Not a design stat, but a boardroom stat — and that's the point. When seven in ten executives are thinking about AI agents, the designer who can build agent-compatible systems isn't just a designer anymore. They're speaking the language the C-suite is obsessing over. File this under 'career ammunition.'",
+      "link": "https://www.prnewswire.com/news-releases/69-global-executives-predict-ai-agents-will-reshape-business-in-2026-according-to-deepl-research-302631256.html",
+      "duration": null,
+      "tags": [
+        "AI agents",
+        "enterprise",
+        "career positioning"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If Anthropic is building the canvas, what's Figma's moat — and what's yours?",
+      "source": null,
+      "description": "Anthropic launching a design tool while you're building a Claude-to-Figma bridge is... poetic. But it raises a real question: if AI companies start owning the design surface, does your value shift from mastering tools to mastering the system logic underneath them? Your deep knowledge of tokens, variables, and component architecture might be more durable than any tool expertise. Worth a stroller-walk think.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "strategy",
+        "design leadership",
+        "AI disruption"
+      ]
+    }
+  ]
+}
