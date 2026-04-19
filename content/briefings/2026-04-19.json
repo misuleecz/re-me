@@ -1,0 +1,119 @@
+{
+  "date": "2026-04-19",
+  "headline": "AI Agents Are Eating Your UI",
+  "subheadline": "Big moves in agentic design systems, Figma's AI leap forward, and a must-read on why the interfaces you've been designing might look completely different soon.",
+  "emoji": "🤖",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma Made a Huge Step Forward in AI Design (April 2026)",
+      "source": "DEV Community",
+      "description": "A breakdown of Figma's latest AI design capabilities shipped this month. Given you're building a Figma MCP + Claude integration for your company's white-label sport apps, this is essential reading — some of these new AI features could change what your MCP server needs to handle or make parts of your workflow dramatically faster.",
+      "link": "https://dev.to/spookuspookus/figma-made-a-huge-step-forward-in-ai-design-april-2026-1cin",
+      "duration": "~6 min read",
+      "tags": [
+        "figma",
+        "AI design",
+        "new features"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI in 2026: Five Product Shifts We'll Have to Design For",
+      "source": "The Gradient",
+      "description": "This one nails the tension you're probably feeling: AI capability isn't the bottleneck anymore — product design is. It covers unclear decision logic, fragile trust, and interfaces built for tools rather than outcomes. As someone evolving toward product leadership, this frames exactly the strategic design challenges ahead. Really sharp thinking.",
+      "link": "https://thegradient.com/thinking/ai-in-2026-five-product-shifts-well-have-to-design-for",
+      "duration": "~10 min read",
+      "tags": [
+        "product design",
+        "AI UX",
+        "strategy",
+        "leadership"
+      ]
+    },
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Agentic AI Is Orchestrating the Design-to-Code Pipeline",
+      "source": "Supernova.io",
+      "description": "This is directly in your lane. High-performing teams are now using AI agents that take multi-step actions across Figma, Jira, and GitHub — not just assisting designers but orchestrating the whole pipeline. Your MCP + Claude project is early on this curve. Worth reading to see where enterprise design systems are heading and what 'agentic design systems' actually look like in practice.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~8 min read",
+      "tags": [
+        "design systems",
+        "AI agents",
+        "design-to-code",
+        "enterprise"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Ephemeral UI — interfaces that exist only for the moment",
+      "source": "Medium",
+      "description": "A concept gaining traction: instead of designing persistent screens, AI agents generate temporary, task-specific interfaces on the fly and discard them after use. This fundamentally challenges component libraries and design systems as we know them. For someone who's spent years building scalable component architectures, this is both threatening and fascinating — worth understanding where it's headed.",
+      "link": "https://medium.com/@codeai/agents-will-kill-your-ui-by-2026-unless-you-build-this-instead-088a2f2bbe4d",
+      "duration": "~7 min read",
+      "tags": [
+        "generative UI",
+        "ephemeral UI",
+        "AI agents",
+        "design systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Building Frontend UIs with Codex and Figma MCP Server",
+      "source": "Figma Blog",
+      "description": "Figma's own blog post on using the MCP server with Codex to generate design files. Since you're already building on Figma MCP + Claude, seeing how Figma themselves are framing the MCP workflow — and what the beta server actually supports now — could directly inform your architecture decisions.",
+      "link": "https://www.figma.com/blog/introducing-codex-to-figma/",
+      "duration": "~5 min read",
+      "tags": [
+        "figma MCP",
+        "codex",
+        "design-to-code"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Lovable 2.0 — Workspaces, Multiplayer & MCP Integrations",
+      "source": "Lovable Changelog",
+      "description": "Lovable has added MCP integrations that let it pull context from external services while building apps — meaning you could potentially connect it to your design system data. Workspaces and multiplayer collaboration also shipped. Since you're already using Lovable for vibe-coding, check if these MCP connections could speed up your prototyping workflow.",
+      "link": "https://docs.lovable.dev/changelog",
+      "duration": null,
+      "tags": [
+        "lovable",
+        "MCP",
+        "vibe coding",
+        "prototyping"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI agents orchestrate design-to-code, what does a design system lead actually do?",
+      "source": null,
+      "description": "With agents now capable of multi-step actions across Figma, code repos, and project tools, the traditional role of maintaining and governing a design system is shifting. Your MCP project already puts you ahead — but the bigger question is whether design system leadership becomes less about components and tokens, and more about defining the rules and constraints that AI agents follow. That's a very different job description.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "design leadership",
+        "AI agents",
+        "design systems"
+      ]
+    }
+  ]
+}
