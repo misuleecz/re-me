@@ -1,0 +1,119 @@
+{
+  "date": "2026-04-20",
+  "headline": "Figma Weave Changes Everything",
+  "subheadline": "Figma just dropped generative AI workflows as a shareable resource type, Claude Opus 4.7 is here, and Cursor now supports self-hosted agents. A big week for your stack.",
+  "emoji": "🔮",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma Weave: Shareable generative AI workflows hit Figma Community",
+      "source": "Releasebot",
+      "description": "This is huge for you. Figma introduced 'Weave' — a new resource type in Community for building repeatable, scalable generative AI workflows on a visual canvas. Think shareable AI pipelines for generating images, videos, illustration sets. Plus they released Make kits for design system pros. Given your white-label design system work, the Make kits alone could reshape how your team scaffolds new brand variants.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": "~5 min read",
+      "tags": [
+        "figma",
+        "AI workflows",
+        "design systems",
+        "generative AI"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma Made a Huge Step Forward in AI Design — April 2026",
+      "source": "Dev.to",
+      "description": "A deeper breakdown of what Figma's April AI push actually means in practice. Worth reading alongside the release notes to understand the full picture — especially how Weave workflows and Make interact with the design system layer you're already building on.",
+      "link": "https://dev.to/spookuspookus/figma-made-a-huge-step-forward-in-ai-design-april-2026-1cin",
+      "duration": "~7 min read",
+      "tags": [
+        "figma",
+        "AI design",
+        "product update"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Claude Design — Anthropic's new design-specific capability",
+      "source": "Reddit / r/EveryDevAI",
+      "description": "This week's AI dev roundup confirms Claude Opus 4.7 dropped alongside something called 'Claude Design.' Details are still emerging, but if Anthropic is shipping design-aware capabilities into Claude, that directly impacts your Figma MCP + Claude integration. Worth tracking closely — this could mean your MCP workflows get significantly smarter out of the box.",
+      "link": "https://www.reddit.com/r/EveryDevAI/comments/1soe7qu/weekly_ai_dev_news_for_april_13th_17th_2026/",
+      "duration": "~4 min read",
+      "tags": [
+        "Claude",
+        "Anthropic",
+        "AI + design",
+        "MCP"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Cursor self-hosted cloud agents",
+      "source": "Releasebot",
+      "description": "Cursor now supports self-hosted cloud agents that keep your code and tool execution entirely in your own network. If your company has any data sensitivity concerns about the sport apps codebase you're vibe-coding with Cursor, this is the answer. It means enterprise-grade privacy without giving up the AI coding experience.",
+      "link": "https://releasebot.io/updates/cursor",
+      "duration": null,
+      "tags": [
+        "Cursor",
+        "AI coding",
+        "self-hosted",
+        "enterprise"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "Lovable hit $200M ARR with just 100 employees",
+      "source": "Medium",
+      "description": "Elena Verna (head of growth at Lovable) shared that the AI app builder crossed $200M ARR in under a year with ~100 people. That's $2M revenue per employee. As someone actively building with Lovable, this validates the platform's staying power — and the growth playbook discussion is genuinely interesting for anyone thinking about product-led AI tools.",
+      "link": "https://medium.com/@davidwalby/the-new-ai-growth-playbook-for-2026-e87b414b6e63",
+      "duration": "~8 min read",
+      "tags": [
+        "Lovable",
+        "AI growth",
+        "product strategy"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Figma MCP + Claude Code — Updated setup walkthrough",
+      "source": "YouTube (Nehmat Gereige)",
+      "description": "An updated setup video for the Figma MCP + Claude Code integration. You already have this running, but given all the April changes to both Figma and Claude, it's worth checking if there are new connection patterns or capabilities you haven't wired up yet. Skim for what's changed.",
+      "link": "https://www.youtube.com/playlist?list=PLXdRMPwB8CHltw8MqTR0A3QJIVref3bJo",
+      "duration": "~15 min",
+      "tags": [
+        "Figma MCP",
+        "Claude Code",
+        "setup",
+        "integration"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If Figma Weave lets teams share AI workflows like components, what does that mean for design system leadership?",
+      "source": null,
+      "description": "You've spent years thinking about component architecture and design tokens as the shareable building blocks of design systems. Now Figma is making AI workflows a first-class shareable resource. The design system lead of 2027 probably governs AI workflows alongside components. You're already building the MCP bridge — you might be ahead of this curve without realizing it.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "design leadership",
+        "design systems",
+        "career",
+        "AI workflows"
+      ]
+    }
+  ]
+}
