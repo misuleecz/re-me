@@ -1,0 +1,135 @@
+{
+  "date": "2026-04-21",
+  "headline": "Your Design System Wants Agents",
+  "subheadline": "Figma Weave workflows, Cursor's new Automations, and the shift toward AI agents orchestrating design-to-code pipelines — all directly relevant to the MCP integration you're building.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma Weave: Repeatable AI Workflows Land in Community",
+      "source": "Releasebot",
+      "description": "Figma just shipped Weave — a new resource type for building repeatable generative AI workflows on a visual canvas. You can duplicate team-made workflows for generating images, videos, and illustration sets. Plus there are new 'Make kits' for design system pros. Given your white-label sport apps system, Weave could become a serious multiplier for generating consistent visual assets across brands.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": "~3 min read",
+      "tags": [
+        "figma",
+        "AI workflows",
+        "design systems",
+        "generative AI"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI Agents Are Now Orchestrating the Design-to-Code Pipeline",
+      "source": "Supernova",
+      "description": "Supernova's 2026 trends piece nails the shift you're living: AI agents taking multi-step actions across Figma, Jira, and GitHub. It's no longer about AI assisting — it's about AI orchestrating. This frames exactly why your Figma MCP + Claude integration matters and where the industry is heading. Good strategic ammunition.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~8 min read",
+      "tags": [
+        "design systems",
+        "agentic AI",
+        "design-to-code",
+        "strategy"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Claude Code: What's New in April 2026 (5 Updates)",
+      "source": "YouTube",
+      "description": "Quick rundown of five April updates to Claude Code. You already live in this tool, so this is worth scanning for anything that changes how your MCP integration or Cursor workflows behave. Especially relevant if there are new agentic capabilities or API changes.",
+      "link": "https://www.youtube.com/watch?v=uLh6AB51QzU",
+      "duration": "~12 min",
+      "tags": [
+        "claude code",
+        "updates",
+        "vibe-coding"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Cursor Automations: Agents Triggered by Slack, Git, or Timers",
+      "source": "TechCrunch",
+      "description": "Cursor shipped 'Automations' — agents that auto-launch in your coding environment triggered by new code commits, Slack messages, or timers. Think: an agent that reviews PRs, updates component docs, or syncs design tokens when something changes. You're already in Cursor daily — this could automate the boring parts of your build workflow.",
+      "link": "https://techcrunch.com/2026/03/05/cursor-is-rolling-out-a-new-system-for-agentic-coding/",
+      "duration": "~4 min read",
+      "tags": [
+        "cursor",
+        "automation",
+        "agentic coding",
+        "developer tools"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Agentic UX & Generative UI: The Design Trends Defining 2026",
+      "source": "Phenomenon Studio",
+      "description": "A sharp overview of how 'Agentic Ecosystems' are reshaping product design — from autonomous workflows to the EU AI Act's impact. As someone thinking about evolving toward product leadership, this gives you language and frameworks for the conversation about what design leaders actually need to own in the agent era.",
+      "link": "https://phenomenonstudio.com/article/ai-product-design-trends-to-watch-in-2026/",
+      "duration": "~7 min read",
+      "tags": [
+        "product design",
+        "agentic UX",
+        "leadership",
+        "trends"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Design Systems as Agent Infrastructure",
+      "source": null,
+      "description": "The big mental shift in 2026: design systems aren't just component libraries for humans anymore — they're data-driven infrastructure that feeds both human interfaces AND AI agents. Airbnb and Uber are already treating their systems this way. Your MCP integration is exactly this pattern: making your design system readable and actionable by Claude. You're not building a tool — you're building infrastructure.",
+      "link": "https://wearepresta.com/design-systems-for-scale-2026/",
+      "duration": "~6 min read",
+      "tags": [
+        "design systems",
+        "AI infrastructure",
+        "mental model"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "Lovable Hit $6.6B Valuation with 2.0 Launch",
+      "source": "AI Tool Analysis",
+      "description": "Lovable just launched 2.0 with a new Chat Mode for talking through features before building. At $6.6B valuation, the vibe-coding space you're in is being taken very seriously by investors. The review tested building 3 real apps — worth skimming to see if 2.0 changes your Lovable workflow at all.",
+      "link": "https://aitoolanalysis.com/lovable-review/",
+      "duration": "~10 min read",
+      "tags": [
+        "lovable",
+        "vibe-coding",
+        "startup",
+        "product building"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If your design system becomes agent-readable, who's your real user?",
+      "source": null,
+      "description": "Your Figma MCP integration makes your design system consumable by Claude. But once it works — your 'user' isn't just a designer dragging components. It's an AI agent generating screens, checking consistency, shipping code. How does that change what you document, how you name tokens, what metadata you attach? The design system discipline you've built for 15 years might be the exact thing that makes you invaluable in the agent era.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "design systems",
+        "AI agents",
+        "product thinking"
+      ]
+    }
+  ]
+}
