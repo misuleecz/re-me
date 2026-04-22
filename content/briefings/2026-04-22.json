@@ -1,0 +1,134 @@
+{
+  "date": "2026-04-22",
+  "headline": "Anthropic just came for Figma",
+  "subheadline": "Anthropic launched an AI design tool that sent Figma shares tumbling — and your MCP project just got a fresh release with component property support. A lot to unpack today.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Anthropic launches AI design tool — Figma shares plunge",
+      "source": "Evrim Ağacı / The Economic Times",
+      "description": "This is huge for you on multiple levels. Anthropic — the company behind Claude, the AI you're building your MCP integration with — just launched a design tool that's directly competing with Figma. Wall Street panicked. This reshapes the competitive landscape for design tools and raises a real question: does your deep Figma expertise become more valuable (moats matter) or less (if AI commoditizes UI design)? Worth watching closely given your career trajectory toward product leadership.",
+      "link": "https://evrimagaci.org/gpt/figma-shares-plunge-as-anthropic-launches-ai-design-tool-538470?srsltid=AfmBOoo4fvZDBPRKM6yiCLuxD8Zwlzd-lCOnubfBpE8aGy1YiWh94ndL",
+      "duration": "~4 min read",
+      "tags": [
+        "anthropic",
+        "figma",
+        "industry shift",
+        "competitive landscape"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Figma-Context-MCP v0.9.0 — now with component property support",
+      "source": "GitHub",
+      "description": "The MCP you're already using just shipped v0.9.0 on April 9th with two things that matter for your white-label sport apps project: BOOLEAN and TEXT component property support, plus proxy support for managed networks. The property support means Claude can now read and understand your component variants and text overrides — a meaningful step for generating context-aware design system outputs.",
+      "link": "https://github.com/GLips/Figma-Context-MCP/releases",
+      "duration": null,
+      "tags": [
+        "figma MCP",
+        "design systems",
+        "component properties",
+        "update"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Claude Code: What's New in April 2026 (5 Updates You Need)",
+      "source": "YouTube — Alec Wilcock",
+      "description": "Quick rundown of the latest Claude Code updates. Since you're actively vibe-coding with Claude Code in Cursor, this is worth 10 minutes to see if any of the new capabilities change your workflow — especially anything related to how Claude handles multi-file projects or tool integrations.",
+      "link": "https://www.youtube.com/watch?v=uLh6AB51QzU",
+      "duration": "~12 min",
+      "tags": [
+        "claude code",
+        "vibe coding",
+        "updates"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI agents are now orchestrating the design-to-code pipeline",
+      "source": "Supernova.io Blog",
+      "description": "Supernova's take on where enterprise design systems are heading in 2026 — and the core thesis is exactly what you're building toward: AI agents that take multi-step actions across Figma, Jira, and GitHub. They frame this as \"agentic design systems.\" Useful framing for how you position your MCP + Claude integration work, and potentially for pitching it internally when you're back.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~6 min read",
+      "tags": [
+        "design systems",
+        "AI agents",
+        "design-to-code",
+        "strategy"
+      ]
+    },
+    {
+      "type": "podcast",
+      "emoji": "🎧",
+      "label": "Listen",
+      "title": "AI Design Systems Conference 2026 — 15+ hours of recordings now live",
+      "source": "Into Design Systems",
+      "description": "21 speakers from WhatsApp, Adobe, Figma, GitHub, Atlassian, and Miro sharing AI workflows, vibe coding setups, MCP integrations, and agentic design systems. You obviously won't watch 15 hours, but cherry-pick the MCP integration and agentic design systems talks — those map directly to what you're building. Perfect stroller walk material if any are audio-friendly.",
+      "link": "https://www.intodesignsystems.com/blog/ai-design-systems-conference-2026-recordings",
+      "duration": "~15+ hours total (pick sessions)",
+      "tags": [
+        "conference",
+        "MCP",
+        "design systems",
+        "agentic AI"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI in 2026: Five Product Shifts We'll Have to Design For",
+      "source": "The Gradient",
+      "description": "A thoughtful piece on the product design challenges AI is creating — not the tools, but the actual UX problems. As someone moving toward product leadership, this is the strategic layer above the tooling. What slows AI down today isn't the models — it's the product design around them. Good food for thought about where your skills create the most value.",
+      "link": "https://thegradient.com/thinking/ai-in-2026-five-product-shifts-well-have-to-design-for",
+      "duration": "~8 min read",
+      "tags": [
+        "product design",
+        "AI UX",
+        "strategy",
+        "leadership"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agentic UX — designing for AI that acts, not just assists",
+      "source": "Phenomenon Studio",
+      "description": "The shift from \"AI that helps you do things\" to \"AI that does things on your behalf\" creates a fundamentally different design challenge. Agentic UX means designing trust signals, intervention points, and transparency layers for autonomous AI workflows. This is the design problem of 2026 and it's where your systems thinking + product instinct becomes incredibly valuable.",
+      "link": "https://phenomenonstudio.com/article/ai-product-design-trends-to-watch-in-2026/",
+      "duration": "~7 min read",
+      "tags": [
+        "agentic UX",
+        "AI design patterns",
+        "product thinking"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If Anthropic is building design tools, what does your Claude + Figma MCP project become?",
+      "source": null,
+      "description": "You're building a bridge between Claude and Figma for your company's design system. Anthropic just launched their own design tool. Does this make your MCP work more strategic (you're the person who understands both sides) or does it mean the integration you're building gets absorbed into a first-party product? Either way, you're positioned at the exact intersection that matters.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "strategy",
+        "positioning"
+      ]
+    }
+  ]
+}
