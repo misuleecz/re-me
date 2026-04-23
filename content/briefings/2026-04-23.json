@@ -1,0 +1,130 @@
+{
+  "date": "2026-04-23",
+  "headline": "Agents Are Eating Design Systems",
+  "subheadline": "Big moves in the tools you live in: Figma MCP gets component properties, Claude Code ships Opus 4.7 fixes, and the design systems world is going full agentic. Directly relevant to your white-label MCP project.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma MCP v0.9.0: Component Property Support Lands",
+      "source": "GitHub",
+      "description": "The Figma Context MCP just shipped support for Boolean and Text component properties. This is directly relevant to your white-label sport apps design system — your MCP integration can now read and reason about component variants at a much deeper level. Worth reviewing the release notes to see how this maps to your token/variable architecture.",
+      "link": "https://github.com/GLips/Figma-Context-MCP/releases",
+      "duration": "~5 min read",
+      "tags": [
+        "figma-mcp",
+        "design-systems",
+        "component-architecture"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Agentic Design Systems: AI Agents Orchestrating the Design-to-Code Pipeline",
+      "source": "Supernova.io",
+      "description": "Supernova's 2026 trends piece argues we've crossed from 'AI assists designers' to 'AI agents orchestrate multi-step actions across Figma, Jira, and GitHub.' For someone building an MCP bridge between Claude and a design system, this frames exactly where your work sits in the industry. Good strategic ammunition if you're making the case internally.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~8 min read",
+      "tags": [
+        "agentic-ai",
+        "design-systems",
+        "product-strategy"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "AI Design Systems Conference 2026: 15+ Hours of Recordings Now Live",
+      "source": "Into Design Systems",
+      "description": "21 speakers from WhatsApp, Adobe, Figma, GitHub, Atlassian, and Miro sharing AI workflows, vibe coding setups, and MCP integrations. Cherry-pick the Figma and MCP talks — this is basically a masterclass library for exactly what you're building. Bookmark for stroller-free evenings.",
+      "link": "https://www.intodesignsystems.com/blog/ai-design-systems-conference-2026-recordings",
+      "duration": "~15+ hrs total (pick talks)",
+      "tags": [
+        "conference",
+        "mcp",
+        "vibe-coding",
+        "design-systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Code Ships Opus 4.7 Fixes, Faster Startup, Better Session Resume",
+      "source": "Anthropic / Releasebot",
+      "description": "Key fix: Opus 4.7 sessions were showing inflated context percentages and autocompacting too early — if you've hit weird context limits in Claude Code recently, this is why. Also: stronger plugin management and improved session persistence. Quality-of-life stuff that makes your Cursor + Claude Code workflow smoother.",
+      "link": "https://releasebot.io/updates/anthropic",
+      "duration": "~3 min read",
+      "tags": [
+        "claude-code",
+        "opus-4.7",
+        "developer-tools"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Figma Now Has ChatGPT Images 2.0 in Make Image & Edit Image",
+      "source": "Figma / Releasebot",
+      "description": "OpenAI's newest image model is now native across Figma Design, Draw, Slides, and Weave. For your sport app work, this could speed up placeholder imagery and visual explorations directly in your files without round-tripping to external tools. Worth a quick test to see if the quality holds for your use cases.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": null,
+      "tags": [
+        "figma",
+        "ai-images",
+        "workflow"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Design Systems as 'Dynamic, Data-Driven Infrastructure'",
+      "source": "Presta",
+      "description": "The framing from this piece is worth internalizing: in 2026, design systems have shifted from static component libraries to dynamic infrastructure that feeds both human interfaces AND AI agents. Your MCP project is literally this — you're building the bridge that lets AI agents consume and act on your design system. You're not just maintaining a library; you're building product infrastructure.",
+      "link": "https://wearepresta.com/design-systems-for-scale-2026/",
+      "duration": "~10 min read",
+      "tags": [
+        "design-systems",
+        "infrastructure",
+        "mental-model"
+      ]
+    },
+    {
+      "type": "podcast",
+      "emoji": "🎧",
+      "label": "Listen",
+      "title": "AI in 2026: Five Product Shifts We'll Have to Design For",
+      "source": "The Gradient",
+      "description": "A thoughtful piece on what's actually slowing AI products down — not the models, but the design patterns around them. Tackles trust-first UX, preference-driven personalization, and products becoming 'execution layers' for agents. Great stroller-walk material for someone thinking about evolving toward product leadership. (Note: article format but reads well as a think piece.)",
+      "link": "https://thegradient.com/thinking/ai-in-2026-five-product-shifts-well-have-to-design-for",
+      "duration": "~12 min read",
+      "tags": [
+        "product-design",
+        "ai-ux",
+        "leadership"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "Canva now has 265 million users — and just went full agentic",
+      "source": "Fortune",
+      "description": "Canva launched 'AI 2.0' — a suite of agentic tools combining visual creation with workflow automation. 265 million users getting exposed to agentic design patterns means user expectations are shifting fast. The bar for what 'AI-assisted design' means to stakeholders and clients just moved.",
+      "link": "https://fortune.com/2026/04/16/canva-ai-agentic-design-suite-coo-cliff-obrecht/",
+      "duration": "~5 min read",
+      "tags": [
+        "canva",
+        "agentic-ai",
+        "market-shift"
+      ]
+    }
+  ]
+}
