@@ -1,0 +1,132 @@
+{
+  "date": "2026-04-24",
+  "headline": "Figma Goes All-In on AI",
+  "subheadline": "Big Figma updates this month including ChatGPT Images 2.0 and new Figma-Context-MCP features — plus Cursor's parallel agents are here and design systems are getting the AI treatment everywhere.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma adds ChatGPT Images 2.0 across Design, Draw, Slides, Buzz, FigJam & Weave",
+      "source": "Releasebot",
+      "description": "OpenAI's newest image model is now baked into Make Image and Edit Image across basically every Figma surface — Design, Draw, Slides, Buzz, FigJam, and Weave. This is a meaningful upgrade to the generative image quality inside your existing workflows. Worth checking if it changes how you handle placeholder assets or exploration in your white-label sport apps.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": "~3 min read",
+      "tags": [
+        "figma",
+        "AI images",
+        "generative design"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma Made a Huge Step Forward in AI Design — April 2026",
+      "source": "DEV Community",
+      "description": "A developer's breakdown of the full scope of Figma's April AI push. Useful as a quick audit of what's changed this month — you'll want to know which new capabilities might affect your design system architecture or component workflows, especially with your MCP integration in play.",
+      "link": "https://dev.to/spookuspookus/figma-made-a-huge-step-forward-in-ai-design-april-2026-1cin",
+      "duration": "~5 min read",
+      "tags": [
+        "figma",
+        "AI design",
+        "product update"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Figma-Context-MCP v0.9.0 — now with component property support",
+      "source": "GitHub",
+      "description": "The open-source Figma-Context-MCP just shipped v0.9.0 with BOOLEAN and TEXT component property support, plus proxy support for managed networks. This directly matters for your MCP + Claude integration work — component properties flowing through MCP means Claude can now understand and manipulate more of your design system's logic layer.",
+      "link": "https://github.com/GLips/Figma-Context-MCP/releases",
+      "duration": null,
+      "tags": [
+        "figma MCP",
+        "design systems",
+        "component properties",
+        "Claude"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Cursor April 2026: Tiled Agents, Self-Hosted Cloud & Better Scoping",
+      "source": "Releasebot",
+      "description": "Cursor now lets you run multiple agents in parallel with a tiled layout, plus self-hosted cloud agents and file search filters for tighter code scoping. The parallel agents thing is a real workflow shift if you're vibe-coding across frontend and backend simultaneously. Worth a quick scan of the changelog.",
+      "link": "https://releasebot.io/updates/cursor",
+      "duration": "~5 min read",
+      "tags": [
+        "cursor",
+        "AI coding",
+        "developer tools"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "AI-Augmented Design Systems",
+      "source": "Adrenalin",
+      "description": "Design systems are shifting from static component libraries to AI-augmented systems that embed accessibility at the component level (47% now include comprehensive a11y guidelines) and use AI to automate token generation, variant creation, and cross-platform consistency. This is the exact trajectory your white-label sport apps design system is on — the strategic framing here could help you articulate its value to leadership when you're back.",
+      "link": "https://www.adrenalin.co/insights/why-design-systems-are-now-a-strategic-imperative-for-2026",
+      "duration": "~7 min read",
+      "tags": [
+        "design systems",
+        "AI automation",
+        "strategy",
+        "accessibility"
+      ]
+    },
+    {
+      "type": "podcast",
+      "emoji": "🎧",
+      "label": "Listen",
+      "title": "Claude Code: What's New in April 2026 (5 Updates You Need)",
+      "source": "YouTube — ICOR with Tom",
+      "description": "Walkthrough of Claude Code's latest April updates. Given you're building with Claude Code daily, this is worth a stroller listen to make sure you haven't missed anything — particularly around the week 15 release that landed mid-April with potential workflow improvements for your MCP integration.",
+      "link": "https://www.youtube.com/watch?v=uLh6AB51QzU",
+      "duration": "~15 min",
+      "tags": [
+        "Claude Code",
+        "AI updates",
+        "developer tools"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "47% of design systems now include comprehensive accessibility guidelines at the component level",
+      "source": "Design Systems Survey 2025, via Adrenalin",
+      "description": "Up significantly from prior years. If your white-label design system doesn't have a11y baked into the component spec layer yet, you're falling behind nearly half the industry. Good ammunition for prioritizing this when you return — especially since AI can now auto-audit and suggest a11y improvements at the token level.",
+      "link": "https://www.adrenalin.co/insights/why-design-systems-are-now-a-strategic-imperative-for-2026",
+      "duration": null,
+      "tags": [
+        "accessibility",
+        "design systems",
+        "data"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "With MCP now reading component properties, what should Claude be able to *do* with your design system?",
+      "source": null,
+      "description": "Figma-Context-MCP v0.9.0 can now pass boolean and text component properties to Claude. This opens up real possibilities: auto-generating variant documentation, validating design system usage, or even having Claude suggest which components to use for a given screen. What's the first high-value use case you'd ship for your team?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "MCP",
+        "design systems",
+        "Claude",
+        "product thinking"
+      ]
+    }
+  ]
+}
