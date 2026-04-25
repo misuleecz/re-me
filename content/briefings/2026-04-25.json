@@ -1,0 +1,118 @@
+{
+  "date": "2026-04-25",
+  "headline": "AI Agents Are Eating Design Systems",
+  "subheadline": "Figma gets ChatGPT Images 2.0, Claude Code ships major MCP upgrades, and the design systems world is shifting from component libraries to agentic pipelines — all directly relevant to what you're building.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma adds ChatGPT Images 2.0 across Design, Draw, Slides, and Weave",
+      "source": "Releasebot",
+      "description": "OpenAI's newest image model just landed in Figma's Make Image and Edit Image — across basically every Figma surface including Weave. This is a significant jump in native AI image quality inside Figma. Worth checking if the output quality is good enough to replace your current asset workflows for the sport app white-label system.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": null,
+      "tags": [
+        "figma",
+        "AI images",
+        "design tools"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Code ships persistent config, richer MCP support, and smarter permissions",
+      "source": "Releasebot / Anthropic",
+      "description": "This one's directly relevant to your Figma MCP + Claude integration. Claude Code now has persistent config settings, improved MCP support, better hooks, and a native binary launcher with stronger sandbox permissions. If you've been hitting friction points in your MCP setup, some of these fixes might unblock you.",
+      "link": "https://releasebot.io/updates/anthropic",
+      "duration": "~5 min read",
+      "tags": [
+        "claude code",
+        "MCP",
+        "developer tools",
+        "your project"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Design systems in 2026 are shifting from static libraries to agentic AI pipelines",
+      "source": "Supernova.io",
+      "description": "This piece frames exactly where your work is heading. High-performing teams are using AI agents that take multi-step actions across Figma, Jira, and GitHub — orchestrating the design-to-code pipeline rather than just assisting. Your Figma MCP project is essentially building this for your company's white-label system. Good strategic validation and some architecture ideas worth absorbing.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~8 min read",
+      "tags": [
+        "design systems",
+        "agentic AI",
+        "strategy",
+        "your project"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "AI Design Systems Conference 2026 recordings — 15+ hours on vibe coding, agentic systems, MCP",
+      "source": "Into Design Systems",
+      "description": "The sold-out AI Design Systems Conference from March just dropped all recordings. Sessions cover vibe coding, agentic design systems, AI workflows, and MCP integrations. Cherry-pick the MCP and agentic design system talks — they'll be directly applicable to what you're building and give you vocabulary for pitching this internally when you're back.",
+      "link": "https://www.intodesignsystems.com/",
+      "duration": "15+ hours total, pick sessions",
+      "tags": [
+        "conference",
+        "design systems",
+        "MCP",
+        "vibe coding"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agentic Design Systems",
+      "source": null,
+      "description": "The idea that a design system isn't just a library of components, but an intelligent infrastructure that AI agents can read, interpret, and act on across tools. Instead of a designer manually pulling tokens and components, an agent traverses your Figma files via MCP, understands your token structure, and generates or updates implementations. This is literally what you're prototyping — you're ahead of the curve. The Supernova article above is a good primer.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": null,
+      "tags": [
+        "concept",
+        "design systems",
+        "AI agents"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Code Q1 2026: Every feature that actually matters",
+      "source": "MindStudio",
+      "description": "A curated roundup of Claude Code updates from Q1. The interesting bit: there's an npm SDK that gives Claude Code access to 120+ typed capabilities as method calls, useful if you want your MCP integration to trigger more complex workflows beyond just reading Figma files. Skim for the parts about agent capabilities and SDK access.",
+      "link": "https://www.mindstudio.ai/blog/claude-code-q1-2026-update-roundup/",
+      "duration": "~7 min read",
+      "tags": [
+        "claude code",
+        "SDK",
+        "AI agents",
+        "your project"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "When you return, should you pitch 'design system lead' or 'agentic design infrastructure lead'?",
+      "source": null,
+      "description": "The industry is clearly moving toward AI-orchestrated design-to-code pipelines. You're already building one. When you come back from leave, you have a choice: frame your MCP project as a design systems improvement, or frame it as standing up your company's agentic design infrastructure. The second one is a bigger, more strategic conversation — and positions you closer to product leadership than traditional design leadership.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "strategy",
+        "leadership"
+      ]
+    }
+  ]
+}
