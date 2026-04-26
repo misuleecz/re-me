@@ -1,0 +1,114 @@
+{
+  "date": "2026-04-26",
+  "headline": "Your tools are leveling up",
+  "subheadline": "Figma gets ChatGPT Images 2.0, Cursor ships parallel agents, and Claude Code gets faster sessions — all directly impacting your MCP + design system work.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma adds ChatGPT Images 2.0 across Design, Draw, Slides, and Weave",
+      "source": "Releasebot",
+      "description": "OpenAI's newest image model is now baked into Make Image and Edit Image across virtually every Figma surface — Design, Draw, Slides, Buzz, FigJam, and Weave. For your white-label sport apps, this could mean rapid asset generation and visual exploration without leaving Figma. Worth testing how it handles brand-constrained imagery.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": "~3 min read",
+      "tags": [
+        "figma",
+        "AI images",
+        "design tools"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma MCP server now generates design layers from VS Code",
+      "source": "GitHub Changelog",
+      "description": "The Figma MCP server can now push rendered UI back into Figma as editable frames — not just pull design context into code. This is a big deal for your MCP + Claude integration work. It means the loop is closing: AI generates code, code renders, rendered output lands back in Figma as real layers. Two-way bridge, not one-way street.",
+      "link": "https://github.blog/changelog/2026-03-06-figma-mcp-server-can-now-generate-design-layers-from-vs-code/",
+      "duration": "~4 min read",
+      "tags": [
+        "figma MCP",
+        "code-to-design",
+        "developer workflow"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Code ships faster startup, better MCP startup, and session resume",
+      "source": "Releasebot",
+      "description": "Claude Code's April release focuses on exactly the friction points you'd hit in longer design system sessions — quicker MCP startup, better session resume so you don't lose context, and improved plugin management. If your Figma MCP + Claude workflows have felt sluggish on big files, this update is worth pulling.",
+      "link": "https://releasebot.io/updates/anthropic/claude-code",
+      "duration": "~3 min read",
+      "tags": [
+        "claude code",
+        "MCP",
+        "performance"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Cursor's new tiled Agents Window — run multiple agents in parallel",
+      "source": "Releasebot",
+      "description": "Cursor's latest update lets you run multiple agents side-by-side in a tiled layout, with branch selection from empty state and file search filters for scoping. Think: one agent refactoring your component tokens while another generates a new variant. If you're vibe-coding with Cursor, this is a workflow multiplier.",
+      "link": "https://releasebot.io/updates/cursor",
+      "duration": "~3 min read",
+      "tags": [
+        "cursor",
+        "AI agents",
+        "vibe coding"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Design systems as dynamic infrastructure, not static component libraries",
+      "source": "Presta",
+      "description": "The framing here is sharp: in 2026, design systems at Airbnb and Uber have shifted from static component libraries to data-driven infrastructure that feeds both human interfaces AND AI agents. This is exactly the trajectory your white-label sport app system should be on — tokens and components that aren't just consumed by designers, but queryable by Claude via MCP.",
+      "link": "https://wearepresta.com/design-systems-for-scale-2026/",
+      "duration": "~8 min read",
+      "tags": [
+        "design systems",
+        "architecture",
+        "AI-ready"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma's AI Feature Spec Generator — describe features, get user flows and edge cases",
+      "source": "Figma",
+      "description": "Figma Make now takes plain-language feature descriptions and maps them into user flows, states, logic, and edge cases — then lets you prototype and inspect code without leaving Figma. For someone who thinks at the product/strategy level, this could collapse the gap between your product thinking and actual spec handoff dramatically.",
+      "link": "https://www.figma.com/solutions/ai-feature-spec-generator/",
+      "duration": "~4 min read",
+      "tags": [
+        "figma make",
+        "product specs",
+        "AI workflow"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If your design system is AI-queryable, does the designer's role shift from maker to curator?",
+      "source": null,
+      "description": "With Figma MCP enabling two-way flow between code and design, and Claude Code getting faster at understanding component systems — the person who architects what the AI can access and generate becomes more powerful than the person who pushes pixels. Your MCP integration work isn't just a technical project. It's positioning you for what design leadership looks like next.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "design leadership",
+        "AI strategy"
+      ]
+    }
+  ]
+}
