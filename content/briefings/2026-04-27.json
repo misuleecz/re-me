@@ -1,0 +1,135 @@
+{
+  "date": "2026-04-27",
+  "headline": "Design Systems Meet Agentic AI",
+  "subheadline": "Figma's AI leap, Claude Code upgrades, and design systems shifting from static libraries to AI-agent infrastructure — all directly in your lane.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma Made a Huge Step Forward in AI Design — April 2026",
+      "source": "DEV Community",
+      "description": "A deep breakdown of Figma's latest AI leap, including Make and the ChatGPT Images 2.0 integration now live across Design, Draw, Slides, Buzz, FigJam, and Weave. Given you're building a Figma MCP + Claude integration for your white-label system, the expanded surface area of Figma Make matters — it changes what you can automate and generate programmatically.",
+      "link": "https://dev.to/spookuspookus/figma-made-a-huge-step-forward-in-ai-design-april-2026-1cin",
+      "duration": "~6 min read",
+      "tags": [
+        "figma",
+        "AI design",
+        "figma make",
+        "new release"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma AI in 2026: Everything It Can Do — and What It Still Can't",
+      "source": "LogRocket Blog",
+      "description": "The most honest overview of Figma's full AI feature set right now — content generation, image editing, smart search, UI drafting, code handoff, and full-site creation. More importantly, it flags the gaps. For someone at your level, the 'still can't' list is where the real opportunities live for your MCP integration work.",
+      "link": "https://blog.logrocket.com/ux-design/figma-ai-2026-quick-overview/",
+      "duration": "~8 min read",
+      "tags": [
+        "figma AI",
+        "capabilities",
+        "limitations",
+        "design tools"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma Rides on Strong MCP Server Demand",
+      "source": "Yahoo Finance",
+      "description": "Not design press — finance press. The fact that MCP server demand is strong enough to make a Yahoo Finance headline tells you something about where the industry is heading. Confirms that the Figma MCP + Codex pipeline you're already building is exactly where the market is going. Validation and context for when you pitch this internally.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/figma-rides-strong-mcp-server-151200699.html",
+      "duration": "~4 min read",
+      "tags": [
+        "figma MCP",
+        "market signal",
+        "strategy"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Code April 2026 Update: Major Enhancements",
+      "source": "AF.net / Claude Code Docs",
+      "description": "Claude Code got a significant update this month. Since you're actively vibe-coding with Claude Code and building MCP integrations, any changes to how Claude Code handles multi-file edits, terminal commands, or context windows directly impacts your workflow. Check the Week 15 release notes for the specifics.",
+      "link": "https://code.claude.com/docs/en/whats-new/2026-w15",
+      "duration": "~3 min read",
+      "tags": [
+        "claude code",
+        "update",
+        "vibe coding"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Design Systems as AI-Agent Infrastructure",
+      "source": "Supernova.io",
+      "description": "The big shift in 2026: design systems are no longer just component libraries for humans — they're becoming infrastructure that AI agents consume directly. Supernova's piece frames it well: previous years were AI assisting designers, this year is AI agents autonomously working with your system. For your white-label sport apps design system, this reframes what 'done' looks like. Your tokens and components aren't just for designers — they're an API for agents.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~10 min read",
+      "tags": [
+        "design systems",
+        "agentic AI",
+        "tokens",
+        "architecture"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Cursor 2026: Background Agents, Agent Mode & What's New",
+      "source": "AnyCap",
+      "description": "Cursor's Agent mode now handles multi-step tasks — reading files, writing changes, running terminal commands, iterating on test results autonomously. Background Agents are the big new thing. Since you're already in Cursor daily, this is about knowing what new capabilities to lean on, not learning the tool. Background Agents could change how you prototype.",
+      "link": "https://anycap.ai/page/en-US/news/cursor-ai-2026-new-features-guide",
+      "duration": "~5 min read",
+      "tags": [
+        "cursor",
+        "background agents",
+        "vibe coding",
+        "new features"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Lovable's Big Update: MCP Integrations for External Services",
+      "source": "Lovable Docs / Reddit",
+      "description": "Lovable just shipped MCP-based integrations that let it connect directly to external services while building apps — pulling in live data as context. You're already in the MCP world with Figma + Claude. Having Lovable also speak MCP means your prototyping-to-shipping pipeline could get even tighter. Worth exploring what services it connects to now.",
+      "link": "https://docs.lovable.dev/changelog",
+      "duration": null,
+      "tags": [
+        "lovable",
+        "MCP",
+        "prototyping",
+        "shipping"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI agents will consume your design system directly, what needs to change about how you architect it?",
+      "source": null,
+      "description": "Your white-label sport apps system was built for designers and developers. But if agents are becoming first-class consumers of design tokens, variables, and components — does your naming, structure, or documentation need to shift? The systems that win in 2026 might be the ones that are agent-readable by default, not just human-readable.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "design systems",
+        "agentic AI",
+        "architecture",
+        "career"
+      ]
+    }
+  ]
+}
