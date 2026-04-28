@@ -1,0 +1,137 @@
+{
+  "date": "2026-04-28",
+  "headline": "Your Stack Just Got Sharper",
+  "subheadline": "Figma ships ChatGPT Images 2.0 across all surfaces, Claude Code drops a new effort level that matters for your MCP work, and Cursor now runs parallel agents. A dense week for your exact toolchain.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma integrates ChatGPT Images 2.0 across Design, Draw, Slides, Buzz, FigJam & Weave",
+      "source": "Releasebot",
+      "description": "OpenAI's newest image model is now baked into Make Image and Edit Image across every Figma surface — including Weave. For your white-label sport apps design system, this could mean faster asset generation directly inside your component workflows. Worth poking at how it handles brand-consistent imagery with your existing tokens.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": "~3 min read",
+      "tags": [
+        "figma",
+        "AI imaging",
+        "design systems",
+        "generative AI"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Claude Opus 4.7 with xhigh effort level + /ultrareview for code review",
+      "source": "Claude Code Docs",
+      "description": "Claude Code's Week 16 release adds an 'xhigh' effort level between high and max — meaningful for your Figma MCP integration where you want thorough code generation without burning through limits. The new /ultrareview command and /usage breakdown are practical additions when you're shipping real things with Claude Code.",
+      "link": "https://code.claude.com/docs/en/whats-new/2026-w16",
+      "duration": "~5 min read",
+      "tags": [
+        "claude code",
+        "MCP",
+        "vibe coding",
+        "developer tools"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Cursor ships tiled multi-agent layout for running parallel agents",
+      "source": "Releasebot",
+      "description": "Cursor's April update lets you run multiple agents side by side in a tiled layout, plus adds branch selection from empty state and file search filters for tighter scoping. If you're bouncing between your MCP server code and front-end work in Cursor, parallel agents could genuinely change your flow.",
+      "link": "https://releasebot.io/updates/cursor",
+      "duration": "~3 min read",
+      "tags": [
+        "cursor",
+        "AI agents",
+        "vibe coding",
+        "productivity"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma AI in 2026: Everything it can do — and what it still can't",
+      "source": "LogRocket",
+      "description": "A clear-eyed overview of where Figma's AI features actually are now — spanning content gen, image editing, smart search, UI drafting, code handoff, and Sites. Useful as a reality check for what you can lean on vs. what still needs your design brain, especially for your design system work.",
+      "link": "https://blog.logrocket.com/ux-design/figma-ai-2026-quick-overview/",
+      "duration": "~8 min read",
+      "tags": [
+        "figma",
+        "AI capabilities",
+        "design workflow",
+        "honest review"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "AI Design Systems Conference 2026 — 15+ hours of recordings now available",
+      "source": "Into Design Systems",
+      "description": "The sold-out AI Design Systems Conference (March 19-20) published all session recordings — covering vibe coding, agentic design systems, AI workflows, and MCP integrations. This is basically a curriculum tailored to exactly where you're heading. Cherry-pick the MCP and agentic design system talks first.",
+      "link": "https://www.intodesignsystems.com/",
+      "duration": "15+ hours total — cherry-pick sessions",
+      "tags": [
+        "design systems",
+        "MCP",
+        "conference",
+        "agentic design"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "AI-orchestrated design systems",
+      "source": null,
+      "description": "The idea that design systems in 2026 aren't just consumed by AI tools — they're actively maintained, versioned, and propagated by AI agents. Think: an agent that detects when a token change breaks downstream components, or auto-generates variant specs from usage patterns. This is the trajectory your Figma MCP + Claude work is already on. The question is who governs the orchestration layer.",
+      "link": "https://www.parallelhq.com/blog/automating-design-systems-with-ai",
+      "duration": "~6 min read",
+      "tags": [
+        "design systems",
+        "AI agents",
+        "automation",
+        "architecture"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "Cursor is raising $2B at a $50B+ valuation",
+      "source": "CNBC",
+      "description": "The AI code editor you use daily is now valued higher than most public software companies. This isn't just startup hype — it signals that AI-assisted coding is becoming the default, not the experiment. Your bet on vibe coding as a design leader is extremely well-timed.",
+      "link": "https://www.cnbc.com/2026/04/19/cursor-ai-2-billion-funding-round.html",
+      "duration": "~3 min read",
+      "tags": [
+        "cursor",
+        "funding",
+        "industry signal",
+        "vibe coding"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI agents can maintain design systems, what does design leadership become?",
+      "source": null,
+      "description": "You've spent years building the expertise to architect and govern design systems. As AI orchestration handles more of the maintenance, propagation, and even QA — does the design leader role shift toward being the one who defines the rules the agents follow? Your MCP project is already an answer to this question. Worth sitting with where that leads for your next role.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "design leadership",
+        "AI strategy",
+        "future of design"
+      ]
+    }
+  ]
+}
