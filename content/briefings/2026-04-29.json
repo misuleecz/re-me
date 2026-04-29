@@ -1,0 +1,121 @@
+{
+  "date": "2026-04-29",
+  "headline": "Lovable Goes Mobile, Agents Go Real",
+  "subheadline": "Lovable just dropped a mobile app for vibe-coding on the go, Supernova is betting big on agentic design systems, and Claude Code keeps shipping weekly updates worth tracking.",
+  "emoji": "📱",
+  "color": "cyan",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Lovable launches its vibe-coding app on iOS and Android",
+      "source": "TechCrunch",
+      "description": "Lovable just shipped a mobile app — you can now vibe-code via voice prompts from your phone. Given you're already building with Lovable, this could be genuinely useful for those moments when an idea hits on a walk and you want to scaffold something before you forget it. Worth downloading and stress-testing.",
+      "link": "https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/",
+      "duration": "~4 min read",
+      "tags": [
+        "lovable",
+        "vibe-coding",
+        "mobile",
+        "shipping"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "The Future of Enterprise Design Systems: Agentic AI in 2026",
+      "source": "Supernova",
+      "description": "Supernova's take on where design systems are heading — and the core thesis is that 2026 is the year AI agents stop assisting designers and start operating within design systems autonomously. Given you're building a Figma MCP + Claude integration for your company's white-label sport apps, their framing of 'future-proofing for agentic AI' is directly relevant to the architecture decisions you're making right now.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~8 min read",
+      "tags": [
+        "design-systems",
+        "AI-agents",
+        "enterprise",
+        "architecture"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Code: What's New — Week 17 (Apr 20–24)",
+      "source": "Anthropic",
+      "description": "Claude Code is shipping weekly changelogs now, and they're stacking up fast. Week 15, 16, and 17 all dropped this month. Since you're actively building with Claude Code, it's worth bookmarking this page and checking it weekly — small capability bumps can meaningfully change what's possible in your MCP workflow.",
+      "link": "https://code.claude.com/docs/en/whats-new",
+      "duration": "~5 min read",
+      "tags": [
+        "claude-code",
+        "changelog",
+        "tools",
+        "MCP"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma AI in 2026: Everything it can do — and what it still can't",
+      "source": "LogRocket",
+      "description": "A grounded overview of where Figma's AI features actually stand — content generation, image editing, UI drafting, code handoff, and full-site creation. More useful than the hype pieces because it also covers the gaps. Good for calibrating what you can realistically offload to Figma AI vs. what still needs your MCP + Claude pipeline.",
+      "link": "https://blog.logrocket.com/ux-design/figma-ai-2026-quick-overview/",
+      "duration": "~10 min read",
+      "tags": [
+        "figma",
+        "AI-features",
+        "design",
+        "limitations"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agentic Design Systems",
+      "source": null,
+      "description": "The shift from 'AI-assisted design' to 'AI agents operating within design systems' is becoming the defining frame for 2026. Instead of AI suggesting a color or layout, agents consume your tokens, variables, and component APIs to autonomously generate spec-compliant UI. This is literally what you're building with Figma MCP + Claude. You're not following a trend — you're building the thing.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "agentic-AI",
+        "design-systems",
+        "concept",
+        "MCP"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Cursor Changelog: Background Agents, .cursorrules, and what's next",
+      "source": "PromptLayer Blog",
+      "description": "Cursor hit $500M ARR and a $10B valuation — but the interesting bit here is the feature roadmap. Background Agents can now execute multi-step tasks across files and terminal without you babysitting. If you're bouncing between Cursor and Claude Code, knowing what each is best at helps you pick the right tool per task.",
+      "link": "https://blog.promptlayer.com/cursor-changelog-whats-coming-next-in-2026/",
+      "duration": "~7 min read",
+      "tags": [
+        "cursor",
+        "background-agents",
+        "vibe-coding",
+        "tools"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI agents can operate inside your design system, what does the design lead role become?",
+      "source": null,
+      "description": "You've led design teams and built systems. Now you're building the bridge for AI to work within those systems. The question emerging in every design org this year: does the design lead become the person who designs the system, or the person who governs how agents use it? Your MCP work is putting you at this exact intersection.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "leadership",
+        "design-systems",
+        "AI-governance"
+      ]
+    }
+  ]
+}
