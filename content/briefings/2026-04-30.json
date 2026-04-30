@@ -1,0 +1,137 @@
+{
+  "date": "2026-04-30",
+  "headline": "Your Stack Is Leveling Up",
+  "subheadline": "Claude Code's MCP got a major speed boost, Cursor now runs parallel agents, and Anthropic quietly launched a design tool — all directly relevant to the tools you're already building with.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Anthropic launches Claude Design for quick visual creation",
+      "source": "TechCrunch",
+      "description": "Anthropic released a dedicated design product called Claude Design on April 17th. It's positioned for rapid visual creation — think quick mockups and visual explorations straight from Claude. As someone deeply embedded in the Claude ecosystem and actively bridging design ↔ code, this could become a seriously useful part of your workflow, especially for early-stage ideation before things hit Figma.",
+      "link": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/",
+      "duration": "~4 min read",
+      "tags": [
+        "anthropic",
+        "claude",
+        "design tools",
+        "new product"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Code ships faster MCP, plugin workflows, and major stability fixes",
+      "source": "Releasebot",
+      "description": "This is directly about your stack. Claude Code's April update brings faster MCP and plugin workflows, a new skill search box, richer hooks, and critical stability fixes for memory leaks and OAuth. Given you're building a Figma MCP + Claude integration for your company's design system, the MCP performance improvements alone make this worth reading carefully.",
+      "link": "https://releasebot.io/updates/anthropic",
+      "duration": "~5 min read",
+      "tags": [
+        "claude code",
+        "MCP",
+        "performance",
+        "your stack"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Cursor's tiled agent layout lets you run multiple agents in parallel",
+      "source": "Releasebot",
+      "description": "Cursor's April update introduces a tiled Agents Window for running multiple agents side by side, plus better voice dictation, branch selection, and file search filters for tighter code scoping. If you're vibe-coding in Cursor, parallel agents could meaningfully speed up multi-file changes — especially when iterating on component code across your design system.",
+      "link": "https://releasebot.io/updates/cursor",
+      "duration": "~4 min read",
+      "tags": [
+        "cursor",
+        "agents",
+        "vibe coding",
+        "productivity"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Automating Design Systems with AI: MCP-powered workflows",
+      "source": "Parallel HQ",
+      "description": "This piece connects design system automation directly to MCP — the exact integration pattern you're building. It covers how teams are using AI to handle the repetitive parts of design system maintenance while humans focus on the hard decisions. Useful framing as you think about what your Figma MCP + Claude setup could eventually automate for the white-label sport apps.",
+      "link": "https://www.parallelhq.com/blog/automating-design-systems-with-ai",
+      "duration": "~7 min read",
+      "tags": [
+        "design systems",
+        "MCP",
+        "automation",
+        "strategy"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "AI Design Systems Conference 2026 — 15+ hours of recordings",
+      "source": "Into Design Systems",
+      "description": "The sold-out AI Design Systems Conference from March dropped all recordings — 15+ hours covering vibe coding, agentic design systems, AI workflows, and MCP integrations. You obviously won't watch it all, but cherry-pick the MCP and agentic design system sessions. This is basically a masterclass tailored to the exact intersection you're working in.",
+      "link": "https://www.intodesignsystems.com/",
+      "duration": "15+ hours (pick sessions)",
+      "tags": [
+        "design systems",
+        "conference",
+        "MCP",
+        "agentic design"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agentic design systems",
+      "source": null,
+      "description": "The idea that a design system isn't just a library of components but an intelligent agent-accessible system that can reason about itself. MCP is the bridge — it lets AI agents read, query, and even modify tokens, components, and documentation. You're essentially building toward this with your Figma MCP + Claude project. The conference recordings above go deep on this, but the core shift is: design systems become APIs for AI, not just references for humans.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "agentic",
+        "design systems",
+        "MCP",
+        "mental model"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Code to Figma: How 'Code to Canvas' actually works",
+      "source": "Muzli Blog",
+      "description": "This explains the reverse direction of what you're building — Claude Code generates UI, screenshots it, then AI reconstructs editable Figma layers. It's an interesting complement to your MCP approach. Understanding how Anthropic is officially bridging code → canvas could inform how you architect the design system flow in the other direction.",
+      "link": "https://muz.li/blog/claude-code-to-figma-how-the-new-code-to-canvas-integration-works/",
+      "duration": "~6 min read",
+      "tags": [
+        "claude code",
+        "figma",
+        "code to canvas",
+        "integration"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If your design system becomes agent-accessible, who's the primary user — designers or AI?",
+      "source": null,
+      "description": "Your Figma MCP project makes the design system readable by Claude. But as that matures, the tokens, naming conventions, and documentation you write will increasingly be consumed by AI agents, not just junior designers. Does that change how you structure and name things? It might be worth thinking about 'AI-first documentation' as a design system principle.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "design systems",
+        "strategy",
+        "AI-first",
+        "career"
+      ]
+    }
+  ]
+}
