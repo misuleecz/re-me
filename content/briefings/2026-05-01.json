@@ -1,0 +1,119 @@
+{
+  "date": "2026-05-01",
+  "headline": "Figma's AI Agent Era Begins",
+  "subheadline": "Figma just announced a May 5 event on co-designing with AI agents — directly relevant to the MCP integration you're building. Plus Lovable went mobile, and the design systems landscape is shifting fast.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma's May 5 event: Co-designing with AI agents",
+      "source": "Figma",
+      "description": "Figma just announced a livestream on May 5 covering new ways to design, build, and ship with AI agents — including live demos of real workflows from product teams. Given you're actively building a Figma MCP + Claude integration for your company's white-label design system, this could reveal new platform capabilities or API surfaces that directly impact your architecture. Block your calendar.",
+      "link": "https://fig-events.figma.com/may-rn-2026/",
+      "duration": null,
+      "tags": [
+        "figma",
+        "AI agents",
+        "must-watch",
+        "design systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma's 2026 updates quietly redefine design-dev handoff",
+      "source": "Medium",
+      "description": "Designers can now branch, commit, and merge Figma files directly to GitHub/GitLab — version history linked to commit hashes. This is a meaningful shift for design systems governance, especially for your white-label setup where multiple teams touch the same components. Worth understanding how this changes your handoff workflow before the May 5 event adds more on top.",
+      "link": "https://medium.com/@Rythmuxdesigner/figmas-2026-updates-quietly-redefine-design-dev-handoff-and-not-everyone-s-ready-98307f2ea2a8",
+      "duration": "~6 min read",
+      "tags": [
+        "figma",
+        "dev handoff",
+        "git integration",
+        "design systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI in design systems: What's changing in 2026",
+      "source": "Zeroheight",
+      "description": "Zeroheight covers the intersection of design tokens, AI, and documentation tooling — the exact territory your MCP project lives in. Useful for seeing how the broader ecosystem is thinking about token management and automation, and whether any of these approaches complement or conflict with what you're building.",
+      "link": "https://zeroheight.com/blog/ai-in-design-systems-whats-changing-in-2026/",
+      "duration": "~7 min read",
+      "tags": [
+        "design systems",
+        "tokens",
+        "AI automation"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Lovable just launched on iOS and Android",
+      "source": "TechCrunch",
+      "description": "Lovable — which you already use for vibe-coding — dropped a mobile app 3 days ago. You can now prompt and iterate on apps via voice from your phone. Perfect for those stroller-walk moments when an idea hits and you want to spin up a quick prototype without opening your laptop. Apple approved it despite their recent crackdown on vibe-coding apps.",
+      "link": "https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/",
+      "duration": "~3 min read",
+      "tags": [
+        "lovable",
+        "mobile",
+        "vibe-coding",
+        "new release"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Code: faster MCP workflows, new skill search, stability fixes",
+      "source": "Releasebot",
+      "description": "Claude Code just shipped a broad update with faster MCP and plugin workflows, a new skill search box, richer hooks, and major stability fixes for memory leaks and OAuth. Since you're actively building with Claude + Figma MCP, the faster MCP performance and improved plugin handling could meaningfully speed up your iteration cycles.",
+      "link": "https://releasebot.io/updates/anthropic",
+      "duration": "~4 min read",
+      "tags": [
+        "claude code",
+        "MCP",
+        "update",
+        "dev tools"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agent UX: trust, transparency, and oversight as design problems",
+      "source": "LinkedIn",
+      "description": "As AI agents move from demos to production, the UX challenge shifts from interface design to designing for trust, transparency, and human oversight. This reframes your strategic design leadership experience — the next generation of product design leaders won't just design screens, they'll design the rules and guardrails for autonomous systems. Worth sitting with as you think about your next career chapter.",
+      "link": "https://www.linkedin.com/pulse/ai-agents-why-2026-may-finally-year-matter-aaron-usiskin-yq0oe",
+      "duration": "~5 min read",
+      "tags": [
+        "AI agents",
+        "UX strategy",
+        "product leadership"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "What if your MCP project is actually a product, not just an internal tool?",
+      "source": null,
+      "description": "You're building a Figma MCP + Claude integration for white-label sport apps. Supernova reports that high-performing teams are now using AI agents across Figma, Jira, and GitHub for multi-step design system actions. If your integration works well for your company's use case, there may be a broader market of design system teams who'd pay for a purpose-built MCP layer. Something to noodle on during walks.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": null,
+      "tags": [
+        "product thinking",
+        "MCP",
+        "design systems",
+        "opportunity"
+      ]
+    }
+  ]
+}
