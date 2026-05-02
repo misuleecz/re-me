@@ -1,0 +1,119 @@
+{
+  "date": "2026-05-02",
+  "headline": "Figma's AI Agent Era Begins Monday",
+  "subheadline": "Figma is streaming a major AI agents event on May 5 — right up your alley with MCP and design systems. Plus: Lovable goes mobile, Cursor goes autonomous, and a sharp piece on designing for agentic UX.",
+  "emoji": "🤖",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma's May 5 event: \"Co-design with AI agents\"",
+      "source": "Figma",
+      "description": "Figma just announced a live event on May 5 covering new product updates across the platform — specifically around co-designing with AI agents, with live demos from real product teams. Given you're building a Figma MCP + Claude integration for your design system, this could directly impact your architecture decisions. Block out time Monday.",
+      "link": "https://fig-events.figma.com/may-rn-2026/",
+      "duration": null,
+      "tags": [
+        "figma",
+        "AI agents",
+        "design systems",
+        "MCP"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Lovable launches its vibe-coding app on iOS and Android",
+      "source": "TechCrunch",
+      "description": "Lovable just shipped a mobile app — you can now vibe-code via voice prompts on your phone. For someone on stroller walks who's already shipping with Lovable, this is a genuine workflow expansion. Voice-to-app while walking? Worth a quick test this weekend.",
+      "link": "https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/",
+      "duration": "~3 min read",
+      "tags": [
+        "lovable",
+        "vibe-coding",
+        "mobile",
+        "shipping"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI in 2026: Five Product Shifts We'll Have to Design For",
+      "source": "The Gradient",
+      "description": "A sharp strategic piece on how AI adoption is shifting from model access to actual product UX challenges — trust, transparency, oversight in agentic systems. This is the kind of design-leadership thinking that maps directly to where you're heading. Good mental model for your next product role.",
+      "link": "https://thegradient.com/thinking/ai-in-2026-five-product-shifts-well-have-to-design-for",
+      "duration": "~8 min read",
+      "tags": [
+        "product design",
+        "AI UX",
+        "strategy",
+        "leadership"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "The Future of Enterprise Design Systems: 2026 Trends and Agentic AI",
+      "source": "Supernova.io",
+      "description": "This lays out how design systems in 2026 are evolving from static libraries into agentic, automated workflows. It directly addresses MCP-powered automation, token management at scale, and practical roadmaps. Very relevant to what you're building — could validate or challenge some of your current MCP architecture choices.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~10 min read",
+      "tags": [
+        "design systems",
+        "agentic AI",
+        "tokens",
+        "MCP"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Cursor Changelog: Background Agents and the Autonomous Pivot",
+      "source": "PromptLayer Blog",
+      "description": "Cursor hit $500M ARR and is now pivoting from smart editor to autonomous agent platform. Background Agents can now run multi-step tasks without you watching. Since you're already in Cursor daily, the background agents feature could change how you batch your coding sessions — especially useful when baby naps are unpredictable.",
+      "link": "https://blog.promptlayer.com/cursor-changelog-whats-coming-next-in-2026/",
+      "duration": "~6 min read",
+      "tags": [
+        "cursor",
+        "background agents",
+        "vibe-coding",
+        "productivity"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agent UX ≠ Interface Design",
+      "source": "LinkedIn",
+      "description": "Aaron Usiskin's piece argues that designing for AI agents is less about interface and more about trust, transparency, and oversight patterns. This reframes UX from 'what does the screen look like' to 'how does the human stay in control.' As someone moving toward product leadership, this distinction is your competitive edge — most designers still think in screens.",
+      "link": "https://www.linkedin.com/pulse/ai-agents-why-2026-may-finally-year-matter-aaron-usiskin-yq0oe",
+      "duration": "~5 min read",
+      "tags": [
+        "agent UX",
+        "trust design",
+        "product thinking"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "Your MCP project is a portfolio piece for a new kind of role",
+      "source": null,
+      "description": "With Figma about to go deep on AI agents (Monday's event), Cursor going autonomous, and design systems becoming agentic workflows — the Figma MCP + Claude integration you're building isn't just a tool. It's a case study for the exact 'product builder who understands design systems and AI' role that barely existed a year ago. Worth thinking about how you'd frame this story.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "positioning",
+        "product leadership"
+      ]
+    }
+  ]
+}
