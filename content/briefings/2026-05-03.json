@@ -1,0 +1,117 @@
+{
+  "date": "2026-05-03",
+  "headline": "Figma's AI Agents Go Live Monday",
+  "subheadline": "Figma's dropping a big release notes event on Monday about co-designing with AI agents — plus Cursor shipped parallel agents, Lovable went mobile, and Claude 5 is inching closer.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma's May 5 Event: Co-Designing with AI Agents",
+      "source": "Figma",
+      "description": "Mark your calendar for Monday. Figma is doing a live release notes event focused on 'co-designing with AI agents' — live demos of real workflows from product teams using AI agents inside Figma. Given you're building a Figma MCP + Claude integration for your company's design system, this could directly impact your architecture decisions. New Make features include voice-to-text prompts, question cards, version history, and a Zapier connector.",
+      "link": "https://fig-events.figma.com/may-rn-2026/",
+      "duration": null,
+      "tags": [
+        "figma",
+        "AI agents",
+        "design systems",
+        "must-watch"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Why Figma's MCP Update Is a Bigger Deal Than Any AI Demo",
+      "source": "Medium",
+      "description": "This piece argues that Figma's MCP plumbing changes are more consequential than flashy AI demos — and you're literally building on top of this. Worth a read to see how others are framing the MCP shift, especially the 'how we'll build software' angle. Could validate or challenge your current integration approach.",
+      "link": "https://medium.com/@sebuzdugan/why-figmas-mcp-update-is-a-bigger-deal-than-any-ai-demo-60ca89bd3b82",
+      "duration": "~5 min read",
+      "tags": [
+        "figma MCP",
+        "infrastructure",
+        "design-to-code"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Lovable Now Has a Mobile App — Voice-Code from Your Phone",
+      "source": "TechCrunch",
+      "description": "Lovable launched on iOS and Android this week, pitched as 'code on the go via voice.' Since you already use Lovable for vibe-coding, the mobile app could be interesting for those stroller-walk moments when an idea hits. Voice-prompt an app prototype while walking — that's a real use case for you right now.",
+      "link": "https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/",
+      "duration": null,
+      "tags": [
+        "lovable",
+        "mobile",
+        "vibe-coding",
+        "voice"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Cursor's New Tiled Agent Layout: Run Multiple Agents in Parallel",
+      "source": "Cursor / Releasebot",
+      "description": "Cursor's May update adds a tiled layout for running multiple agents simultaneously, plus branch selection from empty state, diff-to-file navigation, and file search filters for tighter scoping. If you're doing any multi-file vibe-coding sessions in Cursor, the parallel agents view alone is a workflow upgrade worth exploring.",
+      "link": "https://releasebot.io/updates/cursor",
+      "duration": "~5 min",
+      "tags": [
+        "cursor",
+        "AI coding",
+        "parallel agents"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agentic UX — When Products Become Execution Layers",
+      "source": "Phenomenon Studio / LinkedIn",
+      "description": "Two pieces this week converge on the same idea: AI agents are turning products from 'tools you operate' into 'execution layers that act on your behalf.' For a designer thinking about product leadership, this reframes what you're actually designing — not interfaces, but trust boundaries, delegation patterns, and fallback flows. The Phenomenon Studio article is the deeper read.",
+      "link": "https://phenomenonstudio.com/article/ai-product-design-trends-to-watch-in-2026/",
+      "duration": "~8 min read",
+      "tags": [
+        "agentic UX",
+        "product design",
+        "AI agents",
+        "leadership"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "Claude 5 Expected Q2–Q3 2026",
+      "source": "AI Hub / Overchat",
+      "description": "Anthropic hasn't confirmed the name, but the next major Claude release is projected for this quarter or next. Given your entire MCP + Claude integration workflow depends on Claude's capabilities, worth keeping an eye on — a model jump could meaningfully change what your Figma-to-code pipeline can do.",
+      "link": "https://overchat.ai/ai-hub/claude-5-release-date",
+      "duration": "~3 min read",
+      "tags": [
+        "claude",
+        "anthropic",
+        "AI models"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI agents can co-design in Figma, what does 'design leadership' become?",
+      "source": null,
+      "description": "Monday's Figma event is explicitly about teams co-designing with AI agents. You've led design teams. Soon you might lead teams where AI agents handle execution and humans handle judgment, taste, and strategy. What does a Group Head of Design actually do when the agents can push pixels? That might be exactly the role you're evolving toward.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "leadership",
+        "AI co-design"
+      ]
+    }
+  ]
+}
