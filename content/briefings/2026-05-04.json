@@ -1,0 +1,133 @@
+{
+  "date": "2026-05-04",
+  "headline": "Figma's AI Agent Event Is Tomorrow",
+  "subheadline": "Figma drops a live event on co-designing with AI agents tomorrow — plus Cursor ships parallel agents, Lovable goes mobile, and design systems enter the agentic era.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma's May 5 event: 'Learn how to co-design with AI agents'",
+      "source": "Figma",
+      "description": "Tomorrow Figma is livestreaming their latest product updates with a focus on co-designing with AI agents — live demos from real product teams showing agentic workflows. Given you're building a Figma MCP + Claude integration for your company's design system, this could preview exactly where the platform is heading with agent interop. Block the time.",
+      "link": "https://fig-events.figma.com/may-rn-2026/",
+      "duration": null,
+      "tags": [
+        "figma",
+        "AI agents",
+        "design systems",
+        "must-watch"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma Make gets voice-to-text prompts, question cards, and a Zapier connector",
+      "source": "Releasebot",
+      "description": "New Make features just dropped: voice-to-text for prompts (hello, hands-free designing), question cards for better context-setting, version history, and a Zapier connector for pulling in external app data. The Zapier connector is interesting for your white-label sport apps — could pipe in live content or config data directly into Make workflows.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": "~3 min read",
+      "tags": [
+        "figma",
+        "Make",
+        "new features"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Cursor's new tiled Agents Window — run multiple agents in parallel",
+      "source": "Releasebot",
+      "description": "Cursor just shipped a tiled layout for running multiple agents simultaneously, plus better voice dictation, branch selection from empty state, and file search filters for scoping. If you're vibe-coding across multiple files or features, parallel agents could seriously speed things up. The voice dictation improvement pairs well with your AirPods workflow too.",
+      "link": "https://releasebot.io/updates/cursor",
+      "duration": null,
+      "tags": [
+        "cursor",
+        "AI agents",
+        "vibe-coding"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI-augmented design systems: from governance to agentic workflows",
+      "source": "Supernova.io",
+      "description": "Supernova lays out how design systems are evolving from passive documentation into agentic infrastructure — AI that enforces tokens, automates governance, and scales component usage. Directly relevant to what you're building with Figma MCP + Claude. Good mental model for where your white-label system could go next.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~8 min read",
+      "tags": [
+        "design systems",
+        "AI agents",
+        "tokens",
+        "strategy"
+      ]
+    },
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Lovable launches mobile app — vibe-code from your phone via voice",
+      "source": "TechCrunch",
+      "description": "Lovable just shipped iOS and Android apps, pitched as 'code on the go via voice.' Survived Apple's crackdown on vibe-coding apps too. As someone already shipping with Lovable, the voice-first mobile angle is worth knowing about — prototype ideas on a stroller walk, maybe?",
+      "link": "https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/",
+      "duration": "~3 min read",
+      "tags": [
+        "lovable",
+        "mobile",
+        "vibe-coding",
+        "voice"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agent UX: trust, transparency, and oversight as the new design surface",
+      "source": "LinkedIn / Aaron Usiskin",
+      "description": "As AI agents move from demos to real products, the design challenge shifts from interface to trust architecture. Agent UX is less about buttons and more about: when should the agent ask permission? How does it show its reasoning? How do users override it? This is the next frontier for senior product designers — and it's wide open.",
+      "link": "https://www.linkedin.com/pulse/ai-agents-why-2026-may-finally-year-matter-aaron-usiskin-yq0oe",
+      "duration": "~6 min read",
+      "tags": [
+        "agent UX",
+        "product design",
+        "AI trust",
+        "leadership"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Code: smarter model picking, project purge, better OAuth + stability fixes",
+      "source": "Releasebot",
+      "description": "Broad Claude Code update: automatic model selection (it picks the right Claude model per task), project purge tools for cleanup, stronger permissions, Windows fixes, and a pile of stability improvements. The smarter model picking is a nice quality-of-life boost if you're using Claude Code alongside Cursor.",
+      "link": "https://releasebot.io/updates/anthropic",
+      "duration": "~3 min read",
+      "tags": [
+        "claude",
+        "claude code",
+        "update"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI agents can enforce design system rules, what does the design lead role become?",
+      "source": null,
+      "description": "With agentic design systems handling governance, token enforcement, and component consistency — the traditional design systems lead role gets hollowed out. But someone still needs to define the principles, set the constraints, and decide when to break the rules. That strategic layer might be where your next chapter lives.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "design leadership",
+        "AI strategy"
+      ]
+    }
+  ]
+}
