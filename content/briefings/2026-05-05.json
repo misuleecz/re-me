@@ -1,0 +1,102 @@
+{
+  "date": "2026-05-05",
+  "headline": "Figma's AI Agents Go Live Today",
+  "subheadline": "Figma is streaming live demos of co-designing with AI agents right now — plus Lovable just shipped mobile vibe coding, and Claude Code got a meaty spring update. A big day for your stack.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma's May Release: Co-Designing with AI Agents (Live Today)",
+      "source": "Figma",
+      "description": "Figma is streaming their May release notes event TODAY — the big theme is co-designing with AI agents, with live workflow demos from product teams. New Make features include voice-to-text prompts, question cards, version history, and a Zapier connector. Given your MCP + design system work, the agent co-design patterns they show could directly inform how you architect the Claude integration.",
+      "link": "https://fig-events.figma.com/may-rn-2026/",
+      "duration": null,
+      "tags": [
+        "figma",
+        "AI agents",
+        "design systems",
+        "make"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Code Spring Update: Smarter Model Picking, Permissions, and Stability Fixes",
+      "source": "Releasebot",
+      "description": "Claude Code just shipped a broad update — smarter automatic model selection, project purge tools, stronger permission handling, improved OAuth, Windows fixes, and a stack of stability improvements across sessions and retries. If you're deep in Claude Code for your Figma MCP project, the permissions and session stability changes are worth scanning.",
+      "link": "https://releasebot.io/updates/anthropic",
+      "duration": "~5 min read",
+      "tags": [
+        "claude code",
+        "MCP",
+        "developer tools"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Lovable Launches Mobile App — Vibe Code from Your Phone",
+      "source": "TechCrunch",
+      "description": "Lovable just shipped iOS and Android apps last week. You can now voice-prompt app builds on the go — literally from your stroller. They're pitching it as vibe coding via voice on mobile. Worth downloading to see how the voice-to-app flow feels, especially since Figma's also adding voice-to-text in Make. The convergence is real.",
+      "link": "https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/",
+      "duration": null,
+      "tags": [
+        "lovable",
+        "vibe coding",
+        "mobile",
+        "voice UI"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "The Future of Enterprise Design Systems: Agentic AI and Automation",
+      "source": "Supernova.io",
+      "description": "Supernova's take on where design systems are heading in 2026 — specifically how agentic AI is turning them from static documentation into active, self-governing systems. Directly relevant to what you're building with the white-label sport apps design system. The practical roadmap section has useful framing for scaling token-based systems with AI governance.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~8 min read",
+      "tags": [
+        "design systems",
+        "agentic AI",
+        "tokens",
+        "automation"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agentic UX — When Products Become Execution Layers",
+      "source": "Phenomenon Studio",
+      "description": "The shift from 'AI features inside products' to 'products as execution layers for AI agents' is the defining design pattern of 2026. Instead of users navigating UI to complete tasks, agents negotiate with products on the user's behalf. This reframes your design system work — components may increasingly need to serve both human eyes and agent comprehension.",
+      "link": "https://phenomenonstudio.com/article/ai-product-design-trends-to-watch-in-2026/",
+      "duration": "~10 min read",
+      "tags": [
+        "agentic UX",
+        "product design",
+        "AI patterns"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "What if your design system's primary consumer isn't a human designer?",
+      "source": null,
+      "description": "With Figma adding AI agent co-design, Claude Code getting smarter at context, and agentic UX becoming the dominant pattern — your white-label design system might soon be read more by AI agents than by junior designers. How does that change what you document, how you name tokens, and what metadata you attach to components?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "design systems",
+        "AI agents",
+        "career evolution"
+      ]
+    }
+  ]
+}
