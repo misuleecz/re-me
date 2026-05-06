@@ -1,0 +1,121 @@
+{
+  "date": "2026-05-06",
+  "headline": "Figma's AI Agents Go Live",
+  "subheadline": "Figma just dropped a major release notes event focused on co-designing with AI agents. Plus: Claude gets cross-session memory for managed agents, and Lovable shipped a mobile app for vibe-coding on the go.",
+  "emoji": "🤖",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma's May Release: Co-Designing with AI Agents",
+      "source": "Figma",
+      "description": "Figma just published their May 2026 release notes with a live event focused entirely on co-designing with AI agents. They're showing real workflows from product teams — including how to riff on designs with AI, generate component variants, and use AI prototyping. This is the clearest signal yet that Figma sees agents as core to the design workflow, not a sidebar feature. Given your design system + MCP work, this is required viewing.",
+      "link": "https://fig-events.figma.com/may-rn-2026/",
+      "duration": null,
+      "tags": [
+        "figma",
+        "AI agents",
+        "design systems",
+        "product update"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Figma Make: Voice-to-Text Prompts & Zapier Connector",
+      "source": "Releasebot",
+      "description": "Figma's Make just added voice-to-text prompts, question cards for better context, version history, and a Zapier connector for pulling in external app data. The voice-to-text piece is interesting for you — imagine describing component variations verbally while reviewing the design system. The Zapier connector could also pipe in real sport event data for prototyping your white-label apps.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": "~5 min read",
+      "tags": [
+        "figma",
+        "voice-to-text",
+        "automation",
+        "Make"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Claude Memory for Managed Agents",
+      "source": "Anthropic / Releasebot",
+      "description": "Claude now has Memory for Managed Agents in public beta — agents can learn across sessions using filesystem-based memories with full API control, audit logs, and portable stores. This is huge for your Figma MCP + Claude integration. Instead of re-explaining your design system's token structure and component hierarchy every session, an agent could retain that context permanently. Worth exploring how this could make your MCP setup dramatically smarter over time.",
+      "link": "https://releasebot.io/updates/anthropic/claude",
+      "duration": "~5 min read",
+      "tags": [
+        "Claude",
+        "AI agents",
+        "memory",
+        "MCP"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Code: Broader Plugin Support & Smarter MCP Handling",
+      "source": "Releasebot",
+      "description": "Claude Code shipped a wave of updates including smarter MCP and model handling, broader plugin support, improved OAuth, and reliability fixes for sub-agent workflows. Since you're actively building with Claude Code and MCP, the improved MCP handling and sub-agent fixes directly affect your stack. Check the changelog for anything that might unblock or improve your current integration work.",
+      "link": "https://releasebot.io/updates/anthropic",
+      "duration": "~5 min read",
+      "tags": [
+        "Claude Code",
+        "MCP",
+        "plugins",
+        "developer tools"
+      ]
+    },
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Lovable Launches Mobile App for Vibe-Coding on iOS & Android",
+      "source": "TechCrunch",
+      "description": "Lovable just shipped a mobile app — you can now build apps via voice prompts on your phone. Despite Apple's recent crackdown on vibe-coding apps, they got through. For you specifically: imagine iterating on an app idea during a stroller walk, talking through the UI, and having a working prototype by the time you get home. This feels tailor-made for your current situation.",
+      "link": "https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/",
+      "duration": "~4 min read",
+      "tags": [
+        "Lovable",
+        "vibe-coding",
+        "mobile",
+        "product building"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Agentic UX & the 2026 Reckoning for Product Design",
+      "source": "Phenomenon Studio",
+      "description": "A solid piece on where product design is actually heading in 2026 — agentic ecosystems, the EU AI Act's impact on design decisions, and the shift from generative features to autonomous product design. As someone thinking about evolving toward product leadership, this frames the strategic landscape well. The \"agentic UX\" framing is particularly relevant to designing for the sport apps platform.",
+      "link": "https://phenomenonstudio.com/article/ai-product-design-trends-to-watch-in-2026/",
+      "duration": "~8 min read",
+      "tags": [
+        "agentic UX",
+        "product design",
+        "AI trends",
+        "leadership"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI agents remember your design system permanently, what's your role?",
+      "source": null,
+      "description": "With Claude's new cross-session memory and Figma's push toward AI co-design, agents will soon hold more institutional knowledge about your design system than any single team member. Your MCP integration is already pointing this direction. The question isn't whether to build this — it's what design leadership looks like when the system-of-record lives inside an agent, not a Confluence page.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "design leadership",
+        "AI agents",
+        "design systems"
+      ]
+    }
+  ]
+}
