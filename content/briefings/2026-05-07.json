@@ -1,0 +1,135 @@
+{
+  "date": "2026-05-07",
+  "headline": "Figma's AI Agents Go Live",
+  "subheadline": "Figma just dropped a live event on co-designing with AI agents, Cursor shipped an SDK for teams, and there's a killer conference recording library on agentic design systems — all directly relevant to what you're building.",
+  "emoji": "🤖",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma's May Release: Co-designing with AI Agents, Voice-to-Text in Make, and Zapier Connector",
+      "source": "Figma",
+      "description": "Big one. Figma's May release notes include live demos of teams co-designing with AI agents, plus Make gets voice-to-text prompts, question cards, version history, and a Zapier connector for pulling in external app data. The agent workflow demos could directly inform how you architect your white-label sport apps system — especially if agents can eventually manipulate components and tokens.",
+      "link": "https://fig-events.figma.com/may-rn-2026/",
+      "duration": null,
+      "tags": [
+        "figma",
+        "AI agents",
+        "figma make",
+        "design systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma AI in 2026: Everything It Can Do — and What It Still Can't",
+      "source": "LogRocket",
+      "description": "A clear-eyed rundown of where Figma AI actually stands right now — content generation, image editing, UI drafting, code handoff, full-site creation. Useful as a reality check for what you can lean on vs. where your MCP + Claude integration fills gaps Figma's native AI doesn't cover yet.",
+      "link": "https://blog.logrocket.com/ux-design/figma-ai-2026-quick-overview/",
+      "duration": "~8 min read",
+      "tags": [
+        "figma AI",
+        "capabilities",
+        "product design"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Cursor SDK — Build Custom AI Agents for Your Team's Codebase",
+      "source": "Cursor",
+      "description": "Cursor just launched their SDK in public beta, letting teams build and deploy custom AI agents for PR security reviews, vulnerability scanning, and more — with MCP support baked in. Given you're already in Cursor daily, this could be interesting for automating repetitive code checks on your vibe-coded projects, or even connecting Cursor agents to your Figma MCP pipeline.",
+      "link": "https://releasebot.io/updates/cursor",
+      "duration": null,
+      "tags": [
+        "cursor",
+        "SDK",
+        "AI agents",
+        "MCP"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "AI Design Systems Conference 2026 — 15+ Hours of Recordings Now Available",
+      "source": "Into Design Systems",
+      "description": "The sold-out AI Design Systems Conference (speakers from Figma, Adobe, WhatsApp, Miro) has released all recordings. Covers agentic design systems, MCP integrations, vibe coding, and shipping production-ready work. This is essentially a masterclass library for exactly the intersection you're working at. Cherry-pick the MCP and agentic design system talks first.",
+      "link": "https://www.intodesignsystems.com/",
+      "duration": "~15+ hours total, pick sessions",
+      "tags": [
+        "design systems",
+        "AI agents",
+        "MCP",
+        "conference"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "The Future of Enterprise Design Systems: 2026 Trends for Agentic AI",
+      "source": "Supernova.io",
+      "description": "Supernova makes the case that design systems in 2026 are evolving from static libraries into agentic platforms — systems that can automate, self-maintain, and scale. Includes a practical roadmap. Directly relevant to your white-label system architecture: think about what happens when AI agents can consume your tokens and components autonomously.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~10 min read",
+      "tags": [
+        "design systems",
+        "agentic AI",
+        "enterprise",
+        "automation"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agentic UX — When Products Become Execution Layers",
+      "source": "Phenomenon Studio / LinkedIn",
+      "description": "Two pieces converge on this: products are shifting from tools users operate to execution layers where AI agents act on users' behalf. The designer's new job isn't just crafting interfaces — it's designing the trust model, guardrails, and override patterns for autonomous agents. As someone thinking about product leadership, this is the design philosophy shift that will define the next era.",
+      "link": "https://phenomenonstudio.com/article/ai-product-design-trends-to-watch-in-2026/",
+      "duration": "~7 min read",
+      "tags": [
+        "agentic UX",
+        "product design",
+        "AI trends",
+        "trust"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "OpenAI Codex + Figma: The Code-to-Design Loop via MCP",
+      "source": "Gend",
+      "description": "OpenAI's Codex now connects to Figma through the MCP server, enabling a running-UI-to-Figma-frames workflow. You're already building your own Claude + Figma MCP integration — worth understanding the Codex approach to see if there are architectural patterns (or pitfalls) you can learn from. The MCP ecosystem is getting crowded fast.",
+      "link": "https://www.gend.co/sp/blog/openai-codex-figma-integration",
+      "duration": "~5 min read",
+      "tags": [
+        "figma MCP",
+        "OpenAI Codex",
+        "code-to-design"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI agents can manipulate your design system autonomously, what's the designer's role?",
+      "source": null,
+      "description": "With Figma launching agent co-design workflows, Cursor shipping agent SDKs, and design systems going agentic — the question isn't whether agents will touch your design system, it's when. Your MCP project puts you ahead of most designers here. The career question: does this make you more of a systems architect than a visual designer? And is that the product leadership path you want?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "product leadership",
+        "design systems",
+        "AI agents"
+      ]
+    }
+  ]
+}
