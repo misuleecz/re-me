@@ -1,0 +1,137 @@
+{
+  "date": "2026-05-08",
+  "headline": "Figma Goes Agentic, For Real",
+  "subheadline": "Figma's May release notes are massive — MCP workflows, agent co-design, and Make upgrades all dropped this week. Plus Cursor ships an SDK, and Lovable goes mobile.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Release Notes 2026: May Edition — Figma's Agentic Design Era",
+      "source": "Figma (YouTube)",
+      "description": "This is the one to watch. Figma's May release livestream covers agent co-design workflows, MCP integration, voice-to-text in Make, question cards, version history, and a new Zapier connector. Given you're actively building a Figma MCP + Claude integration for your company's white-label sport apps, this is basically your roadmap talk. The MCP and Make updates alone could change how your design system connects to Claude.",
+      "link": "https://www.youtube.com/watch?v=11mdb7lLclM",
+      "duration": "~45 min",
+      "tags": [
+        "figma",
+        "MCP",
+        "AI agents",
+        "design systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma May 2026 Release Notes — MCP, Agents & Skills Walkthrough",
+      "source": "Figma Help Center",
+      "description": "The companion article to the livestream — explains key concepts like agents, MCP, skills, and write-to-canvas with three concrete workflows. This is the dense, reference-quality version. Bookmark it. It walks through exactly the kind of agentic design-to-canvas pipeline you're building with your Figma MCP + Claude setup.",
+      "link": "https://help.figma.com/hc/en-us/articles/40219873508247-Release-notes-roundup-May-2026",
+      "duration": "~10 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "agentic workflows",
+        "design systems"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Cursor SDK — Build Custom Agents for Your Codebase",
+      "source": "Cursor",
+      "description": "Cursor just shipped the Cursor SDK in public beta. It lets teams build and deploy custom agents scoped to their codebase — think PR security reviewers, vulnerability scanners, or (more interesting for you) agents that understand your design token structure and can enforce consistency. If you're vibe-coding with Cursor already, this could be how you wire your design system logic into your dev workflow.",
+      "link": "https://releasebot.io/updates/cursor",
+      "duration": null,
+      "tags": [
+        "cursor",
+        "SDK",
+        "AI agents",
+        "vibe-coding"
+      ]
+    },
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Lovable Launches Mobile App for Vibe-Coding on iOS & Android",
+      "source": "TechCrunch",
+      "description": "Lovable shipped a mobile app — vibe-code from your phone. They're pitching it as the no-code AI app builder you can use anywhere, despite Apple's recent crackdowns on vibe-coding apps. As someone who's already shipped real things with Lovable, this is worth a quick look. Could be fun for prototyping ideas on the go during stroller walks. Also worth noting: they had a security incident in April around public project data access — keep an eye on that if you have anything sensitive in there.",
+      "link": "https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/",
+      "duration": "~3 min read",
+      "tags": [
+        "lovable",
+        "vibe-coding",
+        "mobile",
+        "no-code"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Automating Design Systems with AI: Tokens, Agents & Governance",
+      "source": "Parallel",
+      "description": "A practical guide on using AI agents to automate design system governance — token management, consistency checks, the repetitive stuff you've done a thousand times as a design system lead. Directly relevant to the white-label sport apps system you're building. Good mental model for what to automate vs. what to keep human.",
+      "link": "https://www.parallelhq.com/blog/automating-design-systems-with-ai",
+      "duration": "~8 min read",
+      "tags": [
+        "design systems",
+        "AI automation",
+        "tokens",
+        "governance"
+      ]
+    },
+    {
+      "type": "podcast",
+      "emoji": "🎧",
+      "label": "Listen",
+      "title": "Why AI Agents Are Either the Best or Worst Thing We've Ever Built",
+      "source": "Hannah Fry (YouTube)",
+      "description": "Hannah Fry — mathematician, storyteller, brilliant explainer — on the promise and peril of AI agents. This isn't a design talk, it's a bigger-picture one about trust, autonomy, and what happens when we let agents act on our behalf. Perfect stroller walk content. As you start building with agents yourself, this frames the 'why should I care' at a product leadership level.",
+      "link": "https://www.youtube.com/watch?v=WnzR5aOElvw",
+      "duration": "~30 min",
+      "tags": [
+        "AI agents",
+        "trust",
+        "product thinking",
+        "stroller-friendly"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agent UX — Designing for Trust, Not Just Interface",
+      "source": "LinkedIn (Aaron Usiskin)",
+      "description": "As AI agents move from demos to real products, the design challenge shifts from 'what does the UI look like' to 'how do users trust, oversee, and correct an autonomous system.' This is the emerging UX discipline you'll want to own as you move toward product leadership. Agent UX is less about screens and more about transparency, guardrails, and feedback loops.",
+      "link": "https://www.linkedin.com/pulse/ai-agents-why-2026-may-finally-year-matter-aaron-usiskin-yq0oe",
+      "duration": "~6 min read",
+      "tags": [
+        "agent UX",
+        "trust",
+        "product leadership",
+        "AI"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "Your MCP integration is now ahead of Figma's own curve",
+      "source": null,
+      "description": "Figma just officially shipped MCP workflows in their May release. You've been building a Figma MCP + Claude integration for your company's design system already. That means you're not just using the new features — you're one of the people who understands the architecture. What would it look like to position yourself as the internal expert on agentic design workflows when you return from leave?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "positioning",
+        "MCP",
+        "design leadership"
+      ]
+    }
+  ]
+}
