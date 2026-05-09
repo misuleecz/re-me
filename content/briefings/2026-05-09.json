@@ -1,0 +1,121 @@
+{
+  "date": "2026-05-09",
+  "headline": "Figma's AI agents enter the chat",
+  "subheadline": "Figma just dropped a live event on co-designing with AI agents, Claude Code keeps shipping MCP improvements, and Lovable went mobile. A meaty week for your stack.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma May Release: Voice-to-text, question cards, and co-designing with AI agents",
+      "source": "Figma",
+      "description": "Figma's May release is a big one for you. Make gets voice-to-text prompts, question cards for better context, version history, and a Zapier connector. But the real headline: they're hosting live demos of product teams co-designing with AI agents — showing how to riff, iterate, and ship with AI inside Figma. Given you're building a Figma MCP + Claude integration for your design system, this is required viewing to see where Figma's own agent story is heading and how it might complement or collide with your approach.",
+      "link": "https://fig-events.figma.com/may-rn-2026/",
+      "duration": null,
+      "tags": [
+        "figma",
+        "AI agents",
+        "design systems",
+        "make"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Lovable launches its vibe-coding app on iOS and Android",
+      "source": "TechCrunch",
+      "description": "Lovable now has a mobile app — you can prompt and build apps from your phone. As someone already vibe-coding with Lovable on desktop, this could be genuinely useful for capturing ideas or iterating on prototypes during stroller walks. It launched despite Apple's crackdown on vibe-coding apps, which itself is a signal worth tracking.",
+      "link": "https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/",
+      "duration": "~4 min read",
+      "tags": [
+        "lovable",
+        "vibe-coding",
+        "mobile",
+        "product building"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Code: Broader MCP handling, plugin support, and environment variable improvements",
+      "source": "Releasebot",
+      "description": "Claude Code has been shipping steadily — the latest updates include broader plugin support, smarter MCP and model handling, terminal/session environment variables, and a wave of fixes for resume, permissions, and MCP login. Since you're actively building with Figma MCP + Claude, the MCP stability improvements and plugin expansion directly affect your workflow. Worth scanning the changelog.",
+      "link": "https://releasebot.io/updates/anthropic",
+      "duration": "~5 min read",
+      "tags": [
+        "claude code",
+        "MCP",
+        "plugins",
+        "developer tools"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Cursor May 2026: Security Review agents, SDK in public beta, and MCP support",
+      "source": "Releasebot",
+      "description": "Cursor shipped a Security Review feature (always-on vulnerability scanner for PRs) and, more interestingly for you, the Cursor SDK is now in public beta — letting teams build and deploy custom integrations with MCP support. If you're thinking about connecting your design system tooling more deeply into your coding workflow, this SDK could be a bridge worth exploring.",
+      "link": "https://releasebot.io/updates/cursor",
+      "duration": "~5 min read",
+      "tags": [
+        "cursor",
+        "SDK",
+        "MCP",
+        "vibe-coding"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Dreaming in Claude's Managed Agents",
+      "source": "Releasebot",
+      "description": "Anthropic just made 'Dreaming' available in Managed Agents on the Claude Platform. It's a capability where agents can essentially reason, plan, and explore solution spaces before executing — think of it as the agent doing background thinking. No custom build needed; developers can request access. For your MCP integration work, this hints at where Claude agents are heading: less reactive tool-calling, more proactive problem-solving.",
+      "link": "https://releasebot.io/updates/anthropic/claude",
+      "duration": null,
+      "tags": [
+        "claude",
+        "AI agents",
+        "managed agents",
+        "reasoning"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI in 2026: Five Product Shifts We'll Have to Design For",
+      "source": "The Gradient",
+      "description": "A sharp strategic piece on how AI adoption has moved past model access into product-level design challenges. Covers agent UX, trust patterns, and how digital experiences need to be redesigned — not just augmented. As someone thinking about evolving toward product leadership, this frames the exact conversation you'd want to lead when you're back: what does your product team need to design differently now?",
+      "link": "https://thegradient.com/thinking/ai-in-2026-five-product-shifts-well-have-to-design-for",
+      "duration": "~8 min read",
+      "tags": [
+        "product design",
+        "AI UX",
+        "strategy",
+        "leadership"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If Figma ships its own AI agents for design systems, what's your MCP integration's unique value?",
+      "source": null,
+      "description": "Figma is now demoing teams co-designing with AI agents natively. You're building a Figma MCP + Claude integration for white-label sport apps. This week's a good moment to sharpen your thesis: where does your custom integration do something Figma's built-in agents can't? The answer is probably in your domain-specific design tokens and multi-brand logic — but it's worth pressure-testing.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "design systems",
+        "strategy",
+        "MCP",
+        "competitive thinking"
+      ]
+    }
+  ]
+}
