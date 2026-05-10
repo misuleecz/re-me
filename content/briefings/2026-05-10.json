@@ -1,0 +1,136 @@
+{
+  "date": "2026-05-10",
+  "headline": "Figma's Agentic Era Just Landed",
+  "subheadline": "Figma's May release notes are huge — agents, MCP workflows, and write-to-canvas are now official. Plus Brad Frost on designing systems for autonomous agents, and a Cursor security update you should know about.",
+  "emoji": "🤖",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma May 2026 Release: Agents, MCP Skills, and Write-to-Canvas",
+      "source": "Figma Help Center",
+      "description": "This is the big one. Figma's May release formally introduces agents, MCP integration, and skills — with write-to-canvas workflows demoed live. Given you're literally building a Figma MCP + Claude integration for your company's white-label sport apps design system, this is required reading. The article walks through three agentic workflows from the livestream, starting from your exact world of MCP and design systems.",
+      "link": "https://help.figma.com/hc/en-us/articles/40219873508247-Release-notes-roundup-May-2026",
+      "duration": "~10 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "agents",
+        "design-systems"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Figma May Release Notes Livestream — Co-designing with AI Agents",
+      "source": "Figma",
+      "description": "The companion livestream to the release notes above. Live demos from product teams showing real co-design workflows with AI agents — including how to riff on designs with agents and use MCP in practice. Worth watching after you've read the release notes to see the workflows in motion.",
+      "link": "https://fig-events.figma.com/may-rn-2026/",
+      "duration": "~45 min (estimate)",
+      "tags": [
+        "figma",
+        "AI-agents",
+        "workflows",
+        "livestream"
+      ]
+    },
+    {
+      "type": "podcast",
+      "emoji": "🎧",
+      "label": "Listen",
+      "title": "Agentic Design Systems in 2026 with Brad Frost",
+      "source": "YouTube",
+      "description": "Brad Frost on how autonomous agents are now assembling UIs using the same components your human designers use. This is directly relevant to your design system work — if agents are consumers of your component library alongside humans, your token architecture and component API decisions take on a whole new dimension. Perfect stroller walk listen. 🍼",
+      "link": "https://www.youtube.com/watch?v=Vg78K3t9KYc",
+      "duration": "~40 min (estimate)",
+      "tags": [
+        "design-systems",
+        "AI-agents",
+        "Brad-Frost",
+        "component-architecture"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma AI in 2026: Everything It Can Do — and What It Still Can't",
+      "source": "LogRocket",
+      "description": "A clear-eyed overview of where Figma's AI capabilities actually stand — content generation, image editing, smart search, UI drafting, code handoff, and full-site creation. Useful as a mental map of what's real vs. hype, especially as you think about where your MCP integration adds value that Figma's native AI doesn't cover yet.",
+      "link": "https://blog.logrocket.com/ux-design/figma-ai-2026-quick-overview/",
+      "duration": "~8 min read",
+      "tags": [
+        "figma",
+        "AI-capabilities",
+        "product-strategy"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Cursor SDK — Build Custom Agents for Your Team",
+      "source": "Cursor / Releasebot",
+      "description": "Cursor just shipped the Cursor SDK in public beta — it lets teams build and deploy custom agents within Cursor. Also new: a Security Review feature with always-on vulnerability scanning for PRs. Since you're vibe-coding in Cursor daily, the SDK could let you create team-specific agents that understand your design system's codebase. Update to v2.5+ for security patches.",
+      "link": "https://releasebot.io/updates/cursor",
+      "duration": null,
+      "tags": [
+        "cursor",
+        "SDK",
+        "AI-agents",
+        "security"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agentic UX — Designing for Users Who Aren't Human",
+      "source": "Phenomenon Studio",
+      "description": "Agentic UX is the emerging design discipline of creating interfaces, components, and systems that autonomous AI agents can navigate and use — not just humans. Generative UI (interfaces that assemble themselves in real-time) is part of this. As someone building design systems that will increasingly be consumed by agents, this framing shifts how you think about component APIs, naming, and documentation.",
+      "link": "https://phenomenonstudio.com/article/ai-product-design-trends-to-watch-in-2026/",
+      "duration": "~7 min read",
+      "tags": [
+        "agentic-UX",
+        "generative-UI",
+        "design-systems",
+        "product-thinking"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Automating Design Systems with AI: Tokens, Governance, and Agent Workflows",
+      "source": "Parallel HQ",
+      "description": "A practical guide on using AI agents for design system governance — automating token management, consistency checks, and repetitive system maintenance. Directly maps to your world of Figma tokens and variables. Worth skimming for ideas on what parts of your white-label system could benefit from automated governance.",
+      "link": "https://www.parallelhq.com/blog/automating-design-systems-with-ai",
+      "duration": "~10 min read",
+      "tags": [
+        "design-systems",
+        "tokens",
+        "automation",
+        "governance"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If agents are now first-class consumers of your design system, what changes?",
+      "source": null,
+      "description": "Brad Frost and Figma are both saying the same thing this week: AI agents will assemble UIs from your components. Your naming conventions, token structure, component documentation, and variant logic aren't just for junior designers anymore — they're an API for machines. Does your current design system architecture hold up when the 'user' is Claude, not a human? What would you change?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "design-systems",
+        "AI-agents",
+        "architecture",
+        "career"
+      ]
+    }
+  ]
+}
