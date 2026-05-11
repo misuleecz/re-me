@@ -1,0 +1,137 @@
+{
+  "date": "2026-05-11",
+  "headline": "Figma Make Gets Voice & Agents",
+  "subheadline": "Figma just dropped voice-to-text for Make plus a live event on co-designing with AI agents — directly relevant to your MCP + design system work. Plus: Claude Code stability fixes and a sharp read on agentic design systems.",
+  "emoji": "🎙️",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma Make adds voice-to-text, question cards, version history & Zapier connector",
+      "source": "Figma via Releasebot",
+      "description": "This is a meaty update. Voice-to-text prompts in Make means you can literally talk your way through design iterations — great for when you're holding a baby. Question cards add structured context, version history gives you rollback safety, and the Zapier connector opens up data piping from other apps. That last one could be interesting for feeding sport app data into your white-label system.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": null,
+      "tags": [
+        "figma",
+        "figma-make",
+        "AI-design",
+        "new-release"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Figma Live: Learn how to co-design with AI agents",
+      "source": "Figma",
+      "description": "Figma is hosting live demos of real workflows from product teams co-designing with AI agents. This is exactly where your MCP + Claude integration work is heading. Worth watching to see how other teams are thinking about agent-assisted design systems — and to steal ideas for your sport apps workflow.",
+      "link": "https://fig-events.figma.com/may-rn-2026/",
+      "duration": null,
+      "tags": [
+        "figma",
+        "AI-agents",
+        "design-workflow",
+        "live-event"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Automating Design Systems with AI: Figma Tokens, Agents & Governance",
+      "source": "Parallel HQ",
+      "description": "A practical guide on using AI agents with Figma tokens and automated governance to keep design systems consistent at scale. This maps almost 1:1 to what you're building — the piece covers how to let AI handle the repetitive token/variable work so you can focus on the design decisions that actually matter. Good validation and possibly new ideas for your architecture.",
+      "link": "https://www.parallelhq.com/blog/automating-design-systems-with-ai",
+      "duration": "~8 min read",
+      "tags": [
+        "design-systems",
+        "AI-automation",
+        "figma-tokens",
+        "governance"
+      ]
+    },
+    {
+      "type": "tip",
+      "emoji": "💡",
+      "label": "Quick tip",
+      "title": "Claude Code's May update fixed MCP server stability issues",
+      "source": "Anthropic via Releasebot",
+      "description": "The May 1 Claude Code update includes a bunch of MCP stability fixes — servers configured in .mcp.json, plugin behavior, session handling. If you've hit any weird MCP disconnects or flaky behavior in your Figma MCP + Claude setup, update now. They also tightened auto mode rules, which means more predictable agent behavior.",
+      "link": "https://releasebot.io/updates/anthropic",
+      "duration": null,
+      "tags": [
+        "claude-code",
+        "MCP",
+        "stability",
+        "update"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Enterprise Design Systems in 2026: From Component Libraries to Agentic Infrastructure",
+      "source": "Supernova.io",
+      "description": "A strategic take on how design systems are evolving from static component libraries to infrastructure that serves both human interfaces and AI agents. As someone thinking about product leadership and building a white-label system, the framing here is worth internalizing — your design system isn't just for designers anymore, it's for agents too.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~10 min read",
+      "tags": [
+        "design-systems",
+        "agentic-AI",
+        "product-strategy",
+        "enterprise"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agentic UX — designing for autonomous AI actors",
+      "source": "Phenomenon Studio",
+      "description": "Agentic UX is the emerging discipline of designing interfaces where AI agents are first-class users alongside humans. Generative UI (interfaces that assemble themselves in real-time) is part of this. For your sport apps: imagine the white-label system generating contextual UI variations per event type, driven by agents consuming your design tokens. This is where product design leadership is heading.",
+      "link": "https://phenomenonstudio.com/article/ai-product-design-trends-to-watch-in-2026/",
+      "duration": "~7 min read",
+      "tags": [
+        "agentic-UX",
+        "generative-UI",
+        "product-design",
+        "AI-trends"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "Lovable made the Forbes AI 50 list for 2026",
+      "source": "Forbes via Facebook",
+      "description": "The vibe-coding tool you've been shipping with is now sitting alongside OpenAI and Anthropic on the Forbes AI 50. Founded in 2024, Stockholm-based. Good signal that the tool has legs and will keep getting investment. Also worth noting: they had a security incident in April around public project data access — private projects were unaffected, but worth being aware of if you have anything sensitive in there.",
+      "link": "https://lovable.dev/blog/our-response-to-the-april-2026-incident",
+      "duration": null,
+      "tags": [
+        "lovable",
+        "vibe-coding",
+        "security",
+        "industry-news"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "Is your design system built for two audiences now?",
+      "source": null,
+      "description": "With AI agents increasingly consuming design systems (tokens, variables, component APIs), the system you're building isn't just for human designers anymore. When you return, your MCP integration means Claude is a user of your design system. How does that change what you document, how you name things, and what metadata you attach? The best design system leaders in 2026 are designing for both audiences simultaneously.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "design-systems",
+        "AI-agents",
+        "career",
+        "product-leadership"
+      ]
+    }
+  ]
+}
