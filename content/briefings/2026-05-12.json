@@ -1,0 +1,135 @@
+{
+  "date": "2026-05-12",
+  "headline": "Figma Goes Agentic This Month",
+  "subheadline": "Figma's May release introduces agents, MCP workflows, and write-to-canvas — directly relevant to the MCP + Claude integration you're building. Plus: Claude Design wants to eat Figma's lunch.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Figma May 2026 Release Notes: Agents, MCP, and Write to Canvas",
+      "source": "Figma (YouTube)",
+      "description": "This is the big one. Figma's May release livestream walks through agents, MCP, skills, and write-to-canvas workflows. Given you're actively building a Figma MCP + Claude integration for white-label sport apps, this isn't optional viewing — it'll directly shape what's possible in your architecture. Pay attention to how they frame 'skills' as composable agent capabilities.",
+      "link": "https://www.youtube.com/watch?v=11mdb7lLclM",
+      "duration": "~17 min",
+      "tags": [
+        "figma",
+        "MCP",
+        "agents",
+        "design-systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma May 2026 Release Notes — Full Written Breakdown",
+      "source": "Figma Help Center",
+      "description": "The official docs companion to the video above. Covers agents, MCP, skills, and write-to-canvas with actual workflow examples. Bookmark this — you'll want to reference it when wiring up your Claude integration. The three walkthrough workflows start from design system foundations, which is exactly your world.",
+      "link": "https://help.figma.com/hc/en-us/articles/40219873508247-Release-notes-roundup-May-2026",
+      "duration": "~8 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "release-notes",
+        "agentic-design"
+      ]
+    },
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Claude Design: Anthropic's Play to Replace Figma",
+      "source": "Get AI Perks",
+      "description": "Anthropic launched Claude Design on April 17 — turn prompts into prototypes, decks, and mockups directly in Claude. This is worth watching not as a Figma replacement (you're way too deep for that), but as a signal of where AI-native design is headed. Also relevant because it tells you what Anthropic thinks designers want from Claude — useful context for your MCP integration work.",
+      "link": "https://www.getaiperks.com/en/blogs/42-claude-design-review-2026",
+      "duration": "~6 min read",
+      "tags": [
+        "claude",
+        "AI-design",
+        "anthropic",
+        "competitive-landscape"
+      ]
+    },
+    {
+      "type": "podcast",
+      "emoji": "🎧",
+      "label": "Listen",
+      "title": "The Future of MCP — David Soria Parra, Anthropic",
+      "source": "YouTube (Keynote)",
+      "description": "Anthropic's David Soria Parra lays out where MCP is headed in 2026 and how it fits into the broader agent ecosystem. Perfect stroller listen. Since you're building on Figma MCP + Claude, hearing Anthropic's own roadmap vision for MCP will help you make better architecture decisions now instead of refactoring later.",
+      "link": "https://www.youtube.com/watch?v=v3Fr2JR47KA",
+      "duration": "~25 min",
+      "tags": [
+        "MCP",
+        "anthropic",
+        "agents",
+        "architecture"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Automating Design Systems with AI: Tokens, Governance, and Agents",
+      "source": "Parallel HQ",
+      "description": "A practical guide to using AI agents for design system governance — automated token management, consistency checks, component generation. Directly maps to your design system work. The section on Figma tokens + AI agents is particularly relevant for the white-label sport apps system where you need consistency across multiple brand configurations.",
+      "link": "https://www.parallelhq.com/blog/automating-design-systems-with-ai",
+      "duration": "~10 min read",
+      "tags": [
+        "design-systems",
+        "tokens",
+        "AI-automation",
+        "governance"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Figma Make: Voice-to-Text Prompts & Zapier Connector",
+      "source": "Figma (via Releasebot)",
+      "description": "Figma Make just shipped voice-to-text prompts, question cards for better context gathering, version history, and a Zapier connector. The Zapier bit is interesting — it could let you pipe external data (like sport event feeds or CRM data) into Make without building custom integrations. Worth a quick explore this week.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": null,
+      "tags": [
+        "figma-make",
+        "voice",
+        "automation",
+        "zapier"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "AI-Orchestrated Design Systems",
+      "source": null,
+      "description": "The shift from 'design system as component library' to 'design system as AI-orchestrated ecosystem' is real. Instead of humans manually enforcing token usage, naming conventions, and component consistency, AI agents now handle governance — flagging drift, suggesting corrections, even auto-generating variants. The interesting debate: some teams report needing engineering code review for AI-generated components, which partly defeats the purpose. As someone building this exact infrastructure, you're in a position to get the balance right.",
+      "link": "http://tianpan.co/forum/t/design-systems-became-ai-orchestrated-ecosystems-in-2026-whos-actually-benefiting-from-this-automation/1406",
+      "duration": null,
+      "tags": [
+        "design-systems",
+        "AI-governance",
+        "automation"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "When you return, will your title matter less than your stack?",
+      "source": null,
+      "description": "You left as Group Head of Design. You're coming back as someone who can build with Cursor, ship with Lovable, wire agents through MCP, and architect AI-augmented design systems. The industry is splitting between designers who direct AI and designers who still hand off static screens. Which role do you actually want to return to — and does a traditional design leadership title even capture what you do now?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "product-leadership",
+        "identity"
+      ]
+    }
+  ]
+}
