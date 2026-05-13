@@ -1,0 +1,137 @@
+{
+  "date": "2026-05-13",
+  "headline": "Figma's Agentic MCP Era Begins",
+  "subheadline": "Figma just dropped their May release notes with MCP workflows, agentic design, and write-to-canvas — directly relevant to the MCP + Claude integration you're building. Plus: Cursor gets security agents, and design systems go full autopilot.",
+  "emoji": "🤖",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma May 2026 Release: Agents, MCP, and Write-to-Canvas Workflows",
+      "source": "Figma Help Center",
+      "description": "This is the big one for you. Figma's May release formally introduces agents, MCP integration, and skills — with three documented workflows showing how agentic tools write directly to the canvas. Given you're actively building a Figma MCP + Claude integration for your company's white-label sport apps design system, this is essentially Figma validating your approach and giving you new primitives to work with.",
+      "link": "https://help.figma.com/hc/en-us/articles/40219873508247-Release-notes-roundup-May-2026",
+      "duration": "~8 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "agents",
+        "design-systems"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Figma May 2026 Release Notes Livestream — MCP, Code Connect, and Make",
+      "source": "Figma (YouTube)",
+      "description": "The companion livestream to the release notes. Shows real workflows from product teams co-designing with AI agents, including design systems + Code Connect + MCP pipelines. At ~22 min it's a bit long, but the MCP and Make sections are directly applicable to what you're shipping. Maybe worth watching the MCP segment and skimming the rest.",
+      "link": "https://www.youtube.com/watch?v=11mdb7lLclM",
+      "duration": "~22 min",
+      "tags": [
+        "figma",
+        "MCP",
+        "code-connect",
+        "livestream"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma's New Make Features: Voice-to-Text, Question Cards, Zapier Connector",
+      "source": "Releasebot",
+      "description": "Alongside the agentic MCP stuff, Figma Make gets voice-to-text prompts, question cards for better context-setting, and version history. The Zapier connector is interesting — it means Make can now pull in data from external apps. For your white-label sport apps, this could mean pulling in real event data or CRM content directly into design workflows.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": "~4 min read",
+      "tags": [
+        "figma",
+        "make",
+        "automation",
+        "white-label"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Enterprise Design Systems in 2026: From Passive Libraries to Agentic Infrastructure",
+      "source": "Supernova.io",
+      "description": "This frames what's happening to design systems through the lens of agentic AI — systems evolving from static component libraries to active infrastructure that agents can query, modify, and govern. As someone who thinks at the design system architecture level, this maps well to how your MCP integration could position the sport apps design system as an agent-ready layer rather than just a Figma file.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~7 min read",
+      "tags": [
+        "design-systems",
+        "agents",
+        "strategy",
+        "enterprise"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Cursor SDK — Build Custom Agents for Your Codebase",
+      "source": "Releasebot",
+      "description": "Cursor just shipped the Cursor SDK in public beta — it lets teams build and deploy custom agents that plug into your codebase. Also new: Security Review with always-on vulnerability scanner agents for PRs. The SDK could be interesting if you want to create a Cursor agent that understands your design system tokens and generates components accordingly. Update to version 2.5+ regardless — there was a security patch.",
+      "link": "https://releasebot.io/updates/cursor",
+      "duration": null,
+      "tags": [
+        "cursor",
+        "SDK",
+        "agents",
+        "security"
+      ]
+    },
+    {
+      "type": "podcast",
+      "emoji": "🎧",
+      "label": "Listen",
+      "title": "How AI Agents Will Reshape Product Teams in 2026",
+      "source": "LinkedIn",
+      "description": "A piece on designers shifting from pixel-pushers to system thinkers who set guardrails, evaluate agent decisions, and craft policy vs. autonomy boundaries. Good stroller-walk material — it's the kind of strategic framing that maps to your trajectory from Group Head of Design toward product leadership. The \"designing the rules agents follow\" angle is basically what you're doing with your MCP work.",
+      "link": "https://www.linkedin.com/pulse/how-ai-agents-reshape-product-teams-2026-what-you-need-fawdf",
+      "duration": "~6 min read",
+      "tags": [
+        "AI-agents",
+        "product-leadership",
+        "career",
+        "design-strategy"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Claude Managed Agents — Anthropic's Deploy-at-Scale Agent Framework",
+      "source": "Releasebot",
+      "description": "Anthropic launched Claude Managed Agents for the platform — letting teams deploy agents at scale with built-in code execution, skills, and an advisor strategy pattern. This is relevant because your Figma MCP + Claude integration is essentially a custom agent. Understanding how Anthropic thinks about agent architecture (skills, advisor patterns, guardrails) could influence how you structure yours — and whether Managed Agents could eventually host it.",
+      "link": "https://releasebot.io/updates/anthropic/claude",
+      "duration": null,
+      "tags": [
+        "claude",
+        "agents",
+        "architecture",
+        "MCP"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "Is your design system an agent-ready API or just a Figma file?",
+      "source": null,
+      "description": "With Figma formally supporting MCP and agents writing to canvas, and Anthropic shipping managed agents — the design systems that win will be the ones agents can reliably query, validate against, and compose from. Your white-label sport apps system could be one of the first to be truly agent-native. What would it take to make every token, variant, and layout rule queryable by an agent?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "design-systems",
+        "strategy",
+        "MCP",
+        "architecture"
+      ]
+    }
+  ]
+}
