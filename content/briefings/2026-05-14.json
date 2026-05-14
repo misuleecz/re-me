@@ -1,0 +1,119 @@
+{
+  "date": "2026-05-14",
+  "headline": "Figma Goes Agentic This Month",
+  "subheadline": "Figma's May 2026 release introduces agentic workflows, write-to-canvas, and AI token suggestions — all directly relevant to the MCP + design system work you're building. Plus: design systems are entering their automation era.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma's May 2026 Release: Agents, MCP Deep Dive, and Write-to-Canvas Workflows",
+      "source": "Figma Help Center",
+      "description": "This is the big one for you. Figma's May release livestream covered agents, MCP, skills, and write-to-canvas — basically formalizing the agentic design workflow you've been building toward. The article walks through three real workflows from the livestream. Given your Figma MCP + Claude integration project, this is required reading.",
+      "link": "https://help.figma.com/hc/en-us/articles/40219873508247-Release-notes-roundup-May-2026",
+      "duration": "~10 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "agentic design",
+        "design systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma's AI Now Suggests Tokens Based on Existing Codebases",
+      "source": "Medium",
+      "description": "Figma's AI can now suggest color, spacing, and typography tokens based on your actual codebase — and writes them to tokens.json or Style Dictionary. For your white-label sport apps design system, this could dramatically speed up the token-to-code pipeline. This is the handoff evolution you've been waiting for.",
+      "link": "https://medium.com/@Rythmuxdesigner/figmas-2026-updates-quietly-redefine-design-dev-handoff-and-not-everyone-s-ready-98307f2ea2a8",
+      "duration": "~8 min read",
+      "tags": [
+        "figma",
+        "design tokens",
+        "dev handoff",
+        "AI"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma AI in 2026: Everything It Can Do — and What It Still Can't",
+      "source": "LogRocket",
+      "description": "Honest overview of where Figma AI actually stands — Dev Mode, Code Connect, MCP server, and Make. The key insight: Figma is evolving from a design tool into an AI-assisted product design platform. Worth reading for the 'what it still can't do' part especially, so you know where your MCP integration fills real gaps.",
+      "link": "https://blog.logrocket.com/ux-design/figma-ai-2026-quick-overview/",
+      "duration": "~12 min read",
+      "tags": [
+        "figma",
+        "AI limitations",
+        "product design",
+        "MCP"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agentic Design Systems: When Your Design System Governs Itself",
+      "source": "Supernova.io",
+      "description": "Design systems are evolving from passive documentation into active, AI-governed systems — where agents enforce consistency, automate token updates, and flag violations. Supernova's piece maps out a practical 2026 roadmap. This is the strategic direction for your design system work: less manual policing, more intelligent governance.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~10 min read",
+      "tags": [
+        "design systems",
+        "AI agents",
+        "governance",
+        "automation"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI in 2026: Five Product Shifts We'll Have to Design For",
+      "source": "Cases Media",
+      "description": "This nails something important: AI capability isn't the bottleneck anymore — product design is. The article covers decision logic, autonomy boundaries, and fragile trust patterns. As you think about evolving toward product leadership, these are the design challenges that will define the next generation of product leaders.",
+      "link": "https://cases.media/article/ai-in-2026-five-product-shifts-well-have-to-design-for?srsltid=AfmBOopdulpIwW3BRL1uRG2wgv6FQSWFv2TZ6vDk63Pk4BzmyiDhaAPN",
+      "duration": "~7 min read",
+      "tags": [
+        "product design",
+        "AI product shifts",
+        "leadership"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Figma Make: Voice-to-Text Prompts + Zapier Connector",
+      "source": "Releasebot",
+      "description": "Figma Make just added voice-to-text prompts (design while narrating — stroller-friendly!), question cards for better context, version history, and a Zapier connector for pulling in external app data. The Zapier integration is interesting if you ever want to connect design workflows to project data without touching n8n or Make.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": null,
+      "tags": [
+        "figma make",
+        "voice",
+        "automation",
+        "new feature"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If agents handle consistency and tokens, what does a design system lead actually do?",
+      "source": null,
+      "description": "With AI now suggesting tokens from codebases, governing component usage, and writing to canvas — the manual craft of design systems is being automated. The strategic question for your career: does the design system lead become an agent architect? A policy designer? What's the highest-value version of that role in 2027?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "design leadership",
+        "AI strategy"
+      ]
+    }
+  ]
+}
