@@ -1,0 +1,117 @@
+{
+  "date": "2026-05-15",
+  "headline": "Figma Goes Full Agentic Mode",
+  "subheadline": "Figma's May release is massive — Custom Skills, FigJam MCP, and agentic workflows that directly affect the MCP + Claude integration you're building. Plus: design systems entering their AI-automated era.",
+  "emoji": "🚀",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma May 2026: Custom Skills, AI Make, FigJam MCP & Agentic Workflows",
+      "source": "Figma Help Center",
+      "description": "This is the one to read first. Figma's official May release notes walk through agents, MCP, skills, and write-to-canvas — with three workflows from the livestream showing how agentic tools accelerate design and dev. Given you're building a Figma MCP + Claude integration for your company's design system, this is basically your roadmap. The Custom Skills feature could let you encode your white-label sport app patterns directly into Figma's AI layer.",
+      "link": "https://help.figma.com/hc/en-us/articles/40219873508247-Release-notes-roundup-May-2026",
+      "duration": "~10 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "agentic-design",
+        "design-systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma Make Gets Voice-to-Text, Question Cards, Version History & Zapier Connector",
+      "source": "Releasebot",
+      "description": "Figma Make now supports voice-to-text prompts (hello stroller walks), question cards for better context-setting, version history so you can roll back AI-generated work, and a Zapier connector for pulling in external app data. The Zapier piece is interesting for you — it could bridge your design system data into Make without building custom integrations.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": "~5 min read",
+      "tags": [
+        "figma-make",
+        "voice-to-text",
+        "automation"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "\"Figma MCP + Claude Code Is Now One of the Strongest Integrations I've Seen\"",
+      "source": "Felix Lee on X",
+      "description": "Felix Lee is flagging exactly what you're building toward: the Figma MCP update makes it possible to use Claude Code to design directly in Figma. Short post, but worth seeing how others are reacting to the integration you're already deep in. Might surface workflow ideas or edge cases you haven't considered.",
+      "link": "https://x.com/felixleezd/status/2036502780903563574",
+      "duration": "~2 min read",
+      "tags": [
+        "figma-MCP",
+        "claude-code",
+        "integration"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agentic UX — When Interfaces Assemble Themselves",
+      "source": "Phenomenon Studio",
+      "description": "The shift from static screens to generative UI is accelerating. 'Agentic UX' means interfaces that autonomously adapt, assemble, and respond — not just layouts that look smart but systems that actually reason about user context. For your white-label sport apps, this could mean design systems that don't just enforce consistency but actively generate appropriate UI per client, event type, or user state. This is where design systems and AI agents converge.",
+      "link": "https://phenomenonstudio.com/article/ai-product-design-trends-to-watch-in-2026/",
+      "duration": "~8 min read",
+      "tags": [
+        "agentic-UX",
+        "generative-UI",
+        "product-thinking"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "The Future of Enterprise Design Systems: AI Governance, Tokens & Automation",
+      "source": "Supernova.io",
+      "description": "Supernova's take on where enterprise design systems are headed in 2026 — from passive documentation to AI-automated governance. Covers how tokens, automated audits, and agentic workflows change the design system maintainer's role. Directly relevant to how you're thinking about scaling your company's system across white-label products. The practical roadmap section is worth your time.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~10 min read",
+      "tags": [
+        "design-systems",
+        "tokens",
+        "AI-governance",
+        "enterprise"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Lovable Mobile App — Vibe-Code From Your Phone",
+      "source": "TechCrunch",
+      "description": "Lovable shipped iOS and Android apps. You can now vibe-code from your phone — which sounds gimmicky but could genuinely be useful for quick prototyping ideas during maternity leave walks. They pitched it as capturing app ideas on the go and iterating later on desktop. Worth downloading to see if it fits your flow.",
+      "link": "https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/",
+      "duration": "~4 min read",
+      "tags": [
+        "lovable",
+        "vibe-coding",
+        "mobile",
+        "prototyping"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If Figma's AI can write to canvas and agents can generate UI, what does a design system lead actually own?",
+      "source": null,
+      "description": "With Custom Skills, MCP agents, and generative UI all landing at once, the design system is shifting from a component library you maintain to an intelligent system you govern. Your role might evolve from designing components to designing the rules and constraints that AI agents follow. That's a fundamentally different skill — and one that maps perfectly to product leadership. Worth sitting with on today's walk.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "design-leadership",
+        "AI-strategy"
+      ]
+    }
+  ]
+}
