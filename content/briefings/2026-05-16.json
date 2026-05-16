@@ -1,0 +1,136 @@
+{
+  "date": "2026-05-16",
+  "headline": "Figma's May Drop Changes Everything",
+  "subheadline": "Custom Skills, FigJam MCP, and AI agents writing to canvas — Figma just shipped the biggest update since variables. Plus Claude Code gets Opus 4.7 and your design system automation future is taking shape.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma's May 2026 Release: Custom Skills, AI Make, FigJam MCP",
+      "source": "Chulbul Design",
+      "description": "This is the big one. Figma shipped Custom Skills (basically let you teach AI your own design patterns), major AI Make improvements, and FigJam now has MCP support. For your white-label sport apps design system, Custom Skills could be a game-changer — imagine encoding your component logic so AI generates on-brand, token-aware layouts. This directly intersects with the Figma MCP + Claude integration you're building.",
+      "link": "https://www.chulbuldesign.com/blog/figma-new-features-may-2026",
+      "duration": "~7 min read",
+      "tags": [
+        "figma",
+        "custom-skills",
+        "MCP",
+        "design-systems"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Figma Release Notes Live: Co-designing with AI Agents",
+      "source": "Figma",
+      "description": "Figma's official live demos showing real workflows from product teams co-designing with AI agents — including write-to-canvas, agents, MCP, and skills. This isn't a keynote recap; it's actual workflow demos. Since you're building MCP integrations right now, seeing how Figma envisions the agent-to-canvas pipeline will save you guesswork.",
+      "link": "https://help.figma.com/hc/en-us/articles/40219873508247-Release-notes-roundup-May-2026",
+      "duration": null,
+      "tags": [
+        "figma",
+        "AI-agents",
+        "MCP",
+        "workflow"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma AI in 2026: Everything It Can Do — and What It Still Can't",
+      "source": "LogRocket",
+      "description": "A clear-eyed breakdown of where Figma AI actually delivers versus where it's still half-baked. Covers Dev Mode, Code Connect, MCP server, and Figma Make. Useful as a reality check before you invest more time into your MCP integration — know which APIs are solid and which are still flaky.",
+      "link": "https://blog.logrocket.com/ux-design/figma-ai-2026-quick-overview/",
+      "duration": "~10 min read",
+      "tags": [
+        "figma-AI",
+        "MCP",
+        "dev-mode",
+        "honest-review"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Claude Code Gets Opus 4.7, New Agent Flags & Background Sessions",
+      "source": "Releasebot / Anthropic",
+      "description": "Claude Code just shipped a meaty update: Opus 4.7 is now the default in fast mode, there are new `claude agents` flags for better control, and background sessions are more reliable. If you're using Claude Code with Cursor for vibe-coding, the improved daemon reliability and MCP fixes alone are worth updating for. Less random crashes, better agent persistence.",
+      "link": "https://releasebot.io/updates/anthropic/claude-code",
+      "duration": "~4 min read",
+      "tags": [
+        "claude-code",
+        "opus-4.7",
+        "agents",
+        "MCP"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Automating Design Systems with AI: The 2026 Workflow Picture",
+      "source": "Parallel HQ",
+      "description": "Covers how AI agents, Figma tokens, and automated governance are being combined in real design system workflows. Directly relevant to what you're building — particularly the intersection of token management and AI-generated components. Worth scanning for the governance patterns; the forum thread linked below adds a healthy dose of skepticism about what actually works.",
+      "link": "https://www.parallelhq.com/blog/automating-design-systems-with-ai",
+      "duration": "~8 min read",
+      "tags": [
+        "design-systems",
+        "tokens",
+        "AI-automation",
+        "governance"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agentic UX: Designing for AI That Acts, Not Just Responds",
+      "source": "Phenomenon Studio",
+      "description": "The shift from generative UI (AI assembles the interface) to agentic UX (AI takes autonomous actions within products). This is the design pattern layer you'll need as you move toward product leadership — it's not just about how things look, but designing the guardrails, trust signals, and override patterns for AI that does things on behalf of users. Your sport app white-label system will likely need these patterns soon.",
+      "link": "https://phenomenonstudio.com/article/ai-product-design-trends-to-watch-in-2026/",
+      "duration": "~10 min read",
+      "tags": [
+        "agentic-UX",
+        "design-patterns",
+        "product-thinking",
+        "AI-agents"
+      ]
+    },
+    {
+      "type": "tip",
+      "emoji": "💡",
+      "label": "Quick tip",
+      "title": "Lovable Now Handles Data Analysis, Docs & File Processing",
+      "source": "Till Freitag",
+      "description": "Lovable quietly expanded beyond app building — you can now do data analysis, document creation, and file processing from a single conversation. If you've been using it just for prototyping apps, try throwing a CSV of design token values at it or generating a component spec doc. It's becoming more of a general-purpose AI workspace.",
+      "link": "https://till-freitag.com/blog/lovable-beyond-apps-en",
+      "duration": "~5 min read",
+      "tags": [
+        "lovable",
+        "no-code",
+        "productivity"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI Can Write to Your Canvas, What Does a Design System Lead Actually Own?",
+      "source": null,
+      "description": "With Figma's Custom Skills and MCP write-to-canvas, AI agents can now generate design-system-compliant components directly. One forum thread noted teams are adding 'engineering code review requirements for AI-generated components, which somewhat defeats the purpose of the automation.' As someone building the bridge between Claude and Figma for a design system — where do you draw the line between AI generation and human governance?",
+      "link": "http://tianpan.co/forum/t/design-systems-became-ai-orchestrated-ecosystems-in-2026-whos-actually-benefiting-from-this-automation/1406",
+      "duration": null,
+      "tags": [
+        "design-leadership",
+        "AI-governance",
+        "design-systems",
+        "career"
+      ]
+    }
+  ]
+}
