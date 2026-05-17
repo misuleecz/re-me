@@ -1,0 +1,131 @@
+{
+  "date": "2026-05-17",
+  "headline": "Figma's AI Agents Write to Canvas",
+  "subheadline": "Figma just dropped their biggest MCP update yet — agents can now write directly to your canvas. Plus Claude is becoming an autonomous workflow engine, which changes everything about your design system integration.",
+  "emoji": "✨",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma May 2026 Release: AI Agents, MCP Write Access, and Skills",
+      "source": "Figma",
+      "description": "This is the big one. Figma's May release introduces AI agents that can write directly to your canvas, plus 'Skills' — markdown-based reusable prompts that let teams generate prototypes with consistency. Given you're building a Figma MCP + Claude integration for your white-label sport apps design system, Skills could be a game-changer: you could encode your component conventions into markdown files and have agents follow them automatically.",
+      "link": "https://help.figma.com/hc/en-us/articles/40219873508247-Release-notes-roundup-May-2026",
+      "duration": "~8 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "AI agents",
+        "design systems"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Claude + Figma MCP Complete Workflow — 3 Months of Daily Use",
+      "source": "Nehmat Gereige | YouTube",
+      "description": "Someone who's been using the exact Claude + Figma MCP stack you're building — daily for 3 months — walks through their complete workflow including the May 2026 Figma Skills setup and a full SaaS app build. This is essentially a peer review of the integration you're working on. Worth watching to see what's working and what pitfalls to avoid.",
+      "link": "https://www.youtube.com/watch?v=sUr36TBmC8c",
+      "duration": "~20 min",
+      "tags": [
+        "figma MCP",
+        "claude",
+        "workflow",
+        "vibe-coding"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI Agents Can Finally Write to Figma — What You Need to Know",
+      "source": "Reddit r/ClaudeCode",
+      "description": "A solid breakdown of the three stages of Figma's MCP Server — from read-only in June 2025 to the current write-capable version. Good community discussion on practical limitations and what actually works. Since you're mid-build on your MCP integration, the real-world gotchas people are sharing here could save you hours.",
+      "link": "https://www.reddit.com/r/ClaudeCode/comments/1s30dy7/ai_agents_can_finally_write_to_figma_what_you/",
+      "duration": "~5 min read",
+      "tags": [
+        "figma MCP",
+        "claude code",
+        "community"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Claude as Autonomous Workflow Engine",
+      "source": "MSN / Anthropic",
+      "description": "Anthropic's May 2026 updates pivot Claude from chatbot to autonomous workflow engine — including 'Managed Agents' with multiagent orchestration, background sessions, and webhooks. Think of it as Claude going from 'answer my question' to 'run this process end-to-end.' For your design system work, this means Claude could potentially orchestrate multi-step flows: audit tokens, generate variants, update components — without you babysitting each step.",
+      "link": "https://www.msn.com/en-us/news/other/anthropic-transforms-claude-into-an-autonomous-workflow-engine-in-may-2026/gm-GMBDF4D5D4",
+      "duration": "~4 min read",
+      "tags": [
+        "claude",
+        "AI agents",
+        "automation"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Automating Design Systems with AI: Figma Tokens, Agents, and Governance",
+      "source": "Parallel HQ",
+      "description": "A practical guide on using AI agents to handle the grunt work of design systems — token management, governance, consistency checks. This maps directly to what you'd want your white-label sport app system to do: let AI enforce rules across variants while you focus on the design decisions that actually need a human brain.",
+      "link": "https://www.parallelhq.com/blog/automating-design-systems-with-ai",
+      "duration": "~7 min read",
+      "tags": [
+        "design systems",
+        "tokens",
+        "AI automation"
+      ]
+    },
+    {
+      "type": "podcast",
+      "emoji": "🎧",
+      "label": "Listen",
+      "title": "Figma May Release Notes — Live Feature Demos with AI Agents",
+      "source": "Figma",
+      "description": "Figma's live release event covers real workflows from product teams co-designing with AI agents, including how to generate ideas, refine designs, and ship with Make prototyping. Even if you catch just the recording audio, the demos of teams using Skills and agent workflows are directly applicable to what you're building. 🍼 Stroller-friendly if you skip the visual demos.",
+      "link": "https://fig-events.figma.com/may-rn-2026/",
+      "duration": "~45 min",
+      "tags": [
+        "figma",
+        "AI agents",
+        "product teams"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI agents can write to your design system canvas, what's left for the design system lead?",
+      "source": null,
+      "description": "With Figma Skills encoding conventions into markdown and agents generating component variants automatically, the role shifts from producing artifacts to defining the rules agents follow. As someone thinking about product leadership, this is worth sitting with: the next generation of design system leads might be more like 'AI trainers' than 'component builders.' Where do you want to be in that shift?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "design leadership",
+        "AI strategy"
+      ]
+    },
+    {
+      "type": "tip",
+      "emoji": "💡",
+      "label": "Quick tip",
+      "title": "Figma Skills = markdown files. Start writing yours now.",
+      "source": null,
+      "description": "Figma's new 'Skills' are just markdown files that define your conventions and workflows. You don't need to wait for a perfect setup — start documenting your white-label sport app component rules in markdown today. When you connect Skills to your MCP integration, you'll already have the library ready to go. Think of it as prompt engineering meets design system documentation.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": null,
+      "tags": [
+        "figma skills",
+        "design systems",
+        "quick win"
+      ]
+    }
+  ]
+}
