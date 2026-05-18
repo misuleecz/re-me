@@ -1,0 +1,121 @@
+{
+  "date": "2026-05-18",
+  "headline": "Figma's AI Agents Are Here",
+  "subheadline": "Figma just dropped its biggest update yet — AI agents that co-design on canvas, custom skills, and FigJam MCP. Plus Claude's new managed agents and what agentic UX means for your design system work.",
+  "emoji": "🤖",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma May 2026: Custom Skills, AI Make, FigJam MCP & Write-to-Canvas",
+      "source": "Figma Help Center",
+      "description": "This is the big one. Figma's May release notes cover AI agents, MCP integration in FigJam, custom skills (think: teachable AI behaviors), and write-to-canvas workflows. Given you're building a Figma MCP + Claude integration for your company's design system, the custom skills and MCP expansion are directly in your lane. The help center article walks through agents, MCP, and skills as core concepts.",
+      "link": "https://help.figma.com/hc/en-us/articles/40219873508247-Release-notes-roundup-May-2026",
+      "duration": "~10 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "AI agents",
+        "design systems"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Figma's Live Release Notes: Co-Designing with AI Agents",
+      "source": "Figma",
+      "description": "Figma's official release event page with live feature demos from product teams actually co-designing with AI agents. Shows real workflows — not marketing fluff — including riffing with AI on canvas. Worth watching for how teams are integrating agents into real design work, especially the design system angles.",
+      "link": "https://fig-events.figma.com/may-rn-2026/",
+      "duration": null,
+      "tags": [
+        "figma",
+        "AI agents",
+        "live demo",
+        "workflows"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude May 2026: Managed Agents, Multi-Agent Orchestration & Higher Limits",
+      "source": "Releasebot",
+      "description": "Anthropic expanded Claude's developer platform with managed agents that support dreaming, multi-agent orchestration, outcomes, and webhooks. Claude Code also got updated with new agent flags and Opus 4.7 as the default fast mode. For your Figma MCP + Claude integration, the managed agents and webhook capabilities could open up some interesting automated design-system workflows.",
+      "link": "https://releasebot.io/updates/anthropic/claude",
+      "duration": "~5 min read",
+      "tags": [
+        "Claude",
+        "AI agents",
+        "API",
+        "multi-agent"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "The Future of Enterprise Design Systems: Agentic AI & Automation",
+      "source": "Supernova.io",
+      "description": "Supernova lays out how design systems are shifting from passive documentation to agentic workflows — AI that governs tokens, enforces consistency, and automates component updates. Directly relevant to your white-label sport apps system. The framing of 'is your design system ready for agentic AI?' is a good strategic lens for your return from leave.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~8 min read",
+      "tags": [
+        "design systems",
+        "agentic AI",
+        "tokens",
+        "automation"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agentic UX — when the interface designs itself",
+      "source": "Phenomenon Studio",
+      "description": "Agentic UX is the idea that static screens become obsolete as interfaces assemble themselves in real-time based on context. Generative UI + AI agents = the UI adapts per user, per moment. For someone thinking about product leadership, this is the design paradigm shift happening under your feet. Your white-label system might need to account for this.",
+      "link": "https://phenomenonstudio.com/article/ai-product-design-trends-to-watch-in-2026/",
+      "duration": "~7 min read",
+      "tags": [
+        "agentic UX",
+        "generative UI",
+        "product design",
+        "trends"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Lovable ships SSR + SEO suite — finally viable for real products",
+      "source": "Lovable",
+      "description": "Lovable just shipped server-side rendering, prerendering, and a full SEO/AI search suite on May 13. If you've been vibe-coding with Lovable, this removes one of its biggest limitations — apps you build can now actually be discoverable. Worth testing on your next side project or prototype.",
+      "link": "https://lovablehtml.com/blog/lovable-seo-update",
+      "duration": "~5 min read",
+      "tags": [
+        "Lovable",
+        "SSR",
+        "vibe coding",
+        "shipping"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI agents can co-design on canvas, what does a design lead actually lead?",
+      "source": null,
+      "description": "Figma's May release literally lets AI agents write to canvas, riff on designs, and execute skills you teach them. As a former Group Head of Design thinking about product leadership — the role is shifting from directing craft to directing taste, strategy, and system architecture. What parts of your leadership are amplified by agents, and which become irrelevant?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "leadership",
+        "career",
+        "AI agents",
+        "strategy"
+      ]
+    }
+  ]
+}
