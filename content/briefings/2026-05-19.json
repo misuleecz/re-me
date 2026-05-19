@@ -1,0 +1,119 @@
+{
+  "date": "2026-05-19",
+  "headline": "Figma Make Skills Change Everything",
+  "subheadline": "Figma's May release introduces Make Skills — reusable markdown prompts for prototyping consistency. Plus, MCP roundtrip workflows are maturing fast, and design systems are going agentic.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Figma Release Notes 2026: May Edition",
+      "source": "Figma (YouTube)",
+      "description": "The big one this month: Make Skills — markdown-based reusable prompts that enforce your team's conventions when generating prototypes. For your white-label sport apps design system, this could be massive. Also covers Make voice-to-text, FigJam MCP server improvements, and new AI image tools. Worth a full watch.",
+      "link": "https://www.youtube.com/watch?v=11mdb7lLclM",
+      "duration": "~30 min",
+      "tags": [
+        "figma",
+        "make-skills",
+        "MCP",
+        "design-systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma AI in 2026: Everything it can do — and what it still can't",
+      "source": "LogRocket Blog",
+      "description": "An honest, comprehensive breakdown of where Figma AI actually stands right now — Dev Mode, Code Connect, MCP server, and Make. The framing that Figma is evolving from design tool to AI-assisted product design platform mirrors exactly the shift you're navigating. Good for calibrating what to bet on vs. what's still half-baked.",
+      "link": "https://blog.logrocket.com/ux-design/figma-ai-2026-quick-overview/",
+      "duration": "~8 min read",
+      "tags": [
+        "figma-AI",
+        "product-design",
+        "MCP",
+        "strategic"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Make Skills: Markdown as design system governance",
+      "source": "Releasebot",
+      "description": "Figma's Make Skills let you write markdown files that encode your team's design conventions, so AI-generated prototypes follow your rules out of the box. Think of it as design system documentation that's actually executable. For your white-label system, this could replace hours of QA-ing AI output — your tokens and component rules become the prompt itself.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": null,
+      "tags": [
+        "figma-make",
+        "design-systems",
+        "AI-governance"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "The Future of Enterprise Design Systems: Agentic AI in 2026",
+      "source": "Supernova.io",
+      "description": "Supernova's take on design systems going agentic — automating governance, scaling with AI, and future-proofing product workflows. Directly relevant to what you're building with Figma MCP + Claude. The practical roadmap framing makes this more useful than most trend pieces.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~10 min read",
+      "tags": [
+        "design-systems",
+        "agentic-AI",
+        "enterprise",
+        "strategy"
+      ]
+    },
+    {
+      "type": "podcast",
+      "emoji": "🎧",
+      "label": "Listen",
+      "title": "How AI Agents Will Transform in 2026 (a16z Big Ideas)",
+      "source": "a16z (YouTube)",
+      "description": "a16z unpacks three shifts: AI moving from chat to action, agent-native product design, and what comes next. Great stroller listen. You're already vibe-coding — this gives you the strategic vocabulary for where agent-driven product building is heading and how product leaders should think about it.",
+      "link": "https://www.youtube.com/watch?v=ULszsXDyjMY",
+      "duration": "~25 min",
+      "tags": [
+        "AI-agents",
+        "product-strategy",
+        "a16z",
+        "stroller-friendly"
+      ]
+    },
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "AI Design Systems Conference 2026 recordings now available",
+      "source": "Into Design Systems",
+      "description": "15+ hours of recordings from the sold-out March conference. Sessions on vibe coding, agentic design systems, MCP integrations, and shipping production-ready code from design. Cherry-pick the MCP and agentic sessions — they'll be directly applicable to your current build.",
+      "link": "https://www.intodesignsystems.com/",
+      "duration": "~15+ hours total (cherry-pick)",
+      "tags": [
+        "conference",
+        "design-systems",
+        "MCP",
+        "vibe-coding"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If your design system conventions become executable prompts, what's the new role of a design system lead?",
+      "source": null,
+      "description": "Make Skills turns your documentation into AI instructions. Supernova and others are making governance automated. If the system enforces itself, the lead's value shifts from consistency policing to strategic decisions: what conventions exist in the first place, and why. That's product leadership territory — which is exactly where you're heading.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "design-leadership",
+        "product-thinking"
+      ]
+    }
+  ]
+}
