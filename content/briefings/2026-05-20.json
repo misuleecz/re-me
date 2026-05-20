@@ -1,0 +1,135 @@
+{
+  "date": "2026-05-20",
+  "headline": "Figma's AI Agents Are Here",
+  "subheadline": "Figma just dropped Make Skills and MCP server updates that directly impact your design system + Claude integration work. Plus Claude's new multi-agent orchestration is worth understanding.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma May 2026: Make Skills, MCP Server Updates & Co-Designing with AI Agents",
+      "source": "Figma",
+      "description": "Figma's May release is big for you specifically. Make Skills are markdown-based reusable prompts that standardize how teams create prototypes — think of them as design system rules for AI. Given you're building a Figma MCP + Claude integration for white-label sport apps, this could dramatically change how you structure prompts and maintain consistency across variants. The release event also covers co-designing with AI agents live.",
+      "link": "https://fig-events.figma.com/may-rn-2026/",
+      "duration": null,
+      "tags": [
+        "figma",
+        "MCP",
+        "design-systems",
+        "AI-agents"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Figma Release Notes May 2026 — Full Walkthrough with MCP Server Skills Demo",
+      "source": "Figma (YouTube)",
+      "description": "The official release notes video walks through Make Skills, MCP server skills (starts ~25:46), performance improvements, and draw updates. The MCP server skills section is directly relevant to your current build — worth scrubbing to that timestamp at minimum.",
+      "link": "https://www.youtube.com/watch?v=11mdb7lLclM",
+      "duration": "~28 min (skip to 25:46 for MCP)",
+      "tags": [
+        "figma",
+        "MCP",
+        "skills",
+        "release-notes"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Why Figma's MCP Update Is a Bigger Deal Than Any AI Demo",
+      "source": "Medium",
+      "description": "This piece argues that Figma's MCP changes are a quiet infrastructure shift that hints at how software will be built in coming years — plumbing over flashy demos. As someone literally building on this plumbing right now, this framing might help you articulate the strategic value of your MCP integration work to stakeholders.",
+      "link": "https://medium.com/@sebuzdugan/why-figmas-mcp-update-is-a-bigger-deal-than-any-ai-demo-60ca89bd3b82",
+      "duration": "~5 min read",
+      "tags": [
+        "MCP",
+        "figma",
+        "strategy",
+        "infrastructure"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Claude Managed Agents: Multi-Agent Orchestration with Advisor Pattern",
+      "source": "Anthropic / Releasebot",
+      "description": "Anthropic shipped managed agents with multi-agent orchestration, including an Advisor pattern that pairs Opus (as strategic advisor) with Sonnet (as executor). For your workflow, imagine Opus reviewing your design system logic and token architecture while Sonnet handles the actual file manipulation through MCP. This is the kind of agentic setup that could supercharge your white-label system.",
+      "link": "https://releasebot.io/updates/anthropic",
+      "duration": "~5 min read",
+      "tags": [
+        "claude",
+        "AI-agents",
+        "multi-agent",
+        "orchestration"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "AI + Design Systems in 2026: The Workflow I Actually Use",
+      "source": "UI Collective (YouTube)",
+      "description": "A practitioner walks through where AI actually fits in day-to-day design system work — not the hype version, the real one. 47K views and solid engagement suggest it resonated. Good gut-check for your own MCP workflow and might surface patterns you haven't considered.",
+      "link": "https://www.youtube.com/watch?v=XfezMs8B-O8",
+      "duration": "~20 min",
+      "tags": [
+        "design-systems",
+        "AI-workflow",
+        "practical"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Cursor Ships Cloud Agent Environments for Parallel Agents",
+      "source": "Releasebot",
+      "description": "Cursor's May update adds cloud dev environments for agents — multi-repo support, Dockerfile-based setup, and the ability to run parallel agents. If you're vibe-coding across multiple white-label app variants, running parallel agents across repos could be a serious time multiplier. Also adds governance and audit logs, which matters when you go back to team work.",
+      "link": "https://releasebot.io/updates/cursor",
+      "duration": "~3 min read",
+      "tags": [
+        "cursor",
+        "AI-agents",
+        "dev-tools",
+        "parallel"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "The Future of Enterprise Design Systems: Agentic AI and the 2026 Roadmap",
+      "source": "Supernova",
+      "description": "Supernova's take on how design systems are evolving from static libraries to agentic workflows. Covers practical automation strategies and scaling patterns. Given your background leading design systems at scale, this maps directly to where your career could head — the intersection of design system architecture and AI orchestration.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~8 min read",
+      "tags": [
+        "design-systems",
+        "agentic-AI",
+        "strategy",
+        "leadership"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "With Make Skills, should your design system include prompt templates as deliverables?",
+      "source": null,
+      "description": "Figma's Make Skills are markdown-based reusable prompts that enforce consistency. If prompt files are now first-class assets in design tooling, maybe your white-label design system deliverables should include not just tokens, components, and documentation — but also a library of curated Skills that encode your team's design decisions. You might be uniquely positioned to define this practice.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "design-systems",
+        "prompts-as-assets",
+        "leadership"
+      ]
+    }
+  ]
+}
