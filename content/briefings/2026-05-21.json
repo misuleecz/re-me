@@ -1,0 +1,117 @@
+{
+  "date": "2026-05-21",
+  "headline": "Figma Make Skills Change Everything",
+  "subheadline": "Figma just dropped Make Skills — reusable markdown prompts for consistent AI prototyping. Plus Claude's managed agents now support MCP tunnels, which could be huge for your white-label design system work.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma launches Make Skills — markdown-based reusable AI prompts",
+      "source": "Figma / Releasebot",
+      "description": "Figma just released Make Skills: markdown files that encode your team's conventions and workflows so AI prototyping stays consistent across prompts. Think of it as design system thinking applied to AI prompting — you define the patterns once, and Make follows them. For your white-label sport apps this could be massive: codify your component conventions into Skills and get consistent prototypes without re-explaining your system every time.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": "~3 min read",
+      "tags": [
+        "figma",
+        "make-skills",
+        "design-systems",
+        "AI-prototyping"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Figma Release Notes May 2026 — full demo of new features",
+      "source": "Figma (YouTube)",
+      "description": "The official May release notes video with live demos of Make Skills and other updates. At ~30 min it's a commitment, but Figma's release videos always show real workflows you can steal. Worth watching during nap time to see how Skills actually work in practice with Make.",
+      "link": "https://www.youtube.com/watch?v=11mdb7lLclM",
+      "duration": "~32 min",
+      "tags": [
+        "figma",
+        "release-notes",
+        "demo"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma AI in 2026: Everything it can do — and what it still can't",
+      "source": "LogRocket",
+      "description": "An honest assessment of where Figma's AI capabilities actually stand — covering Make, MCP server, Code Connect, and Dev Mode. The framing is useful: Figma is shifting from design tool to AI-assisted product design platform. As someone building the bridge between Figma MCP and Claude for your company, this maps the full landscape of what's connected and what's still gaps.",
+      "link": "https://blog.logrocket.com/ux-design/figma-ai-2026-quick-overview",
+      "duration": "~8 min read",
+      "tags": [
+        "figma-AI",
+        "MCP",
+        "product-design",
+        "strategy"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Managed Agents with MCP tunnels",
+      "source": "Anthropic / Releasebot",
+      "description": "Claude now supports Managed Agents that can run in self-hosted sandboxes and connect to private services via MCP tunnels. In plain terms: you can have Claude agents that autonomously do work while securely accessing your company's internal tools — like your Figma design system — without exposing them to the public internet. This is the infrastructure layer that makes your Figma MCP + Claude integration production-ready, not just a cool experiment.",
+      "link": "https://releasebot.io/updates/anthropic/claude",
+      "duration": null,
+      "tags": [
+        "claude",
+        "MCP",
+        "agents",
+        "enterprise"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "Are you building a design system or an AI skill library?",
+      "source": null,
+      "description": "With Figma Make Skills letting you encode design conventions as markdown prompts, and your Figma MCP + Claude integration already in progress — you're essentially building two parallel systems of truth: one for humans (components, tokens, variables) and one for AI (skills, prompts, context). The designers who figure out how to unify these will define the next era of design systems. You're already closer than most.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "design-systems",
+        "AI-strategy",
+        "career"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI agents are graduating from assistants to teammates",
+      "source": "Box Blog",
+      "description": "Box's leadership team shares how they're seeing AI agents shift from simple assistants to actual teammates that partner with product and dev teams across the full development cycle. Short read, but the framing matters for you: as you think about evolving toward product leadership, understanding how orgs are restructuring around agent-augmented teams is strategic knowledge.",
+      "link": "https://blog.box.com/getting-real-how-box-executives-see-ai-changing-2026",
+      "duration": "~5 min read",
+      "tags": [
+        "AI-agents",
+        "product-leadership",
+        "org-design"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "Cursor is now valued at $29 billion",
+      "source": "Medium",
+      "description": "The AI coding tool you're already vibe-coding with has hit a $29B valuation. Cursor 2.6 shipped unlimited Tab completions for Pro users, and their background agents can now test their own changes and record their work via video and screenshots. The tool you picked early is now the most valuable AI coding company in the world. Trust your instincts.",
+      "link": "https://kasata.medium.com/cursor-ai-in-2026-the-29-billion-ai-coding-tool-thats-replacing-your-ide-and-why-40-000-nvidia-b86bb8fca2fb",
+      "duration": null,
+      "tags": [
+        "cursor",
+        "vibe-coding",
+        "valuation"
+      ]
+    }
+  ]
+}
