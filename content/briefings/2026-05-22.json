@@ -1,0 +1,120 @@
+{
+  "date": "2026-05-22",
+  "headline": "Figma's AI Canvas Just Changed Everything",
+  "subheadline": "Figma dropped a collaborative AI assistant two days ago, plus Make Skills just landed — both directly impact your design system and MCP work. Big week.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma adds an AI assistant to its collaborative canvas",
+      "source": "TechCrunch",
+      "description": "Dropped two days ago: Figma now has an AI assistant living right in the canvas, plus partnerships with Anthropic and OpenAI for Claude Code and Codex integration alongside the design tool. This is massive for your Figma MCP + Claude integration work — the official tooling is now catching up to what you've been building. Worth reading carefully to see where your custom setup still has an edge vs. what's now native.",
+      "link": "https://techcrunch.com/2026/05/20/figma-adds-an-ai-assistant-to-its-collaborative-canvas",
+      "duration": "~5 min read",
+      "tags": [
+        "figma",
+        "AI assistant",
+        "claude code",
+        "MCP"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma AI in 2026: Everything it can do — and what it still can't",
+      "source": "LogRocket",
+      "description": "A genuinely honest breakdown of where Figma AI actually delivers vs. where it falls short — covering Make, Dev Mode, Code Connect, and the MCP server. The framing of Figma evolving from design tool to AI-assisted product design platform is exactly the shift you're riding. Good for calibrating what to build custom vs. what to wait for Figma to ship natively.",
+      "link": "https://blog.logrocket.com/ux-design/figma-ai-2026-quick-overview",
+      "duration": "~8 min read",
+      "tags": [
+        "figma AI",
+        "MCP server",
+        "design systems",
+        "product design"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Figma Make Skills: Markdown-based reusable AI prompts",
+      "source": "Figma",
+      "description": "Figma just released Make Skills — markdown files that encode your team's conventions and workflows so AI-generated prototypes are consistent from the start. Think of them as design system rules but for AI prompting. For your white-label sport apps system, this could mean codifying your component patterns into Skills so anyone on the team gets on-brand prototypes without deep system knowledge.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": null,
+      "tags": [
+        "figma make",
+        "design systems",
+        "AI prompts",
+        "white-label"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude adds Managed Agents with self-hosted sandboxes and MCP tunnels",
+      "source": "Releasebot",
+      "description": "Anthropic shipped Managed Agents support for self-hosted sandboxes and MCP tunnels — meaning agent execution and private service access can now run inside enterprise environments. If your company has any security constraints around the Figma MCP + Claude integration you're building, this might just unblock enterprise deployment. Worth a quick scan.",
+      "link": "https://releasebot.io/updates/anthropic/claude",
+      "duration": "~3 min read",
+      "tags": [
+        "claude",
+        "MCP",
+        "enterprise",
+        "AI agents"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "AI agent design patterns are becoming a real discipline",
+      "source": "Reddit / r/AI_Agents",
+      "description": "There's a growing conversation around formalized design patterns for AI agents — not just how to build them, but how to design their UX: delegation flows, trust signals, error recovery, human-in-the-loop checkpoints. As someone who's both designing products and vibe-coding with AI, you're uniquely positioned to shape how these patterns work. This is where senior product designers become product leaders in the AI era.",
+      "link": "https://www.reddit.com/r/AI_Agents/comments/1qhu5r3/these_new_design_patterns_will_lead_ai_agents_in",
+      "duration": "~5 min read",
+      "tags": [
+        "AI agents",
+        "design patterns",
+        "UX",
+        "product leadership"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "Cursor hit 1M users with 360K paying — in just 16 months",
+      "source": "nxcode.io",
+      "description": "Cursor went from launch to a million users with a 36% conversion rate in 16 months. That's not a dev tool, that's a product-market fit masterclass. The agents now run in parallel on virtual machines, test their own changes, and record video logs. The coding agent space is moving faster than the design agent space — but the gap is closing fast.",
+      "link": "https://www.nxcode.io/resources/news/cursor-review-2026",
+      "duration": null,
+      "tags": [
+        "cursor",
+        "AI coding",
+        "product-market fit"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "Your Figma MCP project — build ahead or build on top?",
+      "source": null,
+      "description": "With Figma now officially integrating Claude Code, shipping an AI canvas assistant, and launching Make Skills — the platform is rapidly absorbing what used to be custom territory. Your MCP + Claude integration for white-label sport apps: is the moat in the custom design system logic (which Figma can't replicate), or in the integration itself (which they might)? Worth 10 minutes of stroller-walk thinking.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "strategy",
+        "MCP",
+        "build vs. wait",
+        "career"
+      ]
+    }
+  ]
+}
