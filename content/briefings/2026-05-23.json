@@ -1,0 +1,134 @@
+{
+  "date": "2026-05-23",
+  "headline": "Agents Are Reshaping Design Systems",
+  "subheadline": "Figma ships Make Skills for reusable AI prompts, Claude adds managed agents with MCP tunnels, and the design systems world is going fully agentic. Lots here for your white-label system work.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma launches Make Skills — reusable AI prompts for prototyping",
+      "source": "Figma / Releasebot",
+      "description": "Figma just released Make Skills — markdown-based reusable prompts that let teams create prototypes with fewer prompts and more consistency. Think of them as design system conventions but for AI behavior. For your white-label sport apps system, this could be huge: you could encode your component patterns and naming conventions into Skills so any designer on the team gets consistent AI output. Worth exploring immediately.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": "~3 min read",
+      "tags": [
+        "figma",
+        "AI prototyping",
+        "design systems",
+        "new feature"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude adds Managed Agents with MCP tunnels for enterprise",
+      "source": "Releasebot",
+      "description": "Claude now supports managed agents that can run in self-hosted sandboxes and connect to private services via MCP tunnels. This is directly relevant to your Figma MCP + Claude integration — it means Claude agents could potentially access your company's internal design system endpoints securely, without exposing them publicly. The enterprise angle here is exactly what you'd need for a production-grade setup.",
+      "link": "https://releasebot.io/updates/anthropic/claude",
+      "duration": "~4 min read",
+      "tags": [
+        "Claude",
+        "MCP",
+        "agents",
+        "enterprise"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "The Future of Enterprise Design Systems: Agentic AI in 2026",
+      "source": "Supernova.io",
+      "description": "Supernova's deep dive on how design systems are evolving from passive documentation into agentic workflows — where AI agents can read, modify, and enforce system rules autonomously. Given you're building exactly this kind of bridge between Figma and Claude, this piece will either validate your approach or give you new ideas for the architecture. Practical roadmap included.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~8 min read",
+      "tags": [
+        "design systems",
+        "agentic AI",
+        "enterprise",
+        "strategy"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "AI + Design Systems in 2026: The Workflow I Actually Use",
+      "source": "UI Collective / YouTube",
+      "description": "47K views and climbing — a designer walks through their real day-to-day AI + design system workflow. Not theoretical, not a sales pitch. With 15+ years in design systems yourself, you'll quickly spot what's genuinely useful vs. hype. The comments section is reportedly full of other senior designers sharing their setups too.",
+      "link": "https://www.youtube.com/watch?v=XfezMs8B-O8",
+      "duration": "~15 min",
+      "tags": [
+        "design systems",
+        "AI workflow",
+        "practical"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agentic UX — designing for AI that acts, not just responds",
+      "source": "Phenomenon Studio",
+      "description": "The shift from 'generative UI' (AI creates screens) to 'agentic UX' (AI takes multi-step actions on behalf of users) is becoming the dominant design paradigm of 2026. Static screens are giving way to interfaces that assemble themselves in real-time. As someone moving toward product leadership, understanding this pattern is essential — it fundamentally changes what designers need to specify and what they can leave to the agent.",
+      "link": "https://phenomenonstudio.com/article/ai-product-design-trends-to-watch-in-2026",
+      "duration": "~10 min read",
+      "tags": [
+        "agentic UX",
+        "product design",
+        "AI patterns"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Cursor's new cloud agent dev environments",
+      "source": "Releasebot",
+      "description": "Cursor just shipped cloud-based development environments purpose-built for running parallel AI agents. If your vibe-coding sessions are getting complex — multiple agents working on different parts of a project — this removes the local environment headaches. Could be a meaningful upgrade for your Cursor workflow, especially when iterating on the MCP integration.",
+      "link": "https://releasebot.io/updates/cursor",
+      "duration": null,
+      "tags": [
+        "Cursor",
+        "cloud agents",
+        "dev tools"
+      ]
+    },
+    {
+      "type": "podcast",
+      "emoji": "🎧",
+      "label": "Listen",
+      "title": "AI Design Systems Conference 2026 — 15+ hours of recordings",
+      "source": "Into Design Systems",
+      "description": "The sold-out AI Design Systems Conference from March dropped all recordings. 15+ hours covering vibe coding, agentic design systems, MCP integrations, and shipping production-ready code. Cherry-pick the MCP and agentic design system talks — perfect stroller walk material. The conference specifically focused on workflows teams actually use, not theoretical futures.",
+      "link": "https://www.intodesignsystems.com",
+      "duration": "~15+ hrs total (pick sessions)",
+      "tags": [
+        "conference",
+        "design systems",
+        "MCP",
+        "vibe coding"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI agents can enforce and extend your design system, what does the design lead role become?",
+      "source": null,
+      "description": "With Make Skills encoding prototyping conventions and managed agents autonomously enforcing system rules — the traditional design system lead role is shifting from 'maintainer and enforcer' to 'architect of AI-powered design infrastructure.' As you think about your next move toward product leadership, consider: are you building the system, or are you building the agent that builds the system?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "leadership",
+        "design systems",
+        "reflection"
+      ]
+    }
+  ]
+}
