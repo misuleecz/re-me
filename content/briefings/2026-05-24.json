@@ -1,0 +1,134 @@
+{
+  "date": "2026-05-24",
+  "headline": "Agents, Automations, and Design Systems",
+  "subheadline": "Figma's May release notes drop with AI agent co-design, Cursor ships cloud agent environments, and there's a meaty deep-dive on agentic design systems that's directly relevant to your MCP + white-label work.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma's May 2026 Release Notes — AI Agent Co-Design is Here",
+      "source": "Figma",
+      "description": "Figma's May release notes just dropped and the headline feature is learning to co-design with AI agents. Given that you're literally building a Figma MCP + Claude integration for your company's design system, this could either validate your approach or change it. Worth watching the live demos closely — they're showing real workflows from product teams.",
+      "link": "https://fig-events.figma.com/may-rn-2026",
+      "duration": null,
+      "tags": [
+        "figma",
+        "AI agents",
+        "design systems",
+        "MCP"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma AI in 2026: Everything It Can Do — and What It Still Can't",
+      "source": "LogRocket",
+      "description": "An honest breakdown of where Figma AI actually delivers versus where it's still falling short. As someone operating at expert level, you'll appreciate the candor — it separates the real capabilities (content generation, prototype population) from the marketing fluff. Useful for calibrating expectations on your own MCP integration work.",
+      "link": "https://blog.logrocket.com/ux-design/figma-ai-2026-quick-overview",
+      "duration": "~8 min read",
+      "tags": [
+        "figma",
+        "AI capabilities",
+        "honest review"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Cursor Ships Cloud Agent Development Environments",
+      "source": "Cursor",
+      "description": "Cursor's latest release (May 20) introduces cloud agent dev environments and improved Automations — parallel agents running end to end. Since you're vibe-coding with Cursor daily, this is a meaningful workflow upgrade. Cloud environments mean you can kick off agents and not block your local machine. Check the changelog for the specifics.",
+      "link": "https://cursor.com/changelog",
+      "duration": "~5 min read",
+      "tags": [
+        "cursor",
+        "AI agents",
+        "vibe-coding",
+        "automation"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "The Future of Enterprise Design Systems: Agentic AI in 2026",
+      "source": "Supernova.io",
+      "description": "This is the one to bookmark. Supernova lays out a practical roadmap for design systems in the age of agentic AI — automating token management, scaling component libraries, future-proofing workflows. It speaks directly to what you're building: a design system that AI agents can actually work with. The enterprise framing also maps well to white-label architecture.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~12 min read",
+      "tags": [
+        "design systems",
+        "agentic AI",
+        "tokens",
+        "enterprise"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Design Patterns for AI Agents",
+      "source": "Reddit / r/AI_Agents",
+      "description": "A community discussion on the emerging design patterns that will define AI agents in 2026. You mentioned being early on AI agents but curious — this thread breaks down patterns like tool-use orchestration, memory architectures, and human-in-the-loop flows. Good foundational vocabulary for someone building agent-connected design tools.",
+      "link": "https://www.reddit.com/r/AI_Agents/comments/1qhu5r3/these_new_design_patterns_will_lead_ai_agents_in",
+      "duration": "~10 min read",
+      "tags": [
+        "AI agents",
+        "design patterns",
+        "architecture"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Every New Claude Code Feature Explained (May 2026)",
+      "source": "YouTube",
+      "description": "Anthropic shipped a massive wave of Claude Code updates this month — voice input, desktop computer use, and more. You're already deep in Claude Code, so this is less tutorial and more 'here's what's new that you might have missed.' The voice input alone could change how you work during maternity leave.",
+      "link": "https://www.youtube.com/watch?v=sJVxwwaF0sU",
+      "duration": "~15 min",
+      "tags": [
+        "claude code",
+        "new features",
+        "voice input"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Lovable Mobile App — Vibe-Code from Your Phone",
+      "source": "TechCrunch",
+      "description": "Lovable just shipped iOS and Android apps. You already use Lovable on desktop, but a mobile app means you could prototype or iterate on ideas from the couch or during nap time. It's being pitched as a way to go from idea to working app entirely from your phone. Worth downloading to see if the mobile experience holds up.",
+      "link": "https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android",
+      "duration": null,
+      "tags": [
+        "lovable",
+        "mobile",
+        "vibe-coding",
+        "prototyping"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI agents can co-design in Figma, what does your MCP integration become?",
+      "source": null,
+      "description": "Figma is officially building AI agent co-design into the platform. You're building a custom MCP + Claude integration for your company's design system. The question isn't whether these will compete — it's whether Figma's native agent features make your custom integration more powerful (by handling the basics) or less necessary. Worth thinking through your differentiation layer.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "strategy",
+        "MCP",
+        "figma",
+        "career"
+      ]
+    }
+  ]
+}
