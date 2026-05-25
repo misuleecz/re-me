@@ -1,0 +1,131 @@
+{
+  "date": "2026-05-25",
+  "headline": "Agents Are Eating Design Systems",
+  "subheadline": "Figma's May release goes deep on MCP + agents, Brad Frost is rethinking design systems for autonomous consumers, and Cursor just shipped agent dev environments. Big week for the intersection of everything you're building.",
+  "emoji": "🤖",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Figma Release Notes May 2026 — MCP Servers, Agents & Vibe-Coded Prototypes",
+      "source": "Figma (YouTube)",
+      "description": "Figma's May release notes go hard on MCP and agents — they're demoing how to take vibe-coded prototypes further in Figma and connect design systems directly to code. Given you're literally building a Figma MCP + Claude integration right now, this is required viewing. The MCP server section starts around 4:00.",
+      "link": "https://www.youtube.com/watch?v=11mdb7lLclM",
+      "duration": "~20 min",
+      "tags": [
+        "figma",
+        "MCP",
+        "design-systems",
+        "agents"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Agentic Design Systems in 2026 with Brad Frost",
+      "source": "YouTube",
+      "description": "Brad Frost talking about what happens when AI agents — not just humans — start consuming your design system to assemble UIs. This is the exact philosophical question at the heart of your white-label sport app system: if agents are pulling components, how does that change how you architect tokens, variants, and documentation? Genuinely thought-provoking.",
+      "link": "https://www.youtube.com/watch?v=Vg78K3t9KYc",
+      "duration": null,
+      "tags": [
+        "design-systems",
+        "AI-agents",
+        "component-architecture"
+      ]
+    },
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma MCP Server Demand Is Driving Serious Business Momentum",
+      "source": "Quartz",
+      "description": "Figma's MCP server adoption is getting mainstream financial press attention — analysts are pointing to it as a growth signal. The February launch letting you generate Figma files from code via MCP is now seeing real traction. Validates the direction you're already heading. You're ahead of the curve here.",
+      "link": "https://qz.com/figma-rides-on-strong-mcp-server-demand-a-sign-for-more-upside",
+      "duration": "~4 min read",
+      "tags": [
+        "figma",
+        "MCP",
+        "industry-trends"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "The Future of Enterprise Design Systems: 2026 Trends and Tools",
+      "source": "Supernova.io",
+      "description": "Supernova's take on how design systems are evolving from static libraries into agentic-AI-ready infrastructure. Covers automation, scaling, and future-proofing — basically a strategic roadmap that maps well to what you'd want to pitch internally when you're back from leave. Good ammunition for the 'here's where we need to go' conversation.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~8 min read",
+      "tags": [
+        "design-systems",
+        "strategy",
+        "agentic-AI"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Cursor Automations + Agent Dev Environments",
+      "source": "Cursor",
+      "description": "Cursor just shipped agent development environments on May 20 — multi-repo support, Dockerfile-based config, end-to-end task execution. If you're vibe-coding with Cursor already, the new Automations feature lets agents handle broader scoped tasks across your project. Worth checking the changelog to see what's new for your workflow.",
+      "link": "https://cursor.com/changelog",
+      "duration": null,
+      "tags": [
+        "cursor",
+        "vibe-coding",
+        "AI-agents"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agentic Design Systems",
+      "source": null,
+      "description": "The idea that design systems need a new consumer persona: autonomous AI agents. When agents assemble UIs from your components — not humans dragging things in Figma — your system needs machine-readable semantics, stricter naming conventions, and documentation that serves both humans AND LLMs. It's not just about tokens and variables anymore; it's about making your system legible to non-human builders. This directly shapes how you should think about your white-label sport app architecture.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "design-systems",
+        "AI-agents",
+        "architecture"
+      ]
+    },
+    {
+      "type": "podcast",
+      "emoji": "🎧",
+      "label": "Listen",
+      "title": "AI Design Systems Conference 2026 — 15+ Hours of Recordings",
+      "source": "Into Design Systems",
+      "description": "The sold-out AI Design Systems Conference from March dropped all recordings — 15+ hours covering vibe coding, agentic design systems, MCP integrations, and shipping production-ready code. Cherry-pick the MCP and agentic sessions for stroller walks. This is basically a masterclass library for exactly where your work is heading.",
+      "link": "https://www.intodesignsystems.com",
+      "duration": "~15+ hours (pick sessions)",
+      "tags": [
+        "design-systems",
+        "MCP",
+        "conference",
+        "vibe-coding"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If agents are the new consumers of your design system, what breaks first?",
+      "source": null,
+      "description": "Your white-label sport app system was designed for human designers to configure. But if AI agents start assembling UIs from your tokens and components — what assumptions fall apart? Is your naming semantic enough? Are your variants machine-discoverable? This might reshape your MCP integration priorities before you even ship v1.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "design-systems",
+        "strategy",
+        "MCP"
+      ]
+    }
+  ]
+}
