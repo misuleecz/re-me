@@ -1,0 +1,135 @@
+{
+  "date": "2026-05-26",
+  "headline": "Figma's AI agents are here",
+  "subheadline": "Figma dropped a big release notes event featuring AI agent co-design, Cursor shipped agent dev environments, and Claude's managed agents now support MCP tunnels — all directly relevant to your design system + MCP work.",
+  "emoji": "🤖",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma's May 2026 Release: Co-designing with AI Agents",
+      "source": "Figma",
+      "description": "Figma just dropped their May release notes event — and the headline feature is learning to co-design with AI agents. This isn't incremental Figma AI polish; it's a new paradigm where agents participate in the design process. Given you're building a Figma MCP + Claude integration for your company's white-label sport apps, this could fundamentally change what's possible in your pipeline.",
+      "link": "https://fig-events.figma.com/may-rn-2026",
+      "duration": null,
+      "tags": [
+        "figma",
+        "AI agents",
+        "design tools",
+        "release"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma AI in 2026: Everything It Can Do — and What It Still Can't",
+      "source": "LogRocket",
+      "description": "A honest, well-structured overview of where Figma AI actually stands right now — what's production-ready vs. what's still frustrating. Worth reading as a reality check before you build more of your MCP integration around capabilities that may still be half-baked. The content generation and prototype population features are particularly relevant for your white-label app system.",
+      "link": "https://blog.logrocket.com/ux-design/figma-ai-2026-quick-overview",
+      "duration": "~8 min read",
+      "tags": [
+        "figma AI",
+        "capabilities",
+        "limitations"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Cursor Automations — New Agent Dev Environments",
+      "source": "Cursor",
+      "description": "Cursor just shipped a significant update: agent development environments for end-to-end tasks with multi-repo support and Dockerfile-based configuration. If you're vibe-coding across repos (design system tokens → app code), this could let you set up persistent agent workflows that understand your full stack context, not just one file at a time.",
+      "link": "https://cursor.com/changelog",
+      "duration": null,
+      "tags": [
+        "cursor",
+        "AI agents",
+        "dev environments",
+        "vibe-coding"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agentic UX — When Interfaces Assemble Themselves",
+      "source": "Phenomenon Studio",
+      "description": "The term \"Agentic UX\" is gaining traction in 2026: interfaces that aren't static screens but dynamically assembled by AI agents based on context, user state, and intent. For your white-label sport apps, this is a massive design systems question — how do you build tokens and components that are flexible enough for AI-driven assembly while maintaining brand consistency? This piece frames the shift well.",
+      "link": "https://phenomenonstudio.com/article/ai-product-design-trends-to-watch-in-2026",
+      "duration": "~10 min read",
+      "tags": [
+        "agentic UX",
+        "generative UI",
+        "design systems",
+        "product thinking"
+      ]
+    },
+    {
+      "type": "podcast",
+      "emoji": "🎧",
+      "label": "Listen",
+      "title": "How AI Agents Will Transform in 2026 — a16z Big Ideas",
+      "source": "a16z",
+      "description": "Perfect stroller walk listen. a16z unpacks three shifts: AI moving from chat to action, software itself changing shape, and the new role of humans as orchestrators not operators. As someone evolving toward product leadership who's also early on AI agents, this gives you the strategic vocabulary and mental models without the technical weeds. 🎧 Great with AirPods.",
+      "link": "https://www.youtube.com/watch?v=ULszsXDyjMY&vl=en",
+      "duration": "~25 min",
+      "tags": [
+        "AI agents",
+        "product strategy",
+        "leadership",
+        "stroller-friendly"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Adds Managed Agents with MCP Tunnel Support",
+      "source": "Releasebot",
+      "description": "This one's directly in your lane: Claude now supports managed agents with self-hosted sandboxes and MCP tunnels, meaning agent execution can access private services inside enterprise networks. For your Figma MCP + Claude integration, this could unlock running design system agents that actually talk to your company's internal APIs and data — not just public endpoints.",
+      "link": "https://releasebot.io/updates/anthropic/claude",
+      "duration": "~5 min read",
+      "tags": [
+        "claude",
+        "MCP",
+        "managed agents",
+        "enterprise"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Design Systems as AI-Orchestrated Ecosystems: Who Actually Benefits?",
+      "source": "Supernova.io",
+      "description": "Supernova's take on design systems evolving from static component libraries into AI-orchestrated ecosystems with automated governance. This is the strategic layer above what you're building — thinking about token automation, consistency at scale, and where human judgment still matters. Particularly relevant as you think about your design system's future architecture.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~10 min read",
+      "tags": [
+        "design systems",
+        "AI automation",
+        "governance",
+        "tokens"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI agents can co-design in Figma, what's your new superpower?",
+      "source": null,
+      "description": "With Figma launching AI agent co-design and Claude supporting MCP tunnels into enterprise systems, the routine parts of design system work are getting automated fast. Your 15 years of strategic design thinking, your understanding of sport app user contexts, your ability to make architectural decisions about component flexibility — that's what agents can't do. The question isn't whether to use agents, it's what you stop doing so you can focus on what only you can do.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "product leadership",
+        "AI strategy"
+      ]
+    }
+  ]
+}
