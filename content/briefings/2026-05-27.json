@@ -1,0 +1,118 @@
+{
+  "date": "2026-05-27",
+  "headline": "Figma's AI Agent Lives on Canvas",
+  "subheadline": "Figma just shipped an on-canvas AI design agent that works across Design, Make, and code — and it directly impacts your design system and MCP work. Plus: Brad Frost on agentic design systems, and Claude's latest enterprise moves.",
+  "emoji": "🤖",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma's built-in AI agent now lives on the canvas",
+      "source": "TechCrunch",
+      "description": "This is the big one. Figma launched a purpose-built AI agent that sits right on the canvas and in the left rail — it can explore ideas, make bulk edits, apply design systems, and turn feedback into action across Figma Design, Figma Make, and code. Given you're building a Figma MCP + Claude integration for your company's white-label sport apps, this could fundamentally change what your system needs to expose. Worth understanding what it can already do natively before you build around it.",
+      "link": "https://techcrunch.com/2026/05/20/figma-adds-an-ai-assistant-to-its-collaborative-canvas",
+      "duration": "~5 min read",
+      "tags": [
+        "figma",
+        "AI agent",
+        "design systems",
+        "canvas"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma AI in 2026: Everything it can do — and what it still can't",
+      "source": "LogRocket Blog",
+      "description": "An honest breakdown of where Figma AI actually delivers and where it falls short. This is useful for you specifically because knowing the gaps tells you exactly where your MCP + Claude integration adds value that Figma's native AI doesn't cover — especially around design tokens, component architecture, and white-label theming logic.",
+      "link": "https://blog.logrocket.com/ux-design/figma-ai-2026-quick-overview",
+      "duration": "~8 min read",
+      "tags": [
+        "figma AI",
+        "capabilities",
+        "design systems"
+      ]
+    },
+    {
+      "type": "podcast",
+      "emoji": "🎧",
+      "label": "Listen",
+      "title": "Agentic Design Systems in 2026 with Brad Frost",
+      "source": "YouTube (audio-friendly)",
+      "description": "Brad Frost talks about how autonomous agents are now assembling UIs using the same components your human designers use. This is directly relevant to your design system work — if agents are consumers of your component library, your tokens and architecture need to be legible to machines, not just humans. Perfect stroller listen. 🍼",
+      "link": "https://www.youtube.com/watch?v=Vg78K3t9KYc",
+      "duration": "~45 min",
+      "tags": [
+        "design systems",
+        "AI agents",
+        "Brad Frost",
+        "component architecture"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "The Future of Enterprise Design Systems: 2026 Trends and Tools",
+      "source": "Supernova.io",
+      "description": "Supernova's take on how design systems are evolving from passive libraries to active, agentic workflows. They frame it around automation, scaling, and future-proofing — which maps directly to what you're building. Good strategic framing if you're thinking about pitching your MCP integration internally as more than just a tool.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~7 min read",
+      "tags": [
+        "design systems",
+        "agentic AI",
+        "enterprise",
+        "strategy"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Agentic AI vs. Generative AI — and why it matters for product",
+      "source": null,
+      "description": "There's a useful distinction emerging: Generative AI writes a user story when asked. Agentic AI independently finds a bug, traces its root cause, and proposes a fix. For your evolving role toward product builder/leadership, this matters — the tools you're building with (Claude, MCP, Cursor) are shifting from 'assistants you prompt' to 'agents that act.' Understanding this framing helps you articulate what you're actually building.",
+      "link": "https://redreamality.com/blog/ai-agents-in-product-management-2026",
+      "duration": "~10 min read",
+      "tags": [
+        "agentic AI",
+        "product management",
+        "mental model"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "Figma MCP server demand is driving measurable business growth",
+      "source": "Quartz",
+      "description": "Quartz reports that Figma's MCP server adoption has been strong enough to signal upside for the company's valuation. This validates what you're already doing — MCP isn't a niche experiment anymore, it's becoming core infrastructure. Your early expertise here is genuinely ahead of the curve.",
+      "link": "https://qz.com/figma-rides-on-strong-mcp-server-demand-a-sign-for-more-upside",
+      "duration": "~4 min read",
+      "tags": [
+        "figma MCP",
+        "market signal",
+        "validation"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI agents consume your design system, who are you really designing for?",
+      "source": null,
+      "description": "Brad Frost's talk and the Supernova piece both point to the same shift: your design system's primary consumer might soon be an AI agent, not a junior designer. What does that mean for how you name tokens, structure components, and write documentation? Your MCP work already touches this — but it might be worth making 'agent-legibility' an explicit design principle.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "design systems",
+        "AI agents",
+        "strategy",
+        "career"
+      ]
+    }
+  ]
+}
