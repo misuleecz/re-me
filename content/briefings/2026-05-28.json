@@ -1,0 +1,148 @@
+{
+  "date": "2026-05-28",
+  "headline": "Figma's Agent Era Is Here",
+  "subheadline": "Figma just dropped their biggest AI-agent update yet, Claude's managed agents got a major upgrade, and design systems are officially entering agentic territory. A lot landed this month that's directly relevant to what you're building.",
+  "emoji": "🤖",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Figma Release Notes May 2026: Co-designing with AI Agents & MCP Servers",
+      "source": "Figma",
+      "description": "This is the one to watch. Figma's May release notes cover co-designing with AI agents, MCP server workflows, and taking vibe-coded prototypes further inside Figma. The segment starting at 4:02 on vibe-code and the MCP/agent definitions around 1:56 are especially relevant given your white-label design system + Claude integration work.",
+      "link": "https://www.youtube.com/watch?v=11mdb7lLclM&vl=en",
+      "duration": "~15 min",
+      "tags": [
+        "figma",
+        "MCP",
+        "AI agents",
+        "design systems"
+      ]
+    },
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma MCP now lets Claude Code design directly in Figma",
+      "source": "Felix Lee on X",
+      "description": "This is blowing up in the design-eng crossover space: the latest Figma MCP update means Claude Code can now create and manipulate designs inside Figma. People are calling it one of the strongest MCP integrations out there. Since you're already running Figma MCP + Claude, this could meaningfully change your workflow for the sport apps design system.",
+      "link": "https://x.com/felixleezd/status/2036502780903563574",
+      "duration": null,
+      "tags": [
+        "figma MCP",
+        "Claude Code",
+        "vibe-coding"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma AI in 2026: Everything it can do — and what it still can't",
+      "source": "LogRocket Blog",
+      "description": "An honest, well-structured overview of where Figma AI actually stands right now — including Dev Mode, Code Connect, MCP server, and Figma Make. Useful as a reference for understanding which parts of the AI pipeline are production-ready vs. still half-baked, especially for your design-to-code bridge work.",
+      "link": "https://blog.logrocket.com/ux-design/figma-ai-2026-quick-overview",
+      "duration": "~8 min read",
+      "tags": [
+        "figma AI",
+        "design-to-code",
+        "MCP"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "Managed Agents: Claude's new self-hosted sandboxes & MCP tunnels",
+      "source": "Anthropic via Releasebot",
+      "description": "Anthropic just shipped 'Managed Agents' — Claude agents that run in self-hosted sandboxes with MCP tunnel access to private networks. Translation for your world: you could potentially spin up a Claude agent that has persistent access to your company's Figma files, design tokens, and internal APIs, running autonomously on tasks. This is the infrastructure layer that makes 'agentic design systems' real.",
+      "link": "https://releasebot.io/updates/anthropic/claude",
+      "duration": "~3 min read",
+      "tags": [
+        "Claude",
+        "AI agents",
+        "MCP",
+        "automation"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "The Future of Enterprise Design Systems: Agentic AI in 2026",
+      "source": "Supernova.io",
+      "description": "This maps out how design systems are evolving from passive libraries into agentic workflows — AI that doesn't just store tokens but actively maintains, syncs, and enforces them. Directly relevant to your white-label system architecture. Worth reading with a 'what would this mean for our sport apps' lens.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~10 min read",
+      "tags": [
+        "design systems",
+        "agentic AI",
+        "tokens",
+        "enterprise"
+      ]
+    },
+    {
+      "type": "tool",
+      "emoji": "🛠️",
+      "label": "Try this tool",
+      "title": "Lovable just launched mobile apps (iOS + Android)",
+      "source": "Lovable",
+      "description": "Lovable shipped native iOS and Android apps on April 29. You can now build and iterate on projects from your phone. For someone on maternity leave who might have a phone in hand more than a laptop, this could be a game-changer for quick prototyping sessions during downtime.",
+      "link": "https://www.instagram.com/reel/DXrB1nUjIci",
+      "duration": null,
+      "tags": [
+        "Lovable",
+        "mobile",
+        "vibe-coding"
+      ]
+    },
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "AI + Design Systems in 2026: The Workflow I Actually Use",
+      "source": "UI Collective",
+      "description": "A practical walkthrough of how a designer integrates AI into their real design system workflow — not theoretical, not hype. With 47K views and a grounded approach, it's a good sanity check for your own setup. Useful for comparing notes on where AI genuinely saves time vs. where it's still friction.",
+      "link": "https://www.youtube.com/watch?v=XfezMs8B-O8",
+      "duration": "~20 min",
+      "tags": [
+        "design systems",
+        "AI workflow",
+        "practical"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "Cursor hit $2B in annualized revenue — in just 24 months",
+      "source": "LinkedIn / Inoxoft",
+      "description": "For context, Slack took 7 years to reach its first billion. The AI-coding tool market isn't emerging anymore — it's exploded. As someone vibe-coding with Cursor daily, you're riding one of the fastest-growing tool categories in tech history. Your design-meets-code skillset is becoming rarer and more valuable.",
+      "link": "https://www.linkedin.com/pulse/how-use-cursor-ai-workflows-move-needle-2026-inoxoft-ijorf",
+      "duration": null,
+      "tags": [
+        "Cursor",
+        "market growth",
+        "vibe-coding"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI agents can now co-design in Figma, what does 'design system governance' become?",
+      "source": null,
+      "description": "With Claude Code writing directly into Figma and managed agents running autonomously, your design system isn't just consumed by humans anymore — it's consumed by AI agents too. What does that mean for how you structure tokens, name components, and write documentation? The design system of 2027 might need to be legible to agents first, humans second.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "design leadership",
+        "AI agents",
+        "design systems",
+        "strategy"
+      ]
+    }
+  ]
+}
