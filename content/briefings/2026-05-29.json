@@ -1,0 +1,136 @@
+{
+  "date": "2026-05-29",
+  "headline": "Figma's Agent Era Is Here",
+  "subheadline": "Figma's May release notes are all about co-designing with AI agents and MCP workflows — directly relevant to what you're building. Plus, Claude just shipped managed agents with MCP tunnels.",
+  "emoji": "🤖",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Figma Release Notes 2026: May Edition — Agents, MCP, and Vibe-Coded Prototypes",
+      "source": "Figma",
+      "description": "This month's release notes are essentially a playbook for what you're building. They cover defining agents and MCP servers, taking vibe-coded prototypes further in Figma, and connecting design systems to code. The demo lab section starting at ~2 min looks especially relevant for your white-label sport apps system.",
+      "link": "https://www.youtube.com/watch?v=11mdb7lLclM&vl=en",
+      "duration": "~15 min",
+      "tags": [
+        "figma",
+        "MCP",
+        "AI agents",
+        "design systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma AI in 2026: Everything It Can Do — and What It Still Can't",
+      "source": "LogRocket Blog",
+      "description": "A clear-eyed breakdown of where Figma AI actually is right now — including Dev Mode, Code Connect, MCP server, and Figma Make. The framing that Figma is evolving from a design tool into an AI-assisted product design platform is worth sitting with. Good calibration for what to lean into vs. what's still half-baked.",
+      "link": "https://blog.logrocket.com/ux-design/figma-ai-2026-quick-overview",
+      "duration": "~8 min read",
+      "tags": [
+        "figma",
+        "AI",
+        "MCP",
+        "product design"
+      ]
+    },
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Claude Ships Managed Agents with Self-Hosted Sandboxes and MCP Tunnels",
+      "source": "Anthropic / Releasebot",
+      "description": "This is a big one for your MCP work. Claude now supports managed agents that can run in self-hosted sandboxes with MCP tunnels — meaning teams get more control over execution and private network access. This could change how you architect the Claude ↔ Figma MCP integration for your company's design system. Worth digging into the specifics.",
+      "link": "https://releasebot.io/updates/anthropic/claude",
+      "duration": "~5 min read",
+      "tags": [
+        "Claude",
+        "MCP",
+        "AI agents",
+        "infrastructure"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "The Future of Enterprise Design Systems: Agentic AI in 2026",
+      "source": "Supernova.io",
+      "description": "Supernova lays out how design systems are evolving from passive documentation into agentic workflows — automating token sync, component governance, and cross-platform consistency. Given you're building exactly this kind of system for white-label sport apps, their practical roadmap might validate (or challenge) your approach.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~10 min read",
+      "tags": [
+        "design systems",
+        "AI agents",
+        "automation",
+        "tokens"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "AI in Design Systems: What's Actually Changing in 2026",
+      "source": "zeroheight",
+      "description": "Zeroheight's take on the AI + design systems intersection, with specifics on token management and GitHub integration workflows. Less hype, more grounded in what design ops teams are actually adopting. Good companion read to the Supernova piece — different angle, same territory you're working in.",
+      "link": "https://zeroheight.com/blog/ai-in-design-systems-whats-changing-in-2026",
+      "duration": "~7 min read",
+      "tags": [
+        "design systems",
+        "tokens",
+        "GitHub",
+        "AI"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "MCP Tunnels — Private Network Access for AI Agents",
+      "source": null,
+      "description": "An MCP tunnel lets an AI agent securely access tools and data behind your company's private network — without exposing anything to the public internet. Think of it as a secure hallway between Claude and your internal Figma design system, where the agent can read and write but outsiders can't peek in. This is what makes enterprise MCP integrations viable rather than just cool demos.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "MCP",
+        "security",
+        "AI agents",
+        "enterprise"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "Cursor hit $2B annualized revenue in just 24 months",
+      "source": "LinkedIn",
+      "description": "For context, Slack took 7 years to reach its first billion. The AI-native IDE market isn't a niche anymore — it's mainstream developer infrastructure. Validates the bet you've made on vibe-coding as a real skill set, not a fad.",
+      "link": "https://www.linkedin.com/pulse/how-use-cursor-ai-workflows-move-needle-2026-inoxoft-ijorf",
+      "duration": null,
+      "tags": [
+        "Cursor",
+        "market",
+        "vibe-coding"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If Figma is becoming an AI-assisted product design platform, what does 'senior product designer' mean in 18 months?",
+      "source": null,
+      "description": "Figma's shift from design tool to product platform, Claude's managed agents, your own MCP integration work — you're already operating at the intersection of design leadership and product building. When you return from leave, the role that fits might not have the same title you left with. That could be a very good thing.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "product leadership",
+        "AI",
+        "identity"
+      ]
+    }
+  ]
+}
