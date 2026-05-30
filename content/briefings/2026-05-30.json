@@ -1,0 +1,136 @@
+{
+  "date": "2026-05-30",
+  "headline": "Figma's AI Agent Just Landed",
+  "subheadline": "Figma shipped a canvas AI agent that works with design systems, Claude Code got major MCP upgrades, and the design systems + AI story is getting real. Big week for everything you're building.",
+  "emoji": "⚡",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Figma ships built-in AI design agent on the canvas",
+      "source": "Figma / Releasebot",
+      "description": "This is the big one. Figma now has a purpose-built AI agent that lives on the canvas and in the left rail — it can explore ideas, make bulk edits, and apply design systems. It moves between Figma Design, Figma Make, and code. For your white-label sport apps design system work, this could be transformative — especially the 'apply design systems' capability. Worth digging into how it handles tokens and variables.",
+      "link": "https://releasebot.io/updates/figma",
+      "duration": null,
+      "tags": [
+        "figma",
+        "AI agent",
+        "design systems",
+        "canvas"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Claude Code adds 'claude agents' command + MCP tunnel support",
+      "source": "Releasebot",
+      "description": "Claude Code got a meaty update: new `claude agents` subcommand, managed agents with self-hosted sandboxes, and MCP tunnels for private network access. The MCP tunnel piece is directly relevant to your Figma MCP + Claude integration — it means teams can now access MCP servers behind firewalls. Faster MCP startup too, which you'll feel immediately.",
+      "link": "https://releasebot.io/updates/anthropic/claude-code",
+      "duration": "~5 min read",
+      "tags": [
+        "claude code",
+        "MCP",
+        "agents",
+        "developer tools"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "MCP ecosystem hits 10,000+ community servers, Claude Code now spans 50 repos",
+      "source": "SkillsLLM",
+      "description": "The MCP ecosystem just crossed 10,000 community-built connectors, and Claude Code can now analyze across 50 linked repos with a 5M token context window. You're building on MCP at exactly the right time — the ecosystem is exploding, which means more patterns to learn from and more integrations to tap into for your design system pipeline.",
+      "link": "https://skillsllm.com/news/ai-news-2026-05-14",
+      "duration": "~4 min read",
+      "tags": [
+        "MCP",
+        "claude",
+        "ecosystem",
+        "context window"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Enterprise design systems in 2026: the agentic AI era",
+      "source": "Supernova.io",
+      "description": "Supernova published a solid piece on how design systems are evolving from static component libraries toward agentic, AI-automated workflows. It includes a practical roadmap for scaling and future-proofing. Given you're building the bridge between Figma design systems and AI via MCP, this is useful strategic framing — especially if you're pitching this internally.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~8 min read",
+      "tags": [
+        "design systems",
+        "agentic AI",
+        "enterprise",
+        "strategy"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "MCP Tunnels — private network access for AI agents",
+      "source": null,
+      "description": "MCP tunnels let AI agents like Claude access MCP servers that sit behind private networks or firewalls. Think of it as a secure corridor: your company's design system data stays internal, but Claude can still reach it. This matters for your Figma MCP integration at work — it's the difference between 'fun side project' and 'enterprise-ready tool' that IT will actually approve.",
+      "link": "https://releasebot.io/updates/anthropic/claude",
+      "duration": null,
+      "tags": [
+        "MCP",
+        "security",
+        "enterprise",
+        "infrastructure"
+      ]
+    },
+    {
+      "type": "podcast",
+      "emoji": "🎧",
+      "label": "Listen",
+      "title": "The May 2026 AI agent launches: what's real vs. what's hype",
+      "source": "Teach AI Tools",
+      "description": "A grounded take on the wave of AI agent announcements this month. The core argument: most launches sound bigger than they are, and the gap between 'announced' and 'deployable' is still wide. Good mental model for evaluating what to actually invest time learning vs. what to let simmer. Perfect stroller listen — it's a short, opinionated read you could skim audio-style.",
+      "link": "https://teachaitools.blog/blog/the-may-2026-ai-agent-launches-sound-bigger-than-they-are",
+      "duration": "~6 min read",
+      "tags": [
+        "AI agents",
+        "hype check",
+        "product strategy"
+      ]
+    },
+    {
+      "type": "stat",
+      "emoji": "📊",
+      "label": "Did you know",
+      "title": "Cursor hit $2B annualized revenue in 24 months",
+      "source": "Reddit / LinkedIn",
+      "description": "Cursor reached $2 billion ARR in February 2026 — just 24 months after launch. For comparison, Slack took 7 years to hit its first billion. You're already using it, but this stat is worth remembering when making the case that vibe-coding tools aren't a fad. The IDE you're shipping real things with is now the fastest-growing SaaS product in history.",
+      "link": "https://www.reddit.com/r/cursor/comments/1t28fxd/cursor_review_2026_the_ai_code_editor_that",
+      "duration": null,
+      "tags": [
+        "cursor",
+        "vibe coding",
+        "growth",
+        "industry"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If Figma's AI agent can apply design systems — what's your new role?",
+      "source": null,
+      "description": "Figma's new AI agent can bulk-apply design systems and turn feedback into action. You've spent years building the expertise to architect those systems. The question isn't whether AI replaces that — it's whether you position yourself as the person who teaches the agent what good looks like. The MCP integration you're building is literally that: encoding your design judgment into something an AI can act on. That's product leadership, not just design.",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "design leadership",
+        "AI strategy",
+        "design systems"
+      ]
+    }
+  ]
+}
