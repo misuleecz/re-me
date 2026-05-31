@@ -1,0 +1,134 @@
+{
+  "date": "2026-05-31",
+  "headline": "Figma's AI agents just got real",
+  "subheadline": "Figma dropped massive May updates including AI agents on canvas and FigJam MCP. Plus Claude's new managed agents with MCP tunnels could be a game-changer for your white-label design system work.",
+  "emoji": "🚀",
+  "color": "violet",
+  "sections": [
+    {
+      "type": "video",
+      "emoji": "📺",
+      "label": "Watch",
+      "title": "Figma Release Notes 2026: May Edition",
+      "source": "Figma",
+      "description": "This is the one to watch. Figma's official May release notes cover AI agents on canvas, connecting design systems to code, vibe-coded prototypes, and MCP server workflows. The section on defining agents and MCP servers (starts at 1:56) is directly relevant to what you're building with your white-label sport apps system. 28 min but you can skip to the parts that matter.",
+      "link": "https://www.youtube.com/watch?v=11mdb7lLclM&vl=en",
+      "duration": "~28 min",
+      "tags": [
+        "figma",
+        "AI agents",
+        "MCP",
+        "design systems"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma's Biggest Updates in May 2026: Custom Skills, AI Make, FigJam MCP & More",
+      "source": "Chulbul Design",
+      "description": "A solid breakdown of everything Figma shipped in May — Custom Skills (letting you teach Figma your own design system patterns), the renamed 'Figma Make' AI tool, and FigJam getting its own MCP server. Custom Skills in particular feels like it was built for someone maintaining a multi-brand component library like yours.",
+      "link": "https://www.chulbuldesign.com/blog/figma-new-features-may-2026",
+      "duration": "~7 min read",
+      "tags": [
+        "figma",
+        "custom skills",
+        "FigJam MCP",
+        "AI Make"
+      ]
+    },
+    {
+      "type": "trending",
+      "emoji": "🔥",
+      "label": "Trending",
+      "title": "Claude adds Managed Agents with MCP tunnels and self-hosted sandboxes",
+      "source": "Anthropic / Releasebot",
+      "description": "Anthropic shipped managed agents that can run in self-hosted sandboxes with MCP tunnel access to private networks. This is huge for your Figma MCP + Claude integration — it means Claude agents could potentially access your company's internal design system infrastructure securely, not just public APIs. Worth digging into the architecture details.",
+      "link": "https://releasebot.io/updates/anthropic/claude",
+      "duration": null,
+      "tags": [
+        "Claude",
+        "MCP tunnels",
+        "managed agents",
+        "enterprise"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "Figma MCP update makes it one of the strongest integrations with Claude Code",
+      "source": "Felix Lee on X",
+      "description": "Felix Lee highlights how the latest Figma MCP update now lets you use Claude Code to actually design in Figma — not just read from it. If you're already running Figma MCP, this is the update that turns it from a context bridge into a true two-way design tool. Directly relevant to your current build.",
+      "link": "https://x.com/felixleezd/status/2036502780903563574",
+      "duration": "~2 min read",
+      "tags": [
+        "figma MCP",
+        "Claude Code",
+        "integration"
+      ]
+    },
+    {
+      "type": "article",
+      "emoji": "📖",
+      "label": "Read",
+      "title": "The Future of Enterprise Design Systems: 2026 Trends — Agentic AI Edition",
+      "source": "Supernova.io",
+      "description": "Supernova makes the case that design systems in 2026 are shifting from static component libraries to agentic workflows — where AI agents enforce governance, automate token distribution, and scale across products. Given you're bridging a design system across white-label apps, their roadmap framing could validate (or challenge) your current approach.",
+      "link": "https://www.supernova.io/blog/the-future-of-enterprise-design-systems-2026-trends-and-tools-for-success",
+      "duration": "~10 min read",
+      "tags": [
+        "design systems",
+        "agentic AI",
+        "governance",
+        "tokens"
+      ]
+    },
+    {
+      "type": "concept",
+      "emoji": "🧠",
+      "label": "Concept of the day",
+      "title": "AI agent trust decay — the 2-week cliff",
+      "source": "Teach AI Tools",
+      "description": "Interesting framing: most AI agent launches look impressive for ~2 weeks, then trust collapses because edge cases pile up and the agent can't self-correct. The takeaway for your Figma MCP + Claude work: design for the failure modes early, not just the happy path. What happens when the agent applies the wrong token or misreads a component variant?",
+      "link": "https://teachaitools.blog/blog/most-ai-agent-launches-look-great-for-2-weeks-then-trust-collapses",
+      "duration": "~6 min read",
+      "tags": [
+        "AI agents",
+        "trust",
+        "product thinking"
+      ]
+    },
+    {
+      "type": "tip",
+      "emoji": "💡",
+      "label": "Quick tip",
+      "title": "Cursor 2.5+ — update now, security patch matters",
+      "source": "Mean CEO Blog",
+      "description": "If you haven't updated Cursor recently: version 2.5+ patches an IDE vulnerability that could expose secrets and code to AI coding agents. Also ships cloud agent dev environments for running parallel agents. Update before your next vibe-coding session.",
+      "link": "https://blog.mean.ceo/cursor-news-may-2026",
+      "duration": "~3 min read",
+      "tags": [
+        "Cursor",
+        "security",
+        "update"
+      ]
+    },
+    {
+      "type": "thought",
+      "emoji": "💭",
+      "label": "Think about this",
+      "title": "If AI agents can now design in Figma, what does 'design system maintainer' become?",
+      "source": null,
+      "description": "With Figma's AI agents on canvas and Claude Code writing directly into Figma files, the role shifts from creating and maintaining components to defining rules, constraints, and guardrails that agents follow. Your current MCP project is essentially building this new role in real-time. Are you documenting the playbook as you go?",
+      "link": null,
+      "duration": null,
+      "tags": [
+        "career",
+        "design leadership",
+        "AI agents",
+        "design systems"
+      ]
+    }
+  ]
+}
